@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Das Lebendige Archiv — Die Bibliothek der Zukunft</title>
+<style>
+  :root{
+    --paper:#f6f1e7;
+    --paper-2:#efe7d7;
+    --ink:#1b1712;
+    --ink-soft:#4a4238;
+    --muted:#7a7062;
+    --line:#dcd2bf;
+    --brass:#b8742a;
+    --brass-soft:#d9a05b;
+    --teal:#1f6f6b;
+    --teal-soft:#3f8f8a;
+    --glow:rgba(217,160,91,.35);
+    --card:#fffdf8;
+    --radius:16px;
+    --shadow:0 10px 30px rgba(27,23,18,.10);
+    --serif:Georgia,"Iowan Old Style","Times New Roman",serif;
+    --sans:system-ui,-apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    --mono:ui-monospace,"Cascadia Code",Consolas,monospace;
+  }
+  *{box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  body{
+    margin:0;
+    font-family:var(--sans);
+    color:var(--ink);
+    background:var(--paper);
+    line-height:1.6;
+    -webkit-font-smoothing:antialiased;
+  }
+  ::selection{background:var(--brass-soft);color:#fff}
+
+  /* ---------- Header ---------- */
+  header{
+    position:sticky;top:0;z-index:50;
+    display:flex;align-items:center;gap:1.5rem;
+    padding:.9rem clamp(1rem,4vw,3rem);
+    background:color-mix(in srgb,var(--paper) 82%,transparent);
+    backdrop-filter:blur(10px);
+    border-bottom:1px solid var(--line);
+  }
+  .brand{display:flex;align-items:center;gap:.55rem;font-family:var(--serif);font-weight:700;letter-spacing:.5px}
+  .brand .mark{width:26px;height:26px;border-radius:6px;background:linear-gradient(135deg,var(--brass),var(--teal));display:inline-block}
+  nav{margin-left:auto;display:flex;gap:1.1rem;font-size:.92rem}
+  nav a{color:var(--ink-soft);text-decoration:none;border-bottom:1px solid transparent;padding-bottom:2px}
+  nav a:hover{color:var(--brass);border-color:var(--brass)}
+
+  /* ---------- Hero ---------- */
+  .hero{
+    position:relative;
+    padding:clamp(3.5rem,9vw,7rem) clamp(1rem,5vw,4rem);
+    overflow:hidden;
+  }
+  .hero::before{
+    content:"";position:absolute;inset:-20%;
+    background:
+      radial-gradient(circle at 15% 20%,var(--glow),transparent 45%),
+      radial-gradient(circle at 85% 70%,rgba(31,111,107,.18),transparent 50%);
+    filter:blur(20px);animation:drift 18s ease-in-out infinite alternate;
+  }
+  @keyframes drift{from{transform:translate(-2%,-1%)}to{transform:translate(2%,2%)}}
+  .hero-inner{position:relative;max-width:1080px;margin:0 auto}
+  .eyebrow{
+    font-family:var(--mono);font-size:.78rem;letter-spacing:.18em;text-transform:uppercase;
+    color:var(--teal);display:inline-flex;align-items:center;gap:.5rem;margin-bottom:1.1rem;
+  }
+  .eyebrow::before{content:"";width:22px;height:1px;background:var(--teal)}
+  h1{
+    font-family:var(--serif);font-weight:700;
+    font-size:clamp(2.2rem,5.5vw,4rem);line-height:1.05;margin:0 0 1.2rem;letter-spacing:-.02em;
+  }
+  h1 em{font-style:italic;color:var(--brass)}
+  .lead{font-size:clamp(1.05rem,1.6vw,1.25rem);color:var(--ink-soft);max-width:60ch;margin:0 0 1.8rem}
+  .ctas{display:flex;flex-wrap:wrap;gap:.8rem}
+  .btn{
+    display:inline-flex;align-items:center;gap:.5rem;
+    padding:.75rem 1.3rem;border-radius:999px;font-weight:600;font-size:.95rem;
+    text-decoration:none;border:1px solid transparent;transition:.2s;
+  }
+  .btn-primary{background:var(--ink);color:var(--paper);border-color:var(--ink)}
+  .btn-primary:hover{background:var(--brass);border-color:var(--brass);color:#fff}
+  .btn-ghost{border-color:var(--line);color:var(--ink)}
+  .btn-ghost:hover{border-color:var(--brass);color:var(--brass)}
+
+  /* ---------- Stats ---------- */
+  .stats{
+    display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:1px;
+    background:var(--line);border-block:1px solid var(--line);
+  }
+  .stat{background:var(--paper-2);padding:1.5rem 1.4rem}
+  .stat .num{font-family:var(--serif);font-size:2.1rem;font-weight:700;color:var(--brass);line-height:1}
+  .stat .lbl{font-size:.85rem;color:var(--muted);margin-top:.4rem}
+  .stat a{color:var(--teal);font-size:.8rem;text-decoration:none}
+  .stat a:hover{text-decoration:underline}
+
+  /* ---------- Sections ---------- */
+  .section{max-width:1080px;margin:0 auto;padding:clamp(3rem,7vw,5.5rem) clamp(1rem,5vw,4rem)}
+  .sec-head{display:flex;align-items:baseline;gap:1rem;margin-bottom:2rem}
+  .sec-head .idx{font-family:var(--serif);font-size:2.4rem;color:var(--brass-soft);opacity:.6}
+  .sec-head h2{font-family:var(--serif);font-size:clamp(1.6rem,3vw,2.2rem);margin:0;letter-spacing:-.01em}
+  .sec-head .tag{margin-left:auto;font-family:var(--mono);font-size:.72rem;letter-spacing:.15em;color:var(--teal);text-transform:uppercase}
+
+  /* ---------- Trend cards (Archiv) ---------- */
+  .trends{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:1rem}
+  .trend{
+    background:var(--card);border:1px solid var(--line);border-radius:var(--radius);
+    padding:1.3rem 1.4rem;cursor:pointer;transition:.25s;box-shadow:0 0 0 transparent;
+  }
+  .trend:hover{border-color:var(--brass-soft);box-shadow:var(--shadow);transform:translateY(-3px)}
+  .trend .t-head{display:flex;align-items:center;gap:.7rem}
+  .trend .dot{width:10px;height:10px;border-radius:50%;flex:none}
+  .trend h3{font-family:var(--serif);font-size:1.18rem;margin:0;font-weight:600}
+  .trend .caret{margin-left:auto;transition:.25s;color:var(--muted)}
+  .trend.open .caret{transform:rotate(90deg);color:var(--brass)}
+  .trend .t-body{max-height:0;overflow:hidden;transition:max-height .35s ease;color:var(--ink-soft);font-size:.95rem}
+  .trend.open .t-body{max-height:400px}
+  .trend .t-body p{margin:1rem 0 .4rem}
+  .trend .src{display:inline-flex;align-items:center;gap:.35rem;color:var(--teal);font-size:.82rem;text-decoration:none;margin-top:.3rem}
+  .trend .src:hover{text-decoration:underline}
+
+  /* ---------- Timeline (Archiv) ---------- */
+  .timeline{position:relative;margin-top:1rem;padding-left:2rem}
+  .timeline::before{content:"";position:absolute;left:9px;top:6px;bottom:6px;width:2px;background:linear-gradient(var(--brass),var(--teal))}
+  .tl-item{position:relative;padding:0 0 1.6rem 1.4rem}
+  .tl-item::before{content:"";position:absolute;left:-2rem;top:6px;width:14px;height:14px;border-radius:50%;background:var(--paper);border:3px solid var(--brass)}
+  .tl-item .yr{font-family:var(--mono);font-size:.8rem;color:var(--teal);letter-spacing:.1em}
+  .tl-item h4{font-family:var(--serif);margin:.25rem 0 .35rem;font-size:1.1rem}
+  .tl-item p{margin:0;color:var(--ink-soft);font-size:.92rem;max-width:65ch}
+
+  /* ---------- Immersion modes (Portal) ---------- */
+  .modes{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:.8rem;margin-bottom:1.4rem}
+  .mode{
+    border:1px solid var(--line);background:var(--card);border-radius:12px;
+    padding:.9rem;text-align:center;cursor:pointer;transition:.2s;font-weight:600;font-size:.9rem;
+  }
+  .mode .ico{display:flex;justify-content:center;margin-bottom:.4rem}
+  .mode:hover{border-color:var(--brass-soft);transform:translateY(-2px)}
+  .mode.active{background:var(--ink);color:var(--paper);border-color:var(--ink);box-shadow:0 0 0 3px var(--glow)}
+  .panel{
+    background:var(--card);border:1px solid var(--line);border-radius:var(--radius);
+    padding:1.6rem 1.8rem;min-height:160px;transition:.3s;
+  }
+  .panel h4{font-family:var(--serif);margin:0 0 .5rem;font-size:1.25rem}
+  .panel p{margin:0 0 .8rem;color:var(--ink-soft)}
+  .panel .chip{display:inline-block;font-family:var(--mono);font-size:.72rem;background:var(--paper-2);padding:.2rem .6rem;border-radius:999px;color:var(--teal);margin-right:.4rem}
+
+  /* ---------- Tools grid (Magazin) ---------- */
+  .tools{display:grid;grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:1rem}
+  .tool{
+    background:var(--card);border:1px solid var(--line);border-radius:var(--radius);
+    padding:1.1rem 1.2rem;text-decoration:none;color:var(--ink);transition:.22s;display:block;
+  }
+  .tool:hover{border-color:var(--teal-soft);transform:translateY(-3px);box-shadow:var(--shadow)}
+  .tool .k{font-family:var(--mono);font-size:.72rem;letter-spacing:.12em;color:var(--teal);text-transform:uppercase}
+  .tool .n{font-family:var(--serif);font-size:1.05rem;margin:.3rem 0 .25rem}
+  .tool .d{font-size:.85rem;color:var(--muted);line-height:1.4}
+  .callout{
+    margin-top:1.5rem;background:linear-gradient(120deg,var(--teal),var(--brass));
+    color:#fff;border-radius:var(--radius);padding:1.4rem 1.6rem;display:flex;gap:1rem;align-items:center;
+  }
+  .callout .big{font-family:var(--serif);font-size:1.5rem;font-weight:700;flex:none}
+  .callout p{margin:0;font-size:.95rem;opacity:.95;line-height:1.5}
+
+  /* ---------- Sources ---------- */
+  .sources{list-style:none;margin:0;padding:0;columns:2;column-gap:2rem}
+  .sources li{break-inside:avoid;margin-bottom:.85rem}
+  .sources a{color:var(--ink);text-decoration:none;font-size:.95rem;border-bottom:1px dashed var(--line)}
+  .sources a:hover{color:var(--brass);border-color:var(--brass)}
+  .sources .note{display:block;color:var(--muted);font-size:.8rem;margin-top:.15rem}
+
+  footer{border-top:1px solid var(--line);padding:2rem clamp(1rem,4vw,3rem);text-align:center;color:var(--muted);font-size:.85rem}
+  footer a{color:var(--teal)}
+
+  @media (max-width:720px){
+    nav{gap:.7rem;font-size:.8rem}
+    .sources{columns:1}
+  }
+
+  /* ---------- Dark mode ---------- */
+  @media (prefers-color-scheme:dark){
+    :root{--paper:#16120e;--paper-2:#1d1813;--ink:#f2ead9;--ink-soft:#cfc3ae;--muted:#948a77;--line:#3a3228;--card:#201a13;--glow:rgba(217,160,91,.22)}
+    .btn-primary{background:var(--paper);color:var(--ink);border-color:var(--paper)}
+    .trend,.tool,.panel,.mode{background:var(--card)}
+    .callout{background:linear-gradient(120deg,#0f4a47,#7a4a12)}
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <span class="brand"><span class="mark"></span> Das Lebendige Archiv</span>
+  <nav>
+    <a href="#trends">Tendenzen</a>
+    <a href="#zeits">Zeitraum</a>
+    <a href="#immersion">Eintauchen</a>
+    <a href="#tools">Werkzeuge</a>
+    <a href="#quellen">Quellen</a>
+  </nav>
+</header>
+
+<section class="hero">
+  <div class="hero-inner">
+    <span class="eyebrow">Konzeptseite · jonason.ch</span>
+    <h1>Die Bibliothek der Zukunft<br>ist <em>lebendig</em> — nicht nur digital.</h1>
+    <p class="lead">E-Bibliotheken werden von reinen Ablagern zu offenen, bewohnten Orten: zugänglich, durchsuchbar, verknüpft mit ihren Quellen und erweiterbar — bis hin zum Buch, das sich mit dir unterhält. Diese Seite ist ein kombinierter Design-Vorschlag aus drei Richtungen.</p>
+    <div class="ctas">
+      <a class="btn btn-primary" href="#trends">Tendenzen erkunden</a>
+      <a class="btn btn-ghost" href="#quellen">Zur Literatur</a>
+    </div>
+  </div>
+</section>
+
+<div class="stats">
+  <div class="stat"><div class="num">≈75.000+</div><div class="lbl">freie E-Books bei <a href="https://www.gutenberg.org/" target="_blank" rel="noopener">Gutenberg</a></div></div>
+  <div class="stat"><div class="num">≈50 Mio.</div><div class="lbl">digitalisierte Objekte bei <a href="https://www.europeana.eu/" target="_blank" rel="noopener">Europeana</a></div></div>
+  <div class="stat"><div class="num">Offen</div><div class="lbl"><a href="https://www.open-access.network/" target="_blank" rel="noopener">Open Access</a>-Bewegung</div></div>
+  <div class="stat"><div class="num">1 Ökosystem</div><div class="lbl">Community-Systeme wie <a href="https://koha-community.org/" target="_blank" rel="noopener">Koha</a></div></div>
+</div>
+
+<section class="section" id="trends">
+  <div class="sec-head"><span class="idx">01</span><h2>Trends im Umbruch</h2><span class="tag">aufklappbar</span></div>
+  <div class="trends">
+    <article class="trend"><div class="t-head"><span class="dot" style="background:var(--brass)"></span><h3>Offener Zugang</h3><span class="caret">›</span></div>
+      <div class="t-body"><p>Publikationen und Bücher werden zunehmend frei zugänglich. Das fördert Forschung, Bildung und Reproduzierbarkeit — und verändert, was eine „Bibliothek" überhaupt sammelt.</p>
+      <a class="src" href="https://www.open-access.network/" target="_blank" rel="noopener">Zur Quelle ↗</a></div></article>
+
+    <article class="trend"><div class="t-head"><span class="dot" style="background:var(--teal)"></span><h3>KI-gestützte Erschließung &amp; Suche</h3><span class="caret">›</span></div>
+      <div class="t-body"><p>Semantische Suche, automatische Verschlagwortung und Zusammenfassungen machen riesige Bestände durchsuchbar — und eröffnen ganz neue Zugangswege zu Wissen.</p>
+      <a class="src" href="https://www.ifla.org/" target="_blank" rel="noopener">Zur Quelle ↗</a></div></article>
+
+    <article class="trend"><div class="t-head"><span class="dot" style="background:var(--brass-soft)"></span><h3>Interaktive &amp; „ausführbare" Bücher</h3><span class="caret">›</span></div>
+      <div class="t-body"><p>Bücher werden zu offenen, bewohnbaren Artefakten: mit Autor:innen-Info, vorlesbaren Einleitungen, Lexikon-Einträgen, verlinkten Referenzen und Kommentar-/Notizfunktionen direkt im Dokument.</p>
+      <a class="src" href="https://www.gutenberg.org/" target="_blank" rel="noopener">Zur Quelle ↗</a></div></article>
+
+    <article class="trend"><div class="t-head"><span class="dot" style="background:var(--teal-soft)"></span><h3>Langzeitarchivierung</h3><span class="caret">›</span></div>
+      <div class="t-body"><p>Digitales Erbe braucht stabile Formate, Migration und Redundanz. Institutionen wie die Deutsche Nationalbibliothek sichern Pflichtexemplare dauerhaft.</p>
+      <a class="src" href="https://www.dnb.de/" target="_blank" rel="noopener">Zur Quelle ↗</a></div></article>
+
+    <article class="trend"><div class="t-head"><span class="dot" style="background:var(--brass)"></span><h3>Community- &amp; Open-Source-Systeme</h3><span class="caret">›</span></div>
+      <div class="t-body"><p>Bibliothekssoftware wie Koha und Evergreen wird gemeinschaftlich entwickelt — transparent, anpassbar und unabhängig von einzelnen Anbietern.</p>
+      <a class="src" href="https://koha-community.org/" target="_blank" rel="noopener">Zur Quelle ↗</a></div></article>
+
+    <article class="trend"><div class="t-head"><span class="dot" style="background:var(--brass-soft)"></span><h3>Persönliche Lesewelten</h3><span class="caret">›</span></div>
+      <div class="t-body"><p>Lesen wird vernetzt: Notizen, Zitate, Lesezeichen und Diskussionen rund um ein Werk — das Buch als Ausgangspunkt einer eigenen, wachsenden Wissenslandschaft.</p>
+      <a class="src" href="https://openlibrary.org/" target="_blank" rel="noopener">Zur Quelle ↗</a></div></article>
+  </div>
+</section>
+
+<section class="section" id="zeits" style="background:var(--paper-2)">
+  <div class="sec-head"><span class="idx">02</span><h2>Ein Zeitraum</h2><span class="tag">Archiv</span></div>
+  <div class="timeline">
+    <div class="tl-item"><span class="yr">1450er</span><h4>Das gedruckte Buch</h4><p>Gutenberg macht Wissen skalierbar — der erste große Bruch in der Geschichte des Lesens.</p></div>
+    <div class="tl-item"><span class="yr">1990er–2000er</span><h4>Digitalisierung &amp; Volltext</h4><p>Bestände werden digitalisiert, Kataloge werden online, Volltextsuche wird Standard.</p></div>
+    <div class="tl-item"><span class="yr">2000er–2010er</span><h4>Offen &amp; kollaborativ</h4><p>Open Access, Open Source und Community-Projekte sprengen das geschlossene Bibliotheksmodell.</p></div>
+    <div class="tl-item"><span class="yr">2020er</span><h4>KI &amp; Vernetzung</h4><p>Automatische Erschließung, Kontextwissen und verlinkte Quellen verändern die Nutzung.</p></div>
+    <div class="tl-item"><span class="yr">Heute &amp; morgen</span><h4>Das lebendige, ausführbare Buch</h4><p>Ein Buch wird zum kleinen Kunstwerk — erweiterbar, bewohnbar, im Dialog.</p></div>
+  </div>
+</section>
+
+<section class="section" id="immersion">
+  <div class="sec-head"><span class="idx">03</span><h2>In das Buch eintauchen</h2><span class="tag">interaktiv</span></div>
+  <p style="margin-top:-1rem;color:var(--ink-soft);max-width:70ch">Mehr als ein Lesen: Wähle einen Modus und sieh, wie ein „ausführbares" Buch seinen Inhalt öffnet — ein Vorgeschmack auf das, was E-Bibliotheken ermöglichen könnten.</p>
+    <div class="modes" id="modes">
+    <div class="mode active"><span class="ico"><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="8" r="3.5"/><path d="M5 20c0-3.5 3.2-5.5 7-5.5s7 2 7 5.5"/></svg></span>Autor:in</div>
+    <div class="mode"><span class="ico"><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M11 5 6 9H3v6h3l5 4z"/><path d="M15 9a4 4 0 0 1 0 6"/><path d="M18 6a8 8 0 0 1 0 12"/></svg></span>Vorlesen</div>
+    <div class="mode"><span class="ico"><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M2 4h6a3 3 0 0 1 3 3v13a2 2 0 0 0-2-2H2z"/><path d="M22 4h-6a3 3 0 0 0-3 3v13a2 2 0 0 1 2-2h7z"/></svg></span>Lexikon</div>
+    <div class="mode"><span class="ico"><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 15a5 5 0 0 0 7 0l3-3a5 5 0 0 0-7-7l-1 1"/><path d="M15 9a5 5 0 0 0-7 0l-3 3a5 5 0 0 0 7 7l1-1"/></svg></span>Referenzen</div>
+    <div class="mode"><span class="ico"><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 20h9"/><path d="M16.5 3.5a2.1 2.1 0 0 1 3 3L7 19H3v-4z"/></svg></span>Notizen</div>
+    <div class="mode"><span class="ico"><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><path d="M21 15l-5-5L5 21"/></svg></span>Szene</div>
+    <div class="mode"><span class="ico"><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg></span>Diskussion</div>
+  </div>
+  <div class="panel" id="panel">
+    <h4>Auf Knopfdruck: der Autor</h4>
+    <p>Ein Klick auf „Autor:in" blendet biografische Informationen zur Person ein — Leben, Werk, weitere Bücher, Entstehungskontext.</p>
+    <span class="chip">Bibliothek &rarr; Autor</span><span class="chip">Offene Daten</span>
+  </div>
+</section>
+
+<section class="section" id="tools" style="background:var(--paper-2)">
+  <div class="sec-head"><span class="idx">04</span><h2>Werkzeuge &amp; Plattformen</h2><span class="tag">Tech-Magazin</span></div>
+  <div class="tools">
+    <a class="tool" href="https://koha-community.org/" target="_blank" rel="noopener"><span class="k">Bibliothekssystem</span><span class="n">Koha</span><span class="d">Open-Source-ILS, weltweit im Einsatz.</span></a>
+    <a class="tool" href="https://evergreen-ils.org/" target="_blank" rel="noopener"><span class="k">Bibliothekssystem</span><span class="n">Evergreen</span><span class="d">Gemeinschaftlich entwickeltes ILS.</span></a>
+    <a class="tool" href="https://www.zotero.org/" target="_blank" rel="noopener"><span class="k">Literaturverwaltung</span><span class="n">Zotero</span><span class="d">Quellen sammeln, zitieren, teilen.</span></a>
+    <a class="tool" href="https://openlibrary.org/" target="_blank" rel="noopener"><span class="k">Offener Katalog</span><span class="n">Open Library</span><span class="d">Ein Katalog der offenen Bücher.</span></a>
+    <a class="tool" href="https://www.gutenberg.org/" target="_blank" rel="noopener"><span class="k">Gemeinfrei</span><span class="n">Project Gutenberg</span><span class="d">Klassiker frei verfügbar.</span></a>
+    <a class="tool" href="https://www.europeana.eu/" target="_blank" rel="noopener"><span class="k">Kulturerbe</span><span class="n">Europeana</span><span class="d">Europas digitales Erbe.</span></a>
+    <a class="tool" href="https://babel.hathitrust.org/" target="_blank" rel="noopener"><span class="k">Digitalisierung</span><span class="n">HathiTrust</span><span class="d">Millionen digitalisierte Bände.</span></a>
+    <a class="tool" href="https://archive.org/" target="_blank" rel="noopener"><span class="k">Archiv</span><span class="n">Internet Archive</span><span class="d">Web, Bücher, Medien — dauerhaft.</span></a>
+    <a class="tool" href="https://calibre-ebook.com/" target="_blank" rel="noopener"><span class="k">Lese-Software</span><span class="n">calibre</span><span class="d">E-Books verwalten &amp; konvertieren.</span></a>
+    <a class="tool" href="https://zenodo.org/" target="_blank" rel="noopener"><span class="k">Open Science</span><span class="n">Zenodo</span><span class="d">Forschungsdaten &amp; Publikationen.</span></a>
+  </div>
+  <div class="callout">
+    <div class="big">Empfehlung</div>
+    <p>Für eine lebendige E-Bibliothek lohnt ein offener Kern: <strong>Koha/Evergreen</strong> als System, <strong>Zotero</strong> für die Literaturverwaltung und <strong>Europeana/Open Library</strong> als offene Inhaltsquellen — verknüpft und erweiterbar.</p>
+  </div>
+</section>
+
+<section class="section" id="quellen">
+  <div class="sec-head"><span class="idx">05</span><h2>Literatur &amp; Quellen</h2><span class="tag">verlinkt</span></div>
+  <ul class="sources">
+    <li><a href="https://www.ifla.org/" target="_blank" rel="noopener">IFLA — International Federation of Library Associations</a><span class="note">Dachverband der Bibliothekswelt; Papiere zu digitalen Bibliotheken.</span></li>
+    <li><a href="https://www.dnb.de/" target="_blank" rel="noopener">Deutsche Nationalbibliothek</a><span class="note">Pflichtexemplare &amp; Langzeitarchivierung digitaler Werke.</span></li>
+    <li><a href="https://www.europeana.eu/" target="_blank" rel="noopener">Europeana</a><span class="note">Zugang zu Millionen digitalisierten Objekten aus Europa.</span></li>
+    <li><a href="https://openlibrary.org/" target="_blank" rel="noopener">Open Library</a><span class="note">Offener Katalog mit dem Anspruch, jedes je erschienene Buch zu verzeichnen.</span></li>
+    <li><a href="https://www.gutenberg.org/" target="_blank" rel="noopener">Project Gutenberg</a><span class="note">Gemeinfreie E-Books in vielen Sprachen.</span></li>
+    <li><a href="https://archive.org/" target="_blank" rel="noopener">Internet Archive</a><span class="note">Langzeitarchivierung von Web, Büchern und Medien.</span></li>
+    <li><a href="https://www.open-access.network/" target="_blank" rel="noopener">Open Access Network</a><span class="note">Grundlagen und Strategien freien Zugangs.</span></li>
+    <li><a href="https://koha-community.org/" target="_blank" rel="noopener">Koha Community</a><span class="note">Open-Source-Bibliothekssystem.</span></li>
+    <li><a href="https://www.zotero.org/" target="_blank" rel="noopener">Zotero</a><span class="note">Open-Source-Literaturverwaltung.</span></li>
+    <li><a href="https://zenodo.org/" target="_blank" rel="noopener">Zenodo</a><span class="note">Offene Forschungsdaten und Publikationen (CERN).</span></li>
+  </ul>
+</section>
+
+<footer>
+  Kombinierter Design-Vorschlag „Das Lebendige Archiv" für <a href="#" onclick="return false">jonason.ch</a> · Beispielseite zur Zukunft der E-Bibliotheken. Inhalte exemplarisch, Quellen extern verlinkt.
+</footer>
+
+<script>
+  // Trend cards aufklappen
+  document.querySelectorAll('.trend').forEach(c=>{
+    c.addEventListener('click',()=>{c.classList.toggle('open');});
+  });
+  // Immersion-Modi
+  const content={
+    'Autor:in':{t:'Auf Knopfdruck: der Autor',d:'Ein Klick blendet biografische Informationen zur Person ein — Leben, Werk, weitere Bücher, Entstehungskontext.',c:['Bibliothek → Autor','Offene Daten']},
+    'Vorlesen':{t:'Vorlesen lassen',d:'Die Einleitung oder der ganze Text wird vorgelesen — ideal für unterwegs oder als Zugang für alle.',c:['Audio','Reader']},
+    'Lexikon':{t:'Lexikon-Eintrag aufrufen',d:'Unbekannte Begriffe werden direkt im Dokument erklärt — ohne das Leseerlebnis zu verlassen.',c:['Kontextwissen','Ein Wort']},
+    'Referenzen':{t:'Referenzen verlinken',d:'Hinter der Literaturliste führen direkte Links zu den Originalquellen — nachrecherchieren in einem Klick.',c:['Links','Intertextualität']},
+    'Notizen':{t:'Lebende, kommentierte Notizen',d:'Eigene Buchnotizen werden zu teilbaren, kommentierten Spuren — der Inhalt wird zum Dialog.',c:['Annotation','Teilen']},
+    'Szene':{t:'Szene als Comic',d:'Eine Szene aus dem Buch wird als Comic-Zeichnung dargestellt — ein visueller Zugang zur Handlung.',c:['Visualisierung','Story']},
+    'Diskussion':{t:'Mit dem Buch diskutieren',d:'Kritiken anmerken, Fragen stellen, mit anderen Leser:innen und dem Inhalt in Kontakt treten.',c:['Community','Kritik']}
+  };
+  document.querySelectorAll('.mode').forEach(m=>{
+    m.addEventListener('click',()=>{
+      document.querySelectorAll('.mode').forEach(x=>x.classList.remove('active'));
+      m.classList.add('active');
+      const d=content[m.textContent.trim()];
+      document.getElementById('panel').innerHTML='<h4>'+d.t+'</h4><p>'+d.d+'</p>'+d.c.map(x=>'<span class="chip">'+x+'</span>').join('');
+    });
+  });
+</script>
+</body>
+</html>

@@ -1,0 +1,14 @@
+# --- temp / editor lock files ---
+.~lock.*
+*.lock
+*#
+*.tmp
+
+# --- OS junk ---
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# --- optional build / cache ---
+__pycache__/
+*.pyc
