@@ -1,0 +1,29 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Archive: alle Bücher + Portal bauen",
+      "type": "shell",
+      "command": "python _build_all.py",
+      "problemMatcher": []
+    },
+    {
+      "label": "Archive: Restructure",
+      "type": "shell",
+      "command": "python _restructure_book.py",
+      "problemMatcher": []
+    },
+    {
+      "label": "Lint (ruff)",
+      "type": "shell",
+      "command": "ruff check . --select E,F,I --ignore E501 --exclude _site,book/_build,works/*/_build",
+      "problemMatcher": []
+    },
+    {
+      "label": "Publish: push + Status",
+      "type": "shell",
+      "command": "git add -A && git commit -m \"WIP\" || true; git push",
+      "problemMatcher": []
+    }
+  ]
+}

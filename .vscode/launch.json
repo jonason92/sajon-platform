@@ -1,0 +1,30 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Restructure (Quelle → Bücher)",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/_restructure_book.py",
+      "console": "integratedTerminal",
+      "justMyCode": true
+    },
+    {
+      "name": "Convert docx → Jupyter-Book",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/_docx_to_book.py",
+      "console": "integratedTerminal",
+      "args": ["BEISPIELPFAD.docx", "works/slug", "Titel"],
+      "justMyCode": true
+    },
+    {
+      "name": "Transcribe (Faster-Whisper)",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/_transcribe.py",
+      "console": "integratedTerminal",
+      "justMyCode": true
+    }
+  ]
+}
