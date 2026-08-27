@@ -152,6 +152,7 @@ TEMPLATE = r"""<!DOCTYPE html>
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <title>Das Lebendige Archiv</title>
 <link rel="stylesheet" href="assets/theme.css" />
+<link rel="icon" href="assets/logo.png" />
 <style>
   :root{
     --paper:#f6f1e7; --paper-2:#efe7d7; --ink:#1b1712; --ink-soft:#4a4238;
@@ -205,7 +206,7 @@ TEMPLATE = r"""<!DOCTYPE html>
 </head>
 <body>
 <header>
-  <span class="brand"><img src="assets/logo.svg" alt="Logo" /> Das Lebendige Archiv</span>
+  <span class="brand"><img src="assets/logo.png" alt="Logo" /> Das Lebendige Archiv</span>
   <button class="iconbtn" id="dm" title="Dunkelmodus">&#9681;</button>
 </header>
 

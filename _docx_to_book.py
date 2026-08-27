@@ -135,7 +135,7 @@ def main():
     cfg = f"""title: "{work_title}"
 author: jonas
 copyright: ""
-logo: ../../assets/logo.svg
+logo: ../../assets/logo.png
 only_build_toc_files: true
 
 execute:

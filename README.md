@@ -21,7 +21,7 @@ Gedanken zur Verfassung eines **ausführbaren, interaktiven Online-Buches** — 
 | `_build_html.py` | **Generator-Skript**: erzeugt `das-lebendige-archiv-buch.html` aus der Buch-Markdown. |
 | `book/` | **Jupyter-Book-Projekt** (Executable Books): MyST-Seiten + `_config.yml` + `_toc.yml`, wird per GitHub Actions auf GitHub Pages veröffentlicht. |
 | `.github/workflows/deploy-book.yml` | **CI-Workflow**: baut das Jupyter Book und deployt es auf GitHub Pages. |
-| `assets/` | **Design-Ordner**: `logo.svg` (Standard) + optional `theme.css` (übersteuert das Layout). Hier lädst du eigene Logo-/Layout-Elemente hoch. |
+| `assets/` | **Design-Ordner**: `logo.png` (Sajon-Fisch) + optional `theme.css` (übersteuert das Layout). Hier lädst du eigene Logo-/Layout-Elemente hoch. |
 | `works/` | **Studienarbeiten**: jede Arbeit als eigener Unterordner = eigenes Jupyter-Book (`works/<name>/`). Vorlage: `works/beispielarbeit/`. |
 | `transkripte/` | **Videotranskriptionen**: jeweils ein kleines eigenes Jupyter-Book (`transkripte/<name>/`). Vorlage: `transkripte/beispiel/`. |
 | `_build_all.py` | **Portal-Build**: baut Archiv + alle `works/*` + alle `transkripte/*` in `_site/` und erzeugt die Startseite (Portal). |
