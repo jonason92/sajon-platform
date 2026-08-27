@@ -1,3 +1,9 @@
+# sajon-platform
+
+Repository (ehemals Setup für ein „prototype-fund / open-data“-Vorhaben) — aktueller Inhalt: **„Das Lebendige Archiv“**.
+
+---
+
 # Das Lebendige Archiv
 
 Gedanken zur Verfassung eines **ausführbaren, interaktiven Online-Buches** — Grundlage und Arbeitsstand für ein Buch, das über reines Lesen hinausgeht (Autor:in-Ebene, Lexikon, Referenzen, Notizen).
@@ -9,7 +15,7 @@ Gedanken zur Verfassung eines **ausführbaren, interaktiven Online-Buches** — 
 | `the_book_2.73.md` | **Quelle**: der unstrukturierte, zusammenhanglose Originaltext (Stream of Consciousness). |
 | `the_book_2.73_strukturiert.md` | **Thematisch strukturierte Ausgabe**: bereinigt, dedupliziert, mit Inhaltsverzeichnis und Kapiteln. |
 | `the_book_2.73_buch.md` | **Interaktiv-Buch-Ausgabe**: Gliederung anlehnt an die Abschnitte/Eintauch-Modi der Konzeptseite (Autor:in, Der Text, Lexikon, Referenzen & Quellen, Notizen). |
-| `jonason-lebendiges-archiv.html` | **Konzeptseite** „Die Bibliothek der Zukunft" — Design-Vorschlag für das interaktive Buch. |
+| `jonason-lebendiges-archiv.html` | **Konzeptseite** „Die Bibliothek der Zukunft“ — Design-Vorschlag für das interaktive Buch. |
 | `_restructure_book.py` | **Generator-Skript**: erzeugt beide Markdown-Ausgaben aus der Quelle. Kuratierte Kapitelzuordnung, wieder zusammengesetzte Zitate, Leseliste. |
 | `README.md` | Diese Übersicht. |
 
