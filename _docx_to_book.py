@@ -120,7 +120,9 @@ def main():
         f.write(f'---\ntitle: "{work_title}"\n---\n\n# {work_title}\n\n' + "\n\n".join(intro_body))
 
     # chapter pages
-    toc = ["format: jb-book", "root: intro", "chapters:"]
+    toc = ["format: jb-book", "root: intro"]
+    if chapters:
+        toc.append("chapters:")
     for i, (title, blk) in enumerate(chapters, 1):
         fname = f"kapitel-{i}"
         body = render(blk)

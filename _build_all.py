@@ -42,15 +42,16 @@ def build_book(src, dst_rel, required=True):
         if required:
             raise
         print("  !! skip (build failed):", src)
-        return
+        return False
     html_dir = os.path.join(src, "_build", "html")
     if not os.path.isdir(html_dir):
         if required:
             raise SystemExit(f"build failed: no output at {html_dir}")
         print("  !! skip (no output):", src)
-        return
+        return False
     dst = os.path.join(SITE, dst_rel)
     shutil.copytree(html_dir, dst, dirs_exist_ok=True)
+    return True
 
 
 def discover(collection_dir):
@@ -113,7 +114,8 @@ def main():
         n_counts.setdefault(rel, len(items))
         grouped = {}   # group -> list of card html
         for name, path in items:
-            build_book(path, os.path.join(rel, name), required=False)
+            if not build_book(path, os.path.join(rel, name), required=False):
+                continue   # only show successfully built works
             t = book_title(path, name.replace("-", " ").title())
             g = group_for(t)
             grouped.setdefault(g, []).append(
