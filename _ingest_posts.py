@@ -13,7 +13,16 @@ SRC_DIR = "fb_export"
 OUT = "facebook_posts.md"
 
 
+def fix_mojibake(t):
+    """Undo UTF-8-read-as-Latin1 double encoding (FB export quirk)."""
+    try:
+        return t.encode("latin-1").decode("utf-8")
+    except (UnicodeEncodeError, UnicodeDecodeError):
+        return t
+
+
 def clean_text(t):
+    t = fix_mojibake(t)
     t = _html.unescape(t)
     # drop everything that looks like a URL (external AND facebook links)
     t = re.sub(r"https?://\S+", "", t)
@@ -29,24 +38,35 @@ def extract_json(path):
     with open(path, encoding="utf-8") as fh:
         parsed = json.load(fh)
 
-    def walk(obj):
-        if isinstance(obj, dict):
-            # post text lives under 'post' (newer export) or 'title'
-            p = obj.get("post")
-            if isinstance(p, str) and len(p.strip()) > 3:
-                posts.append(p)
-            else:
-                title = obj.get("title")
-                if isinstance(title, str) and len(title.strip()) > 3 \
-                        and not title.strip().lower().startswith("your facebook"):
-                    posts.append(title)
-            for v in obj.values():
-                walk(v)
-        elif isinstance(obj, list):
-            for v in obj:
-                walk(v)
+    # FB posts export is a list of post dicts, or {"data": [...]}.
+    items = parsed
+    if isinstance(parsed, dict):
+        items = parsed.get("data") or parsed.get("posts") or parsed.get("content") or []
+    if not isinstance(items, list):
+        items = [parsed]
 
-    walk(parsed)
+    boiler = re.compile(r"(hat .*(geteilt|hochgeladen|aktualisiert|hinzugef|veröffentlicht)|"
+                        r"shared a|added a|uploaded a|updated their|posted (a|an)|created an event|"
+                        r"changed .*profile|became friends)", re.I)
+
+    for p in items:
+        if not isinstance(p, dict):
+            continue
+        # the real post body lives under data[].post
+        text = ""
+        for a in p.get("data", []):
+            if isinstance(a, dict) and isinstance(a.get("post"), str) \
+                    and len(a["post"].strip()) > 3:
+                text = a["post"]
+                break
+        if not text:
+            t = p.get("title", "")
+            if isinstance(t, str) and len(t.strip()) > 3 \
+                    and not t.strip().lower().startswith("your facebook") \
+                    and not boiler.search(t):
+                text = t
+        if isinstance(text, str) and len(text.strip()) > 3:
+            posts.append(text)
     return posts
 
 

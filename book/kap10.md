@@ -185,3 +185,261 @@ Fazit aus einem meiner Essays aus dem Jahre 2016:
 populism supporters: "don't confuse me with facts, my mind is already made up"
 
 Transcription:
+
+Mario Cart Game
+
+würd säge chillig :D
+
+sound zum chille
+
+so z viu xD
+
+für aui wo hobbit läse haha
+
+neue shit vor westcoast
+
+gäbige sound
+
+bis iz z beschte mixtape vo däm jahr, mueschter zieh
+
+check das, di si vo ofwgkta womer am frouefäud hei gseh
+
+kennsch ds scho?
+
+di angeri site vo dim gliebte amerika kasi
+
+ice cube si sohn ^^
+
+wiso bringts dr staudt nid fertig das so z erkläre?? ^^
+
+yesss haha
+
+neus züg vo NY, moderne hiphop geit zrugg zude 90er - yesss
+
+aiaiai, so muess das ga :)
+
+kennsch dä? het zwöi sehr nicei aube usegä
+
+chunnsch mau mit ane verastautig?
+
+Burgdorf im hus ;)
+
+work on it! lol 😂😂😂
+
+its a problem.
+
+spirituality can't be touched. that is the meaning of eternal life.
+
+profound lecture.
+
+unfortunately I DONT THINK SO lol
+
+lol! interdimensional kangoroo! 😂😂😂
+
+pause
+
+issssss eleveneleven ri now
+
+som' mohiniz w'ould [say] WINTER 😂!
+
+whos the empire and wher is the jedi?!
+
+lol xD we going da sun pla-net xD
+
+lol the dude be too much sometimes 😂😂😂😂😂😂😂😂😂😂😂😂😂😂
+
+city builder brics peace und friedwn auf erden :)
+
+theres gonna be a lot less beaurocracy in the upcoming times
+
+KONGO
+
+the level of incompetence is so incredibly high, its scary for real
+
+sometimes I be channeling mediums xD
+
+why should cybercrime be treated less worse than real life crime?
+
+we are almost from the same place sout sudan 🫡🫠🤫
+
+'spections.
+
+a' oooooooooo' :-)
+
+Im Out Ind Acav Esf Ora Rou Ndong.
+
+PEACE GOD
+
+today is a special occasion
+
+Im really interested in the topic of Chinese Astrology!
+
+these are people :-)
+
+lol 😂
+
+SENDING MUCH GRATUTUDE AND APPREACIATION TOWARDS ALL THE TEACHERS
+
+thats why .
+
+get that
+
+JUPITER ONLYMAYBE FO'GO'TO' o'¡NKnIGHT'
+
+answers being found :-)
+
+Swaokii-Land?
+
+FELT likeCON TiNuInG da BURD CoN FrEnCE . .. haha :-)
+
+lol! this cant be Serious! hahahaha PEACE xD
+
+the technological singularity happens solely in technological cybaspace ;-)
+
+yep . . . soul memory rollin deep ;)
+
+feels like home
+
+naeva foget to doubleb up nd rhytym nskilz killz yaaman! #pirafoclasixx
+
+tax request incoming!
+
+yeah! god tribe!
+
+mfs with grace might know my style xD
+
+skiirt
+
+green meean club buddha is the answer.
+
+xD fuck worries man!
+
+music is what saves the soul, and dancing and dreaming
+
+I actually got some numbers of dozens of such pirate stories lol
+
+I want to be a sailor again.
+
+has anybody ever written a book about how to save people?
+
+grand risin'worldwide fam!
+
+IM KNOTTA @[100001256809816:2048:Projeçt Riot]
+
+local train station this morning lol
+
+indeed
+
+let our ancestors speak
+
+yupyup!!
+
+who exactly is anybody talking to here? a trash can?! xD
+
+genius
+
+I be doing the grand edit.
+
+xD
+
+Jonas Hä und SajonDocs
+
+Jonas Hä hat etwas via Answers™ About Me gepostet.
+
+Jonas Hä hat etwas via Mario Cart Game gepostet.
+
+Jonas Hä hat etwas via Daily Photo gepostet.
+
+sounds good but why in the world became the jonas brothers famous?!!
+
+Jonas Hä hat etwas via Umfrage zur Eidg. Abstimmung gepostet.
+
+Jonas Hä hat etwas via Phrases gepostet.
+
+pffff
+
+=) i kissed princess Leia
+
+fasch... mini si black
+
+Cool!
+
+when science creates art...
+
+scored a total of 8,216,600 points!
+
+scored a total of 12,613,700 points!
+
+Jonas Hä hat etwas via Meyfy gepostet.
+
+Jonas Hä empfiehlt Die Moral der Gesellschaft.
+
+Jonas Hä empfiehlt Ender's Game.
+
+Jonas Hä empfiehlt Risikogesellschaft.
+
+Jonas Hä empfiehlt The Idea of Justice.
+
+Jonas Hä empfiehlt Das Experiment (Strugazki).
+
+Jonas Hä empfiehlt The Rum Diary.
+
+welcome to whatever....
+
+ohjeee...
+
+always xD
+
+anyone?
+
+theres at least four interpretations of this..
+
+Bei friedlichen Demos bleiben die Medien stumm. Educate yourself. One love.
+
+Happy b day du aute sack!
+
+happy b-day =)
+
+happy birthday!!
+
+happy bday ^^
+
+happy birthday craig cu in mexico
+
+happy birthday! bis am friti
+
+happy birthay debi :)
+
+happy bday scotty!
+
+happy bday :D
+
+happy bday :D gsehtsech in adubode
+
+happy birthday !! how have u been?
+
+15889 im ninja jump ;)
+
+happy bday grabi^^
+
+happy bday jimmayy
+
+happy bday bro
+
+ha dänkt e vorübergehende iitrag sött länge ^^
+
+happy birthday!! hope everything's going well over there in Oregon
+
+happy birthday, hoffe du bisch guet acho! :D
+
+happy Birthday mäneler!💝
+
+happy birthday la noretta ;)
+
+happy birthday dude!
+
+Herzlichen Glückwunsch zum Geburtstag! 🎉💐☕😂😂😂
+
+alled jute zum burzeltag ;-)
+
+Jonas Hä war live.
