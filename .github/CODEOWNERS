@@ -1,0 +1,12 @@
+# CODEOWNERS — Das Lebendige Archiv
+
+# Owner / Hauptkonto (Repo-Inhaber)
+* @jonason92
+
+# KI-Assistenten (Rollen — ohne eigene GitHub-Accounts in CODEOWNERS referenziert):
+#   DeepSeek : Admin-Aufgaben (heute), Repo-/Build-Verwaltung
+#   Kimi     : Transkription & Content-Aufbereitung (write)
+#   Voila    : (write / triage)
+#
+# Sobald echte GitHub-Handles für die KI-Assistenten existieren, hier ergänzen:
+# z. B.  # docs/  @<kimi-handle>   oder  # works/  @<voila-handle>
