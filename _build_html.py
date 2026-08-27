@@ -315,7 +315,8 @@ TEMPLATE = r"""<!DOCTYPE html>
     <h1>@TITLE@</h1>
     <p class="lead">@LEAD@</p>
     <div class="ctas">
-      <a class="btn btn-primary" href="#kap-1">Zum Text</a>
+      <a class="btn btn-primary" href="intro.html">&#128214; Ausf&uuml;hrbares Buch</a>
+      <a class="btn btn-ghost" href="#kap-1">Zum Text</a>
       <a class="btn btn-ghost" href="#lexikon">Lexikon</a>
       <a class="btn btn-ghost" href="#autorin">Autor:in</a>
       <button class="btn btn-ghost" id="readAll">&#9654; Vorlesen</button>

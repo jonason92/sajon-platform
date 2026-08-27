@@ -128,7 +128,7 @@ anyway, goodnight
 
 enjoy!
 
-direct link to a research pdf: [https://rerc-journal.tsd.ac.uk/.../rel.../article/view/43/62](https://l.facebook.com/l.php?u=https%3A%2F%2Frerc-journal.tsd.ac.uk%2Findex.php%2Freligiousexp%2Farticle%2Fview%2F43%2F62%3Ffbclid%3DIwZXh0bgNhZW0CMTAAYnJpZBEwbGdyVGVtVEc5RkFFZWxhUHNydGMGYXBwX2lkEDIyMjAzOTE3ODgyMDA4OTIAAR5brPHvUKO4iDDaaZgOBnkMscwF8fU1O-L4n2WVXPf5Wb8g_I0b8O60yqtZng_aem_MOWm4OUJBdQZqYQJ6E2MkQ&h=AUCbW407ROh-0GBDjmtpUgKPaQrgAJ9uqfrym0B9TUYS04m7txbp8IeYrIZbdiPxM7Ugi7XetUaO_IRxRpVv_6h6PCWUciIEH0_RtKChc2043JP9kuGpflNg6qXUknuQRyr3j1g2U7HJCKoM&__tn__=R-R&c[0]=AUBCoEi7niDJwBZUtq5J2ZUvAYAxNcf5U-KWwHERYciYTi48Kd16F-lBuE7wlY1RTqu6vicosTUaW1CE2S8ghR7ImHCsoM3curh5g6In0LmBuKtzKof5q_pr-sDQqXmWd5iu3DHoylFnETZD0L-oRcoCWn33qd7vLF2TKex4f0zwkhQY-HE7UCHLGv1bclYHzInCHGRsZ-sL_DY)
+direct link to a research pdf: https://rerc-journal.tsd.ac.uk/index.php/religiousexp/article/view/43/62
 
 Rest in Peace James Earl Jones, save Traversing
 

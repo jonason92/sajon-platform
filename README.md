@@ -43,7 +43,7 @@ Das Buch liegt als **Jupyter Book** in `book/`. Der Workflow `.github/workflows/
 1. Auf GitHub: **Settings → Pages → Source: „GitHub Actions“** wählen (einmalig).
 2. Danach baut und deployt der Workflow automatisch bei jedem Push.
 
-Die Seite ist dann unter `https://<user>.github.io/<repo>/` erreichbar. Lokal bauen: `pip install -r book/requirements.txt && jupyter-book build book`.
+Die Seite ist dann unter `https://<user>.github.io/<repo>/` erreichbar. **Startseite** ist `das-lebendige-archiv-buch.html` (die interaktive Ausgabe); von dort führt ein Button ins ausführbare Jupyter-Book. Lokal bauen: `pip install -r book/requirements.txt && jupyter-book build book`.
 
 ## Hinweis
 

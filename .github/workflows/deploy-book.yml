@@ -34,6 +34,9 @@ jobs:
       - name: Build the book
         run: jupyter-book build book
 
+      - name: Install landing page
+        run: cp das-lebendige-archiv-buch.html book/_build/html/index.html
+
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
         with:

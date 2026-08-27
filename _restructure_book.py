@@ -5,7 +5,7 @@ Keeps every unique passage verbatim (no rewriting). Removes Facebook/web UI
 artefacts and exact duplicate passages. Groups passages under curated themes.
 Writes a NEW file; the source is left untouched.
 """
-import re, unicodedata, os
+import re, unicodedata, os, urllib.parse
 
 SRC = "the_book_2.73.md"
 OUT = "the_book_2.73_strukturiert.md"
@@ -204,6 +204,25 @@ REFERENCE_SOURCES = [
     ("Mabel Collins, „Light on the Path“", "Initiationstext, von Steiner kommentiert."),
 ]
 
+def clean_urls(t: str) -> str:
+    """Unwrap / remove Facebook redirect and tracking URLs from a passage."""
+    def _dec(m):
+        u = urllib.parse.unquote(m.group(1))
+        u = re.sub(r"[?&](fbclid|__tn__|__cft__|_rdr|c\[0\]|h|fref)[^&]*", "", u)
+        u = re.sub(r"&+$", "", u).rstrip("?&")
+        return u if u.startswith("http") else ""
+    # [label](https://l.facebook.com/l.php?u=...) -> the real target
+    t = re.sub(r"\[[^\]]*\]\(\s*https?://l\.facebook\.com/l\.php\?u=([^&\s\)]+)[^)\s]*\s*\)", _dec, t)
+    # bare facebook redirect -> the real target
+    t = re.sub(r"https?://l\.facebook\.com/l\.php\?u=([^&\s)]+)", _dec, t)
+    # [label](https://www.facebook.com/...) -> keep the label, drop the link
+    t = re.sub(r"\[([^\]]*)\]\(\s*https?://(?:www\.)?facebook\.com/[^)\s]*\s*\)", r"\1", t)
+    # remaining bare facebook / redirect urls -> drop
+    t = re.sub(r"https?://(?:www\.)?facebook\.com/[^\s)\]]*", "", t)
+    t = re.sub(r"https?://l\.facebook\.com/[^\s)\]]*", "", t)
+    t = re.sub(r"[ \t]{2,}", " ", t).strip()
+    return t
+
 def read_paras(path: str):
     with open(path, encoding="utf-8") as f:
         lines = f.read().split("\n")
@@ -241,6 +260,9 @@ def read_paras(path: str):
             continue
         # skip pure hyperlink references and bare fb/useless hashtag urls
         if re.fullmatch(r"\[.+?\]\(https?://[^\s]+\)", p) or re.fullmatch(r"https?://\S+", p):
+            continue
+        p = clean_urls(p)
+        if not p.strip():
             continue
         paras.append(p)
     return paras, quote_blocks
