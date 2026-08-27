@@ -2,6 +2,8 @@
 title: "10. Fragmente & Aphorismen"
 ---
 
+# 10. Fragmente & Aphorismen
+
 alchemically all is transmuting
 
 where is the goal?

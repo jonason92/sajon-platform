@@ -2,6 +2,8 @@
 title: "Lexikon"
 ---
 
+# Lexikon
+
 Anthroposophie
 :   Von Rudolf Steiner begründete Geisteswissenschaft, die übersinnliche Erkenntnis methodisch erforschbar machen will.
 

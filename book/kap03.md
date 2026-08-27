@@ -2,6 +2,8 @@
 title: "3. Technologie, KI & die digitale Welt"
 ---
 
+# 3. Technologie, KI & die digitale Welt
+
 "Die grossen Fortschritte, welche zurzeit auf den Bereichen der Technik der Virtual und Augmented Reality gemacht werden, führen in Zukunft zu einer weiteren Beschleunigung dieser Entwicklung. Wird die digitale Welt, welche wir bisher über zweidimensionale Computer- und Natelbildschrime betrachteten, erst einmal zum dreidimensionalen, begehbaren Raum, eröffnen wir uns komplett neuen Kommunikationsfähigkeiten. Die menschliche Imagination wird erstmals die Möglichkeit erhalten, zum interpersonalen, objektiven Forschungsgegenstand zu werden. Fast scheint es, als ob die Periode der Angst und Abscheu vor der Einbildungskraft nötig war, um durch die objektive Beschreibung der Welt zu der Technik zu gelangen, welche der Imagination in den Wissenschaften eine Renaissance erlauben wird. Eine Folge daraus wird sein, dass der Wissenschaftler mehr zum Künstler werden muss, um seine Erkenntnisse durch die technischen Möglichkeiten kohärent präsentieren zu können. Wird seine Erkenntnis einmal überholt, bleibt sie dennoch als künstlerisches Artefakt im digitalen Raum bestehen".
 
 others talk about this here, the digital, should be this way or that way

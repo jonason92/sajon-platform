@@ -46,7 +46,7 @@ def parse(text):
 
 def write_page(path, title, body):
     with open(path, "w", encoding="utf-8") as f:
-        f.write(f"---\ntitle: \"{title}\"\n---\n\n{body}")
+        f.write(f"---\ntitle: \"{title}\"\n---\n\n# {title}\n\n{body}")
 
 def main():
     with open(SRC, encoding="utf-8") as f:

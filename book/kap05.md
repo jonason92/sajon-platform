@@ -2,6 +2,8 @@
 title: "5. Natur, Tiere & die Erde"
 ---
 
+# 5. Natur, Tiere & die Erde
+
 what leads ambivalence to the little push towards liberation, if liberation is air?
 
 been to a ice hockey match tonight - on the land in the emmental. the air still young there.

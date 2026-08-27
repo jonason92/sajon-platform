@@ -2,6 +2,8 @@
 title: "8. Spiritualität, Anthroposophie & Übersinnliches"
 ---
 
+# 8. Spiritualität, Anthroposophie & Übersinnliches
+
 What this is all about is that We are alone in the Dark And we've woven everything that exists Because we are alone in the Dark And that is what the Godhead is The Godhead is alone, in the Dark and afraid So it divided Itself into Itself So that it could experience something Other than that aloneness in the Darkness -- Kilindi Iyi
 
 there are true understandings of the christian mysterys and they actually have been misused in the past. that's kind of why the world been at where its at currently. thru transgressions and many bad developments the world has become more than a single thing for some time - but in truth, there is only one world and it is our responsibility to nurture it and take care of it thru taking care of ourselves. the truthful world is an ongoing revelation towards spaces that have been able to overcome divergent and lesser happenings. sometimes it's called the kingdom of heaven and it's thethered in each and every single individual that finds it and understands it and has always been walking towards and inside of it thru spiritual progress and metamorphing of now-time. I'm hearing that song "oh when the saints go marchin in" or som'haha lolz, peace!

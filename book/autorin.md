@@ -2,6 +2,8 @@
 title: "Autor:in"
 ---
 
+# Autor:in
+
 I do hope to meet up with people that I got to know over cyberspace in person in upcoming travels and you can always let me know if u want to meet up in the swiss land as well during your own travels. my mode operandi has been pretty hermitty for some years know, that was for my own safety and spiritual development. because there truly are some crazy ass creatures out there. no need to fear them though.
 
 so sending you so much love and hope to see you soon! let's keep building!

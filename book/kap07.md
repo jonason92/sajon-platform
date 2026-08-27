@@ -2,6 +2,8 @@
 title: "7. Bewusstsein, Psyche & der Mensch"
 ---
 
+# 7. Bewusstsein, Psyche & der Mensch
+
 for me it's the most obvious thing not to try to impose material scientific insights on anybody but rather try to revive a multiplicity of perspectives. I welcome all strange experts in their own strange little field of expertise and am glad if Im able to learn something from them which can further the higher perspective of the whole. I do factually know that we do know way less than our egos would like to think that we do. and thats a beautiful thing. thats actually even some kind of motivational pre-impulse curiosity for a living being and existing doing and moving and transforming and exploring pure magic. how could it be different? Ima even say it more radically: there aren't really any puzzles to solve. the blessing of spirit is eternal joy thru exploration which actualizes the essence of the discovery of freedom. I mostly converse in these spheres, where there aren't any firm obstacles, and for me that's a beautiful thing, I percieve that as a blessing.
 
 so this then isnt to be solved only as a technical problem but also connected with a change of mind and a change of education and a change of societal living and a change of where we place our energy and attention and spiritual scientific inquierys.

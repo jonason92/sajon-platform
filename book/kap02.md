@@ -2,6 +2,8 @@
 title: "2. Die lebendige Bibliothek · Das Wissens- & Archivprojekt"
 ---
 
+# 2. Die lebendige Bibliothek · Das Wissens- & Archivprojekt
+
 librarians and archivists are working professionals with a background in the studies of media, digital formats, conservation, law, information, data, representation, conversion, storing, retrival, and also the sorting out of such material. they are the active professionals that you should be consulting if you got any questions concerning these things. they will be able to help you achieve a clearer vision. unlike in medicinal science and in law, you won't find any buyable traitors in these fields I'm talking about. why might that be? well, there's something to the saying 'knowledge is power' and distorted knowledge certainly is fake power. what are the motivations to work inside these kinds of fields like the information sciences and the librarian and the archivist? certainly not political. there is a deep and ancient wisdom behind these endeavors of these people and they are some of the smartest there ever been. they mostly are also really introverted, so they don't give a shit about anything that's hysterical and fake. science and technology would be nothing without information professionals. culture would be dead, and spirituality would only exist in some disconnected little bubbles.
 
 lets pontificate about these things, lets tell our stories and lets not do that on facebook hahahaha Ima turn in my manuscript as a selftransforming knowledge repository - in mindspace

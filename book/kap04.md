@@ -2,6 +2,8 @@
 title: "4. Gesellschaft, Politik & Macht"
 ---
 
+# 4. Gesellschaft, Politik & Macht
+
 politicians say the world and society should be organized this way or that way
 
 Curated Thoughts for Educational Endeavors Only. No Borders - Stop Neocolonial Crimes Everywhere!

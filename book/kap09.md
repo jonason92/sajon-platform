@@ -2,6 +2,8 @@
 title: "9. Vermischtes & Weiteres"
 ---
 
+# 9. Vermischtes & Weiteres
+
 all the ways seem to exist, different times, different places, different vessels, different forms
 
 is there a goal for one, or for many together, or for different individuals differently during different times?
