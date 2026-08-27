@@ -1,0 +1,20 @@
+title: Das Lebendige Archiv
+author: jonas
+copyright: ""
+logo: logo.svg
+only_build_toc_files: true
+
+execute:
+  execute_notebooks: offline
+
+html:
+  use_repository_button: true
+  use_issues_button: true
+  home_page_in_navbar: false
+  extra_navbar: ""
+
+sphinx:
+  config:
+    html_theme_options:
+      repository_url: https://github.com/jonason92/sajon-platform
+      repository_branch: main

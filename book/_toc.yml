@@ -1,0 +1,17 @@
+format: jb-book
+root: intro
+chapters:
+- file: autorin
+- file: kap01
+- file: kap02
+- file: kap03
+- file: kap04
+- file: kap05
+- file: kap06
+- file: kap07
+- file: kap08
+- file: kap09
+- file: kap10
+- file: lexikon
+- file: referenzen
+- file: notizen
