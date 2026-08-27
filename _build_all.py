@@ -33,13 +33,22 @@ def book_title(path, fallback):
     return fallback
 
 
-def build_book(src, dst_rel):
+def build_book(src, dst_rel, required=True):
     print("build", src, "->", dst_rel)
     rel = os.path.relpath(src, ROOT)
-    subprocess.run(["jupyter-book", "build", rel], cwd=ROOT, check=True)
+    try:
+        subprocess.run(["jupyter-book", "build", rel], cwd=ROOT, check=True)
+    except subprocess.CalledProcessError:
+        if required:
+            raise
+        print("  !! skip (build failed):", src)
+        return
     html_dir = os.path.join(src, "_build", "html")
     if not os.path.isdir(html_dir):
-        raise SystemExit(f"build failed: no output at {html_dir}")
+        if required:
+            raise SystemExit(f"build failed: no output at {html_dir}")
+        print("  !! skip (no output):", src)
+        return
     dst = os.path.join(SITE, dst_rel)
     shutil.copytree(html_dir, dst, dirs_exist_ok=True)
 
@@ -88,7 +97,7 @@ def main():
         items = discover(src_dir)
         cards_html = []
         for name, path in items:
-            build_book(path, os.path.join(rel, name))
+            build_book(path, os.path.join(rel, name), required=False)
             t = book_title(path, name.replace("-", " ").title())
             cards_html.append(card(os.path.join(rel, name) + "/", t,
                                    f"{label} als eigenes Buch."))
