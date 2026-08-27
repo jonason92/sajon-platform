@@ -18,6 +18,29 @@ python _build_all.py          # baut Archiv + alle works/* + transkripte/* nach 
 
 Ergebnis: `_site/index.html` (Portal) im Browser öffnen.
 
+## Lokale Admin-Site (ein Befehl, mit Login)
+
+```powershell
+make install   # einmalig: Abhängigkeiten
+make dev       # bauen + unter http://127.0.0.1:3080 mit Login serven
+```
+
+Oder ohne `make`:
+
+```powershell
+python _build_all.py
+python _serve.py
+```
+
+**Login:** `admin / admin` (Standard). Ändern über Umgebungsvariablen:
+
+```powershell
+$env:DSH_SITE_USER = "admin"
+$env:DSH_SITE_PASSWORD = "dein-passwort"
+$env:DSH_SITE_PORT = "3080"
+python _serve.py
+```
+
 ## Generatoren
 
 | Skript | Zweck |
