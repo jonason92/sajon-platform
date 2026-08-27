@@ -71,6 +71,20 @@ def card(href, title, desc):
             f'<span class="card-n">{_html.escape(desc)}</span></a>')
 
 
+def group_for(t):
+    tl = t.lower()
+    if any(k in tl for k in ["ba-arbeit", "masterarbeit", "hausarbeit", "ma-arbeit",
+                             "monismus", "biotech", "digitalisierung"]):
+        return "Abschluss- & Hausarbeiten"
+    if tl.startswith("protokoll") or "kolloquium" in tl:
+        return "Protokolle"
+    if tl.startswith("handout"):
+        return "Handouts"
+    if tl.startswith("lekt"):
+        return "Lektüreessays"
+    return "Essays & Seminararbeiten"
+
+
 def main():
     if os.path.isdir(SITE):
         shutil.rmtree(SITE)
@@ -95,16 +109,27 @@ def main():
     collection_html = []
     for src_dir, rel, label in COLLECTIONS:
         items = discover(src_dir)
-        cards_html = []
+        grouped = {}   # group -> list of card html
         for name, path in items:
             build_book(path, os.path.join(rel, name), required=False)
             t = book_title(path, name.replace("-", " ").title())
-            cards_html.append(card(os.path.join(rel, name) + "/", t,
-                                   f"{label} als eigenes Buch."))
+            g = group_for(t)
+            grouped.setdefault(g, []).append(
+                card(os.path.join(rel, name) + "/", t, f"{label} als eigenes Buch."))
         section = ""
-        if cards_html:
-            section = (f"<h2 class='sec-h'>{_html.escape(label)}</h2>\n"
-                       f"<div class='grid'>{''.join(cards_html)}</div>")
+        if grouped:
+            order = ["Abschluss- & Hausarbeiten", "Essays & Seminararbeiten",
+                     "Lektüreessays", "Protokolle", "Handouts"]
+            parts = [f"<h2 class='sec-h'>{_html.escape(label)}</h2>"]
+            for g in order:
+                if g in grouped:
+                    parts.append(f"<h3 class='sub-h'>{_html.escape(g)}</h3>")
+                    parts.append(f"<div class='grid'>{''.join(grouped[g])}</div>")
+            for g, cards in grouped.items():
+                if g not in order:
+                    parts.append(f"<h3 class='sub-h'>{_html.escape(g)}</h3>")
+                    parts.append(f"<div class='grid'>{''.join(cards)}</div>")
+            section = "\n".join(parts)
         collection_html.append(section)
 
     # portal
@@ -157,6 +182,8 @@ TEMPLATE = r"""<!DOCTYPE html>
   .lead{font-size:clamp(1rem,1.5vw,1.2rem);color:var(--ink-soft);max-width:64ch;margin:0 0 1.6rem}
   main{max-width:1080px;margin:0 auto;padding:clamp(1rem,5vw,3rem) clamp(1rem,5vw,3rem)}
   .sec-h{font-family:var(--serif);font-size:clamp(1.3rem,2.4vw,1.8rem);margin:2.5rem 0 1rem;color:var(--brass)}
+  .sub-h{font-family:var(--mono,ui-monospace,Consolas,monospace);font-size:.85rem;letter-spacing:.08em;
+    text-transform:uppercase;color:var(--teal);margin:1.6rem 0 .7rem}
   .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:1rem}
   .card{display:block;background:var(--card);border:1px solid var(--line);border-radius:var(--radius);
     padding:1.2rem 1.3rem;color:var(--ink);text-decoration:none;transition:.22s}
