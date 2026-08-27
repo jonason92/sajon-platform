@@ -35,8 +35,11 @@ def book_title(path, fallback):
 
 def build_book(src, dst_rel):
     print("build", src, "->", dst_rel)
-    subprocess.run(["jupyter-book", "build", src], check=True)
+    rel = os.path.relpath(src, ROOT)
+    subprocess.run(["jupyter-book", "build", rel], cwd=ROOT, check=True)
     html_dir = os.path.join(src, "_build", "html")
+    if not os.path.isdir(html_dir):
+        raise SystemExit(f"build failed: no output at {html_dir}")
     dst = os.path.join(SITE, dst_rel)
     shutil.copytree(html_dir, dst, dirs_exist_ok=True)
 
