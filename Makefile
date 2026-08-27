@@ -1,28 +1,30 @@
-# Das Lebendige Archiv — lokaler Dev / Serve
-# Ziel: mit einem Befehl bauen und als Admin-Site unter http://127.0.0.1:3080 serven.
-# Alternative ohne make:  python _build_all.py   dann   python _serve.py
+# Developer makefile for local development
+PY = python3.12
+VENV = .venv
+PIP = $(VENV)/bin/pip
+PYV = $(VENV)/bin/python
 
-PY ?= python
+.PHONY: venv install build serve clean
 
-.PHONY: install build serve dev clean
+venv:
+	$(PY) -m venv $(VENV)
+	$(PIP) install --upgrade pip
 
-# Abhängigkeiten (einmalig). Alternativ venv:  python -m venv .venv
-install:
-	$(PY) -m pip install --upgrade pip
-	$(PY) -m pip install jupyter-book==1.0.4.post1
-	@echo "Optional (Transkription): $(PY) -m pip install faster-whisper und ffmpeg installieren"
+install: venv
+	$(PIP) install -r requirements-dev.txt
+	$(PIP) install -r book/requirements.txt || true
 
-# Quelle -> Bücher -> Portal/_site
 build:
-	$(PY) _restructure_book.py
-	$(PY) _build_html.py
-	$(PY) _build_all.py
+	$(PYV) _restructure_book.py
+	$(PYV) _build_html.py
+	$(PYV) _build_all.py
 
-# _site unter http://127.0.0.1:3080 mit Login ausliefern
 serve:
-	$(PY) _serve.py
-
-dev: build serve
+	# set ADMIN_USER and ADMIN_PASS in your env before running (placeholders below)
+	# Example: ADMIN_USER=deepseek ADMIN_PASS=changeme make serve
+	ADMIN_USER?=admin
+	ADMIN_PASS?=adminpass
+	ADMIN_USER=$(ADMIN_USER) ADMIN_PASS=$(ADMIN_PASS) $(PYV) serve_auth.py
 
 clean:
-	$(PY) -c "import shutil,glob; [shutil.rmtree(x,ignore_errors=True) for x in ['_site']+glob.glob('book/_build')+glob.glob('works/*/_build')]"
+	rm -rf $(VENV) _site
