@@ -30,6 +30,7 @@ ASTRO = "Astrologie & die Sterne"
 VERMISCHT = "Vermischtes & Weiteres"
 FRAGMENT = "Fragmente & Aphorismen"
 FALLBACK = "Vermischtes & Weiteres"
+FB_COLLECTION = "Facebook-Posts & Chronik"
 
 # Long verbatim quotes that were split into single lines by blank-line separators
 # in the source.  Each entry: (0-based start line, 0-based end line, heading).
@@ -266,7 +267,8 @@ def read_paras(path: str):
             continue
         paras.append(p)
 
-    # optionally merge extracted Facebook posts into the living archive
+    # Facebook posts: keep as their own collection (not mixed into themes)
+    fb_posts = []
     fb_file = os.path.join(os.path.dirname(os.path.abspath(path)), "facebook_posts.md")
     if os.path.exists(fb_file):
         with open(fb_file, encoding="utf-8") as fh:
@@ -279,9 +281,9 @@ def read_paras(path: str):
                 continue
             p = clean_urls(p)
             if p.strip():
-                paras.append(p)
+                fb_posts.append(p)
 
-    return paras, quote_blocks
+    return paras, quote_blocks, fb_posts
 
 # ----------------------------------------------------------------------------
 # Theme keyword map.  Order matters: more specific / distinctive themes first so
@@ -507,7 +509,7 @@ def build_buch(groups, order):
     print("wrote the_book_2.73_buch.md bytes:", os.path.getsize("the_book_2.73_buch.md"))
 
 def main():
-    paras, quote_blocks = read_paras(SRC)
+    paras, quote_blocks, fb_posts = read_paras(SRC)
     print("total paragraph blocks after clean:", len(paras))
 
     # deduplicate (exact normalized match), keep first occurrence, original order
@@ -535,6 +537,17 @@ def main():
             g = classify(p)
             groups.setdefault(g, []).append(p)
 
+    # Facebook posts as their own collection
+    if fb_posts:
+        seen_fb, fb_clean = set(), []
+        for p in fb_posts:
+            n = norm(p)
+            if n in seen_fb:
+                continue
+            seen_fb.add(n)
+            fb_clean.append(p)
+        groups[FB_COLLECTION] = fb_clean
+
     # build output
     lines = []
     lines.append("# Das Lebendige Archiv — Gedanken zur Verfassung eines ausführbaren, interaktiven Online-Buches")
@@ -548,7 +561,7 @@ def main():
                  "Die Originaldatei wurde nicht verändert.")
     lines.append("")
     # table of contents (in THEMES order, then fallback)
-    order = [t[0] for t in THEMES] + [FALLBACK, FRAGMENT]
+    order = [t[0] for t in THEMES] + [FALLBACK, FB_COLLECTION, FRAGMENT]
     lines.append("## Inhalt")
     lines.append("")
     for i, h in enumerate(order, 1):

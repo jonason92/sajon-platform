@@ -87,31 +87,3 @@ one of the great truths that not a lot of people know or live by is that every s
 from a thesis about computability and the human mind (of course there are many different human minds and many different levels...
 
 "The highest and most decisive experience of all is to be alone with [one's] own self, or whatever else one chooses to call the objectivity of the psyche, ... to find out what it is that supports him when he can no longer support himself. Only this experience can give him an indestructible foundation."
-
-the more karmical [RESOLV-ED-NESS] we see in [live] action [the more] we will know [true bliss]. like it is possible now to [watch] in those little videos and pictures different versions of the same soul-person in different [incarnations] fighting towards a correction of what they have done [falsely] in the [past].
-
-our soul family is parts of our biological family split up all around the world because of karmic conflicts of the past that carry themselves into the present. our soul family is bigger than our biological family, in fact, it is always [AT LEAST] 144'000 peoples deep. so we've actually already made it. when every single person of those 144'000 deeps soul family is able to recognize the concept of what their soul family is and remembers those, we're in what is called heaven.
-
-we're awake all the time all around the world, our soul family is awake all the time. thats what we often forget, while we sleep.
-
-"Redemption" does not mean that a burden is taken from one's shoulders which one was never meant to bear. Only the "complete" person knows how unbearable man is to himself. - CARL JUNG
-
-IM DOING SOME FREUDIAN MFING FEEFREE DEPTH PSYCHOLOGICAL ABREAGIER SESSION FOR YALL WEAK AZZ IMBECILES I AUNE KÄFFER WRITE NAH! OK?! 🤣🤣🤣 thank you 😋😙☺️
-
-now Ive got the ultimate asi advantage in this supposed particular fight of this particular age or period that is being talked about in this last lecture. and thats actually my main kind of critique point towards r. steiner, like this kind of aspect is really hard for some to understand. like staying [supposed] [objectice] in a [spiritual historical] [state of insight] -------- oh! im sry, now I got it 🤭 thats so to speak deeper than deap xD I was tryna say its hard for me to assess the attributes of an educator or reader of the records while trusting him inside his omniposition to be able to tryna stay some kind of neutral because that doesnt even exist in that state. u know. so is this yo meditation dr. steiner? going further towards centers deeper defined in yo school of quantilibrium sackamathic friecez? 😂 anyways, yo prolly already got the spirituall part of what I be tryna build at least fo five timez a long time ago lol. [La PEIN] mon amour! jolie! 🤣😅
-
-it absolutely doesnt matter what religion anybody subscribes to. what matters is what everybody is. in that thi g called moment. with 8 billion peeps meditatin simultaniously that mf wouldn even begin to exist. lol
-
-talking simulation is like installing a stick with a carrot that youll never be able to reach in front of wherever u be tryna go. its absolutely bonkers in many ways from an ontological and epistemological standpoint. if its not possible to yu to consciously surprise yoself what kinda mouth noises yo mouth be blabbering, well then, one can start playing sims. u. lat. ion. al. [hopefully a lil epicurian] wittgensteinian word of the world plays . . .
-
-after demonstrating the buddhism of og eatin a big mac burger in front of a gazillion cameras droppin in from all kinda siz[d]es, the simplicity of a deep and not so dark beautiful knot meditation, we want to present to you, my dear friends, THE TECHNIQUEZ OFF DA NOTHIN BRUGA!!!
-
-honestly this my previous run be ridiculus af! Im worried about how long the last word been sitting on my tongue that I wasnt sure benn sitting in my mind or some other bodypart lol xD
-
-poison awareness is underestimated! and I say this as an unserious alchemist and a serious drug experimentor! metastrophizing nu: lasagnitzsch!
-
-some of us are finding ourselves at a point where we are surrounded by narcissistic, hating, psychopatic crazy people - they be tryna send one to the therapist and when u go there, by the second sitting hes one of them butchered kinda assholes too . . . metaphorically speaking of course. its wild out here. I cant really help those people, theyve chosen their strange fates and actually believe in it. they literally degenerating spiritually, physically and mentally befo our eyes. I cant be sad about that. but we dealing with some serious reorganisational missions and finding our way together once again. my own consciousness, ironically seems elevated and in a pretty lovely state, I cant lie. :-) [the untouchables] Peace!
-
-been the main meditation for a long time already ;) this actually nurishes me forever, - [me personally, - I dont know anything about other peoples food problems . . . ]
-
-the further you get closer to the goal, the deeper his mind, far lost, be tryin' to remember, wtf he just did xD for only his ears his humble spirit would ever be only allowed to shine forth that humble! [this is a parody 'nd truly really intended as a kind of funny anecdote aka story, not anything malicious or strangely violent, in praise of the intensity of painful chemical bodypatterns] . . . lol
