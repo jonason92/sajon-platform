@@ -1,0 +1,31 @@
+---
+title: "Handout: Carlo Ginzburg – Indizien: Morelli, Freud und Sherlock Holmes (1985)."
+---
+
+# Handout: Carlo Ginzburg – Indizien: Morelli, Freud und Sherlock Holmes (1985).
+
+Textinhalt: Ginzburg zeigt das Erscheinen eines neuen sozialwissenschaftlichen Paradigmas im Verlauf des 19. Jahrhunderts auf, welches bisher jedoch noch nicht als Theorie formuliert wurde. Er erhofft sich damit eine Überwindung der bisherigen sterilen Trennung von ‚rational‘ und ‚irrational‘.
+
+Morellische Methode (Artikel erschienen erstmals unter dem Synonym Lermolieff von 1874-1876): Der Kunsthistoriker und Arzt Morelli entlarvte zahlreiche Gemälde als Kopien. Zur Unterscheidung von Kopie und Original empfahl er, sich auch sekundäre Details zu konzentrieren, wie beispielsweise die Ohrläppchen. So fand er die jeweiligen Eigenarten der einzelnen Künstler in den unscheinbaren Details. Er klassifizierte beispielsweise Ohr und Hände bei Boticelli und konnte somit die Kopien von den Originalen unterscheiden. Mit dieser Methode gelangen ihm zahlreiche Neuzuschreibungen.
+
+Parallelen zu Sherlock Holmes: Ginzburg zeigt die Parallelen von Morellis Arbeit mit der von Sherlock Holmes auf. Der Kunstkenner und der Detektiv bedienen sich beide Indizien, um zu ihren Erkenntnissen zu gelangen. Holmes deutet Details wie Fussabdrücke oder Zigarettenstummel, Morelli bedient sich den Ohren und Händen auf den Gemälden.
+
+Abbildung 1: Morelli's Klassifikation der OhrenParallelen zu Freud: Freud las die Texte von Lermolieff und entlarvte diesen später auch als Morelli, wie aus Freuds Essay ‚Der Moses des Michelangelo‘ hervorgeht. In dem Essay schreibt Freud: „Ich glaube, sein [Morellis] Verfahren ist mit der Technik ärztlicher Psychoanalyse nahe verwandt.“ Weiter führte Freud aus, die Essays von Morelli boten eine Interpretationsmethode an, die aus nebensächlichen und unerheblichen Details aufschlussreiche Indizien gewann. Einzelheiten, die allgemein als trivial und unwesentlich gelten, als ‚nicht beachtenswert‘, liefern den Schlüssel zu den höchsten Errungenschaften des menschlichen Geistes.
+
+Abbildung 1: Morelli's Klassifikation der Ohren
+
+Folglich: In allen drei Fällen liefern winzige Details den Zugang zu einer tieferen Realität, die anderen Methoden verschlossen bleibt. Bei diesen Details kann es sich um Symptome handeln wie bei Freud, um Indizien wie bei Holmes, oder Merkmale der Maltechnik wie bei Morelli. Ginzburg erklärt diese Analogie dadurch, dass sowohl Freud und Morelli Arzt waren und Doyle, der Schriftsteller von Sherlock Holmes, ein Medizinstudium absolviert hat. In allen drei Fällen lässt sich das Modell der medizinischen Semiotik oder Symptomatologie erkennen.
+
+Ginzburg beginnt nun bei den Jägern und Sammlern, die durch das Spurenlesen die Fährten von Tieren rekonstruieren konnten. Auch sie gelangten durch unscheinbare Fakten zu einer komplexen Realität. Im Laufe der Geschichte bildeten sich dann eine Gruppe von Disziplinen, welche sich alle auf der Entzifferung von verschiedenen Arten von Zeichen gründeten, von Symptomen bis zu Schriftzeichen. So wurde der menschliche Körper, die Sprache und die Geschichte erstmals einer sachlichen Untersuchung unterzogen, die jegliche göttliche Intervention ausschloss. Ginzburg spricht dabei von konjekturalem Wissen. Konjektur bedeutet so viel wie Deutung oder Vermutung. Ein Beispiel unter den konjekturalen Disziplinen ist die Medizin. Anders als bei anderen wissenschaftlichen Disziplinen, welche sich auf die starke Abstraktion von Gegenständen konzentrierten, untersucht die Medizin einen Einzelfall oder ein Individuum und stellt eine Prognose.
+
+Im letzten Teil geht Ginzburg auf die Thematik der Identität des Einzelnen ein. Während der griechisch-römischen Herrschaft in Äypten musste man, wenn man ein Geschäft tätigen und einen Notar aufsuchen wollte, seinen Namen und körperliche Erscheinungsmerkmale wie beispielsweise eine Narbe angeben. Bei dieser Methode war das Risiko vom Irrtümern und Schwindeleien jedoch sehr hoch. Im Vergleich dazu war die Unterschrift schon sicherer, doch auch diese lässt sich fälschen. Erst 1888 kam dann Francis Galton mit der (aus dem asiatischen Raum gestohlenen) Idee der Daktyloskopie, die wissenschaftliche Analyse von Fingerabdrücken. Das Lesen von Fingerabdrücken hatte zur Folge, dass der Mensch damit eine Identität bekam und zum ersten Mal jenseits aller Zweifel als Individuum bestätigt war.
+
+Das Kernstück des konjekturalen Paradigmas: Die Realität selbst ist zwar undurchsichtig, doch es gibt gewisse Punkte - Indizien, Symptome -, die es uns möglich machen, sie zu erfassen. (S.165).
+
+Heute findet das konjekturale Wissen am meisten Anwendung in den Humanwissenschaften. Die psychoanalytische Disziplin fusst auf der Hypothese, dass nebensächliche Details wesentliche Phänomene aufdecken. Von Nietzsche bis Adorno gewinnt die aphoristische Betrachtungsweise an Bedeutung. Die aphoristische Literatur definiert sich durch den Versuch, anhand von Symptomen und Indizien Ansichten über Mensch und Gesellschaft zu formulieren, die krank sind und sich in der Krise befinden.
+
+Dabei fällt auf, dass die konjekturalen Wissensformen nicht durch klare Regeln oder Methoden zustande kommen. Das "Wie" der Kennerschaft oder der Diagnose lässt sich nicht einfach durch Anwendung von Regeln erlernen. Bei dieser Art von Wissen sind Faktoren im Spiel, die sich der Messbarkeit entziehen - ein Schnuppern, ein rascher Blick, eine Intuition. (S.167). In diesem Punkt erhofft sich Ginzburg wohl auch die Lockerung der in beim Textinhalt angetönte sterile Trennung von rational und irrational.
+
+Verbindung zu Kittler:
+
+„Wie Carlo Ginzburg unterm Titel Spuren gezeigt hat, herrscht dieses neue Wissen [entstanden mit den technischen Medien, die anders als die Schrift, auch unfälschbare Einzelheiten speichern] von Morelli über Freud bis Sherlock Holmes, von der Ästhetik über die Psychoanalyse bis zur Kriminalistik. Nur übersieht Ginzburg, dass der machttechnische Schwenk einfach dem Schwenk von Schrift zu Medien nachfährt. […] Unbewusst verräterische Zeichen wie Fingerabdrücke, Tonfälle, Schuhspuren usw. fallen in die Zuständigkeit von Medien, ohne die sie weder zu archivieren noch auszuwerten wären. Francis Galtons Daktyloskopie ist gleichzeitig und solidarisch mit Edisons Phonographie“ (Kittler 1986: 131).

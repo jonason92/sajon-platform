@@ -1,0 +1,18 @@
+title: "Essay: Religious Turn"
+author: jonas
+copyright: ""
+logo: ../../assets/logo.svg
+only_build_toc_files: true
+
+execute:
+  execute_notebooks: off
+
+html:
+  use_repository_button: true
+  use_issues_button: true
+  home_page_in_navbar: false
+
+repository:
+  url: https://github.com/jonason92/sajon-platform
+  branch: main
+  path_to_book: works/religious-turn-essay
