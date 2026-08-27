@@ -171,7 +171,8 @@ TEMPLATE = r"""<!DOCTYPE html>
     padding:.8rem clamp(1rem,4vw,2.5rem);background:color-mix(in srgb,var(--paper) 84%,transparent);
     backdrop-filter:blur(10px);border-bottom:1px solid var(--line)}
   .brand{display:flex;align-items:center;gap:.6rem;font-family:var(--serif);font-weight:700;letter-spacing:.3px}
-  .brand img{width:34px;height:34px;border-radius:8px}
+  .brand img{width:34px;height:34px;border-radius:8px;background:transparent}
+  html.dark .brand img{filter:invert(1)}   /* Sajon-Fisch (schwarz) im Dunkelmodus weiss */
   .iconbtn{margin-left:auto;border:1px solid var(--line);background:var(--card);color:var(--ink);
     border-radius:999px;padding:.35rem .7rem;font-size:.85rem;cursor:pointer}
   .hero{padding:clamp(3rem,8vw,6rem) clamp(1rem,5vw,4rem);overflow:hidden;position:relative}
