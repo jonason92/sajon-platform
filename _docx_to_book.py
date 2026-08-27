@@ -37,18 +37,14 @@ def style_kind(style):
         return "toc"
     if "funotentext" in s:
         return "skip"
-    if "berschrift1" in s or "heading1" in s:
-        return "h1"
-    if "berschrift2" in s or "heading2" in s:
-        return "h2"
-    if "berschrift3" in s or "heading3" in s:
-        return "h3"
+    m = re.search(r"berschrift(\d)?", s) or re.search(r"heading(\d)?", s)
+    if m:
+        lvl = int(m.group(1)) if m.group(1) else 1
+        return f"h{min(lvl, 3)}"
     if "formatvorlage1" in s:
         return "title"
     if "listenabsatz" in s:
         return "list"
-    if "standardweb" in s:
-        return "norm"
     return "norm"
 
 
