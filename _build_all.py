@@ -66,10 +66,11 @@ def discover(collection_dir):
     return out
 
 
-def card(href, title, desc):
+def card(href, title, header):
+    # header: small blue line (author · place · year); title: big serif black
     return (f'<a class="card" href="{_html.escape(href)}">'
-            f'<span class="card-k">{_html.escape(title)}</span>'
-            f'<span class="card-n">{_html.escape(desc)}</span></a>')
+            f'<span class="card-meta">{_html.escape(header)}</span>'
+            f'<span class="card-title">{_html.escape(title)}</span></a>')
 
 
 def group_for(t):
@@ -91,6 +92,16 @@ def main():
         shutil.rmtree(SITE)
     os.makedirs(SITE, exist_ok=True)
 
+    # per-work metadata (place, year) for the card headers
+    meta = {}
+    mpath = os.path.join(ROOT, "works", "_meta.json")
+    if os.path.exists(mpath):
+        import json as _json
+        try:
+            meta = _json.load(open(mpath, encoding="utf-8"))
+        except Exception:
+            meta = {}
+
     # copy shared assets (logo / optional theme overrides) so the portal can use them
     assets_src = os.path.join(ROOT, "assets")
     if os.path.isdir(assets_src):
@@ -103,8 +114,7 @@ def main():
 
     # archive book
     build_book(os.path.join(ROOT, ARCHIVE[0]), "archive")
-    archive_cards = card("archive/", ARCHIVE[2],
-                         "Persönliche Aphorismen, Schriften und (künftig) Transkriptionen.")
+    archive_cards = card("archive/", ARCHIVE[2], "JH · Der Kern")
 
     # collections
     collection_html = []
@@ -117,9 +127,12 @@ def main():
             if not build_book(path, os.path.join(rel, name), required=False):
                 continue   # only show successfully built works
             t = book_title(path, name.replace("-", " ").title())
+            m = meta.get(name, {})
+            parts = [x for x in [m.get("place", ""), m.get("year", "")] if x]
+            header = "JH · " + " · ".join(parts) if parts else "JH"
             g = group_for(t)
             grouped.setdefault(g, []).append(
-                card(os.path.join(rel, name) + "/", t, f"{label} als eigenes Buch."))
+                card(os.path.join(rel, name) + "/", t, header))
         section = ""
         if grouped:
             order = ["Abschluss- & Hausarbeiten", "Essays & Seminararbeiten",
@@ -200,9 +213,10 @@ TEMPLATE = r"""<!DOCTYPE html>
   .card{display:block;background:var(--card);border:1px solid var(--line);border-radius:var(--radius);
     padding:1.2rem 1.3rem;color:var(--ink);text-decoration:none;transition:.22s}
   .card:hover{border-color:var(--brass-soft);transform:translateY(-3px);box-shadow:var(--shadow)}
-  .card-k{display:block;font-family:var(--mono,ui-monospace,Consolas,monospace);font-size:.72rem;
-    letter-spacing:.12em;color:var(--teal);text-transform:uppercase;margin-bottom:.4rem}
-  .card-n{display:block;font-family:var(--serif);font-size:1.15rem;font-weight:600}
+  .card-meta{display:block;font-family:var(--mono,ui-monospace,Consolas,monospace);font-size:.72rem;
+    letter-spacing:.12em;color:var(--teal);text-transform:uppercase;margin-bottom:.5rem}
+  .card-title{display:block;font-family:var(--serif);font-size:1.5rem;font-weight:700;color:var(--ink);
+    line-height:1.12;letter-spacing:-.01em}
   .card p{color:var(--muted);font-size:.9rem;margin:.4rem 0 0}
   footer{border-top:1px solid var(--line);padding:2rem;text-align:center;color:var(--muted);font-size:.85rem}
 </style>
