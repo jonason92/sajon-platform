@@ -107,8 +107,10 @@ def main():
 
     # collections
     collection_html = []
+    n_counts = {"works": 0, "transkripte": 0}
     for src_dir, rel, label in COLLECTIONS:
         items = discover(src_dir)
+        n_counts.setdefault(rel, len(items))
         grouped = {}   # group -> list of card html
         for name, path in items:
             build_book(path, os.path.join(rel, name), required=False)
@@ -133,8 +135,11 @@ def main():
         collection_html.append(section)
 
     # portal
-    portal = TEMPLATE.replace("@ARCHIVE@", archive_cards) \
-                     .replace("@COLLECTIONS@", "\n".join(collection_html))
+    portal = (TEMPLATE
+              .replace("@ARCHIVE@", archive_cards)
+              .replace("@COLLECTIONS@", "\n".join(collection_html))
+              .replace("@N_WORKS@", str(n_counts.get("works", 0)))
+              .replace("@N_TRANSK@", str(n_counts.get("transkripte", 0))))
     with open(os.path.join(SITE, "index.html"), "w", encoding="utf-8") as f:
         f.write(portal)
     print("wrote", os.path.join(SITE, "index.html"))
@@ -180,6 +185,9 @@ TEMPLATE = r"""<!DOCTYPE html>
   .eyebrow::before{content:"";width:22px;height:1px;background:var(--teal)}
   h1{font-family:var(--serif);font-weight:700;font-size:clamp(1.9rem,4.6vw,3.4rem);line-height:1.08;margin:0 0 1.1rem;letter-spacing:-.02em}
   .lead{font-size:clamp(1rem,1.5vw,1.2rem);color:var(--ink-soft);max-width:64ch;margin:0 0 1.6rem}
+  .stats{display:flex;flex-wrap:wrap;gap:2rem;margin-top:.4rem}
+  .stat .stat-num{font-family:var(--serif);font-size:2.2rem;font-weight:700;color:var(--brass);line-height:1;display:block}
+  .stat .stat-lbl{font-size:.82rem;color:var(--muted);text-transform:uppercase;letter-spacing:.08em}
   main{max-width:1080px;margin:0 auto;padding:clamp(1rem,5vw,3rem) clamp(1rem,5vw,3rem)}
   .sec-h{font-family:var(--serif);font-size:clamp(1.3rem,2.4vw,1.8rem);margin:2.5rem 0 1rem;color:var(--brass)}
   .sub-h{font-family:var(--mono,ui-monospace,Consolas,monospace);font-size:.85rem;letter-spacing:.08em;
@@ -207,6 +215,11 @@ TEMPLATE = r"""<!DOCTYPE html>
     <h1>Das Lebendige Archiv</h1>
     <p class="lead">Pers&ouml;nliche Aphorismen, Schriften, Videotranskriptionen und Studienarbeiten &mdash;
       jede Sammlung und jede Arbeit als eigenes, lesbares und durchsuchbares Buch.</p>
+    <div class="stats">
+      <div class="stat"><span class="stat-num">@N_WORKS@</span><span class="stat-lbl">Studienarbeiten</span></div>
+      <div class="stat"><span class="stat-num">@N_TRANSK@</span><span class="stat-lbl">Transkriptionen</span></div>
+      <div class="stat"><span class="stat-num">1</span><span class="stat-lbl">Aphorismen &amp; Schriften</span></div>
+    </div>
   </div>
 </section>
 
