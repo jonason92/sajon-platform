@@ -16,7 +16,9 @@ Gedanken zur Verfassung eines **ausführbaren, interaktiven Online-Buches** — 
 | `the_book_2.73_strukturiert.md` | **Thematisch strukturierte Ausgabe**: bereinigt, dedupliziert, mit Inhaltsverzeichnis und Kapiteln. |
 | `the_book_2.73_buch.md` | **Interaktiv-Buch-Ausgabe**: Gliederung anlehnt an die Abschnitte/Eintauch-Modi der Konzeptseite (Autor:in, Der Text, Lexikon, Referenzen & Quellen, Notizen). |
 | `jonason-lebendiges-archiv.html` | **Konzeptseite** „Die Bibliothek der Zukunft“ — Design-Vorschlag für das interaktive Buch. |
+| `das-lebendige-archiv-buch.html` | **Ausführbares interaktives Buch** — aus `the_book_2.73_buch.md` erzeugte, eigenständige HTML-Seite (Navigation, Scrollspy, Lexikon-Suche, Vorlesen, Dunkelmodus). |
 | `_restructure_book.py` | **Generator-Skript**: erzeugt beide Markdown-Ausgaben aus der Quelle. Kuratierte Kapitelzuordnung, wieder zusammengesetzte Zitate, Leseliste. |
+| `_build_html.py` | **Generator-Skript**: erzeugt `das-lebendige-archiv-buch.html` aus der Buch-Markdown. |
 | `README.md` | Diese Übersicht. |
 
 ## Inhaltliche Ausrichtung
@@ -26,10 +28,11 @@ Esoterisch-spirituelle Reflexionen (Anthroposophie/Steiner, Christus-Impuls, Kar
 ## Skript nutzen
 
 ```powershell
-python _restructure_book.py
+python _restructure_book.py   # erzeugt die beiden Markdown-Ausgaben
+python _build_html.py         # erzeugt das interaktive Buch (HTML)
 ```
 
-Erzeugt `the_book_2.73_strukturiert.md` und `the_book_2.73_buch.md`. Anpassungen an der Kapitelzuordnung erfolgen über die `OVERRIDES`-Liste im Skript.
+`_restructure_book.py` erzeugt `the_book_2.73_strukturiert.md` und `the_book_2.73_buch.md` (Anpassungen an der Kapitelzuordnung über die `OVERRIDES`-Liste). `_build_html.py` erzeugt daraus `das-lebendige-archiv-buch.html` — einfach im Browser öffnen.
 
 ## Hinweis
 
