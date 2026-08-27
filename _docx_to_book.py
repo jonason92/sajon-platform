@@ -135,7 +135,7 @@ def main():
 
     # _config.yml
     cfg = f"""title: "{work_title}"
-author: jonas
+author: JH
 copyright: ""
 logo: ../../assets/logo.png
 only_build_toc_files: true
