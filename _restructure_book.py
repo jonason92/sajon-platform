@@ -265,6 +265,22 @@ def read_paras(path: str):
         if not p.strip():
             continue
         paras.append(p)
+
+    # optionally merge extracted Facebook posts into the living archive
+    fb_file = os.path.join(os.path.dirname(os.path.abspath(path)), "facebook_posts.md")
+    if os.path.exists(fb_file):
+        with open(fb_file, encoding="utf-8") as fh:
+            fb = fh.read()
+        for p in re.split(r"\n\s*\n", fb):
+            p = p.strip()
+            p = re.sub(r"[ \t]*\n[ \t]*", " ", p)
+            p = re.sub(r"[ \t]{2,}", " ", p).strip()
+            if not p:
+                continue
+            p = clean_urls(p)
+            if p.strip():
+                paras.append(p)
+
     return paras, quote_blocks
 
 # ----------------------------------------------------------------------------

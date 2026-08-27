@@ -1,11 +1,10 @@
-name: Build & Deploy Book
+name: Build & Deploy Living Archive
 
 on:
   push:
     branches: [ main ]
   workflow_dispatch:
 
-# Allow GITHUB_TOKEN to deploy to GitHub Pages
 permissions:
   contents: read
   pages: write
@@ -28,19 +27,16 @@ jobs:
           python-version: "3.12"
           cache: pip
 
-      - name: Install dependencies
-        run: pip install -r book/requirements.txt
+      - name: Install Jupyter Book
+        run: pip install jupyter-book
 
-      - name: Build the book
-        run: jupyter-book build book
-
-      - name: Install landing page
-        run: cp das-lebendige-archiv-buch.html book/_build/html/index.html
+      - name: Build the whole archive (books + portal)
+        run: python _build_all.py
 
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: book/_build/html
+          path: _site
 
   deploy:
     needs: build

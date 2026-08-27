@@ -1,0 +1,197 @@
+# -*- coding: utf-8 -*-
+"""Build the Living Archive portal.
+
+Builds the archive book plus every work (works/*) and every transcription
+(transkripte/*) — each as its own Jupyter Book — into `_site/<path>/`, then
+writes a portal `_site/index.html` that links to every collection.
+
+Run the deploy workflow, not manually (requires `jupyter-book`, network).
+"""
+import os, re, shutil, subprocess, sys, html as _html, glob
+
+ROOT = os.path.dirname(os.path.abspath(__file__))
+SITE = os.path.join(ROOT, "_site")
+
+# (source dir, site subpath, section label) for the archive collections
+ARCHIVE = ("book", "archive", "Aphorismen & Schriften")
+COLLECTIONS = [
+    ("works", "works", "Studienarbeiten"),
+    ("transkripte", "transkripte", "Videotranskriptionen"),
+]
+
+
+def is_book(d):
+    return os.path.isfile(os.path.join(d, "_config.yml")) and os.path.isfile(os.path.join(d, "_toc.yml"))
+
+
+def book_title(path, fallback):
+    cfg = os.path.join(path, "_config.yml")
+    if os.path.exists(cfg):
+        m = re.search(r"^title:\s*[\"']?(.+?)['\"]?\s*$", open(cfg, encoding="utf-8").read(), re.M)
+        if m:
+            return m.group(1).strip()
+    return fallback
+
+
+def build_book(src, dst_rel):
+    print("build", src, "->", dst_rel)
+    subprocess.run(["jupyter-book", "build", src], check=True)
+    html_dir = os.path.join(src, "_build", "html")
+    dst = os.path.join(SITE, dst_rel)
+    shutil.copytree(html_dir, dst, dirs_exist_ok=True)
+
+
+def discover(collection_dir):
+    out = []
+    for d in sorted(glob.glob(os.path.join(ROOT, collection_dir, "*"))):
+        name = os.path.basename(d)
+        # skip the copyable example templates (kept in repo only)
+        if name.lower().startswith("beispiel") or "template" in name.lower():
+            continue
+        if os.path.isdir(d) and not name.endswith("README.md") and is_book(d):
+            out.append((name, d))
+    return out
+
+
+def card(href, title, desc):
+    return (f'<a class="card" href="{_html.escape(href)}">'
+            f'<span class="card-k">{_html.escape(title)}</span>'
+            f'<span class="card-n">{_html.escape(desc)}</span></a>')
+
+
+def main():
+    if os.path.isdir(SITE):
+        shutil.rmtree(SITE)
+    os.makedirs(SITE, exist_ok=True)
+
+    # copy shared assets (logo / optional theme overrides) so the portal can use them
+    assets_src = os.path.join(ROOT, "assets")
+    if os.path.isdir(assets_src):
+        shutil.copytree(assets_src, os.path.join(SITE, "assets"), dirs_exist_ok=True)
+
+    # also publish the standalone interactive single-page book
+    interactive = os.path.join(ROOT, "das-lebendige-archiv-buch.html")
+    if os.path.exists(interactive):
+        shutil.copy2(interactive, os.path.join(SITE, "das-lebendige-archiv-buch.html"))
+
+    # archive book
+    build_book(os.path.join(ROOT, ARCHIVE[0]), "archive")
+    archive_cards = card("archive/", ARCHIVE[2],
+                         "Persönliche Aphorismen, Schriften und (künftig) Transkriptionen.")
+
+    # collections
+    collection_html = []
+    for src_dir, rel, label in COLLECTIONS:
+        items = discover(src_dir)
+        cards_html = []
+        for name, path in items:
+            build_book(path, os.path.join(rel, name))
+            t = book_title(path, name.replace("-", " ").title())
+            cards_html.append(card(os.path.join(rel, name) + "/", t,
+                                   f"{label} als eigenes Buch."))
+        section = ""
+        if cards_html:
+            section = (f"<h2 class='sec-h'>{_html.escape(label)}</h2>\n"
+                       f"<div class='grid'>{''.join(cards_html)}</div>")
+        collection_html.append(section)
+
+    # portal
+    portal = TEMPLATE.replace("@ARCHIVE@", archive_cards) \
+                     .replace("@COLLECTIONS@", "\n".join(collection_html))
+    with open(os.path.join(SITE, "index.html"), "w", encoding="utf-8") as f:
+        f.write(portal)
+    print("wrote", os.path.join(SITE, "index.html"))
+
+
+TEMPLATE = r"""<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Das Lebendige Archiv</title>
+<link rel="stylesheet" href="assets/theme.css" />
+<style>
+  :root{
+    --paper:#f6f1e7; --paper-2:#efe7d7; --ink:#1b1712; --ink-soft:#4a4238;
+    --muted:#7a7062; --line:#dcd2bf; --brass:#b8742a; --brass-soft:#d9a05b;
+    --teal:#1f6f6b; --teal-soft:#3f8f8a; --glow:rgba(217,160,91,.35);
+    --card:#fffdf8; --radius:16px; --shadow:0 10px 30px rgba(27,23,18,.10);
+    --serif:Georgia,"Iowan Old Style","Times New Roman",serif;
+    --sans:system-ui,-apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  }
+  html.dark{--paper:#16120e;--paper-2:#1d1813;--ink:#f2ead9;--ink-soft:#cfc3ae;
+    --muted:#948a77;--line:#3a3228;--card:#201a13;--glow:rgba(217,160,91,.22)}
+  *{box-sizing:border-box}
+  body{margin:0;font-family:var(--sans);color:var(--ink);background:var(--paper);line-height:1.6;-webkit-font-smoothing:antialiased}
+  ::selection{background:var(--brass-soft);color:#fff}
+  header{position:sticky;top:0;z-index:50;display:flex;align-items:center;gap:1rem;
+    padding:.8rem clamp(1rem,4vw,2.5rem);background:color-mix(in srgb,var(--paper) 84%,transparent);
+    backdrop-filter:blur(10px);border-bottom:1px solid var(--line)}
+  .brand{display:flex;align-items:center;gap:.6rem;font-family:var(--serif);font-weight:700;letter-spacing:.3px}
+  .brand img{width:34px;height:34px;border-radius:8px}
+  .iconbtn{margin-left:auto;border:1px solid var(--line);background:var(--card);color:var(--ink);
+    border-radius:999px;padding:.35rem .7rem;font-size:.85rem;cursor:pointer}
+  .hero{padding:clamp(3rem,8vw,6rem) clamp(1rem,5vw,4rem);overflow:hidden;position:relative}
+  .hero::before{content:"";position:absolute;inset:-20%;background:
+    radial-gradient(circle at 15% 20%,var(--glow),transparent 45%),
+    radial-gradient(circle at 85% 70%,rgba(31,111,107,.18),transparent 50%);
+    filter:blur(20px);animation:drift 18s ease-in-out infinite alternate}
+  @keyframes drift{from{transform:translate(-2%,-1%)}to{transform:translate(2%,2%)}}
+  .hero-inner{position:relative;max-width:1080px;margin:0 auto}
+  .eyebrow{font-family:var(--mono,ui-monospace,Consolas,monospace);font-size:.76rem;letter-spacing:.18em;
+    text-transform:uppercase;color:var(--teal);display:inline-flex;align-items:center;gap:.5rem;margin-bottom:1rem}
+  .eyebrow::before{content:"";width:22px;height:1px;background:var(--teal)}
+  h1{font-family:var(--serif);font-weight:700;font-size:clamp(1.9rem,4.6vw,3.4rem);line-height:1.08;margin:0 0 1.1rem;letter-spacing:-.02em}
+  .lead{font-size:clamp(1rem,1.5vw,1.2rem);color:var(--ink-soft);max-width:64ch;margin:0 0 1.6rem}
+  main{max-width:1080px;margin:0 auto;padding:clamp(1rem,5vw,3rem) clamp(1rem,5vw,3rem)}
+  .sec-h{font-family:var(--serif);font-size:clamp(1.3rem,2.4vw,1.8rem);margin:2.5rem 0 1rem;color:var(--brass)}
+  .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:1rem}
+  .card{display:block;background:var(--card);border:1px solid var(--line);border-radius:var(--radius);
+    padding:1.2rem 1.3rem;color:var(--ink);text-decoration:none;transition:.22s}
+  .card:hover{border-color:var(--brass-soft);transform:translateY(-3px);box-shadow:var(--shadow)}
+  .card-k{display:block;font-family:var(--mono,ui-monospace,Consolas,monospace);font-size:.72rem;
+    letter-spacing:.12em;color:var(--teal);text-transform:uppercase;margin-bottom:.4rem}
+  .card-n{display:block;font-family:var(--serif);font-size:1.15rem;font-weight:600}
+  .card p{color:var(--muted);font-size:.9rem;margin:.4rem 0 0}
+  footer{border-top:1px solid var(--line);padding:2rem;text-align:center;color:var(--muted);font-size:.85rem}
+</style>
+</head>
+<body>
+<header>
+  <span class="brand"><img src="assets/logo.svg" alt="Logo" /> Das Lebendige Archiv</span>
+  <button class="iconbtn" id="dm" title="Dunkelmodus">&#9681;</button>
+</header>
+
+<section class="hero">
+  <div class="hero-inner">
+    <span class="eyebrow">Portal &middot; sammlungs&uuml;bergreifend</span>
+    <h1>Das Lebendige Archiv</h1>
+    <p class="lead">Pers&ouml;nliche Aphorismen, Schriften, Videotranskriptionen und Studienarbeiten &mdash;
+      jede Sammlung und jede Arbeit als eigenes, lesbares und durchsuchbares Buch.</p>
+  </div>
+</section>
+
+<main>
+  <h2 class="sec-h">Der Kern des Archivs</h2>
+  <div class="grid">@ARCHIVE@</div>
+  @COLLECTIONS@
+</main>
+
+<footer>Das Lebendige Archiv &middot; erweitert sich &mdash; jede Sammlung ist ein eigenes Buch.
+  &middot; <a href="das-lebendige-archiv-buch.html" style="color:var(--teal)">Interaktive Einzelseite</a></footer>
+
+<script>
+  var root=document.documentElement;
+  if(window.matchMedia&&window.matchMedia('(prefers-color-scheme: dark)').matches){
+    root.classList.add('dark');document.getElementById('dm').textContent='\u25D1';}
+  document.getElementById('dm').addEventListener('click',function(){
+    var d=root.classList.toggle('dark');
+    document.getElementById('dm').textContent=d?'\u25D1':'\u25D0';});
+</script>
+</body>
+</html>
+"""
+
+
+if __name__ == "__main__":
+    main()

@@ -21,6 +21,10 @@ Gedanken zur Verfassung eines **ausführbaren, interaktiven Online-Buches** — 
 | `_build_html.py` | **Generator-Skript**: erzeugt `das-lebendige-archiv-buch.html` aus der Buch-Markdown. |
 | `book/` | **Jupyter-Book-Projekt** (Executable Books): MyST-Seiten + `_config.yml` + `_toc.yml`, wird per GitHub Actions auf GitHub Pages veröffentlicht. |
 | `.github/workflows/deploy-book.yml` | **CI-Workflow**: baut das Jupyter Book und deployt es auf GitHub Pages. |
+| `assets/` | **Design-Ordner**: `logo.svg` (Standard) + optional `theme.css` (übersteuert das Layout). Hier lädst du eigene Logo-/Layout-Elemente hoch. |
+| `works/` | **Studienarbeiten**: jede Arbeit als eigener Unterordner = eigenes Jupyter-Book (`works/<name>/`). Vorlage: `works/beispielarbeit/`. |
+| `transkripte/` | **Videotranskriptionen**: jeweils ein kleines eigenes Jupyter-Book (`transkripte/<name>/`). Vorlage: `transkripte/beispiel/`. |
+| `_build_all.py` | **Portal-Build**: baut Archiv + alle `works/*` + alle `transkripte/*` in `_site/` und erzeugt die Startseite (Portal). |
 | `README.md` | Diese Übersicht. |
 
 ## Inhaltliche Ausrichtung
@@ -43,7 +47,7 @@ Das Buch liegt als **Jupyter Book** in `book/`. Der Workflow `.github/workflows/
 1. Auf GitHub: **Settings → Pages → Source: „GitHub Actions“** wählen (einmalig).
 2. Danach baut und deployt der Workflow automatisch bei jedem Push.
 
-Die Seite ist dann unter `https://<user>.github.io/<repo>/` erreichbar. **Startseite** ist `das-lebendige-archiv-buch.html` (die interaktive Ausgabe); von dort führt ein Button ins ausführbare Jupyter-Book. Lokal bauen: `pip install -r book/requirements.txt && jupyter-book build book`.
+Die Seite ist dann unter `https://<user>.github.io/<repo>/` erreichbar. **Startseite (Portal)** listet das Archiv, die Videotranskriptionen und alle Studienarbeiten; jede Arbeit ist ein eigenes Jupyter-Book. Deploy setzt `_site/` (erzeugt von `_build_all.py`). Lokal bauen: `pip install jupyter-book && python _build_all.py`.
 
 ## Hinweis
 
