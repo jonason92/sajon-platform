@@ -265,7 +265,8 @@ TEMPLATE = r"""<!DOCTYPE html>
 </main>
 
 <footer>Das Lebendige Archiv &middot; erweitert sich &mdash; jede Sammlung ist ein eigenes Buch.
-  &middot; <a href="das-lebendige-archiv-buch.html" style="color:var(--teal)">Interaktive Einzelseite</a></footer>
+  &middot; <a href="das-lebendige-archiv-buch.html" style="color:var(--teal)">Interaktive Einzelseite</a>
+  &middot; <a href="https://jonason92.github.io/sajon-publishing/" style="color:var(--teal)">Sajon Publishing ↗</a></footer>
 
 <script>
   var root=document.documentElement;
