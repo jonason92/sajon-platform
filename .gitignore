@@ -17,3 +17,7 @@ __pycache__/
 *.zip
 fb_export/*.json
 
+# --- lokale Screenshots ---
+Screenshot *.png
+Screenshot *.jpg
+
