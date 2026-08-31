@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Der Wissensatlas — Die Lebendige Bibliothek</title>
+<style>
+  :root{--paper:#f4eee2;--paper2:#ece3d0;--ink:#1c1713;--soft:#4a4237;--muted:#7a6f5e;--line:#d9ceb8;--red:#8c3a2e;--gold:#a8813c;--blue:#2f4858}
+  *{box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  body{margin:0;font-family:Georgia,"Iowan Old Style","Palatino Linotype","Book Antiqua",serif;background:var(--paper);color:var(--ink);line-height:1.65;-webkit-font-smoothing:antialiased}
+  body::before{content:"";position:fixed;inset:0;pointer-events:none;background:radial-gradient(circle at 1px 1px, rgba(28,23,19,.045) 1px, transparent 0) 0 0/26px 26px;z-index:0}
+  .wrap{max-width:1080px;margin:0 auto;padding:0 clamp(1rem,4vw,2.5rem);position:relative;z-index:1}
+  header{border-bottom:1px solid var(--line);padding:1.6rem 0;display:flex;align-items:baseline;gap:1rem;flex-wrap:wrap}
+  header .mark{font-size:.78rem;letter-spacing:.32em;text-transform:uppercase;color:var(--red);font-family:system-ui,sans-serif;font-weight:600}
+  header .title{font-size:1.35rem;font-style:italic;font-weight:700}
+  .hero{padding:clamp(3rem,8vw,6rem) 0 2rem}
+  .eyebrow{font-family:system-ui,sans-serif;font-size:.74rem;letter-spacing:.28em;text-transform:uppercase;color:var(--gold);margin-bottom:1.1rem}
+  h1{font-size:clamp(2.1rem,5.5vw,3.7rem);line-height:1.06;font-weight:700;margin:0 0 1.3rem;letter-spacing:-.01em}
+  h1 em{font-style:italic;color:var(--red)}
+  .lede{font-size:clamp(1.05rem,1.7vw,1.25rem);color:var(--soft);max-width:62ch;font-style:italic}
+  .stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));border-block:1px solid var(--line);margin:2rem 0}
+  .stat{padding:1.1rem .6rem;text-align:center}
+  .stat + .stat{border-left:1px solid var(--line)}
+  .stat .num{font-size:1.7rem;font-weight:700;color:var(--red)}
+  .stat .lbl{font-family:system-ui,sans-serif;font-size:.72rem;letter-spacing:.12em;text-transform:uppercase;color:var(--muted)}
+  .sec{padding:3.2rem 0}
+  .sec-head{display:flex;align-items:baseline;gap:1rem;margin-bottom:1.6rem}
+  .sec-head .rn{font-size:2.2rem;color:var(--gold);font-style:italic}
+  .sec-head h2{font-size:clamp(1.5rem,3vw,2rem);margin:0}
+  .sec-head .tag{margin-left:auto;font-family:system-ui,sans-serif;font-size:.7rem;letter-spacing:.2em;text-transform:uppercase;color:var(--muted)}
+  .branches{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:.8rem}
+  .branch{display:flex;align-items:center;gap:.7rem;text-decoration:none;color:var(--ink);background:var(--paper2);border:1px solid var(--line);padding:.9rem 1rem;border-radius:12px;transition:.2s}
+  .branch:hover{border-color:var(--gold);transform:translateY(-2px)}
+  .branch .b-n{font-size:1.4rem;font-style:italic;color:var(--red);min-width:1.2em}
+  .branch .b-name{font-size:1rem;font-weight:600}
+  .branch .b-count{margin-left:auto;font-family:system-ui,sans-serif;font-size:.8rem;color:var(--muted);background:var(--paper);border-radius:999px;padding:.15rem .6rem}
+  .pillars{display:flex;flex-direction:column;gap:.8rem}
+  .pillar{background:var(--paper2);border:1px solid var(--line);border-radius:14px;overflow:hidden}
+  .pillar .p-head{display:flex;align-items:center;gap:1rem;padding:1rem 1.2rem;cursor:pointer}
+  .pillar .p-n{font-size:1.6rem;font-style:italic;color:var(--gold);min-width:1.6em}
+  .pillar .p-titles h3{margin:0;font-size:1.15rem}
+  .pillar .p-sub{font-family:system-ui,sans-serif;font-size:.74rem;letter-spacing:.1em;text-transform:uppercase;color:var(--muted)}
+  .pillar .p-toggle{margin-left:auto;font-size:1.3rem;color:var(--red);transition:transform .25s;line-height:1}
+  .pillar.open .p-toggle{transform:rotate(45deg)}
+  .pillar .p-body{max-height:0;overflow:hidden;transition:max-height .4s ease}
+  .pillar.open .p-body{max-height:600px}
+  .pillar .p-body > *{margin:0 1.2rem 1rem}
+  .pillar .p-desc{color:var(--soft);font-style:italic;padding-top:.2rem}
+  .pillar .lbl{font-family:system-ui,sans-serif;font-size:.68rem;letter-spacing:.16em;text-transform:uppercase;color:var(--red)}
+  .pillar .p-works ul{list-style:none;margin:.3rem 0 0;padding:0}
+  .pillar .p-works li{padding:.25rem 0;border-bottom:1px dotted var(--line);font-size:.95rem}
+  .pillar .p-works li a{color:var(--ink);text-decoration:none}
+  .pillar .p-works li a:hover{color:var(--red)}
+  .pillar .p-works li .m{display:block;font-family:system-ui,sans-serif;font-size:.76rem;color:var(--muted)}
+  .pillar .p-works li.none{color:var(--muted)}
+  .pillar .p-links{margin-top:.4rem}
+  .pillar .p-links a{display:inline-block;font-family:system-ui,sans-serif;font-size:.78rem;color:var(--blue);text-decoration:none;border:1px solid var(--line);border-radius:999px;padding:.25rem .7rem;margin:0 .3rem .3rem 0}
+  .pillar .p-links a:hover{border-color:var(--blue);color:var(--red)}
+  .dive{background:linear-gradient(120deg,var(--blue),var(--red));color:#f4eee2;border-radius:16px;padding:1.6rem 1.8rem}
+  .dive h3{margin:0 0 .5rem;font-size:1.3rem}
+  .dive p{margin:0 0 1rem;opacity:.9}
+  .dive a{display:inline-block;font-family:system-ui,sans-serif;color:#f4eee2;border:1px solid rgba(244,238,226,.5);border-radius:999px;padding:.4rem .9rem;text-decoration:none;margin-right:.5rem}
+  .dive a:hover{background:rgba(244,238,226,.15)}
+  footer{border-top:1px solid var(--line);margin-top:3rem;padding:1.6rem 0 3rem;color:var(--muted);font-size:.85rem;font-style:italic}
+  .reveal{opacity:0;transform:translateY(14px);transition:opacity .6s ease, transform .6s ease}
+  .reveal.in{opacity:1;transform:none}
+  @media (max-width:640px){.stat + .stat{border-left:0}.p-head{flex-wrap:wrap}}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <header><span class="mark">Wissensatlas</span><span class="title">Die Lebendige Bibliothek</span></header>
+
+  <section class="hero reveal">
+    <div class="eyebrow">Akademisch · Informationswissenschaftlich fundiert</div>
+    <h1>Die neue Art, wie wir Bücher lesen,<br>entsteht <em>vor unseren Augen</em>.</h1>
+    <p class="lede">Interaktive und lebende E-Books — die Revolution des Lesens. Professionelle Wissensdienstleistungen im Archiv- und Bibliotheksbereich. Eine Plattform, die Wissensmanagement neu definiert: Services, Education, Scientific Experimentation, Textwissenschaft — und die Integration neuer Informationstechnologien im Interface von Mensch, Hochleistungsrechnen und KI. Für eine geistige Wiederbelebung.</p>
+  </section>
+
+  <div class="stats reveal">
+    <div class="stat"><div class="num">782</div><div class="lbl">Objekte</div></div>
+    <div class="stat"><div class="num">509</div><div class="lbl">Bücher</div></div>
+    <div class="stat"><div class="num">48</div><div class="lbl">Artikel</div></div>
+    <div class="stat"><div class="num">130</div><div class="lbl">Webressourcen</div></div>
+    <div class="stat"><div class="num">1876–2026</div><div class="lbl">Zeitraum</div></div>
+  </div>
+
+  <section class="sec reveal">
+    <div class="sec-head"><span class="rn">I</span><h2>Die Wissenszweige</h2><span class="tag">782 Objekte · 5 Zweige</span></div>
+    <div class="branches"><a class="branch" href="bibliothek/index.html?branch=0"><span class="b-n">0</span><span class="b-name">Quellen</span><span class="b-count">8</span></a><a class="branch" href="bibliothek/index.html?branch=1"><span class="b-n">1</span><span class="b-name">Informationswissenschaft</span><span class="b-count">116</span></a><a class="branch" href="bibliothek/index.html?branch=2"><span class="b-n">2</span><span class="b-name">Archivistik</span><span class="b-count">336</span></a><a class="branch" href="bibliothek/index.html?branch=3"><span class="b-n">3</span><span class="b-name">Bibliothekswissenschaft</span><span class="b-count">176</span></a><a class="branch" href="bibliothek/index.html?branch=4"><span class="b-n">4</span><span class="b-name">Modulbibliografien</span><span class="b-count">1</span></a></div>
+  </section>
+
+  <section class="sec reveal">
+    <div class="sec-head"><span class="rn">II</span><h2>Der Atlas der Plattform</h2><span class="tag">8 Säulen</span></div>
+    <div class="pillars"><article class="pillar open"><div class="p-head"><span class="p-n">I</span><div class="p-titles"><h3>Das Lebendige Buch</h3><span class="p-sub">Interaktive &amp; lebende E-Books</span></div><span class="p-toggle">+</span></div><div class="p-body"><p class="p-desc">Die neue Art, wie wir Bücher lesen, entsteht vor unseren Augen. Das Buch wird ausführbar: Autor:in-Ebene, Lexikon, Referenzen, Notizen, Szene, Diskussion — jede Ausgabe ein kleines Kunstwerk.</p><div class="p-works"><span class="lbl">Beispielwerke</span><ul><li><span>Exploring contemporary classification practices : organizing information, technological change and ideological contestation</span><span class="m">Andersen, Jack; Hansson, Joacim (2025)</span></li><li><a href="https://alastore.ala.org/dahdbkl" target="_blank" rel="noopener">The Digital Accessibility Handbook for Libraries</a><span class="m">Spina, Carli; Albrecht Oling, Rebecca (2025)</span></li><li><a href="https://cs4rl.github.io/open-science/#_1_0" target="_blank" rel="noopener">Open Science Meets Citizen Science</a><span class="m">Greshake Tzovaras, Bastian (2024)</span></li><li><a href="https://www.istegroup.com/fr/produit/la-gestion-documentaire-au-coeur-des-processus-daffaires/" target="_blank" rel="noopener">La gestion documentaire au coeur des processus d’affaires – ISTE Editions</a><span class="m">Yhello</span></li></ul></div><div class="p-links"><a class="lnk" href="bibliothek/index.html?branch=3">Bibliothekswissenschaft ↗</a><a class="lnk" href="bibliothek/index.html?branch=4">Modulbibliografien ↗</a></div></div></article><article class="pillar"><div class="p-head"><span class="p-n">II</span><div class="p-titles"><h3>Wissensdienstleistungen</h3><span class="p-sub">Archiv- &amp; Bibliotheksbereich</span></div><span class="p-toggle">+</span></div><div class="p-body"><p class="p-desc">Professionelle Dienste, informationswissenschaftlich fundiert: Erschließung, Katalogisierung, Bestandsaufbau, Langzeitarchivierung.</p><div class="p-works"><span class="lbl">Beispielwerke</span><ul><li><span>Organizing archival records : a guide for both physical and digital collections</span><span class="m">Carmicheal, David W (2026)</span></li><li><a href="https://doi.org/10.1515/9783111729664" target="_blank" rel="noopener">Revisiting the Vestiges of Knowledge-Making</a><span class="m">Volynskaya, Alina (2026)</span></li><li><span>Archivrecht : Leitfaden für Praxis und Ausbildung</span><span class="m">Henne, Thomas (2025)</span></li><li><span>Exploring contemporary classification practices : organizing information, technological change and ideological contestation</span><span class="m">Andersen, Jack; Hansson, Joacim (2025)</span></li></ul></div><div class="p-links"><a class="lnk" href="bibliothek/index.html?branch=2">Archivistik ↗</a><a class="lnk" href="bibliothek/index.html?branch=3">Bibliothekswissenschaft ↗</a></div></div></article><article class="pillar"><div class="p-head"><span class="p-n">III</span><div class="p-titles"><h3>Wissensmanagement</h3><span class="p-sub">neu definiert</span></div><span class="p-toggle">+</span></div><div class="p-body"><p class="p-desc">Aufbau einer neuartigen Plattform, die Wissensmanagement neu definiert — vom bibliografischen Objekt zum vernetzten, lebendigen Wissensraum.</p><div class="p-works"><span class="lbl">Beispielwerke</span><ul><li><a href="https://fypeditions.com/le-numerique-monde-histoire-et-geopolitique-de-la-logistique-informationnelle-du-telegraphe-a-lia/" target="_blank" rel="noopener">Le numérique-monde. Histoire et géopolitique de la logistique informationnelle du télégraphe à l’IA -</a><span class="m">Robert, Pascal (2025)</span></li><li><span>The Routledge Handbook of Information History.</span><span class="m">Weller, Toni.; Black, Alistair.; Mak, Bonnie.; Skouvig, Laura. (2025)</span></li><li><a href="http://collections.fes.de/publikationen/1562378" target="_blank" rel="noopener">Die GND im Archiv : Handreichung zur Nutzung von Normdaten</a><span class="m"> (2025)</span></li><li><a href="https://www.istegroup.com/fr/produit/la-gestion-documentaire-au-coeur-des-processus-daffaires/" target="_blank" rel="noopener">La gestion documentaire au coeur des processus d’affaires – ISTE Editions</a><span class="m">Yhello</span></li></ul></div><div class="p-links"><a class="lnk" href="bibliothek/index.html?branch=1">Informationswissenschaft ↗</a><a class="lnk" href="bibliothek/index.html?branch=4">Modulbibliografien ↗</a></div></div></article><article class="pillar"><div class="p-head"><span class="p-n">IV</span><div class="p-titles"><h3>Education</h3><span class="p-sub">Lehre &amp; Vermittlung</span></div><span class="p-toggle">+</span></div><div class="p-body"><p class="p-desc">Vermittlung und Lehre im Bibliotheks- und Informationsbereich — strukturierte Wissenspfade für die nächste Generation.</p><div class="p-works"><span class="lbl">Beispielwerke</span><ul><li><a href="https://www.istegroup.com/fr/produit/la-gestion-documentaire-au-coeur-des-processus-daffaires/" target="_blank" rel="noopener">La gestion documentaire au coeur des processus d’affaires – ISTE Editions</a><span class="m">Yhello</span></li><li><span>Exploring contemporary classification practices : organizing information, technological change and ideological contestation</span><span class="m">Andersen, Jack; Hansson, Joacim (2025)</span></li><li><a href="https://alastore.ala.org/dahdbkl" target="_blank" rel="noopener">The Digital Accessibility Handbook for Libraries</a><span class="m">Spina, Carli; Albrecht Oling, Rebecca (2025)</span></li><li><a href="https://cs4rl.github.io/open-science/#_1_0" target="_blank" rel="noopener">Open Science Meets Citizen Science</a><span class="m">Greshake Tzovaras, Bastian (2024)</span></li></ul></div><div class="p-links"><a class="lnk" href="bibliothek/index.html?branch=4">Modulbibliografien ↗</a><a class="lnk" href="bibliothek/index.html?branch=3">Bibliothekswissenschaft ↗</a></div></div></article><article class="pillar"><div class="p-head"><span class="p-n">V</span><div class="p-titles"><h3>Scientific Experimentation</h3><span class="p-sub">Forschung &amp; Experiment</span></div><span class="p-toggle">+</span></div><div class="p-body"><p class="p-desc">Wissenschaftliches Experimentieren: Information Retrieval, Digital Humanities, datengetriebene Textanalyse.</p><div class="p-works"><span class="lbl">Beispielwerke</span><ul><li><a href="https://www.istegroup.com/fr/produit/la-gestion-documentaire-au-coeur-des-processus-daffaires/" target="_blank" rel="noopener">La gestion documentaire au coeur des processus d’affaires – ISTE Editions</a><span class="m">Yhello</span></li><li><a href="https://fypeditions.com/le-numerique-monde-histoire-et-geopolitique-de-la-logistique-informationnelle-du-telegraphe-a-lia/" target="_blank" rel="noopener">Le numérique-monde. Histoire et géopolitique de la logistique informationnelle du télégraphe à l’IA -</a><span class="m">Robert, Pascal (2025)</span></li><li><span>The Routledge Handbook of Information History.</span><span class="m">Weller, Toni.; Black, Alistair.; Mak, Bonnie.; Skouvig, Laura. (2025)</span></li><li><a href="http://collections.fes.de/publikationen/1562378" target="_blank" rel="noopener">Die GND im Archiv : Handreichung zur Nutzung von Normdaten</a><span class="m"> (2025)</span></li></ul></div><div class="p-links"><a class="lnk" href="bibliothek/index.html?branch=4">Modulbibliografien ↗</a><a class="lnk" href="bibliothek/index.html?branch=1">Informationswissenschaft ↗</a></div></div></article><article class="pillar"><div class="p-head"><span class="p-n">VI</span><div class="p-titles"><h3>Textwissenschaft</h3><span class="p-sub">kritische Textarbeit</span></div><span class="p-toggle">+</span></div><div class="p-body"><p class="p-desc">Kritische Edition, Kommentar, Querverweise — die Textwissenschaft als Rückgrat der geistigen Arbeit.</p><div class="p-works"><span class="lbl">Beispielwerke</span><ul><li><a href="https://fypeditions.com/le-numerique-monde-histoire-et-geopolitique-de-la-logistique-informationnelle-du-telegraphe-a-lia/" target="_blank" rel="noopener">Le numérique-monde. Histoire et géopolitique de la logistique informationnelle du télégraphe à l’IA -</a><span class="m">Robert, Pascal (2025)</span></li><li><span>The Routledge Handbook of Information History.</span><span class="m">Weller, Toni.; Black, Alistair.; Mak, Bonnie.; Skouvig, Laura. (2025)</span></li><li><a href="http://collections.fes.de/publikationen/1562378" target="_blank" rel="noopener">Die GND im Archiv : Handreichung zur Nutzung von Normdaten</a><span class="m"> (2025)</span></li><li><a href="https://www.istegroup.com/fr/produit/la-gestion-documentaire-au-coeur-des-processus-daffaires/" target="_blank" rel="noopener">La gestion documentaire au coeur des processus d’affaires – ISTE Editions</a><span class="m">Yhello</span></li></ul></div><div class="p-links"><a class="lnk" href="bibliothek/index.html?branch=1">Informationswissenschaft ↗</a><a class="lnk" href="bibliothek/index.html?branch=4">Modulbibliografien ↗</a></div></div></article><article class="pillar"><div class="p-head"><span class="p-n">VII</span><div class="p-titles"><h3>Interface Mensch · KI</h3><span class="p-sub">High-Grade Computation</span></div><span class="p-toggle">+</span></div><div class="p-body"><p class="p-desc">Integration neuer Informationstechnologien im Interface von Mensch, Hochleistungsrechnen und KI — Digitalisierung, Retrieval, Agenten (MCP).</p><div class="p-works"><span class="lbl">Beispielwerke</span><ul><li><a href="https://www.istegroup.com/fr/produit/la-gestion-documentaire-au-coeur-des-processus-daffaires/" target="_blank" rel="noopener">La gestion documentaire au coeur des processus d’affaires – ISTE Editions</a><span class="m">Yhello</span></li><li><span>Exploring contemporary classification practices : organizing information, technological change and ideological contestation</span><span class="m">Andersen, Jack; Hansson, Joacim (2025)</span></li><li><a href="https://alastore.ala.org/dahdbkl" target="_blank" rel="noopener">The Digital Accessibility Handbook for Libraries</a><span class="m">Spina, Carli; Albrecht Oling, Rebecca (2025)</span></li><li><a href="https://cs4rl.github.io/open-science/#_1_0" target="_blank" rel="noopener">Open Science Meets Citizen Science</a><span class="m">Greshake Tzovaras, Bastian (2024)</span></li></ul></div><div class="p-links"><a class="lnk" href="bibliothek/index.html?branch=4">Modulbibliografien ↗</a><a class="lnk" href="bibliothek/index.html?branch=3">Bibliothekswissenschaft ↗</a></div></div></article><article class="pillar"><div class="p-head"><span class="p-n">VIII</span><div class="p-titles"><h3>Geistige Wiederbelebung</h3><span class="p-sub">der Querschnitt</span></div><span class="p-toggle">+</span></div><div class="p-body"><p class="p-desc">Das verbindende Anliegen: Wissen als lebendige Substanz — für eine geistige Wiederbelebung. (Magischer Idealismus.)</p><div class="p-works"><span class="lbl">Beispielwerke</span><ul><li><a href="https://ead.nb.admin.ch/web/swiss-serials/info_fr.html" target="_blank" rel="noopener">Portail suisse des périodiques : Info</a><span class="m"></span></li><li><a href="https://renouvaud1.primo.exlibrisgroup.com" target="_blank" rel="noopener">Renouvaud</a><span class="m"></span></li><li><a href="https://doaj.org/" target="_blank" rel="noopener">Directory of Open Access Journals</a><span class="m"></span></li><li><a href="https://fypeditions.com/le-numerique-monde-histoire-et-geopolitique-de-la-logistique-informationnelle-du-telegraphe-a-lia/" target="_blank" rel="noopener">Le numérique-monde. Histoire et géopolitique de la logistique informationnelle du télégraphe à l’IA -</a><span class="m">Robert, Pascal (2025)</span></li></ul></div><div class="p-links"><a class="lnk" href="bibliothek/index.html?branch=0">Quellen ↗</a><a class="lnk" href="bibliothek/index.html?branch=1">Informationswissenschaft ↗</a><a class="lnk" href="bibliothek/index.html?branch=2">Archivistik ↗</a><a class="lnk" href="bibliothek/index.html?branch=3">Bibliothekswissenschaft ↗</a><a class="lnk" href="bibliothek/index.html?branch=4">Modulbibliografien ↗</a></div></div></article></div>
+  </section>
+
+  <section class="sec reveal">
+    <div class="sec-head"><span class="rn">III</span><h2>In die Bibliothek eintauchen</h2><span class="tag">Deep-Links</span></div>
+    <div class="dive">
+      <h3>Die lebendige Substanz hinter den Säulen</h3>
+      <p>Jede Säule ruht auf kuratierten Werken deines Studiums. Durchsuche die 782 Objekte — gefiltert nach Zweig, Typ oder Jahr.</p>
+      <a href="bibliothek/index.html">Gesamte Bibliothek ↗</a>
+      <a href="bibliothek/index.html?branch=2">Archivistik ↗</a>
+      <a href="bibliothek/index.html?branch=3">Bibliothekswissenschaft ↗</a>
+      <a href="bibliothek/index.html?branch=1">Informationswissenschaft ↗</a>
+      <a href="bibliothek/index.html?type=book">Nur Bücher ↗</a>
+    </div>
+  </section>
+
+  <footer>Der Wissensatlas · sajon-platform · verknüpft mit der Zotero-Bibliothek CAS/MAS ALIS 2024–2026.</footer>
+
+</div>
+<script>
+var heads = document.querySelectorAll('.p-head');
+for(var i=0;i<heads.length;i++){
+  heads[i].addEventListener('click', function(){
+    var p = this.parentElement;
+    p.classList.toggle('open');
+  });
+}
+var obs = new IntersectionObserver(function(entries){
+  entries.forEach(function(e){ if(e.isIntersecting){ e.target.classList.add('in'); obs.unobserve(e.target); } });
+}, {threshold: 0.08});
+document.querySelectorAll('.reveal').forEach(function(el){ obs.observe(el); });
+</script>
+</body>
+</html>

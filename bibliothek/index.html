@@ -169,7 +169,17 @@ document.getElementById('reset').addEventListener('click', function(){
   render();
 });
 
+function applyParams(){
+  var p = new URLSearchParams(location.search);
+  if(p.get('q')){ state.q = p.get('q'); document.getElementById('q').value = state.q; }
+  if(p.get('type')){ state.type = p.get('type'); document.getElementById('f-type').value = state.type; }
+  if(p.get('year')){ state.year = p.get('year'); document.getElementById('f-year').value = state.year; }
+  if(p.get('branch')){ state.branch = p.get('branch'); document.getElementById('f-branch').value = state.branch; }
+  if(p.get('sort')){ state.sort = p.get('sort'); document.getElementById('f-sort').value = state.sort; }
+}
+
 populate();
+applyParams();
 render();
 </script>
 </body>
