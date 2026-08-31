@@ -112,6 +112,16 @@ def main():
     if os.path.exists(interactive):
         shutil.copy2(interactive, os.path.join(SITE, "das-lebendige-archiv-buch.html"))
 
+    # Wissensbasis: statische Seiten & Bibliothek direkt publizieren
+    for rel in ("wissensatlas.html", "jonason-lebendiges-archiv.html"):
+        src = os.path.join(ROOT, rel)
+        if os.path.isfile(src):
+            shutil.copy2(src, os.path.join(SITE, rel))
+    for rel in ("bibliothek", "infografik"):
+        src = os.path.join(ROOT, rel)
+        if os.path.isdir(src):
+            shutil.copytree(src, os.path.join(SITE, rel), dirs_exist_ok=True)
+
     # archive book
     build_book(os.path.join(ROOT, ARCHIVE[0]), "archive")
     archive_cards = card("archive/", ARCHIVE[2], "JH · Der Kern")
@@ -242,6 +252,13 @@ TEMPLATE = r"""<!DOCTYPE html>
 </section>
 
 <main>
+  <h2 class="sec-h">Die Wissensbasis</h2>
+  <div class="grid">
+    <a class="card" href="wissensatlas.html"><span class="card-meta">Atlas</span><span class="card-title">Der Wissensatlas</span><p>Bibliothek &harr; Plattform: 782 Objekte, 5 Wissenszweige, 8 S&auml;ulen.</p></a>
+    <a class="card" href="bibliothek/index.html"><span class="card-meta">782 Objekte</span><span class="card-title">Die Bibliothek</span><p>Durchsuchbarer Index deines Studiums (CAS/MAS ALIS 2024&ndash;2026).</p></a>
+    <a class="card" href="infografik/"><span class="card-meta">Software-Mix</span><span class="card-title">Die Infografik</span><p>Das &Ouml;kosystem in Ebenen &mdash; interaktiv &amp; einbettbar.</p></a>
+  </div>
+
   <h2 class="sec-h">Der Kern des Archivs</h2>
   <div class="grid">@ARCHIVE@</div>
   @COLLECTIONS@
