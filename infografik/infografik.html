@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Mehrschichtige Infografik — Digitales Skriptorium</title>
+<style>
+  :root{--bg:#f6f1e7;--ink:#1b1712;--soft:#4a4238;--line:#dcd2bf;--card:#fffdf8}
+  *{box-sizing:border-box}
+  html,body{height:100%;margin:0}
+  body{font-family:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;background:var(--bg);color:var(--ink);overflow:hidden;display:flex;flex-direction:column}
+  .topbar{display:flex;align-items:center;gap:.9rem;flex-wrap:wrap;padding:.7rem 1rem;border-bottom:1px solid var(--line);background:var(--card)}
+  .topbar h1{font-family:Georgia,serif;font-size:1.12rem;margin:0;font-weight:700}
+  .topbar .sub{color:var(--soft);font-size:.83rem}
+  .spacer{flex:1}
+  .btn{border:1px solid var(--line);background:var(--card);color:var(--ink);border-radius:8px;padding:.4rem .7rem;cursor:pointer;font-size:.82rem;transition:.15s}
+  .btn:hover{border-color:#b8742a;color:#b8742a}
+  .legend{display:flex;gap:.8rem;flex-wrap:wrap;align-items:center}
+  .legend .li{display:flex;align-items:center;gap:.32rem;font-size:.78rem;color:var(--soft)}
+  .legend .sw{width:11px;height:11px;border-radius:3px;display:inline-block}
+  .main{flex:1;display:flex;min-height:0;position:relative}
+  svg{flex:1;cursor:grab;touch-action:none;background:radial-gradient(circle at 1px 1px, rgba(27,23,18,.06) 1px, transparent 0) 0 0/26px 26px, var(--bg)}
+  svg.dragging{cursor:grabbing}
+  .panel{width:320px;flex:none;border-left:1px solid var(--line);background:var(--card);padding:1.1rem 1.2rem;overflow:auto;display:flex;flex-direction:column;gap:.7rem}
+  .panel h2{font-family:Georgia,serif;font-size:1.2rem;margin:0;line-height:1.25}
+  .panel .meta{font-size:.76rem;color:var(--soft);font-family:ui-monospace,monospace;letter-spacing:.03em}
+  .panel .note{font-size:.9rem;line-height:1.55;color:var(--soft);border-top:1px solid var(--line);padding-top:.8rem;white-space:pre-wrap}
+  .panel .hint{font-size:.76rem;color:#7a7062}
+  @media (max-width:820px){body{overflow:auto}.main{flex-direction:column}.panel{width:auto;border-left:0;border-top:1px solid var(--line);max-height:38vh}}
+</style>
+</head>
+<body>
+<div class="topbar">
+  <h1>Mehrschichtige Infografik</h1>
+  <span class="sub">Digitales Skriptorium — Ebenen statt Baum</span>
+  <div class="spacer"></div>
+  <div class="legend">
+    <span class="li"><span class="sw" style="background:#b8742a"></span>Projekte</span>
+    <span class="li"><span class="sw" style="background:#4f8a3c"></span>Workflows</span>
+    <span class="li"><span class="sw" style="background:#1f6f6b"></span>Software</span>
+    <span class="li"><span class="sw" style="background:#8a4f9c"></span>Protokolle</span>
+    <span class="li"><span class="sw" style="background:#c0503a"></span>Engpässe</span>
+    <span class="li"><span class="sw" style="background:#2f6fbf"></span>Prioritäten</span>
+    <span class="li"><span class="sw" style="background:#5b6b7a"></span>MCP-Server</span>
+  </div>
+  <button class="btn" onclick="zoomBy(1.25)">+</button>
+  <button class="btn" onclick="zoomBy(0.8)">−</button>
+  <button class="btn" onclick="fitView()">Einpassen</button>
+</div>
+<div class="main">
+  <svg id="map"></svg>
+  <aside class="panel">
+    <h2 id="dtitle">Eine Box wählen</h2>
+    <div class="meta" id="dmeta"></div>
+    <div class="note" id="dnote">Klicke auf eine abgerundete Box, um Details zu sehen. Die Fäden zeigen, wie die Ebenen zusammenhängen. Ziehen verschiebt, das Mausrad zoomt.</div>
+    <div class="hint">Erweiterbar &amp; einbettbar: Jede Ebene ist eine simple Liste — neue Boxen lassen sich leicht ergänzen.</div>
+  </aside>
+</div>
+
+<script>
+var SVGNS='http://www.w3.org/2000/svg';
+
+var STYLES={
+  proj:{main:'#b8742a',fill:'#f7ecdc'},
+  flow:{main:'#4f8a3c',fill:'#e8f1e3'},
+  soft:{main:'#1f6f6b',fill:'#e6f0ee'},
+  proto:{main:'#8a4f9c',fill:'#f0e6f4'},
+  gap:{main:'#c0503a',fill:'#f9e5df'}
+};
+
+/* ============================================================
+ * ANLEITUNG: SO ERWEITERST DU DIESE INFOGRAFIK
+ * ------------------------------------------------------------
+ * Neue Box auf einer Ebene:  einfach einen Eintrag zu einem der
+ *   Arrays unten (projects / workflows / software / protos /
+ *   gaps / prios / mcp) hinzufuegen, z. B.
+ *   {id:'s6', t:'Neues Tool', s:'kurzer Untertitel', n:'Detail-Text bei Klick'}.
+ *   WICHTIG: id muss eindeutig sein (s6, w5, p7, ...).
+ *
+ * Neue Ebene / neues Panel: eigenes Array anlegen und in render()
+ *   ein drawPanel(x, y, 'Titel', farbe, array) einfuegen.
+ *
+ * Neuer Faden (Verbindung):  in EDGES eine Zeile ergaenzen:
+ *   ['von-id','nach-id','farbe', 1 (optional = gestrichelt)].
+ *
+ * Detail-Panel bei Klick kommt automatisch ueber das Feld "n".
+ * ============================================================ */
+var core={id:'core',t:'Digitales Skriptorium',n:'Ökosystem aus Scan, Wissen, KI und Publishing — verbunden über Jupyter als zentrales Nervensystem.',layer:'Kern',isCore:true,cx:0,cy:0};
+
+var projects=[
+ {id:'p0',t:'Publishing',n:'Bücher und Manuskripte produzieren und vertreiben.'},
+ {id:'p1',t:'Knowledge Platform',n:'Zentrale Wissensplattform mit kuratierter Bibliografie.'},
+ {id:'p2',t:'Spiritual Science Bridge',n:'Herzstück: mehrschichtiges Lesen — Originaltext, Kommentar, Querverweise.'},
+ {id:'p3',t:'E-Book Converting',n:'Calibre-Workflow für EPUB/MOBI.'},
+ {id:'p4',t:'Webdesign',n:'Frontend für Plattform, Bibliothek und Verkauf.'},
+ {id:'p5',t:'Interactive Library',n:'Semantische Suche via KI-Embeddings; nicht-lineares, interaktives Lesen.'},
+ {id:'p6',t:'Jupyter Workflows & Goals',n:'Python-Pipelines als zentrale Orchestrierung.'}
+];
+
+var workflows=[
+ {id:'w0',t:'Capture-Pipeline',s:'CZUR → OCR → Zotero/Calibre',n:'Scannen, OCR, Ablegen. Originale hashen, nur Working-Copies bearbeiten.'},
+ {id:'w1',t:'Writing-Pipeline',s:'Notion → OnlyOffice → Calibre',n:'Ideen → Manuskript → EPUB/MOBI.'},
+ {id:'w2',t:'AI-Routing',s:'Kimi liest · DeepSeek webt · Copilot coded',n:'Langkontext vs. Logik klar trennen — nie umgekehrt.'},
+ {id:'w3',t:'Orchestrierung',s:'Jupyter als Nervensystem',n:'pyzotero + calibre-db + requests verbinden alles.'},
+ {id:'w4',t:'Commerce-Flow',s:'Stripe + FastAPI',n:'On-the-fly wasserzeichen-PDF über signierte URL.'}
+];
+
+var software=[
+ {id:'s0',t:'Dokumente & Produktivität',s:'Notion · OnlyOffice · Wondershare',n:'Schreiben, Editieren, PDF-Aufbereitung.'},
+ {id:'s1',t:'Wissen & Referenzen',s:'Zotero · Calibre',n:'Zotero = Bibliografie-Autorität; Calibre = Konvertierung.'},
+ {id:'s2',t:'Scannen',s:'CZUR',n:'Scanner → PDF/JPEG; Ausgabe = unveränderliches Original.'},
+ {id:'s3',t:'KI-Modelle',s:'DeepSeek · Harness · Kimi · Copilot',n:'Vier Rollen: Logik, Admin, Langkontext, Code.'},
+ {id:'s4',t:'Entwicklung',s:'GitHub · Jupyter',n:'Repo + zentrales Nervensystem.'},
+ {id:'s5',t:'Commerce',s:'Stripe',n:'Paywall/Verkauf; braucht Backend.'}
+];
+
+var protos=[
+ {id:'pr0',t:'Mona-Lisa-Protokoll',n:'Originale unveränderlich (SHA-256, read-only); Working-Copies mit _v1.'},
+ {id:'pr1',t:'Goldener Faden',n:'Zotero = Autorität; Calibre = derivativ; Notion = Skizze.'},
+ {id:'pr2',t:'MCP-R&D',n:'Kimi read-only testen; Kill-Schalter muss Fehler werfen.'},
+ {id:'pr3',t:'Thread-Matrix',n:'Q1 Backbone, Q2 Muse, Q3 Sandbox, Q4 Polish.'}
+];
+
+var gaps=[
+ {id:'g0',t:'Metadaten-Abgrund',n:'Zotero CSL ↔ Calibre OPF; pyzotero + calibre-db Skript.'},
+ {id:'g1',t:'Zahlungs-Paradox',n:'Stripe braucht FastAPI-Backend.'},
+ {id:'g2',t:'Notion-Überfrachtung',n:'Notion API → Jupyter; KI analysiert Notizen.'}
+];
+
+var prios=[
+ {id:'q0',t:'Q1 · Backbone',n:'Versionierung & Metadaten-Sync — zuerst. DeepSeek-Harness diese Woche.'},
+ {id:'q1',t:'Q2 · Muse',n:'Konzept & interaktive Bibliothek — nur der Autor, 2h/Tag.'},
+ {id:'q2',t:'Q3 · Sandbox',n:'MCP & Kimi-Stresstest — Parallel-R&D, 1h/Tag.'},
+ {id:'q3',t:'Q4 · Polish',n:'OCR-Feinschliff, Cover, Stripe-UI — später.'}
+];
+
+var mcp=[
+ {id:'m0',t:'Filesystem (read-only)',n:'Originale nur lesen — @modelcontextprotocol/server-filesystem; /originals/ unantastbar.'},
+ {id:'m1',t:'Zotero-MCP',n:'Bibliografie abfragen (community zotero-mcp), ohne zu schreiben.'},
+ {id:'m2',t:'Calibre-DB',n:'Metadaten & Konvertierung (community calibre-mcp).'},
+ {id:'m3',t:'Notion-API',n:'Notizen ziehen — @notionhq/notion-mcp-server.'}
+];
+
+var R1=170, R2=315, R3=460;
+var NODES={};
+var selectedId=null;
+var bounds={minX:0,minY:0,maxX:0,maxY:0};
+var state={s:1,tx:0,ty:0};
+
+var cvs=document.createElement('canvas');
+var mctx=cvs.getContext('2d');
+
+function wrapText(text,maxW,font){
+  mctx.font=font;
+  var words=String(text).split(' ');
+  var lines=[],cur='';
+  for(var i=0;i<words.length;i++){
+    var t2=cur?cur+' '+words[i]:words[i];
+    if(mctx.measureText(t2).width<=maxW){cur=t2;}
+    else{if(cur)lines.push(cur);cur=words[i];}
+  }
+  if(cur)lines.push(cur);
+  return lines;
+}
+
+function measureCard(nd){
+  var tf=nd.isCore?'700 15px Georgia':'600 13px system-ui';
+  var sf='500 11px system-ui';
+  nd.tLines=wrapText(nd.t,nd.isCore?220:172,tf);
+  nd.sLines=nd.s?wrapText(nd.s,172,sf):[];
+  mctx.font=tf;var tw=0;
+  for(var i=0;i<nd.tLines.length;i++)tw=Math.max(tw,mctx.measureText(nd.tLines[i]).width);
+  mctx.font=sf;var sw=0;
+  for(var j=0;j<nd.sLines.length;j++)sw=Math.max(sw,mctx.measureText(nd.sLines[j]).width);
+  var cw=Math.max(tw,sw);
+  nd.w=Math.max(96,Math.min(214,cw+30));
+  nd.h=13+nd.tLines.length*16+(nd.sLines.length?4+nd.sLines.length*14:0)+13;
+}
+
+function placeRing(arr,radius,style,layer){
+  var n=arr.length;
+  for(var i=0;i<n;i++){
+    var ang=(-90+i*(360/n))*Math.PI/180;
+    var nd=arr[i];
+    nd.cx=Math.cos(ang)*radius; nd.cy=Math.sin(ang)*radius;
+    nd.style=style; nd.layer=layer;
+    measureCard(nd);
+    NODES[nd.id]=nd;
+  }
+}
+
+placeRing(projects,R1,STYLES.proj,'Projekte & Ziele · Ebene 1');
+placeRing(workflows,R2,STYLES.flow,'Workflows & Pipelines · Ebene 2');
+placeRing(software,R3,STYLES.soft,'Software & Werkzeuge · Ebene 3');
+measureCard(core);
+NODES[core.id]=core;
+
+// satellite panels (pseudo-nodes for edges)
+var panelProto={id:'panelProto',cx:-700,cy:0};
+var panelGap={id:'panelGap',cx:700,cy:0};
+var panelPrio={id:'panelPrio',cx:0,cy:-700};
+var panelMcp={id:'panelMcp',cx:0,cy:700};
+NODES[panelProto.id]=panelProto;
+NODES[panelGap.id]=panelGap;
+NODES[panelPrio.id]=panelPrio;
+NODES[panelMcp.id]=panelMcp;
+
+var EDGES=[
+ ['s2','w0','#1f6f6b'],['s0','w1','#1f6f6b'],['s3','w2','#1f6f6b'],['s4','w3','#1f6f6b'],['s5','w4','#1f6f6b'],
+ ['w0','p5','#4f8a3c'],['w1','p0','#4f8a3c'],['w2','p2','#4f8a3c'],['w3','p6','#4f8a3c'],['w4','p4','#4f8a3c'],
+ ['s1','p5','#1f6f6b'],
+ ['core','p2','#b8742a'],
+ ['core','panelProto','#8a4f9c',1],
+ ['core','panelGap','#c0503a',1],
+ ['core','panelPrio','#2f6fbf',1],
+ ['core','panelMcp','#5b6b7a',1]
+];
+
+function computeBounds(){
+  var minX=1e9,minY=1e9,maxX=-1e9,maxY=-1e9;
+  for(var k in NODES){
+    var nd=NODES[k];
+    var w=nd.w||0,h=nd.h||0;
+    minX=Math.min(minX,nd.cx-w/2);maxX=Math.max(maxX,nd.cx+w/2);
+    minY=Math.min(minY,nd.cy-h/2);maxY=Math.max(maxY,nd.cy+h/2);
+  }
+  var pw=232,protoH=186,gapH=152,prioH=186,mcpH=186;
+  minX=Math.min(minX,-700-pw/2,-pw/2);maxX=Math.max(maxX,700+pw/2,pw/2);
+  minY=Math.min(minY,-700-prioH/2,-protoH/2,-gapH/2);maxY=Math.max(maxY,700+mcpH/2,protoH/2,gapH/2);
+  bounds={minX:minX-30,minY:minY-30,maxX:maxX+30,maxY:maxY+30};
+}
+
+function applyTransform(){
+  document.getElementById('root').setAttribute('transform','translate('+state.tx+','+state.ty+') scale('+state.s+')');
+}
+
+function drawGuide(){
+  var g=document.createElementNS(SVGNS,'g');
+  [R1,R2,R3].forEach(function(r){
+    var c=document.createElementNS(SVGNS,'circle');
+    c.setAttribute('cx',0);c.setAttribute('cy',0);c.setAttribute('r',r);
+    c.setAttribute('fill','none');c.setAttribute('stroke','#c9bfa8');c.setAttribute('stroke-width',1);
+    c.setAttribute('stroke-dasharray','3 6');
+    g.appendChild(c);
+  });
+  document.getElementById('root').appendChild(g);
+}
+
+function drawEdges(){
+  var g=document.createElementNS(SVGNS,'g');
+  for(var i=0;i<EDGES.length;i++){
+    var e=EDGES[i];
+    var a=NODES[e[0]],b=NODES[e[1]];
+    if(!a||!b)continue;
+    var mx=(a.cx+b.cx)/2,my=(a.cy+b.cy)/2;
+    var dx=b.cx-a.cx,dy=b.cy-a.cy;
+    var len=Math.sqrt(dx*dx+dy*dy)||1;
+    var k=len*0.14;
+    var cx=mx+(-dy/len)*k,cy=my+(dx/len)*k;
+    var p=document.createElementNS(SVGNS,'path');
+    p.setAttribute('d','M '+a.cx+' '+a.cy+' Q '+cx+' '+cy+' '+b.cx+' '+b.cy);
+    p.setAttribute('fill','none');
+    p.setAttribute('stroke',e[2]);
+    p.setAttribute('stroke-width',e[3]?1.7:1.5);
+    p.setAttribute('stroke-opacity',e[3]?0.5:0.32);
+    if(e[3])p.setAttribute('stroke-dasharray','4 4');
+    g.appendChild(p);
+  }
+  document.getElementById('root').appendChild(g);
+}
+
+function drawCard(nd){
+  var g=document.createElementNS(SVGNS,'g');
+  g.setAttribute('transform','translate('+nd.cx+','+nd.cy+')');
+  var st=nd.style||{main:'#1b1712',fill:'#1b1712'};
+  var sel=nd.id===selectedId;
+  var rect=document.createElementNS(SVGNS,'rect');
+  rect.setAttribute('x',-nd.w/2);rect.setAttribute('y',-nd.h/2);
+  rect.setAttribute('width',nd.w);rect.setAttribute('height',nd.h);
+  rect.setAttribute('rx',nd.isCore?16:12);
+  if(nd.isCore){rect.setAttribute('fill','#1b1712');rect.setAttribute('stroke','#b8742a');rect.setAttribute('stroke-width',sel?3:2);}
+  else{rect.setAttribute('fill',sel?st.main:st.fill);rect.setAttribute('stroke',st.main);rect.setAttribute('stroke-width',sel?2.6:1.5);}
+  rect.style.cursor='pointer';
+  rect.addEventListener('click',function(ev){ev.stopPropagation();selectNode(nd);});
+  g.appendChild(rect);
+
+  var blockH=nd.tLines.length*16+(nd.sLines.length?4+nd.sLines.length*14:0);
+  var y=-blockH/2+11;
+  var tcol=(sel||nd.isCore)?'#ffffff':'#1b1712';
+  for(var i=0;i<nd.tLines.length;i++){
+    var t=document.createElementNS(SVGNS,'text');
+    t.setAttribute('text-anchor','middle');t.setAttribute('y',y);
+    t.setAttribute('font-family',nd.isCore?'Georgia,serif':'system-ui,sans-serif');
+    t.setAttribute('font-size',nd.isCore?15:13);
+    t.setAttribute('font-weight',nd.isCore?700:600);
+    t.setAttribute('fill',tcol);
+    t.style.pointerEvents='none';
+    t.textContent=nd.tLines[i];
+    g.appendChild(t);
+    y+=16;
+  }
+  if(nd.sLines.length){
+    y+=4;
+    for(var j=0;j<nd.sLines.length;j++){
+      var s=document.createElementNS(SVGNS,'text');
+      s.setAttribute('text-anchor','middle');s.setAttribute('y',y);
+      s.setAttribute('font-family','system-ui,sans-serif');s.setAttribute('font-size',11);s.setAttribute('font-weight',500);
+      s.setAttribute('fill',(sel||nd.isCore)?'rgba(255,255,255,.85)':'#6b6357');
+      s.style.pointerEvents='none';
+      s.textContent=nd.sLines[j];
+      g.appendChild(s);
+      y+=14;
+    }
+  }
+  // hint dot for nodes with details
+  if(nd.n){
+    var d=document.createElementNS(SVGNS,'circle');
+    d.setAttribute('cx',nd.w/2-8);d.setAttribute('cy',-nd.h/2+8);d.setAttribute('r',3);
+    d.setAttribute('fill',(sel||nd.isCore)?'#ffffff':'#c9bfa8');
+    g.appendChild(d);
+  }
+  document.getElementById('root').appendChild(g);
+}
+
+function drawPanel(px,py,title,color,items){
+  var pw=232,rowH=26,pad=14;
+  var ph=pad+20+10+items.length*rowH+(items.length-1)*8+pad;
+  var g=document.createElementNS(SVGNS,'g');
+  var rect=document.createElementNS(SVGNS,'rect');
+  rect.setAttribute('x',px-pw/2);rect.setAttribute('y',py-ph/2);
+  rect.setAttribute('width',pw);rect.setAttribute('height',ph);
+  rect.setAttribute('rx',14);rect.setAttribute('fill','#fffdf8');rect.setAttribute('stroke',color);rect.setAttribute('stroke-width',1.6);
+  g.appendChild(rect);
+  var th=document.createElementNS(SVGNS,'text');
+  th.setAttribute('x',px-pw/2+pad);th.setAttribute('y',py-ph/2+pad+12);
+  th.setAttribute('font-family','system-ui,sans-serif');th.setAttribute('font-size',13);th.setAttribute('font-weight',700);
+  th.setAttribute('fill',color);
+  th.textContent=title;
+  g.appendChild(th);
+
+  var yy=py-ph/2+pad+20+10+rowH/2;
+  for(var i=0;i<items.length;i++){
+    var it=items[i];
+    it.cx=px;it.cy=yy;it.w=pw-pad*2;it.h=rowH;it.style={main:color,fill:'#f4efe4'};
+    it.layer=title;
+    NODES[it.id]=it;
+    var pr=document.createElementNS(SVGNS,'rect');
+    pr.setAttribute('x',-it.w/2);pr.setAttribute('y',-it.h/2);
+    pr.setAttribute('width',it.w);pr.setAttribute('height',it.h);
+    pr.setAttribute('rx',8);
+    pr.setAttribute('fill',it.id===selectedId?color:'#f4efe4');
+    pr.setAttribute('stroke',color);pr.setAttribute('stroke-width',1);
+    pr.style.cursor='pointer';
+    (function(nd){pr.addEventListener('click',function(ev){ev.stopPropagation();selectNode(nd);});})(it);
+    pr.setAttribute('transform','translate('+px+','+yy+')');
+    var pt=document.createElementNS(SVGNS,'text');
+    pt.setAttribute('text-anchor','middle');pt.setAttribute('y',4);
+    pt.setAttribute('font-family','system-ui,sans-serif');pt.setAttribute('font-size',11.5);pt.setAttribute('font-weight',600);
+    pt.setAttribute('fill',it.id===selectedId?'#ffffff':'#1b1712');
+    pt.style.pointerEvents='none';
+    pt.textContent=it.t;
+    pt.setAttribute('transform','translate('+px+','+yy+')');
+    g.appendChild(pr);g.appendChild(pt);
+    yy+=rowH+8;
+  }
+  document.getElementById('root').appendChild(g);
+}
+
+function render(){
+  var root=document.getElementById('root');
+  root.innerHTML='';
+  computeBounds();
+  drawGuide();
+  drawEdges();
+  drawPanel(-700,0,'Protokolle & Regeln','#8a4f9c',protos);
+  drawPanel(700,0,'Engpässe & Lücken','#c0503a',gaps);
+  drawPanel(0,-700,'Prioritäten (Q1–Q4)','#2f6fbf',prios);
+  drawPanel(0,700,'MCP-Server','#5b6b7a',mcp);
+  drawCard(core);
+  projects.forEach(function(n){drawCard(n);});
+  workflows.forEach(function(n){drawCard(n);});
+  software.forEach(function(n){drawCard(n);});
+}
+
+function selectNode(nd){
+  selectedId=nd.id;
+  document.getElementById('dtitle').textContent=nd.t;
+  document.getElementById('dnote').textContent=nd.n||'—';
+  document.getElementById('dmeta').textContent=nd.layer||'';
+  render();
+}
+
+function zoomBy(f){
+  var svg=document.getElementById('map');
+  var cx=svg.clientWidth/2,cy=svg.clientHeight/2;
+  var ns=Math.min(3,Math.max(0.2,state.s*f));
+  state.tx=cx-(cx-state.tx)*(ns/state.s);
+  state.ty=cy-(cy-state.ty)*(ns/state.s);
+  state.s=ns;
+  applyTransform();
+}
+
+function fitView(){
+  var svg=document.getElementById('map');
+  var cw=svg.clientWidth||900,ch=svg.clientHeight||640;
+  var bw=Math.max(1,bounds.maxX-bounds.minX);
+  var bh=Math.max(1,bounds.maxY-bounds.minY);
+  var s=Math.min(1.05,Math.min(cw/bw,ch/bh));
+  s=Math.max(0.15,s);
+  state.s=s;
+  state.tx=(cw-bw*s)/2-bounds.minX*s;
+  state.ty=(ch-bh*s)/2-bounds.minY*s;
+  applyTransform();
+}
+
+var svg=document.getElementById('map');
+var dragging=false,lx=0,ly=0;
+svg.addEventListener('mousedown',function(ev){dragging=true;lx=ev.clientX;ly=ev.clientY;svg.classList.add('dragging');});
+window.addEventListener('mousemove',function(ev){if(!dragging)return;state.tx+=ev.clientX-lx;state.ty+=ev.clientY-ly;lx=ev.clientX;ly=ev.clientY;applyTransform();});
+window.addEventListener('mouseup',function(){dragging=false;svg.classList.remove('dragging');});
+svg.addEventListener('wheel',function(ev){ev.preventDefault();var r=svg.getBoundingClientRect();var cx=ev.clientX-r.left,cy=ev.clientY-r.top;var f=ev.deltaY<0?1.15:0.87;var ns=Math.min(3,Math.max(0.2,state.s*f));state.tx=cx-(cx-state.tx)*(ns/state.s);state.ty=cy-(cy-state.ty)*(ns/state.s);state.s=ns;applyTransform();},{passive:false});
+
+var rootG=document.createElementNS(SVGNS,'g');
+rootG.setAttribute('id','root');
+svg.appendChild(rootG);
+render();
+fitView();
+// Export-Modus: ohne Kopfleiste & Seitenpanel (fuer Notion-PNG via ?clean=1)
+if(location.search.indexOf('clean')>=0){
+  var tb=document.querySelector('.topbar'); if(tb)tb.style.display='none';
+  var pn=document.querySelector('.panel'); if(pn)pn.style.display='none';
+  fitView();
+  window.addEventListener('load',function(){fitView();});
+}
+</script>
+</body>
+</html>

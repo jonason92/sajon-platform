@@ -1,0 +1,821 @@
+# CAS/MAS ALIS 2024-2026 — Bibliografischer Index
+
+Export aus der lokalen Zotero-Datenbank (Gruppe 4815832). 782 bibliografische Objekte.
+
+## book (509)
+
+- (ohne Autor) (o. J.). *027.7 Zeitschrift für Bibliothekskultur / Journal for Library Culture*. [Link](https://0277.pubpub.org/)
+- (ohne Autor) (o. J.). *ABI-Technik*. [Link](https://browzine.com/libraries/528/journals/32701/issues/current)
+- (ohne Autor) (o. J.). *Advances in Librarianship*
+- (ohne Autor) (o. J.). *b.i.t.online: Bibliotheksfachzeitschrift mit Information und Technologie*. [Link](http://www.b-i-t-online.de/archiv.php)
+- (ohne Autor) (o. J.). *Balisages: la revue de recherche de l'Enssib*. [Link](https://publications-prairial.fr/balisages/)
+- (ohne Autor) (o. J.). *Biblioteche Oggi*. [Link](http://www.bibliotecheoggi.it/)
+- (ohne Autor) (o. J.). *BIBLIOTHEK Forschung und Praxis*. [Link](https://browzine.com/libraries/528/journals/32625/issues/current)
+- (ohne Autor) (o. J.). *Bibliotheksdienst*. [Link](https://browzine.com/libraries/528/journals/32751/issues/current)
+- (ohne Autor) (o. J.). *Buch und Bibliothek (BuB): Forum Bibliothek und Information*. [Link](https://b-u-b.de/)
+- (ohne Autor) (o. J.). *Bulletin des bibliothèques de France*. [Link](https://bbf.enssib.fr/)
+- Corrado, Edward M.; Sandy, Heather Moulaison (o. J.). *Digital Preservation for Libraries, Archives, and Museums, Second Edition*. [Link](https://rowman.com/ISBN/9781442278738/Digital-Preservation-for-Libraries-Archives-and-Museums-Second-Edition)
+- (ohne Autor) (o. J.). *Documentation et bibliothèques*. [Link](https://www.erudit.org/fr/revues/documentation/)
+- (ohne Autor) (o. J.). *I2D : Information, Données & Documents*. [Link](https://browzine.com/libraries/528/journals/136611/issues/current?sort=title)
+- (ohne Autor) (o. J.). *IFLA Journal*. [Link](https://browzine.com/libraries/528/journals/4508/issues/current)
+- (ohne Autor) (o. J.). *Information and Organization*. [Link](https://browzine.com/libraries/528/journals/7912/issues/471909512?sort=title)
+- (ohne Autor) (o. J.). *Information Processing & Management*. [Link](https://browzine.com/libraries/528/journals/6226/issues/current?sort=title)
+- (ohne Autor) (o. J.). *Information Retrieval*. [Link](https://browzine.com/libraries/528/journals/7409/issues/current?sort=title)
+- (ohne Autor) (o. J.). *Information Services & Use*. [Link](https://www.iospress.com/catalog/journals/information-services-use)
+- (ohne Autor) (o. J.). *Information: Wissenschaft & Praxis*. [Link](https://browzine.com/libraries/528/journals/32729/issues/current?sort=title)
+- (ohne Autor) (o. J.). *Informationswissenschaft: Theorie, Methode und Praxis*. [Link](https://bop.unibe.ch/iw/index)
+- (ohne Autor) (o. J.). *International Journal of Multimedia Information Retrieval*. [Link](https://browzine.com/libraries/528/journals/5690/issues/current?sort=title)
+- (ohne Autor) (o. J.). *International Journal on Digital Libraries*. [Link](https://browzine.com/libraries/528/journals/4053/issues/current)
+- (ohne Autor) (o. J.). *Italian Journal of Library, Archives, and Information Science / Rivista italiana di biblioteconomia, archivistica e scienza dell’informazione*. [Link](https://jlis.it/index.php/jlis)
+- (ohne Autor) (o. J.). *Journal of Critical Library and Information Studies*. [Link](https://journals.litwinbooks.com/index.php/jclis/index)
+- (ohne Autor) (o. J.). *Journal of Documentation*. [Link](https://www.emerald.com/insight/publication/issn/0022-0418/vol/78/iss/7)
+- (ohne Autor) (o. J.). *Journal of Information Ethics*. [Link](https://mcfarlandbooks.com/imprint/journal-of-information-ethics/)
+- (ohne Autor) (o. J.). *Journal of Information Science*. [Link](https://journals.sagepub.com/home/jis)
+- (ohne Autor) (o. J.). *Journal of Librarianship and Information Science*. [Link](https://journals.sagepub.com/home/lis)
+- (ohne Autor) (o. J.). *Journal of Librarianship and Scholarly Communication*. [Link](https://iastatedigitalpress.com/jlsc/)
+- (ohne Autor) (o. J.). *Journal of New Librarianship*. [Link](https://browzine.com/libraries/528/journals/262106/issues/current)
+- (ohne Autor) (o. J.). *Journal of Radical Librarianship*. [Link](https://journal.radicallibrarianship.org/index.php/journal/index)
+- (ohne Autor) (o. J.). *Journal of the Association for Information Science and Technology (JASIST)*. [Link](https://browzine.com/libraries/528/journals/38053/issues/current?sort=title)
+- Collectif (o. J.). *La métamorphose des archives. 1990-2020*. [Link](https://shs.cairn.info/la-metamorphose-des-archives--9782111740068?lang=fr)
+- Association des bibliothécaires de France (ABF) (o. J.). *La revue Bibliothèque(s)*. [Link](https://www.abf.asso.fr/162/168/676/ABF/la-revue-bibliotheque-s-)
+- (ohne Autor) (o. J.). *LIBER Quarterly: The Journal of the Association of European Research Libraries*. [Link](https://liberquarterly.eu/)
+- (ohne Autor) (o. J.). *Library & Information Science Research*. [Link](https://browzine.com/libraries/528/journals/6972/issues/current)
+- (ohne Autor) (o. J.). *Library Hi Tech*. [Link](https://browzine.com/libraries/528/journals/10010/issues/current)
+- (ohne Autor) (o. J.). *Library Trends*. [Link](https://browzine.com/libraries/528/journals/10844/issues/current)
+- (ohne Autor) (o. J.). *LIBREAS: Library Ideas*. [Link](https://libreas.eu/)
+- (ohne Autor) (o. J.). *Libri*. [Link](https://browzine.com/libraries/528/journals/32617/issues/current)
+- (ohne Autor) (o. J.). *o-bib: Das offene Bibliotheksjournal / Herausgeber VDB*. [Link](https://www.o-bib.de/bib)
+- (ohne Autor) (o. J.). *Online Information Review*. [Link](https://browzine.com/libraries/528/journals/10047/issues/current?sort=title)
+- (ohne Autor) (o. J.). *Policy and Internet*. [Link](https://browzine.com/libraries/528/journals/78278/issues/current?sort=title)
+- (ohne Autor) (o. J.). *Progressive Librarians*. [Link](http://www.progressivelibrariansguild.org/PL_Jnl/jnl_about.shtml)
+- (ohne Autor) (o. J.). *Ressi : la revue électronique suisse de science de l'information*. [Link](http://www.ressi.ch/)
+- (ohne Autor) (o. J.). *Scientometrics*. [Link](https://browzine.com/libraries/528/journals/2836/issues/current?sort=title)
+- (ohne Autor) (o. J.). *The Digital Archives Handbook: A Guide to Creation, Management, and Preservation*. [Link](https://rowman.com/ISBN/9781538122396/The-Digital-Archives-Handbook-A-Guide-to-Creation-Management-and-Preservation)
+- (ohne Autor) (o. J.). *The International Information & Library Review*. [Link](https://browzine.com/libraries/528/journals/1275/issues/current)
+- (ohne Autor) (o. J.). *The International Review of Information Ethics*. [Link](https://informationethics.ca/index.php/irie)
+- (ohne Autor) (o. J.). *The Journal of Academic Librarianship*. [Link](https://browzine.com/libraries/528/journals/3177/issues/current)
+- (ohne Autor) (o. J.). *The Library Quarterly*. [Link](https://browzine.com/libraries/528/journals/33309/issues/current)
+- (ohne Autor) (o. J.). *Zeitschrift für Bibliothekswesen und BibliographieZeitschrift für Bibliothekswesen und Bibliographie*. [Link](https://browzine.com/libraries/528/journals/315560/issues/current)
+- Society of American Archivists (0000). *Archival Fundamentals Series III*. [Link](https://www2.archivists.org/archival-fundamentals-series-III)
+- Bayerisches Hauptstaatsarchiv; Bayern Generaldirektion der Staatlichen Archive Bayerns (1876). *Archivalische Zeitschrift*. [Link](https://browzine.com/libraries/528/journals/99399/issues/current)
+- Universität Wien Institut für Österreichische Geschichtsforschung (1880). *Mitteilungen des Instituts für Österreichische Geschichtsforschung.*. [Link](https://geschichtsforschung.univie.ac.at/publikationen/mitteilungen-des-instituts-fuer-oesterreichische-geschichtsforschung/)
+- Otlet, Paul (1934). *Traité de documentation: le livre sur le livre : théorie et pratique*
+- (ohne Autor) (1938). *The American Archivist*. [Link](https://meridian.allenpress.com/american-archivist)
+- Verein Deutscher Archivare; Hauptstaatsarchiv Düsseldorf; Nordrhein-Westfälisches Hauptstaatsarchiv (1947). *Der Archivar. Mitteilungsblatt für deutsches Archivwesen*. [Link](https://www.archive.nrw.de/landesarchiv-nrw/wir-ueber-uns/der-archivar/uber-den-archivar)
+- Archives municipales (1947). *La gazette des archives*. [Link](https://www.archivistes.org/-La-Gazette-des-archives-)
+- Conseil international des archives (1950). *Archivum, la revue internationale des archives*
+- Allgemeine Geschichtforschende Gesellschaft der Schweiz; Vereinigung Schweizerischer Archivare (1951). *Schweizerische Zeitschrift für Geschichte.: Revue suisse d'histoire. Rivista storica svizzera.*. [Link](https://www.e-periodica.ch/digbib/vollist?UID=szg-006)
+- (ohne Autor) (1955). *Archives and Records. The Journal of the Archives and Records Association*. [Link](https://www.tandfonline.com/journals/cjsa21)
+- Schatz, Rudolf (1961). *Behördenschriftgut: Aktenbildung, Aktenverwaltung, Archivierung*
+- Dülfer, Kurt; Archivschule Marburg; Institut für Archivwissenschaft (1966). *Veröffentlichungen der Archivschule Marburg, Institut für Archivwissenschaft*. [Link](https://www.archivschule.de/de/publikation/veroeffentlichungsreihe/)
+- Association des archivistes du Québec (1968). *Archives. Revue de l'Association des archivistes du Québec*. [Link](https://archivistes.qc.ca/categorie-produit/publications/revue-archives/)
+- Verband Österreichischer Archivare (VÖA) (1969). *Scrinium. Zeitschrift des Verbandes Österreichischer Archivarinnen und Archivare (VÖA)*. [Link](http://www.voea.at/scrinium.html)
+- Brenneke, Adolf (1970). *Archivkunde: ein Beitrag zur Theorie und Geschichte des europäischen Archivwesens*
+- (ohne Autor) (1973). *Classement alphabétique des dénominations*
+- Association of Canadian Archivists (1975). *Archivaria. The Journal of the Association of Canadian Archivists*. [Link](https://archivaria.ca)
+- Veyrassat, Béatrice (1975). *Studien und Quellen = Etudes et sources = Studi e Fonti*
+- Association des archivistes suisses (AAS); Verein Schweizerischer Archivarinnen und Archivare (VSA); Bibliosuisse (1986). *Arbido. Revue professionnelle pour archivistes, bibliothécaires et…*. [Link](https://arbido.ch)
+- (ohne Autor) (1986). *Archimag: Le magazine des professionnels de l'information*. [Link](https://www.archimag.com/le-kiosque/magazine-archimag)
+- Associazione Nazionale Archivistica Italiana (1988). *Archivi per la storia: rivista dell'Associazione nazionale archivistica italiana*. [Link](http://www.anai.org/anai-cms/cms.view?munu_str=0_3_0&numDoc=62)
+- Ranganathan, Shiyali Ramamrita (1989). *Colon classification*
+- Ranganathan, Shiyali Ramamrita (1989). *Elements of library classification: based on lectures delivered at the University of Bombay in December 1944 and in the Schools of librarianship in Great Britain in December 1956*
+- Aslib (1989). *Records management journal*. [Link](https://www.emerald.com/insight/publication/issn/0956-5698)
+- Society of American Archivists (1990). *Archival fundamentals series*. [Link](https://www.worldcat.org/fr/title/219444416)
+- Schellenberg, Theodore R. (1990). *Die Bewertung modernen Verwaltungsschriftguts*
+- Kapferer, Jean-Noël (1990). *Les chemins de la persuasion: [le mode d'influence des medias et de la publicité sur les comportements]*
+- Ranganathan, Shiyali Ramamrita (1990). *Prolegomena to library classification*
+- Association française de normalisation; Société de l'École des chartes; Société de l'École des Chartes (1991). *Dictionnaire des archives français-anglais-allemand: de l'archivage aux systèmes d'information*
+- Schmutz-Pfister, Anne-Marie (1992). *Repertorium der handschriftlichen Nachlässe in den Bibliotheken und Archiven der Schweiz = Répertoire sommaire des fonds manuscrits conservés dans les bibliothèques et archives de Suisse = Repertorio sommario dei fondi manoscritti nelle biblioteche e negli archivi della Svizzera*. [Link](https://www.helveticarchives.ch/archivplansuche.aspx?ID=101970)
+- Canadian Association for Information Science (1993). *The Canadian Journal of Information and Library Science: Revue canadienne des sciences de l'information et de bibliothéconomie.*. [Link](https://www.erudit.org/fr/revues/cjils/)
+- (ohne Autor) (1994). *Collection Sciences de l'information [titre préc. Gestion de l'information]*. [Link](https://www.puq.ca/catalogue/collections/liste-gestion-information-34.html)
+- Lodolini, Elio (1995). *Archivistica: principi e problemi*
+- University of Sheffield Department of Information Studies (1995). *Information Research*
+- Delsalle, Paul (1996). *Lexique des archives et documents historiques: du papyrus au vidéodisque*
+- Standing conference of national and university libraries (1996). *Providing customer-oriented services in academic libraries*
+- Barth, Robert (1997). *Bibliotheken, Bibliothekarinnen und Bibliothekare in der Schweiz: hundert Jahre bibliothekarischer Branchenverband - 1897-1997*
+- Korfhage, Robert R.; Starodvorceva, N. P. (1997). *Information storage and retrieval*
+- Association des archivistes français / section des archives économiques et d’entreprises (1997). *Les archives dans l'entreprise: guide des durées de conservation*
+- Papritz, Johannes (1998). *Archivwissenschaft*
+- Duranti, Luciana (1998). *Diplomatics: new uses for an old science*
+- Dordor, Xavier (1998). *Médias, hors médias : le choix d'une stratégie globale de communication pour l'entreprise / Xavier Dordor*. [Link](https://gallica.bnf.fr/ark:/12148/bpt6k3336415t)
+- Delsalle, Paul (1998). *Une histoire de l'archivistique*
+- Sawoniak, Henryk (1999). *International bibliography of bibliographies in Library and Information Science: and related fields*
+- Chabin, Marie-Anne (1999). *Je pense donc j'archive: l'archive dans la société de l'information*
+- Nougaret, Christine (1999). *Les instruments de recherche dans les archives*
+- Hoffmann, Heinz (2000). *Behördliche Schriftgutverwaltung: ein Handbuch für das Ordnen, Registrieren, Aussondern und Archivieren von Akten der Behörden*
+- Ricœur, Paul (2000). *La mémoire, l'histoire, l'oubli*
+- Université catholique de Louvain Archives (2000). *Publications des archives de l'Université Catholique de Louvain*. [Link](https://uclouvain.be/fr/decouvrir/archives/publications.html)
+- Drouhet, Geneviève (2000). *Records management: mode d'emploi*
+- (ohne Autor) (2001). *Archival Science : International Journal on Recorded Information*. [Link](https://browzine.com/libraries/528/journals/5156/issues/current)
+- Conseil international des archives (2001). *Comma. International Journal on Archives, journal international des archives*. [Link](http://www.liverpooluniversitypress.co.uk/journals/id/46)
+- Charbonneau, Normand; Robert, Mario (2001). *La gestion des archives photographiques*
+- Favier, Jean (2001). *Les archives*
+- (ohne Autor) (2001). *Les Cahiers du numérique*. [Link](https://www.cairn.info/revue-les-cahiers-du-numerique.htm)
+- Muet, Florence (2001). *Stratégie marketing des services d'information: bibliothèques et centres de documentation*
+- Association des archivistes suisses; Conférence des directrices et des directeurs des archives cantonales et des archives fédérales, ainsi que de la Principauté du Liechtenstein (2002). *Archivage des documents électroniques dans l'administration publique - perspectives et besoin d'actions 2002-2010: étude stratégique globale pour la conservation à long terme des documents électroniques en Suisse : rapport de synthèse*. [Link](http://www.patrimoine.vd.ch/fileadmin/groups/19/Cours_AVSM/08_archivage_documents_f.pdf)
+- Cox, Richard J.; Wallace, David A. (2002). *Archives and the public good: accountability and records in modern society*
+- Association des archivistes suisses; Conférence des directrices et directeurs d'archives suisses CDA (2002). *Gesamtschweizerische Strategie zur dauerhaften Archivierung von Unterlagen aus elektronischen Systemen (Strategiestudie)*. [Link](https://vsa-aas.ch/ressourcen/records-management/strategiestudie-2002/)
+- (ohne Autor) (2002). *Journal of archival organization*. [Link](https://www.tandfonline.com/journals/wjao20)
+- Verein Schweizerischer Archivarinnen und Archivare; Association des archivistes suisses (AAS) (2002). *Verzeichnis nützlicher Begriffe für Schweizer Archive: Deutsch - Französisch = Répertoire des termes utiles aux archivistes suisses : Français - Allemand*
+- Rousseau, Jean-Yves (2003). *Les fondements de la discipline archivistique*
+- Shepherd, Elizabeth; Yeo, Geoffrey (2003). *Managing records: a handbook of principles and practice*
+- Klijn, Edwin (2003). *SEPIADES: recommendations for cataloguing photographic collections*. [Link](https://www.ica.org/en/sepiades-recommendations-cataloguing-photographic-collections)
+- Craig, Barbara (2004). *Archival appraisal: theory and practice*
+- Society of American Archivists (2004). *Archival fundamentals series II*. [Link](https://www.worldcat.org/fr/title/219444416)
+- Fleisch, Frédérique (2004). *Archiver: guide des procédures existantes : mieux maîtriser l'information dans l'entreprise*
+- Cornu, Marie; Fromageau, Jérôme (2004). *Archives et patrimoine*
+- Calenge, Bertrand (2004). *Bibliothécaire, quel métier ?*
+- Conseil européen des associations de l'information et documentation (2004). *Euroréférentiel I&D*
+- Roberge, Michel (2004). *L'essentiel du Records Management (RM): système intégré de gestion des documents analogiques et des documents numériques*
+- Gautier-Gentès, Jean-Luc (2004). *Une république documentaire. Lettre ouverte à une jeune bibliothécaire et autres textes*. [Link](https://www.enssib.fr/bibliotheque-numerique/documents/60542-une-republique-documentaire.pdf)
+- Beck, Friedrich; Henning, Eckart (2005). *Archive und Gedächtnis: Festschrift für Botho Brachmann*
+- Cox, Richard J. (2005). *Archives & [and] archivists in the information age*
+- McKemmish, Sue; Piggott, Michael; Reed, Barbara et al. (2005). *Archives: recordkeeping in society*
+- Menne-Haritz, Angelika (2005). *Business Processes: An Archival Science Approach to Collaborative Decision Making, Records, and Knowledge Management*
+- Gaus, Wilhelm (2005). *Dokumentations- und Ordnungslehre: Theorie und Praxis des Information Retrieval*
+- Kroker, Evelyn; Köhne-Lindenlaub, Renate; Reininghaus, Wilfried (2005). *Handbuch für Wirtschaftsarchive: Theorie und Praxis*
+- Prytherch, Raymond John (2005). *Harrod's librarians' glossary and reference book: a directory of over 10,200 terms, organizations, projects and acronyms in the areas of information management, library science, publishing and archive management*
+- Stuckenschmidt, Heiner; Van Harmelen, Frank (2005). *Information Sharing on the Semantic Web*. [Link](http://link.springer.com/10.1007/b138282)
+- Couture, Carol; Arès, Florence (2005). *Les fonctions de l'archivistique contemporaine*
+- Bischoff, Frank M.; Kretzschmar, Robert (Hg.) (2005). *Neue Perspektiven archivischer Bewertung*
+- Pugh, Mary Jo (2005). *Providing reference services for archives & [and] manuscripts*
+- Boles, Frank (2005). *Selecting & appraising archives & manuscripts*
+- Fensel, Dieter (2005). *Spinning the Semantic Web: Bringing the World Wide Web to Its Full Potential*
+- Poissenot, Claude sociologue 19-; Ranjard, Sophie (2005). *Usages des bibliothèques: approche sociologique et méthodologie d'enquête*
+- Poissenot, Claude sociologue 19- (2005). *Usages des bibliothèques: approche sociologique et méthodologie d'enquête*
+- Tanner, Simon; Deegan, Marilyn (2006). *Digital preservation*
+- Knoch-Mund, Gaby; Roth-Lochner, Barbara; Reimer, Ulrich (eds) (2006). *Informationswissenschaft: Theorie, Methode und Praxis : Arbeiten aus dem Master of Advanced Studies in Archival, Library and Information Science = Sciences de l'information: théorie, méthode et pratique*. [Link](https://bop.unibe.ch/iw)
+- Coeuré, Sophie (2006). *La mémoire spoliée: les archives des Français, butin de guerre nazi puis soviétique (de 1940 à nos jours)*
+- Delmas, Bruno (2006). *La société sans mémoire: propos dissidents sur la politique des archives en France*
+- Bouget, Virginie (2006). *Les nouveaux horizons de l'infodoc: étude prospective sur l'évolution des différentes fonctions de l'information-documentation : documentaliste, archivistes, bibliothécaire, veilleur, knowledge manager*
+- Hofman, Hans; Ross, Seamus; Bütikofer, Niklaus (2006). *Managing and archiving records in the digital era: changing professional orientations*
+- Williams, Caroline (2006). *Managing archives: foundations, principles and practice*
+- (ohne Autor) (2006). *Ontology Learning and Population from Text*. [Link](http://link.springer.com/10.1007/978-0-387-39252-3)
+- Cerutti, Mauro; Fayet, Jean-François; Porret, Michel (2006). *Penser l'archive: histoires d'archives, archives d'histoire*
+- Ritzenthaler, Mary Lynn; Vogt-O'Connor, Diane (2006). *Photographs: archival care and management*
+- Fässler, Lukas (2006). *Records Management: Sorgfaltspflicht für Führungskräfte : was Manager wissen müssen*
+- Digital Curation Centre; UK Office for Library Networking (2006). *The international journal of digital curation*. [Link](http://ijdc.net/)
+- O'Toole, James M.; Cox, Richard (2006). *Understanding Archives and Manuscripts*
+- Gössi, Anton (2007). *Archivbauten in der Schweiz und im Fürstentum Liechtenstein, 1899-2009*
+- Chabin, Marie-Anne (2007). *Archiver, et après ?*
+- Coutaz, Gilbert; Huber, Rodolfo; Kellerhals, Andreas et al. (2007). *Archivpraxis in der Schweiz = Pratiques archivistiques en Suisse*
+- Janzin, Marion (2007). *Das Buch vom Buch: 5000 Jahre Buchgeschichte*
+- Alliance of Digital Humanities Organizations (2007). *Digital Humanities Quarterly*. [Link](http://digitalhumanities.org/dhq/)
+- Library and Archives Canada (2007). *Governance and recordkeeping around the world / La tenue de documents et la gouvernance dans le monde*. [Link](https://bibliotheque-archives.canada.ca/fra/services/gouvernement-canada/information-disposition/bulletin-tenue-gouvernance/pages/bulletin-tenue-gouvernance.aspx)
+- Jochum, Uwe (2007). *Kleine Bibliotheksgeschichte*
+- Kecskeméti, Charles (2007). *L'accès aux archives: manuel pour la mise en oeuvre de la Recommandation n° R (2000) 13 sur une politique européenne en matière de communication des archives*
+- Toebak, Peter M. (2007). *Records Management: ein Handbuch*
+- Belliger, Andréa; Krieger, David (2007). *Wissensmanagement für KMU*
+- Coutaz, Gilbert; Meystre-Schaeren, Nicole; Roth-Lochner, Barbara et al. (2008). *Actualité archivistique suisse: travaux du certificat en archivistique et sciences de l'information = Archivwissenschaft Schweiz aktuell : Arbeiten aus dem Zertifikat in Archiv- und Informationswissenschaften*
+- Cacaly, Serge; Le Coadic, Yves-François; Pompart, Paul-Dominique et al. (2008). *Dictionnaire de l'information*
+- Digital Preservation Coalition (2008). *DPC Technology Watch Reports*. [Link](https://www.dpconline.org/digipres/discover-good-practice/tech-watch-reports)
+- Manning, Christopher D.; Raghavan, Prabhakar; Schütze, Hinrich (2008). *Introduction to Information Retrieval*
+- Bettington, Jackie; Eberhard, Kim; Loo, Rowena et al. (2008). *Keeping archives*
+- Millot, Sophie (2008). *L'enquête de satisfaction: guide méthodologique*
+- Millot, Sophie (2008). *L'enquête de satisfaction: guide méthodologique*
+- France Direction des archives (2008). *La pratique archivistique française*
+- Nougaret, Christine; Even, Pascal (2008). *Les archives privées: manuel pratique et juridique*
+- Nora, Pierre (2008). *Les lieux de mémoire*
+- Derrida, Jacques (2008). *Mal d'archive: une impression freudienne*
+- Hitzler, Pascal (2008). *Semantic Web*. [Link](http://link.springer.com/10.1007/978-3-540-33994-6)
+- Bibliothèque et Archives nationales du Québec (2008). *À l'abri de l'oubli: petit guide de conservation des documents personnels et familiaux*
+- Banat-Berger, Françoise; Duplouy, Laurent; Huc, Claude (2009). *L'archivage numérique à long terme: les débuts de la maturité ?*
+- Grimard, Jacques (2009). *L'archiviste: constructeur, gardien et communicateur : mélanges en hommage à Jacques Grimard : 1947-2007*
+- Chastenet de Géry, Gonzague (2009). *La gestion globale des contenus d'entreprise: le projet ECM, une nouvelle approche de la gestion de l'information*
+- Deschamps, Christophe (2009). *Le nouveau management de l'information: la gestion des connaissances au coeur de l'entreprise 2.0*
+- Guillot, Xavier (2009). *Les archives s’exposent*
+- Gradmann, Stefan; Umlauf, Konrad (2009). *Lexikon der Bibliotheks- und Informationswissenschaft: LBI*
+- Calenge, Bertrand (2009). *Mettre en oeuvre un plan de classement*
+- Morel, Philippe (2009). *Pratique des relations presse*
+- Fisher, Karen E.; Erdelez, Sandra; McKechnie, Lynne (2009). *Theories of information behavior*
+- Menne-Haritz, Angelika; Hofmann, Rainer (2010). *Archive im Kontext: Öffnen, Erhalten und Sichern von Archivgut in Zeiten des Umbruchs : Festschrift für Prof. Dr. Hartmut Weber zum 65. Geburtstag*
+- Blouin, Francis X.; Rosenberg, William G. (2010). *Archives, documentation, and institutions of social memory: essays from the Sawyer Seminar*
+- Lienhard, Andreas; Amschwand, Fabian (2010). *Archivwürdigkeit von Unterlagen: ein rechtlich abgestütztes Entscheidmodell*
+- Aubel, Henning; UNESCO (2010). *Das Gedächtnis der Menschheit: das Dokumentenerbe der Unesco : Bücher, Handschriften, Partituren, Bild-, Ton- und Filmarchive*
+- Giovannini, Andrea (2010). *De tutela librorum: la conservation des livres et des documents d'archives = die Erhaltung von Büchern und Archivalien*
+- Assmann, Aleida (2010). *Erinnerungsräume: Formen und Wandlungen des kulturellen Gedächtnisses*
+- International Council of Archives ICA (2010). *Flash. News from ICA*. [Link](https://www.ica.org/en/flash-0)
+- Jacquesson, Alain (2010). *Google livres et le futur des bibliothèques numériques: historique du projet, techniques documentaires, alternatives et controverses*
+- Salaün, Jean-Michel; Arsenault, Clément (2010). *Introduction aux sciences de l'information*
+- Meunier, Jean-Pierre (2010). *Introduction aux théories de la communication*
+- Du Moulin De Labarthete, Arnaud (2010). *La communication événementielle*
+- Toebak, Peter M. (2010). *Records Management: Gestaltung und Umsetzung*
+- Croft, W.B.; Metzler, D.; Strohman, T. (2010). *Search Engines: Information Retrieval in Practice*. [Link](https://books.google.ch/books?id=WOd6PwAACAAJ)
+- Oakleaf, Megan (2010). *The value of academic libraries: a comprehensive research review and report*. [Link](https://www.ala.org/acrl/sites/ala.org.acrl/files/content/issues/value/val_report.pdf)
+- Meinhold, Alexandra (2010). *World guide to library, archive, and information science associations*
+- Theimer, Kate (2011). *A different kind of Web: new connections between archives and our users*
+- Giaretta, David (2011). *Advanced Digital Preservation*
+- Leesch, Wolfgang (2011). *Archivbibliographie: Mit besonderer Berücksichtigung des deutschen und österreichischen Archivwesens*
+- Artières, Philippe; Laé, Jean-François (2011). *Archives personnelles: histoire, anthropologie et sociologie*
+- Glauert, Mario (2011). *Archivmanagement in der Praxis*
+- Mas, Sabine (2011). *Classification des documents numériques dans les organismes: impact des pratiques classificatoires personnelles sur le repérage*
+- Cook, Terry (2011). *Controlling the past: documenting society and institutions : essays in honor of Helen Willa Samuels*
+- Jacquinet, Marie-Christine (2011). *Créer des services innovants: stratégies et répertoire d'actions pour les bibliothèques*
+- (ohne Autor) (2011). *Hors Texte*. [Link](https://www.agbd.ch/hors-texte/)
+- Weller, Toni (2011). *Information history in the modern world: histories of the information age*
+- Davis, Charles Hargis; Shaw, Debora (2011). *Introduction to information science and technology*
+- Roberge, Michel (2011). *Le schéma de classification hiérarchique des documents administratifs: conception, développement, déploiement et maintenance*
+- Bianchi, Cristina; Chatelan, Fabienne; Guanzini, Catherine et al. (2011). *Manuel pratique de gestion des documents: mettre en place les principes de Records management dans les communes vaudoises*. [Link](https://www.archivistes.ch/publications/manuel-rm/)
+- Evans, Christophe sociologue 19- (2011). *Mener l'enquête: guide des études de publics en bibliothèque*
+- Evans, Christophe sociologue 19- (2011). *Mener l'enquête: guide des études de publics en bibliothèque*
+- Russel, James; Wosh, Peter J. (2011). *Public relations and marketing for archives: a how-to-do-it manual*
+- Menne-Haritz, Angelika (2011). *Schlüsselbegriffe der Archivterminologie: Lehrmaterialien für das Fach Archivwissenschaft*
+- Hill, Jennie (2011). *The future of archives and recordkeeping: a reader*
+- Gagnon-Arguin, Louise (2011). *Typologie des dossiers des organisations: analyse intégrée dans un contexte analogique et numérique*
+- Caron, Daniel J. (2011). *Web HT.0: pour une société informée, la pertinence numérique et ses défis pour les sociétés démocratiques au XXIe siècle*
+- Makhlouf, Basma (2012). *Comment évaluer la qualité des archives ?: méthode et instruments de mesure des dimensions de qualité des archives définitives*
+- Libaert, Thierry (2012). *Communicator: toute la communication d'entreprise*
+- Roselli, Mariangela; Perrenoud, Marc (2012). *Du lecteur à l'usager: ethnographie d'une bibliothèque universitaire*
+- Jochum, Uwe (2012). *Geschichte der abendländischen Bibliotheken: [von den Höhlenbildern bis zur digitalen Bibliothek]*
+- Gradmann, Stefan; Umlauf, Konrad (2012). *Handbuch Bibliothek: Geschichte, Aufgaben, Perspektiven*
+- Demoulin, Marie (2012). *L'archivage électronique et le droit*
+- Pérès-Labourdette Lembé, Victoria (2012). *La bibliothèque quatrième lieu : espace physique et/ou en ligne d'apprentissage social : un nouveau modèle de circulation des savoirs*. [Link](https://www.enssib.fr/bibliotheque-numerique/documents/56998-la-bibliotheque-quatrieme-lieu-espace-physique-etou-en-ligne-d-apprentissage-social.pdf)
+- Accart, Jean-Philippe; Rivier, Alexis (2012). *Mémento de l'information numérique*
+- Harvey, Ross (2012). *Preserving digital materials*
+- Schenk, Dietmar (2013). *"Aufheben, was nicht vergessen werden darf": Archive vom alten Europa bis zur digitalen Welt*
+- Miribel, Marielle de (2013). *Accueillir les publics: comprendre et agir*
+- Miribel, Marielle de (2013). *Accueillir les publics: comprendre et agir*
+- Guercio, Maria (2013). *Conservare il digitale: principi, metodi e procedure per la conservazione a lungo termine di documenti digitali*
+- Galaup, Xavier (2013). *Développer la médiation documentaire numérique*
+- Lankes, R. David (2013). *Expect more: demanding better libraries for today's complex world*. [Link](https://davidlankes.org/new-librarianship/expect-more-demanding-better-libraries-for-todays-complex-world/)
+- Kuhlen, Rainer; Semar, Wolfgang; Strauch, Dietmar (2013). *Grundlagen der praktischen Information und Dokumentation: Handbuch zur Einführung in die Informationswissenschaft und -praxis*
+- Stock, Wolfgang G.; Stock, Mechtild (2013). *Handbook of information science*
+- Umlauf, Konrad; Fühles-Ubach, Simone; Seadle, Michael (2013). *Handbuch Methoden der Bibliotheks- und Informationswissenschaft: Bibliotheks-, Benutzerforschung, Informationsanalyse*. [Link](https://www.degruyter.com/document/doi/10.1515/9783110255546/html)
+- Feather, John; Sturges, Paul (2013). *International encyclopedia of information and library science*
+- Cleveland, Donald Bruce; Cleveland, Ana D. (2013). *Introduction to indexing and abstracting*
+- Clavier, Viviane; Paganelli, Céline (2013). *L'information professionnelle*
+- Marcilloux, Patrice (2013). *Les ego-archives: traces documentaires et recherche de soi*
+- Raieli, Roberto (2013). *Multimedia information retrieval: theory and techniques*
+- Forde, Helen (2013). *Preserving archives*
+- Amini, Massih-Reza; Eric, Gaussier (2013). *Recherche d'Information - applications, modèles et algorithmes*. [Link](https://hal.science/hal-00881257)
+- Pickard, Alison Jane (2013). *Research Methods in Information*
+- Glushko, Robert J. (2013). *The discipline of organizing*
+- Frey, Valentine; Treleani, Matteo (2013). *Vers un nouvel archiviste numérique*
+- Hering, Rainer; Schenk, Dietmar (2013). *Wie mächtig sind Archive?/Perspektiven der Archivwissenschaft (Volume 104.0)*
+- Brown, Caroline (2014). *Archives and recordkeeping: theory into practice*
+- Ball, Rafael (2014). *Bibliometrie: Einfach - verstandlich - nachvollziehbar*
+- Bisbrouck, Marie-Françoise (2014). *Bibliothèques d'aujourd'hui: à la conquête de nouveaux espaces*
+- Walne, Peter (2014). *Dictionary of Archival Terminology: English and French. With Equivalents in Dutch, German, Italian, Russian and Spanish*
+- Schenk, Dietmar (2014). *Kleine Theorie des Archivs*
+- Couture, Carol (2014). *L'archivistique à l'ère du numérique: les éléments fondamentaux de la discipline*
+- Couture, Carol (2014). *L'archivistique à l'ère du numérique: les éléments fondamentaux de la discipline*
+- Béchard, L.; Hashimoto, L.F.; Vasseur, É. (2014). *Les archives électroniques*. [Link](https://www.archivistes.org/Les-archives-electronique-deuxieme-edition-enrichie-et-mise-a-jour)
+- Plassmann, Engelbert; Rösch, Hermann; Seefeldt, Jürgen et al. (2014). *Libraries and the information society in Germany: an introduction*
+- Bemis, Michael F. (2014). *Library and information science: a guide to key literature and sources*
+- Theimer, Kate; Theimer, Kate (2014). *Management : Innovative Practices for Archives and Special Collections*
+- Gabriel, Patrick (2014). *Marketing des services*
+- Accart, Jean-Philippe (2014). *Regards croisés sur les métiers des sciences de l'information: bibliothèques, archives, documentation, musées*
+- Weinberger, David (2014). *Too big to know: rethinking knowledge now that the facts aren't the facts, experts are everywhere, and the smartest person in the room is the room*
+- Watzlawick, Paul (2014). *Une logique de la communication*
+- Servais, Paul; Mirguet, Françoise (2015). *Archivistes de 2030: réflexions prospectives*
+- Grailles, Bénédicte; Marcilloux, Patrice; Neveu, Valérie et al. (2015). *Classer les archives et les bibliothèques: mise en ordre et raisons classificatoires*
+- Ruthven, Ian (2015). *Cultural heritage information: access and management*
+- Digital Preservation Coalition (2015). *Digital Preservation Handbook*. [Link](https://www.dpconline.org/handbook)
+- Duranti, Luciana; Franks, Patricia C. (2015). *Encyclopedia of archival science*
+- Rohr, Christian (2015). *Historische Hilfswissenschaften: eine Einführung*
+- Krcmar, Helmut (2015). *Informationsmanagement*
+- Nougaret, Christine; Parinet, Élisabeth (2015). *L'édition critique des textes contemporains, XIXe-XXIe siècle*
+- Accart, Jean-Philippe; Réthy, Marie-Pierre (2015). *Le métier de documentaliste*
+- Calenge, Bertrand (2015). *Les bibliothèques et la médiation des connaissances*
+- Gagnon-Arguin, Louise; Mas, Sabine; Maurel, Dominique (2015). *Les genres de documents dans les organisations: analyse théorique et pratique*
+- Gagnon-Arguin, Louise; Couture, Carol (2015). *Panorama de l'archivistique contemporaine: évolution de la discipline et de la profession : mélanges offerts à Carol Couture*
+- Griebel, Rolf; Schäffler, Hildegard; Söllner, Konstanze (2015). *Praxishandbuch Bibliotheksmanagement*
+- Floridi, Luciano (2015). *The ethics of information*
+- Coutaz, Gilbert (2016). *Archives en Suisse: conserver la mémoire à l'ère numérique*
+- Gantert, Klaus (2016). *Bibliothekarisches Grundwissen*
+- Accart, Jean-Philippe (2016). *Communiquer !: Les bibliothécaires, les décideurs et les journalistes*
+- Accart, Jean-Philippe (2016). *Communiquer !: Les bibliothécaires, les décideurs et les journalistes*
+- Oliver, Gillian; Harvey, Ross (2016). *Digital curation*
+- Miribel, Marielle de (2016). *Diriger une bibliothèque: un nouveau leadership*
+- Havemann, Frank (2016). *Einführung in die Bibliometrie*. [Link](http://www.wissenschaftsforschung.de/Havemann2016Bibliometrie.pdf)
+- MacNeil, Heather; Mak, Bonnie; Oliver, Gillian et al. (2016). *Engaging with records and archives: histories and theories*
+- Koller, Guido (2016). *Geschichte digital: Historische Welten neu vermessen*
+- Association of records managers and administrators (2016). *Glossary of records and information management terms*. [Link](https://www.arma.org/store/viewproduct.aspx?id=14193006)
+- Lepper, Marcel; Raulff, Ulrich (2016). *Handbuch Archiv: Geschichte, Aufgaben, Perspektiven*
+- Accart, Jean-Philippe (2016). *La médiation à l'heure du numérique*
+- Accart, Jean-Philippe; Vaissaire-Agard, Clotilde (2016). *Les 500 mots métiers : Bibliothèques, archives, documentation, musées*. [Link](https://www.editionsklog.com/product/les-500-mots-metiers-bibliotheques-archives-documentation-musees)
+- Kretzschmar, Robert; Uhde, Karsten; Berwinkel, Holger (2016). *Moderne Aktenkunde*
+- Neuroth, Heike; Oßwald, Achim; Scheffel, Regine et al. (2016). *nestor Handbuch: eine kleine Enzyklopädie der digitalen Langzeitarchivierung*. [Link](http://nbn-resolving.de/urn/resolver.pl?urn=urn:nbn:de:0008-2010071949)
+- Rice, Robin; Southall, John (2016). *The data librarian's handbook*
+- University of Maryland (College Park, Md) Information Policy & Access Center; University of Maryland (College Park, Md) Libraries (2016). *The International journal of information, diversity, & inclusion.*
+- Crockett, Margaret (2016). *The no-nonsense guide to archives and recordkeeping*
+- Sonnenwald, Diane H. (2016). *Theory development in the information sciences*
+- Bermès, Emmanuelle (2016). *Vers de nouveaux catalogues*
+- Craven, Louise (2016). *What are archives?: cultural and theoretical perspectives : a reader*
+- Touitou, Cécile (2016). *Évaluer la bibliothèque par les mesures d’impacts*
+- Glaudemans, Arnoud; Jonker, Rienk; Smit, Frans (2017). *Archives in Liquid Times*. [Link](https://labyrinth.rienkjonker.nl/sites/default/files/Archives_in_Liquid_Times_0.pdf)
+- Millar, Laura (2017). *Archives: principles and practices*
+- Müller, Christiane (2017). *Bücher leihen, Ideen teilen: Bibliotheken in der Sharing Economy*
+- Dujol, Lionel (2017). *Communs du savoir et bibliothèques*
+- MacNeil, Heather; Eastwood, Terry (2017). *Currents of archival thinking*
+- Corrado, Edward M.; Moulaison, Heather Léa (2017). *Digital preservation for libraries, archives, and museums*
+- Bhardwaj, Raj Kumar (2017). *Digitizing the Modern Library and the Transition From Print to Electronic*. [Link](https://www.igi-global.com/book/digitizing-modern-library-transition-print/www.igi-global.com/book/digitizing-modern-library-transition-print/172015)
+- Sant, Toni (2017). *Documenting performance : the context and processes of digital curation and archiving*
+- Failla, Luigi (2017). *Du livre à la ville: la bibliothèque comme espace public*
+- Assmann, Aleida (2017). *Einführung in die Kulturwissenschaft: Grundbegriffe, Themen, Fragestellungen*
+- Gracy, Karen F. (2017). *Emerging Trends in Archival Science*. [Link](https://rowman.com/ISBN/9781442275157/)
+- Sühl-Strohmenger, Wilfried (2017). *Handbuch Informationskompetenz*
+- Buckland, Michael (2017). *Information and society*
+- Lauber-Reymann, Margrit (2017). *Informationsressourcen: ein Handbuch für Bibliothekare und Informationsspezialisten*
+- Ford, Nigel (2017). *Introduction to Information Behaviour*
+- Knoll, Anna (2017). *Kompetenzen von Information Professionals in Unternehmen*
+- Décaudin, Jean-Marc; Igalens, Jacques (2017). *La communication interne: stratégies et techniques*
+- Floridi, Luciano (2017). *La quarta rivoluzione: come l'infosfera sta trasformando il mondo*
+- Libaert, Thierry (2017). *Le plan de communication: définir et organiser votre stratégie de communication*
+- Dujol, Lionel (2017). *Médiation numérique des savoirs: des enjeux aux dispositifs*
+- Thom, Norbert; Ritz, Adrian (2017). *Public Management: innovative Konzepte zur Führung im öffentlichen Sektor*
+- Amini, Massih-Reza; Gaussier, Éric (2017). *Recherche d'information: applications, modèles et algorithmes*
+- Matassa, Freda (2017). *Valuing your collection: a practical guide for museums, libraries and archives*
+- Bergman, Michael K. (2018). *A Knowledge Representation Practionary: Guidelines Based on Charles Sanders Peirce*
+- Evans, G. Edward; Greenwell, Stacey (2018). *Academic librarianship*
+- Knoepfel, Peter (2018). *Analyse et pilotage des politiques publiques*
+- Fernandez, Peter D.; Tilton, Kelly (2018). *Applying library values to emerging technology: decision-making in the age of open access, maker spaces, and the ever-changing library*
+- Rehm, Clemens; Maier, Gerald (2018). *Archive heute - Vergangenheit für die Zukunft: Archivgut - Kulturerbe - Wissenschaft : zum 65. Geburtstag von Robert Kretzschmar*
+- Ebeling, Knut; Günzel, Stephan (2018). *Archivologie: Theorien des Archivs in Philosophie, Medien und Künsten*
+- Uhl, Susanne; Keller, Alice; Zentralbibliothek Zürich (2018). *Bibliotheken der Schweiz: Innovation durch Kooperation : Festschrift für Susanna Bliggenstorfer anlässlich ihres Rücktrittes als Direktorin der Zentralbibliothek Zürich*
+- Accart, Jean-Philippe; Vaissaire, Clotilde (2018). *Bibliothécaires, documentalistes: tous entrepreneurs ?*
+- Tzitzikas, Yannis; Marketakis, Yannis (2018). *Cinderella's Stick: A Fairy Tale for Digital Preservation*
+- Tzitzikas, Yannis; Marketakis, Yannis (2018). *Cinderella's Stick: A Fairy Tale for Digital Preservation*. [Link](http://link.springer.com/10.1007/978-3-319-98488-9)
+- Chabin, Marie-Anne (2018). *Des documents d'archives aux traces numériques: identifier et conserver ce qui engage l'entreprise : la méthode Arcateg*
+- Toetzke, Katrin; Wissen, Dirk (2018). *Die Öffentliche Bibliothek als Nutzer und Anbieter der Virtuellen Bibliothek: zwanzig Jahre Internet in deutschen Öffentlichen Bibliotheken: Ergebnisse einer Langzeitstudie durch Erhebungen aus den Jahren 1997, 2007 und 2017*. [Link](https://www.b-i-t-online.de/daten/bit_Innovativ_72_Toetzke_Wissen_Leseprobe.pdf)
+- Dobreva, Milena (2018). *Digital archives: management, use and access*
+- DeRidder, Jody L. (2018). *Digital curation fundamentals*
+- Franz, Eckhart G. (2018). *Einführung in die Archivkunde*
+- McDonald, John D.; Levine-Clark, Michael (2018). *Encyclopedia of library and information sciences*
+- Lankes, R. David (2018). *Exigeons de meilleures bibliothèques: plaidoyer pour une bibliothéconomie nouvelle*
+- Charney, Madeleine; Sahavirta, Harri; Hauke, Petra (2018). *Going green: implementing sustainable strategies in libraries around the world : buildings, management, programmes and services*
+- Alex, Heidrun; Bee, Guido; Junger, Ulrike (2018). *Klassifikationen in Bibliotheken: Theorie - Anwendung - Nutzen*
+- Deschamps, Jacqueline (2018). *La médiation: un concept pour les sciences de l'information et de la communication*
+- Stang, Richard; Umlauf, Konrad (2018). *Lernwelt Öffentliche Bibliothek: Dimensionen der Verortung und Konzepte*
+- Grailles, Bénédicte; Marcilloux, Patrice; Neveu, Valérie et al. (2018). *Les dons d'archives et de bibliothèques: XIXe-XXIe siècle : de l'intention à la contrepartie*
+- Bondu, Jérôme (2018). *Maîtrisez internet... avant qu'internet ne vous maîtrise*
+- Angel, Christine M.; Fuchs, Caroline (2018). *Organization, representation and description through the digital age: information in libraries, archives and museums*
+- Accart, Jean-Philippe (2018). *Personnaliser la bibliothèque: construire une stratégie de marque et augmenter sa réputation*
+- Franks, Patricia C. (2018). *Records and information management*
+- Yeo, Geoffrey (2018). *Records, Information and Data: Exploring the Role of Record Keeping in an Information Culture*
+- Yeo, Geoffrey (2018). *Records, information and data: exploring the role of record-keeping in an information culture*
+- Halavais, Alexander (2018). *Search engine society*
+- Karaganis, Joe (2018). *Shadow Libraries*
+- Aldrich, Rebekkah Smith (2018). *Sustainable thinking: ensuring your library's future in an uncertain world*
+- Brügger, Niels (2018). *The archived web: doing history in the digital age*
+- Owens, Trevor (2018). *The Theory and Craft of Digital Preservation*
+- Owens, Trevor (2018). *The Theory and Craft of Digital Preservation*. [Link](https://www.press.jhu.edu/books/title/11947/theory-and-craft-digital-preservation)
+- Cordier, Anne; Liquète, Vincent (2018). *Utopies contemporaines en information-documentation*
+- Keitel, Christian (2018). *Zwölf Wege ins Archiv: Umrisse einer offenen und praktischen Archivwissenschaft*
+- Daudin, Lucie (2019). *Accueillir des publics migrants et immigrés: Interculturalité en bibliothèque*
+- Brown, Caroline (2019). *Archival futures*
+- Klein, Anne (2019). *Archive(s), mémoire, art: éléments pour une archivistique critique*
+- Stoler, Ann Laura (2019). *Au coeur de l'archive coloniale: questions de méthode*
+- Geschichte und Informatik (2019). *Das Web als politische Herausforderung: historische Perspektiven = Enjeux politiques du web : approches historiques*
+- Jannidis, Fotis; Kohle, Hubertus; Rehbein, Malte (2019). *Digital Humanities: Eine Einführung*
+- Moss, Michael; Thomas, David (2019). *Do archives have value?*
+- Duranti, Luciana; Franks, Patricia C. (2019). *Encyclopedia of archival writers, 1515 - 2015*
+- Knox, Emily; Burgess, John T. F. (2019). *Foundations of information ethics*
+- Tan, Pang-Ning; Steinbach, Michael; Karpatne, Anuj et al. (2019). *Introduction to Data Mining*
+- Yu, Liyang (2019). *Introduction to the semantic web and semantic web services*
+- Dialogue culturel national‏ Berne (Suisse; Nationaler Kulturdialog (2019). *Kulturelle Teilhabe: ein Handbuch = Participation culturelle : un manuel = Partecipazione culturale : un manuale*. [Link](https://www.newsd.admin.ch/newsd/message/attachments/57315.pdf)
+- Henard, Charlotte; Association des bibliothécaires français (2019). *Le métier de bibliothécaire*
+- Henard, Charlotte; Association des bibliothécaires français (2019). *Le métier de bibliothécaire*
+- Coeuré, Sophie; Duclert, Vincent (2019). *Les archives*
+- Baer, Andrea; Cahoy, Ellysa Stern; Schroeder, Robert (2019). *Libraries promoting reflective dialogue in a time of  political polarization*
+- Reidsma, Matthew (2019). *Masked by trust: bias in library discovery*. [Link](https://scholarworks.gvsu.edu/cgi/viewcontent.cgi?article=1029&context=library_books)
+- Benoit, Edward; Eveleigh, Alexandra; Everleigh, Ill (2019). *Participatory archives: theory and practice*
+- Schopflin, Katharine (2019). *Practical knowledge and information management*
+- Falk, Kim (2019). *Practical recommender systems*
+- Höötmann, Hans-Jürgen (2019). *Praktische Archivkunde: Ein Leitfaden für Fachangestellte für Medien- und Informationsdienste - Fachrichtung Archiv*
+- Kastberger, Klaus; Maurer, Stefan; Neuhuber, Christian (2019). *Schauplatz Archiv: Objekt - Narrativ - Performanz*
+- Purcell, Aaron D. (2019). *The digital archives handbook: a guide to creation, management, and preservation*
+- Gagnon-Arguin, Louise; Mas, Sabine; Maurel, Dominique (2019). *Typologie des documents des organisations: de la création à la conservation*
+- Johnson, Eric O. (2019). *Working as a data librarian: a practical guide*
+- Bredemeier, Willi (2019). *Zukunft der Informationswissenschaften: hat die Informationswissenschaft eine Zukunft? : Grundlagen und Perspektiven*
+- Association des archivistes français (2020). *Abrégé d'archivistique: principes et pratiques du métier d'archiviste*
+- Association des archivistes français (2020). *Abrégé d'archivistique: principes et pratiques du métier d'archiviste*
+- Association des archivistes français (2020). *Abrégé d'archivistique: principes et pratiques du métier d'archiviste*
+- Duff, Wendy M.; Saucier, Renée; Flinn, Andrew et al. (2020). *Archives, recordkeeping, and social justice*
+- Weaver, Margaret; Appleton, Leo (2020). *Bold Minds: Library leadership in a time of disruption*
+- Kubek, Mario (2020). *Concepts and Methods for a Librarian of the Web*
+- Howell, David; Snijders, Ludo (2020). *Conservation Research in Libraries*
+- Cleve, Jürgen; Lämmel, Uwe (2020). *Data Mining*. [Link](https://www.degruyter.com/document/doi/10.1515/9783110676273/html)
+- Hamard, Damien (2020). *Des paléographes aux archivistes*. [Link](https://books.openedition.org/pur/268776)
+- Hunter, Gregory S. (2020). *Developing and Maintaining Practical Archives: a How-to-Do-it Manual*
+- Wilson, Emma Annette (2020). *Digital humanities for librarians*
+- Leggett, Elizabeth R. (2020). *Digitization and Digital Archiving: A Practical Guide for Librarians, Second Edition*. [Link](https://rowman.com/ISBN/9781538133347/Digitization-and-Digital-Archiving-A-Practical-Guide-for-Librarians-Second-Edition)
+- Kintz, Salomé (2020). *Décoder les fausses nouvelles et construire son information avec la bibliothèque*
+- Rubin, Richard; Rubin, Rachel G. (2020). *Foundations of library and information science*
+- Berthold, Michael R.; Borgelt, Christian; Höppner, Frank et al. (2020). *Guide to Intelligent Data Science: How to Intelligently Make Use of Real Data*. [Link](http://link.springer.com/10.1007/978-3-030-45574-3)
+- Kaushik, Anna; Kumar, Ashok; Biswas, Payel (2020). *Handbook of research on emerging trends and technologies in library and information science*
+- Rösch, Hermann (2020). *Informationsethik und Bibliotheksethik: Grundlagen und Praxis*
+- Goldstein, Stéphane (2020). *Informed societies: why information literacy matters for citizenship, participation and democracy*
+- Fensel, Dieter (2020). *Knowledge graphs: methodology, tools and selected use cases*
+- Lenzen, Manuela (2020). *Künstliche Intelligenz: Fakten, Chancen, Risiken*
+- Mkadmi, Abderrazak. (2020). *Les Archives à l'ère du Numérique : Préservation et Droit à L'oubli.*
+- Béchard, Lorène; Fuentes Hashimoto, Lourdes; Vasseur, Édouard (2020). *Les archives électroniques*
+- Lauer, Gerhard (2020). *Lesen im digitalen Zeitalter*
+- Carlson, Scott; Lampert, Cory; Melvin, Darnelle et al. (2020). *Linked data for the perplexed librarian*
+- Pinfield, Stephen; Wakeling, Simon; Bawden, David et al. (2020). *Open access in theory and practice: the theory-practice relationship and openness*
+- Roued-Cunliffe, Henriette (2020). *Open Heritage Data: an introduction to research, publishing and programming with open data in the heritage sector*
+- Wagner, Benjamin; Kettemann, Matthias C.; Vieth, Kilian (2020). *Research handbook on human rights and digital technology: global politics, law and international relations*
+- Flanders, Julia; Jannidis, Fotis (2020). *The shape of data in the digital humanities: modeling texts and text-based resources*
+- Bakalun Mc Aleer, Mary; Deyrup Mestrovic, Marta (2020). *Transformative digital humanities: challenges and opportunities*
+- Salanouve, Florence (2021). *Agir pour l'égalité. Questions de genre en bibliothèque*
+- Marcum, Deanna; Schonfeld, Roger C. (2021). *Along came google: a history of library digitization*
+- Crichton, Chad; Canuel, Robin (2021). *Approaches to liaison librarianship: innovations in organization and engagement*
+- Moss, Michael S.; Thomas, David (2021). *Archival silences: missing, lost and, uncreated archives*
+- Hamill, Lois (2021). *Archives 101*
+- Boel, Jens; Canavaggio, Perrine; González Quintana, Antonio (2021). *Archives and human rights*
+- Allscher, Thorsten (2021). *Bestandserhaltung in Archiven und Bibliotheken.*
+- Lapp, Erdmute; Sewing, Silke; Zimmermann, Renate et al. (2021). *Bibliotheken: Wegweiser in die Zukunft : Projekte und Beispiele*
+- Thompson, John Brookshire (2021). *Book wars: the digital revolution in publishing*
+- Serres, Alexandre; Liquète, Vincent; Delamotte, Eric (2021). *Des cultures aux pratiques informationnelles: approches, enjeux, diversité des pratiques informationnelles*
+- Leggett, Elizabeth R. (2021). *Digitization and digital archiving : a practical guide for librarians*
+- Le Marec, Joëlle (2021). *Essai sur la bibliothèque: volonté de savoir et monde commun*
+- Baker, David; Ellis, Lucy; Baker, David (2021). *Future directions in digital information: predictions, practice, participation*
+- Ertel, Wolfgang (2021). *Grundkurs Künstliche Intelligenz: eine praxisorientierte Einführung*
+- Barbier, Frédéric (2021). *Histoire des bibliothèques: D'Alexandrie aux bibliothèques virtuelles*
+- Smith, Jonathan M. (2021). *Information technology for librarians and information professionals*
+- Leung, Sofia Y.; López-McKnight, Jorge R. (2021). *Knowledge Justice: Disrupting Library and Information Studies Through Critical Race Theory*
+- Jacquet, Amandine; Poissenot, Claude; Etienne, Nathalie (2021). *La bibliothèque: une approche politique adaptée au territoire*
+- Ott, Florence (2021). *La gestion documentaire au coeur des processus d'affaires : valider, protéger, exploiter et pérenniser l'information dans l'environnement numérique*
+- Accart, Jean-Philippe (2021). *Les stratégies de transformation des bibliothèques*
+- Miersch-Süß, Ines (2021). *Libraries and their architecture in the 21st century*
+- Stauffer, Suzanne M. (2021). *Libraries, Archives, and Museums: An Introduction to Cultural Heritage Institutions through the Ages*. [Link](https://rowman.com/ISBN/9781538118894/Libraries-Archives-and-Museums-An-Introduction-to-Cultural-Heritage-Institutions-through-the-Ages)
+- Baker, David; Ellis, Lucy (2021). *Libraries, digital information, and COVID: practical applications and approaches to challenge and change*
+- Putnings, Markus; Neumann, Janna; Neuroth, Heike (2021). *Praxishandbuch Forschungsdatenmanagement*
+- Mesguich, Véronique (2021). *Rechercher l'information stratégique sur le web: sourcing, veille et analyse à l'heure de la révolution numérique*
+- Yeo, Geoffrey (2021). *Record-making and record-keeping in early societies*
+- Boel, Jens; Sengsavang, Eng (2021). *Recordkeeping in international organizations: archives in transition in digital, networked environments*
+- Browndorf, Megan; Pappas, Erin; Arays, Anna (2021). *The collector and the collected: decolonizing area studies librarianship*
+- Drucker, Johanna (2021). *The digital humanities coursebook: an introduction to digital methods for research and scholarship*
+- Pettegree, Andrew; Weduwen, Arthur der (2021). *The library: a fragile history*
+- Jordan, Stefan (2021). *Theorien und Methoden der Geschichtswissenschaft*
+- Stančić, Hrvoje (2021). *Trust and records in an open digital environment*
+- St Jean, Beth; Gorham, Ursula; Bonsignore, Elizabeth (2021). *Understanding human information behavior: when, how, and why people interact with information*
+- Caswell, Michelle (2021). *Urgent archives: enacting liberatory memory work*
+- Jaillant, Lise (2022). *Access and Artificial Intelligence*. [Link](https://www.transcript-publishing.com/media/pdf/10/3e/1d/oa9783839455845rCYlN7VmurLgw.pdf)
+- Ziwes, Franz-Joseph; Müller, Peter (2022). *Archivische Erschließung im Umbruch: Vorträge des 80. Südwestdeutschen Archivtags am 17. und 18. Juni 2021*
+- Schenk, Dietmar (2022). *Archivkultur: Bausteine zu ihrer Begründung*
+- Winn, Samantha (2022). *Born-digital design records*
+- Herndon, Joel (2022). *Data science in the library: tools and strategies for supporting data-driven research and instruction*
+- Herndon, Joel (2022). *Data science in the library: tools and strategies for supporting data-driven research and instruction*
+- Hickerson, H. Thomas; Lippincott, Joan K.; Crema, Leonora (2022). *Designing libraries for the 21st century*
+- Lenz, Patricia; Kemper, Joachim; Hovestädt, Dagmar et al. (2022). *Deutsche Archive im digitalen Zeitalter*. [Link](https://doi.org/10.3224/96665033>)
+- Atanasiu, Vlad; Chachereau, Nicolas; Natale, Enrico et al. (2022). *Framing Communication Infrastructures (1950–2020): discours et imaginaires - Diskurse und Vorstellungen*. [Link](https://www.chronos-verlag.ch/public-download/3344)
+- Smith-Cruz, Shawn(ta). (2022). *Grabbing Tea : Queer Conversations in Archiving.*
+- (ohne Autor) (2022). *Grundlagen der Informationswissenschaft*. [Link](https://www.degruyter.com/document/doi/10.1515/9783110769043/html)
+- Hirsh, Sandra (2022). *Information services today: an introduction*
+- Bawden, David; Robinson, Lyn (2022). *Introduction to information science*
+- Péquignot, Stéphane; Potin, Yann (2022). *Les conflits d'archives: France, Espagne, Méditerranée*
+- Cullingford, Alison (2022). *The special collections handbook*
+- (ohne Autor) (2023). *2023. Bibliothèques, objets politiques*. [Link](https://www.lcdpu.fr/livre/?GCOI=27000100579940&fa=description)
+- Heurtematte, Véronique (2023). *2023: Bibliothèques, objets politiques*
+- Klose, Bianca; Verein für Demokratische Kultur in Berlin; Mobile Beratung gegen Rechtsextremismus Berlin (2023). *Alles nur leere Worte?: zum Umgang mit dem Kulturkampf von rechts in Bibliotheken*
+- Landesarchiv Nordrhein-Westfalen; Verband Deutscher Archivarinnen und Archivare (2023). *Archiv: Theorie & Praxis*. [Link](https://www.archive.nrw.de/landesarchiv-nrw/ueber-uns/archiv-theorie-praxis)
+- Chapron, Emmanuelle; Henryot, Fabienne (2023). *Archives en bibliothèques (XVIe-XXIe siècles)*. [Link](http://books.openedition.org/enseditions/44474)
+- Lowry, James; Bastian, Jeannette A. (2023). *Disputed archival heritage*
+- Kuhlen, Rainer; Lewandowski, Dirk; Semar, Wolfgang et al. (2023). *Grundlagen der Informationswissenschaft*. [Link](https://www.degruyter.com/document/doi/10.1515/9783110769043/html#overview)
+- McFadzean, Andrew (2023). *Memory curators and memory archivists in the digital memory age*
+- Brilmyer, Gracen. (2023). *Preserving Disability : Disability and the Archival Profession.*
+- Viola, Lorella. (2023). *The Humanities in the Digital: Beyond Critical Digital Humanities*
+- Zamon, Christina (2024). *Alone in the stacks: succeeding as a solo archivist*
+- Rogers, Corinne; Wieland, Alexandra (2024). *Archival science in interdisciplinary theory and practice*
+- Rogers, Corinne; Wieland, Alexandra; Bloomsbury (Firm), publisher. (2024). *Archival Science in Interdisciplinary Theory and Practice*
+- Scaglia, Ilaria; Vanesio, Valeria (2024). *Archives and Emotions : International Dialogues Across Past, Present, and Future*
+- Winand, Annaëlle (2024). *Aux Marges de L'archivistique : Exploitation des Archives et Cinéma de Réemploi*
+- Milligan, Ian (2024). *Averting the Digital Dark Age*. [Link](https://www.press.jhu.edu/books/title/53671/averting-digital-dark-age)
+- Heseler, Jörg; Büttner, Alexandra; Arnold, Matthias (2024). *Grundlagen der digitalen Langzeitarchivierung. Eine Handreichung zur digitalen Langzeitarchivierung aus Perspektive der NFDI4Culture Community.*. [Link](https://zenodo.org/records/13929988)
+- Hobohm, Hans-Christoph (2024). *Informationsverhalten.*
+- Mas, Sabine; Maurel, Dominique (2024). *L' archiviste humaniste : rôles et positionnement institutionnel et sociétal. Mélanges offerts à Louise Gagnon-Arguin*
+- Greshake Tzovaras, Bastian (2024). *Open Science Meets Citizen Science*. [Link](https://cs4rl.github.io/open-science/#_1_0)
+- Callison, Jamie; Feldman, Matthew; Svendsen, Anna et al. (2024). *The Bloomsbury handbook of modernist archives*
+- Patricia C. Franks (2024). *The Handbook of Archival Practice*. [Link](https://rowman.com/ISBN/9781538137345/The-Handbook-of-Archival-Practice)
+- Breakell, Sue; Russell, Wendy (2024). *The materiality of the archive : creative practice in context*
+- Bak, Greg; Rostgaard, Marianne (2024). *The Nordic model of digital archiving*
+- Russell, Isabel Galina.; Layne-Worthey, Glen. (2024). *The Routledge Companion to Libraries, Archives, and the Digital Humanities.*
+- Russell, Isabel Galina.; Layne-Worthey, Glen. (2024). *The Routledge Companion to Libraries, Archives, and the Digital Humanities.*
+- Aasman, Susan.; Ben-David, Anat.; Brügger, Niels. (2024). *The Routledge Companion to Transnational Web Archive Studies.*
+- Henne, Thomas (2025). *Archivrecht : Leitfaden für Praxis und Ausbildung*
+- (ohne Autor) (2025). *Die GND im Archiv : Handreichung zur Nutzung von Normdaten*. [Link](http://collections.fes.de/publikationen/1562378)
+- Corrado, Edward M.; Moulaison-Sandy, Heather; Soleau, Teresa et al. (2025). *Digital preservation for libraries, archives, and museums*
+- Andersen, Jack; Hansson, Joacim (2025). *Exploring contemporary classification practices : organizing information, technological change and ideological contestation*
+- Saffady, William (2025). *Information governance technologies : a guide*
+- Robert, Pascal (2025). *Le numérique-monde. Histoire et géopolitique de la logistique informationnelle du télégraphe à l’IA -*. [Link](https://fypeditions.com/le-numerique-monde-histoire-et-geopolitique-de-la-logistique-informationnelle-du-telegraphe-a-lia/)
+- Gooding, Paul.; Terras, Melissa.; Ames, Sarah. (2025). *Library Catalogues As Data : Research, Practice and Usage.*
+- Accart, Jean-Philippe (2025). *Marketing appliqué des bibliothèques et services d’information: dispositifs et évolutions*
+- Spina, Carli; Albrecht Oling, Rebecca (2025). *The Digital Accessibility Handbook for Libraries*. [Link](https://alastore.ala.org/dahdbkl)
+- Jones, Jimi.; Jancovic, Marek. (2025). *The Future of Memory : A History of Lossless Format Standards in the Moving Image Archive.*
+- Collective, The Indigenous Archives. (2025). *The Indigenous Right of Reply to Archives : Working Towards Indigenous Sovereignty, Healing, and Justice in Archival Practice.*
+- Weller, Toni.; Black, Alistair.; Mak, Bonnie. et al. (2025). *The Routledge Handbook of Information History.*
+- Buchczyk, Magdalena (2025). *Unearthing Collections : Archives, time and ethics.*
+- (ohne Autor) (2025). *Wissensmanagement, Archivbibliotheken und das Überlieferungsfeld Kultur : Beiträge des 32. Fortbildungsseminars der Bundeskonferenz der Kommunalarchive (BKK) vom 27. – 29. November 2024*
+- Wendenburg, Andrea; Archivare, Verband Deutscher Archivarinnen und (2025). *Überlieferung und archivische Bewertung*. [Link](https://d-nb.info/1380608929/04)
+- Kruke, Anja; Grothe, Ewald; Demokratie, Archiv der Sozialen (2026). *Fragile Akten? : Herausforderungen digitaler Überlieferungsbildung und Faktizität*
+- Burke, Susan K (2026). *Knowledge into action : research methods for library, archives, and museum professionals*
+- Carmicheal, David W (2026). *Organizing archival records : a guide for both physical and digital collections*
+- Ganz, Michelle; Denison, Veronica L.; Moody, Nisha (2026). *Practical guidebook to trauma-informed archival practice : best practices and and case studies*
+- Volynskaya, Alina (2026). *Revisiting the Vestiges of Knowledge-Making*. [Link](https://doi.org/10.1515/9783111729664)
+
+## webpage (130)
+
+- (ohne Autor) (o. J.). *(2016) - Les 5 défis actuels et futurs du métier de documentaliste - La Profession - Articles- Jean-Philippe Accart*. [Link](https://www.jpaccart.ch/la-profession/2016-les-5-defis-actuels-et-futurs-du-metier-de-documentaliste.html)
+- (ohne Autor) (o. J.). *2023. Bibliothèques, objets politiques | Le Comptoir des Presses d'Universités*. [Link](https://www.lcdpu.fr/livre/?GCOI=27000100579940&fa=description)
+- (ohne Autor) (o. J.). *Abgeleitete Textformate: Text und Data Mining mit urheberrechtlich geschützten Textbeständen | ZfdG - Zeitschrift für digitale Geisteswissenschaften*. [Link](https://zfdg.de/2020_006)
+- (ohne Autor) (o. J.). *ADBS - L'Association des professionnels de l'information et de la documentation*. [Link](https://www.adbs.fr/)
+- (ohne Autor) (o. J.). *affordance.info*. [Link](https://affordance.typepad.com/)
+- AFNOR (o. J.). *AFNOR. Les normes*. [Link](https://www.boutique.afnor.org/fr-fr/normes/)
+- (ohne Autor) (o. J.). *Agence bibliographique de l'enseignement supérieur*. [Link](https://abes.fr/)
+- (ohne Autor) (o. J.). *Alles nur leere Worte? : zum Umgang mit dem Kulturkampf von rechts in Bibliotheken - SLSP Network Zone*. [Link](https://swisscovery.slsp.ch/discovery/fulldisplay?docid=alma991171822837805501&context=L&vid=41SLSP_NETWORK:VU1_UNION&lang=de&search_scope=DN_and_CI&adaptor=Local%20Search%20Engine&tab=41SLSP_NETWORK&query=any,contains,alles%20nur%20leere%20worte%3F&offset=0)
+- (ohne Autor) (o. J.). *American Library Association*. [Link](https://www.ala.org/)
+- (ohne Autor) (o. J.). *Archival Metrics*. [Link](https://sites.google.com/a/umich.edu/archival-metrics/)
+- (ohne Autor) (o. J.). *Archives Association of British Columbia*. [Link](https://aabc.ca/)
+- AFS, Archives fédérales suisses; SBA, Schweizerisches Bundesarchiv (o. J.). *Archives fédérales suisses. Projet d'accès en ligne / Schweizerisches Bundesarchiv. Projekt Online-Zugang*. [Link](https://www.bar.admin.ch/bar/fr/home/recherche/suchen/projekt-online-zugang.html)
+- (ohne Autor) (o. J.). *Archives nationales - France*. [Link](http://www.archivesnationales.culture.gouv.fr/)
+- (ohne Autor) (o. J.). *Archives Online*. [Link](https://www.archives-online.org/Search)
+- Europe, Archives Portal (o. J.). *Archives Portal Europe*. [Link](https://www.archivesportaleurope.net/)
+- (ohne Autor) (o. J.). *Archivistes sans frontières | ASF-France*. [Link](http://archivistessansfrontieres.fr/)
+- (ohne Autor) (o. J.). *Archivschule Marburg*. [Link](https://www.archivschule.de/)
+- (ohne Autor) (o. J.). *ARMA International*. [Link](https://www.arma.org/)
+- (ohne Autor) (o. J.). *ARMA International*. [Link](https://www.arma.org/)
+- (ohne Autor) (o. J.). *Association des archivistes du Québec*. [Link](https://archivistes.qc.ca/)
+- (ohne Autor) (o. J.). *Association des archivistes français*. [Link](https://www.archivistes.org/)
+- (ohne Autor) (o. J.). *Association des bibliothécaires de France*. [Link](https://www.abf.asso.fr/)
+- (ohne Autor) (o. J.). *Assoziazione Italiana Biblioteche*. [Link](https://www.aib.it/)
+- Québec, Bibliothèque et Archives nationales du (o. J.). *Banq - Bibliothèque et archives nationales du Québec*. [Link](https://www.banq.qc.ca/accueil/)
+- PIAF Portail International Archivistique francophone (o. J.). *Bibliographie francophone sur l’archivistique*. [Link](https://bibliopiaf.ebsi.umontreal.ca/bibliographie/)
+- (ohne Autor) (o. J.). *Bibliomancienne*. [Link](https://bibliomancienne.com/)
+- (ohne Autor) (o. J.). *BIBLIOSUISSE | Home*. [Link](https://bibliosuisse.ch/fr/)
+- BN, Bibliothèque nationale suisse (o. J.). *Bibliothèque nationale suisse*. [Link](https://www.nb.admin.ch/snl/fr/home.html)
+- (ohne Autor) (o. J.). *Bibliothèques [reloaded]*. [Link](https://bibliotheques.wordpress.com/)
+- (ohne Autor) (o. J.). *Bibliothéconomie et sciences de l'information - une collection de Renouvaud*. [Link](https://renouvaud1.primo.exlibrisgroup.com/discovery/collectionDiscovery?vid=41BCULAUSA_LIB:VU2&inst=41BCULAUSA_LIB&collectionId=81396593490002852)
+- (ohne Autor) (o. J.). *BrowZine*. [Link](https://browzine.com/libraries/528/subjects)
+- (ohne Autor) (o. J.). *Bundesarchiv Internet - Deutschland*. [Link](https://www.bundesarchiv.de/DE/Navigation/Home/home.html)
+- Jason Camlot (o. J.). *Collection Thinking: Within and Without Libraries, Archives and Museums*. [Link](https://www.routledge.com/Collection-Thinking-Within-and-Without-Libraries-Archives-and-Museums/Camlot-Langford-Morra/p/book/9781032252551)
+- (ohne Autor) (o. J.). *Convergence. Le blogue de l'association des archivistes du Québec (AAQ)*. [Link](https://archivistesqc.wordpress.com/)
+- (ohne Autor) (o. J.). *CR2PA Club de l'archivage managérial*. [Link](http://www.cr2pa.fr/)
+- Wilson, Emma Annette (o. J.). *DH for Librarians*. [Link](https://www.dhforlibrarians.com/)
+- Society of American Archivists (o. J.). *Dictionary of Archives Terminology*. [Link](https://dictionary.archivists.org/)
+- (ohne Autor) (o. J.). *Die Verteidigung unserer Demokratie – Ein Plädoyer für eine stärkere politische Rolle der Bibliotheken*. [Link](https://www.b-u-b.de/detail/plaedoyer-fuer-eine-staerkere-politische-rolle-der-bibliotheken)
+- (ohne Autor) (o. J.). *Digitizing our Shared UNESCO History. Project for safeguarding and promoting UNESCO's documentary heritage*. [Link](https://digital.archives.unesco.org/en/)
+- (ohne Autor) (o. J.). *Directory of Open Access Journals*. [Link](https://doaj.org/)
+- Schweizerische Nationalbibliothek; Bibliothèque nationale suisse; Biblioteca nazionale svizzera (o. J.). *e-Helvetica Access*. [Link](https://www.e-helvetica.nb.admin.ch/)
+- (ohne Autor) (o. J.). *E-LIS repository*. [Link](http://eprints.rclis.org/)
+- BK, Bundeskanzlei (o. J.). *Elektronische Geschäftsverwaltung (GEVER) in der Bundesverwaltung*. [Link](https://www.bk.admin.ch/bk/de/home/dokumentation/gever-bund.html)
+- (ohne Autor) (o. J.). *Elektronische Zeitschriftenbibliothek (EZB) — Zentralinstitut für Kunstgeschichte*. [Link](https://www.zikg.eu/bibliothek/kataloge/ezb)
+- (ohne Autor) (o. J.). *European Bureau of Library Information and Documentation Associations (EBLIDA)*. [Link](http://www.eblida.org/)
+- Koordinationsstelle für die dauerhafte Archivierung elektronischer Unterlagen (KOST) (o. J.). *Fachbegriffe deutsch-französisch*. [Link](https://kost-ceco.ch/cms/terminology_de.html)
+- (ohne Autor) (o. J.). *FID Buch-, Bibliotheks- und Informationswissenschaft*. [Link](https://katalog.fid-bbi.de/)
+- (ohne Autor) (o. J.). *futurelib / FrontPage*. [Link](http://futurelib.pbworks.com/w/page/13686657/FrontPage)
+- BAR, Schweizerisches Bundesarchiv (o. J.). *Geschäftsverwaltung*. [Link](https://www.bar.admin.ch/bar/de/home/informationsmanagement/geschaeftsverwaltung.html)
+- (ohne Autor) (o. J.). *Google Scholar*. [Link](https://scholar.google.com/)
+- Archives de France (o. J.). *Gérer les archives : bibliographie archivistique*. [Link](https://francearchives.gouv.fr/fr/article/38277)
+- Schweizerische Eidgenossenschaft; Confédération suisse; Confederazione Svizzera et al. (o. J.). *HelveticArchives*. [Link](https://www.helveticarchives.ch/)
+- (ohne Autor) (o. J.). *ICA Code of Ethics*. [Link](https://www.ica.org/resource/ica-code-of-ethics/)
+- (ohne Autor) (o. J.). *IFLA*. [Link](https://www.ifla.org/)
+- (ohne Autor) (o. J.). *IFLA Library*. [Link](http://library.ifla.org/)
+- (ohne Autor) (o. J.). *Info | swiss-lib@lists.switch.ch - mailman.switch.ch*. [Link](https://mailman.switch.ch/postorius/lists/swiss-lib.lists.switch.ch/)
+- (ohne Autor) (o. J.). *Information Science & Technology Abstracts | EBSCO*. [Link](https://www.ebsco.com/products/research-databases/information-science-technology-abstracts)
+- (ohne Autor) (o. J.). *Informationskompentenz - Schweiz*. [Link](https://www.informationskompetenz.ch/de/)
+- (ohne Autor) (o. J.). *International Association of Sound and Audiovisual Archives*. [Link](https://www.iasa-web.org/)
+- (ohne Autor) (o. J.). *International Council on Archives*. [Link](https://www.ica.org/en)
+- (ohne Autor) (o. J.). *International Federation of Film Archives*. [Link](https://www.fiafnet.org/)
+- (ohne Autor) (o. J.). *Internet Archive*. [Link](https://archive.org/)
+- (ohne Autor) (o. J.). *Introduction to Data Mining eBook: Global Edition*. [Link](https://www.pearson.de/introduction-to-data-mining-ebook-global-edition-9780273775324)
+- (ohne Autor) (o. J.). *ISO 30300:2020(fr), Information et documentation — Systèmes de gestion des documents d'activité — Principes essentiels et vocabulaire*. [Link](https://www.iso.org/obp/ui/#iso:std:iso:30300:ed-2:v1:fr)
+- (ohne Autor) (o. J.). *Jean-Philippe Accart: site dédié aux professionnels de l'information-documentation*. [Link](https://www.jpaccart.ch/)
+- (ohne Autor) (o. J.). *JournalTOCs*. [Link](https://www.journaltocs.ac.uk/)
+- http://www.ixmedia.com, iXmédia- (o. J.). *L' archiviste humaniste : rôles et positionnement institutionnel et sociétal*. [Link](https://www.puq.ca/catalogue/themes/archiviste-humaniste-roles-positionnement-institutionnel-societal-4473.html)
+- International Council of Archives ICA (o. J.). *Le blog de l'ICA*. [Link](https://blog-ica.org/)
+- Portail International Archivistique Francophone (PIAF) (o. J.). *Le glossaire*. [Link](http://www.piaf-archives.org/se-former/le-glossaire)
+- StuurluiDevelopment (o. J.). *LIBER Europe*. [Link](https://libereurope.eu/)
+- Moison, Pierre (o. J.). *LibGuides: Bibliothèques et changement climatique: Introduction*. [Link](https://enssib.libguides.com/c.php?g=682683&p=4870883)
+- Moison, Pierre (o. J.). *LibGuides: Guides thématiques: Accueil*. [Link](https://enssib.libguides.com/c.php?g=686367&p=4905605)
+- Moison, Pierre (o. J.). *LibGuides: Guides thématiques: Accueil*. [Link](https://enssib.libguides.com/c.php?g=686367&p=4905605)
+- (ohne Autor) (o. J.). *Library Literature & Information Science Full Text | EBSCO*. [Link](https://www.ebsco.com/fr-fr/products/research-databases/library-literature-information-science-full-text)
+- (ohne Autor) (o. J.). *Library Literature & Information Science Index | EBSCO*. [Link](https://www.ebsco.com/products/research-databases/library-literature-information-science-index)
+- (ohne Autor) (o. J.). *LIS in Potsdam | Hobohms "Library and Information Science" Blog*. [Link](https://hobohm.edublogs.org/)
+- (ohne Autor) (o. J.). *LISA: Library and Information Science Abstracts*. [Link](https://about.proquest.com/en/products-services/lisa-set-c/)
+- (ohne Autor) (o. J.). *LISTA - library, Information Science & Technology Abstracts*. [Link](https://web.s.ebscohost.com/ehost/search/advanced?vid=0&sid=41ec7f9d-2655-4b93-adaf-75ed5c47dc41%40redis)
+- Bibliothèque Louise Michel (o. J.). *Louise et les canards sauvages*. [Link](https://biblouisemichel.wordpress.com/)
+- (ohne Autor) (o. J.). *Mailing lists service - lists*. [Link](https://mail.iflalists.org/wws/lists)
+- (ohne Autor) (o. J.). *Memoriav*. [Link](https://memoriav.ch/de/)
+- (ohne Autor) (o. J.). *Memoriav Empfehlungen Digitale Archivierung von Film und Video: Grundlagen und Orientierung*. [Link](https://memoriav.ch/wp-content/uploads/2019/11/DAFV_1.2_DE.pdf)
+- InterPARES Trust; International Council of Archives ICA; Archives nationales des Emirats arabes unis (o. J.). *Multilingual Archival Terminology Database*. [Link](http://www.ciscra.org/mat/mat)
+- (ohne Autor) (o. J.). *National Archives USA*. [Link](https://www.archives.gov/)
+- Rajotte, David (o. J.). *Nouvelles archivistiques francophones | PIAF - Portail International Archivistique Francophone*. [Link](http://www.piaf-archives.org/nouvelles-archivistiques-francophones/)
+- (ohne Autor) (o. J.). *OACT*. [Link](https://oact.epfl.ch/#/)
+- Reitz, Joan M. (o. J.). *ODLIS : Online Dictionary for Library and Information Science*. [Link](http://products.abc-clio.com/ODLIS/odlis_about)
+- (ohne Autor) (o. J.). *OLC Informations-, Buch- und Bibliothekswesen - Online Contents - 2.45*. [Link](https://kxp.k10plus.de/DB=2.45/DB=2.45/LNG=DU/?COOKIE=U8286,K8286,D2.45,E3643fd22-2,I0,B9055++++++,SY,Q,A,H12,,73,,76-78,,88-90,NUB+BERN,R130.92.245.41,FN)
+- (ohne Autor) (o. J.). *Online Library and Publication Platform | Directory of Open Access Books*. [Link](https://www.doabooks.org/)
+- (ohne Autor) (o. J.). *open-access.network Startseite*. [Link](https://open-access.network/startseite)
+- (ohne Autor) (o. J.). *PIAF - Portail International Archivistique Francophone*. [Link](http://www.piaf-archives.org/)
+- (ohne Autor) (o. J.). *Portail HAL de l'ENSSIB*. [Link](https://hal-enssib.archives-ouvertes.fr/)
+- (ohne Autor) (o. J.). *Portail suisse des périodiques : Info*. [Link](https://ead.nb.admin.ch/web/swiss-serials/info_fr.html)
+- Prom, Christopher (o. J.). *Preserving Email*. [Link](https://www.dpconline.org/docs/technology-watch-reports/2159-twr19-01/file)
+- (ohne Autor) (o. J.). *Renouvaud*. [Link](https://renouvaud1.primo.exlibrisgroup.com)
+- EBSI Ecole de bibliothéconomie et des sciences de l'Information, Université de Montréal (o. J.). *Ressources pédagogiques : sites d'intérêt en sciences de l'information.*. [Link](https://ebsi.umontreal.ca/ressources-services/ressources-pedagogiques/sites-sciences-de-l-information/)
+- BAR, Schweizerisches Bundesarchiv (o. J.). *Schweizerisches Bundesarchiv - archives fédérales suisses*. [Link](https://www.bar.admin.ch/bar/de/home.html)
+- (ohne Autor) (o. J.). *Search Engines Information Retrieval in Practice*. [Link](https://ciir.cs.umass.edu/irbook/)
+- (ohne Autor) (o. J.). *Spinning the Semantic Web*. [Link](https://mitpress.mit.edu/9780262562126/spinning-the-semantic-web/)
+- (ohne Autor) (o. J.). *Staatsarchiv | sg.ch*. [Link](https://www.sg.ch/kultur/staatsarchiv.html)
+- (ohne Autor) (o. J.). *Standards Portal | Society of American Archivists*. [Link](https://www2.archivists.org/standards)
+- (ohne Autor) (o. J.). *Statistique des bibliothèques 2023: premiers résultats - GNP Diffusion*. [Link](https://www.bfs.admin.ch/news/fr/2024-0366)
+- statistique, Office fédéral de la (o. J.). *Statistique suisse des bibliothèques*. [Link](https://www.bfs.admin.ch/bfs/fr/home/statistiken/kultur-medien-informationsgesellschaft-sport/erhebungen/chbs.html)
+- (ohne Autor) (o. J.). *swisscovery*. [Link](https://swisscovery.slsp.ch)
+- Confédération suisse (o. J.). *TERMDAT - La banque de données terminologiques de l'administration fédérale*. [Link](https://www.termdat.bk.admin.ch/search)
+- (ohne Autor) (o. J.). *The Bibliomagician: Comment & practical guidance from the LIS-Bibliometrics community*. [Link](https://thebibliomagician.wordpress.com/)
+- (ohne Autor) (o. J.). *Verbände in Deutschland*. [Link](https://bibliotheksportal.de/informationen/verbaende-einrichtungen/bibliotheksverbaende-in-deutschland)
+- (ohne Autor) (o. J.). *VIAF*. [Link](http://viaf.org/)
+- (ohne Autor) (o. J.). *World Guide to Libraries*. [Link](https://www.degruyter.com/database/WGTL/html)
+- (ohne Autor) (o. J.). *WorldCat Identities*. [Link](http://www.worldcat.org/identities/)
+- (ohne Autor) (o. J.). *WorldCat.org : le plus grand catalogue de bibliothèques au monde*. [Link](https://www.worldcat.org/)
+- (ohne Autor) (o. J.). *Zeitschriftenliste nach Fachgebiet | Elektronische Zeitschriftenbibliothek*. [Link](http://ezb.uni-regensburg.de/)
+- (ohne Autor) (o. J.). *École de bibliothéconomie et des sciences de l'information - Université de Montréal*. [Link](https://ebsi.umontreal.ca/accueil/)
+- (ohne Autor) (o. J.). *École nationale des chartes*. [Link](https://www.chartes.psl.eu/fr)
+- Archivschule Marburg (0000). *Bibliographien [zum Archivwesen]*. [Link](https://www.archivschule.de/DE/service/bibliographien/)
+- Capurro, Rafael (2000). *Einführung in den Informationsbegriff*. [Link](http://www.capurro.de/infovorl-einl.htm)
+- Eversberg, Bernhard (2005). *Zur Theorie der Bibliothekskataloge und Suchmaschinen*. [Link](http://www.allegro-b.de/doku/regeln/tks.htm)
+- Canada, Bibliothèque et Archives; Canada, Library and Archives (2012). *Bibliothèque et Archives Canada*. [Link](https://www.collectionscanada.gc.ca/)
+- Université Laval (2012). *Dico-wiki archivistique*. [Link](https://www.archivesnumeriques.hst.ulaval.ca/outils/dico-wiki-archivistique)
+- International Council of Archives ICA (2012). *Terminologie archivistique multilingue | International Council on Archives*. [Link](https://www.ica.org/fr/terminologie-archivistique-multilingue)
+- Université de Montréal, EBSI (2015). *Terminologie de base en archivistique*. [Link](https://clip.ebsi.umontreal.ca/terminologie/)
+- Archivschule Marburg (2015). *Terminologie der Archivwissenschaft -*. [Link](http://www.archivschule.de/uploads/Forschung/ArchivwissenschaftlicheTerminologie/Terminologie.html)
+- Banat-Berger, Françoise; Borgeaud, Emily; Nougaret, Christine (2016). *Archivistique et diplomatique numériques : une traduction en français d’une partie des livrables du projet InterPARES 2*. [Link](http://elec.enc.sorbonne.fr/interpares2/)
+- ENC Ecole des Chartes (2017). *Theleme. Techniques pour l’Historien en Ligne : Etudes, Manuels, Exercices. Bibliographie d’archivistique générale*. [Link](http://theleme.enc.sorbonne.fr/bibliographies/)
+- (ohne Autor) (2018). *Outils Froids : intelligence économique, veille stratégique, social medias monitoring, mindmapping,...*. [Link](https://www.outilsfroids.net/)
+- Université de Montréal, EBSI (2018). *Terminologie de base en sciences de l'information*. [Link](https://clip.ebsi.umontreal.ca/terminologie/)
+- (ohne Autor) (2022). *RM-Baukasten - VSA-AAS*. [Link](https://vsa-aas.ch/ressourcen/records-management/rm-baukasten/)
+- Blanc-Feracci, Caroline; Braud, Marion; Forget, Camille et al. (2022). *« Bibliothèques, éditeurs, libraires, face au mouvement de l’open »*. [Link](https://bbf.enssib.fr/tour-d-horizon/bibliotheques-editeurs-libraires-face-au-mouvement-de-l-open_70298)
+- Serange, Camille (2023). *LibGuides: Science ouverte et données de la recherche en bibliothèque: Comprendre les enjeux de la Science ouverte*. [Link](https://enssib.libguides.com/c.php?g=705396&p=5080536)
+- (ohne Autor) (2023). *The Signal. A blog from the Library of Congress. | Digital Happenings at the Library of Congress*. [Link](//blogs.loc.gov/thesignal)
+
+## journalArticle (48)
+
+- Uffen, Herman; Kinkel, Tamar (o. J.). *Controlling the cost of digital preservation*
+- (ohne Autor) (o. J.). *Current Cites - liste de diffusion*. Current Cites. [Link](https://www.currentcites.org/)
+- (ohne Autor) (o. J.). *nestor-Handbuch: Eine kleine Enzyklopädie der digitalen Langzeitarchivierung*
+- Puchta, Michael (o. J.). *Signifikante Eigenschaften für eine «Unknown Community»*. Der Archivar
+- Booms, Hans (1972). *Gesellschaftsordnung und Überlieferungsbildung. Zur Problematik archivarischer Quellenbewertung*. Archivalische Zeitschrift
+- (ohne Autor) (1997). *Archivistik in der Schweiz = L'archivistique en Suisse. Numéro thématique*. Schweizerische Zeitschrift für Geschichte/Revue suisse d’histoire/Rivista Storica Svizzera,. [Link](https://www.e-periodica.ch/digbib/view?pid=szg-006:1997:47::344#344)
+- Zuerich, ETH-Bibliothek (1997). *Bibliographie archivistique*. Revue suisse d’histoire (Schweizerische Zeitschrift für Geschichte). [Link](https://dx.doi.org/10.5169/seals-81197)
+- Carbone, Pierre (1998). *Évaluer la performance des bibliothèques*. Bulletin des bibliothèques de France (BBF). [Link](https://bbf.enssib.fr/consulter/bbf-1998-06-0040-005)
+- Burgy, François (2003). *Les archives en Suisse ou la fureur du particularisme*. Archives. Association des archivistes du Québec
+- Given, Lisa M.; Leckie, Gloria J. (2003). *“Sweeping” the library: Mapping the social activity space of the public library - ScienceDirect*. Library and information Science Research. [Link](https://doi.org/https://doi.org/10.1016/S0740-8188(03)00049-5)
+- Graf, Christoph (2004). *Archive und Demokratie in der Informationsgesellschaft*. Studien und Quellen : Veröffentlichungen des Schweizerischen Bundesarchivs = Etudes et sources : publications des Archives fédérales suisses = Studi e fonti : pubblicazioni dell'Archivio federale svizzero
+- Grimard, Jacques (2005). *L'archivistique à l'heure du paradigme de l'information... ou la « Révolution » numérique à l'«âge» archivistique*. Archives (Québec)
+- Greene, Mark A.; Meissner, Dennis (2005). *More Product, Less Process: Revamping Traditional Archival Processing*. The American Archivist. [Link](https://www.jstor.org/stable/40294290)
+- (ohne Autor) (2006). *Diplomatik im 21. Jahrhundert – Bilanz und Perspektiven. Tagung der Commission Internationale de Diplomatique (Bonn, 7.-11. September 2005)*. Archiv für Diplomatik
+- Becker, Irmgard Christa (2009). *Arbeitshilfe zur Erstellung eines Dokumentationsprofils für Kommunalarchive: Einführung in das Konzept der BKK zur Überlieferungsbildung und Textabdruck*. Archivar. [Link](http://docplayer.org/10950486-Arbeitshilfe-zur-erstellung-eines-dokumentationsprofils-fuer-kommunalarchive.html)
+- Haycock, Ken (2011). *Advocacy Revisited: Newer Insights based on Research and Evidence*. World Libraries. [Link](https://worldlibraries.dom.edu/index.php/worldlib/article/view/96)
+- Lemay, Yvon; Klein, Anne (2012). *La diffusiuon des archives : ou les 12 travaux des archivistes à l'ère du numérique: Valorisation des corpus numérisés*. Les cahiers du numérique. [Link](https://www.cairn.info/revue-les-cahiers-du-numerique-2012-3-page-15.htm)
+- Desrichard, Yves (2012). *Les bibliothécaires face aux problématiques de médiation : une nécessité pour valoriser les ressources numériques*. Bulletin des bibliothèques de France (BBF). [Link](https://bbf.enssib.fr/consulter/bbf-2012-04-0074-007)
+- Lemoine, Hervé (2013). *Archives et enjeux de société: dossier*. Culture et recherche. [Link](http://www.culturecommunication.gouv.fr/content/download/89855/672556/file/CR129_web.pdf)
+- IG-WBS (2013). *Berufsbild Wissenschaftliche Bibliothekarin / Wissenschaftlicher Bibliothekar*. [Link](https://igwbs.ch/wp-content/uploads/2013_11_18_igwbs_berufsbild.pdf)
+- Cook, Terry (2013). *Evidence, memory, identity, and community: four shifting archival paradigms*. Archival Science. [Link](https://doi.org/10.1007/s10502-012-9180-7)
+- IG-WBS (2013). *Profil professionnel Bibliothécaire scientifique*. [Link](https://igwbs.ch/wp-content/uploads/igwbs_berufsbild_fr0901__26052015.pdf)
+- Rosenthaler, Lukas; Fornaro, Peter; Clivaz, Claire (2015). *DASCH: Data and Service Center for the Humanities*. Digital Scholarship in the Humanities. [Link](https://doi.org/10.1093/llc/fqv051)
+- Haas, Corinna; Mumenthaler, Rudolf; Schuldt, Karsten (2015). *Ist die Bibliothek ein Dritter Ort? Ein Seminarbericht*. Informationspraxis. [Link](https://doi.org/10.11588/ip.2015.2.23763)
+- Touitou, Cecile (2015). *SWEEPING THE LIBRARY La bibliothèque de Sciences Po Paris passe les usages de ses lecteurs au tamis de l’observation*. bulletin des bibliothèques de france
+- Verneuil, Anne; Chaimbault-Petitjean, Thomas (2016). *Advocacy [dossier]*. Bibliothèque(s). [Link](https://www.enssib.fr/bibliotheque-numerique/index-des-revues?id_numero=68002&type_numero=PDF#page=27)
+- Bak, Greg (2016). *How Soon Is Now? Writings on Digital Archiving in Canada from the 1980s to 2011*. The American Archivist. [Link](https://doi.org/10.17723/0360-9081-79.2.283)
+- Marty, Sara (2016). *Schweizer Dokumentationslandschaft im Wandel: die Suche nach einem Berufsverständnis*. Informationswissenschaft: Theorie, Methode und Praxis. [Link](https://doi.org/10.18755/iw.2016.8)
+- Bak, Greg (2016). *Trusted by whom? TDRs, standards culture and the nature of trust*. Archival Science. [Link](https://doi.org/10.1007/s10502-015-9257-1)
+- Hollmann, Michael (2017). *Archivgut im Zeitalter seiner digitalen Verfügbarkeit*. Archivalische Zeitschrift. [Link](https://doi.org/10.7788/az-2017-950104)
+- Spencer, Ross (2017). *Binary trees? Automatically identifying the links between born-digital records*. Archives and Manuscripts. [Link](https://doi.org/10.1080/01576895.2017.1330158)
+- Butel, Élise; Le Quéau, Pierre; Zerbib, Olivier (2019). *Qualifier et mesurer les effets des bibliothèques publiques sur leur territoire*. L'Observatoire. [Link](https://doi.org/10.3917/lobs.054.0109)
+- Pendergrass, Keith L.; Sampson, Walker; Walsh, Tim et al. (2019). *Toward Environmentally Sustainable Digital Preservation*. The American Archivist. [Link](https://doi.org/10.17723/0360-9081-82.1.165)
+- Schneider, Ulrich Johannes (2020). *Deutsche Nationalkataloge: Herausforderungen an das deutsche Bibliothekssystem: Was aus der Perspektive der Digital Humanities zu tun wäre*. ABI-Technik. [Link](https://doi.org/10.1515/abitech-2020-1005)
+- Hodel, Tobias (2020). *Perspektivenwechsel: zwei Disziplinen aus Sicht der Digital Humanities : oder wie sich die Geisteswissenschaften im Digitalen (selbst) finden*. Zeitschrift für schweizerische Archäologie und Kunstgeschichte = Revue suisse d'art et d'archéologie = Rivista svizzera d'arte e d'archeologia = Journal of Swiss archeology and art history. [Link](https://doi.org/10.5169/seals-882468)
+- Frank, Rebecca D. (2020). *The Social Construction of Risk in Digital Preservation*. Journal of the Association for Information Science and Technology. [Link](https://doi.org/10.1002/asi.24247)
+- Lin, Dawei; Crabtree, Jonathan; Dillo, Ingrid et al. (2020). *The TRUST Principles for digital repositories*. Scientific Data. [Link](https://doi.org/10.1038/s41597-020-0486-7)
+- Colavizza, Giovanni; Blanke, Tobias; Jeurgens, Charles et al. (2021). *Archives and AI: An Overview of Current Debates and Future Perspectives*. Journal on Computing and Cultural Heritage. [Link](https://doi.org/10.1145/3479010)
+- Lappin, James; Jackson, Tom; Matthews, Graham et al. (2021). *Rival records management models in an era of partial automation*. Archival Science. [Link](https://doi.org/10.1007/s10502-020-09354-9)
+- Knoch-Mund, Gaby (2022). *Die Zukunft ist interdisziplinär: Der Master in Archiv-, Bibliotheks- und Informationswissenschaft der Universitäten Bern und Lausanne*. Bibliothek : Forschung und Praxis
+- Eichenberger, Nicole; Harnisch, Franziska; Schmid, Larissa (2022). *Editorial: Critical Library Perspectives. Ein digitales Denklabor*. 027.7 Zeitschrift für Bibliothekskultur / Journal for Library Culture. [Link](https://doi.org/10.21428/1bfadeb6.7b5106f5)
+- Clarke, Rachel Ivy; Stanton, Katerina Lynn; Grimm, Alexandra et al. (2022). *Invisible Labor, Invisible Value: Unpacking Traditional Assessment of Academic Library Value | Clarke |*. College & Research Libraries. [Link](https://doi.org/https://doi.org/10.5860/crl.83.6.926)
+- Jaillant, Lise; Caputo, Annalina (2022). *Unlocking digital archives: cross-disciplinary perspectives on AI and born-digital data*. AI & SOCIETY. [Link](https://doi.org/10.1007/s00146-021-01367-x)
+- Petras, Vivien (2023). *The identity of information science*. Journal of Documentation. [Link](https://doi.org/10.1108/JD-04-2023-0074)
+- Cooke-Escapil, Louise (2024). *Decolonizing the Library: Considering the Movement in the Irish Colonial Contexts*. Libri. [Link](https://doi.org/10.1515/libri-2024-0092)
+- Tóth, Máté; Hvenegaard Rasmussen, Casper; Vårheim, Andreas et al. (2024). *Librarians, archivists, and museum professionals’ role perceptions and cross sectoral collaboration – Signs of convergence?*. Journal of Librarianship and Information Science. [Link](https://doi.org/10.1177/09610006241245101)
+- Gama, Merabe Carvalho Ferreira da (2024). *Libraries and the 2030 Agenda: The Portuguese Case*. Libri. [Link](https://doi.org/10.1515/libri-2024-0099)
+- Verlaet, Lise (2024). *L’édition scientifique en France : de la censure à l’ouverture : révolutions politiques, commerciales, technologiques… et autres problèmes éthiques*. Interfaces numériques. [Link](https://doi.org/10.25965/interfaces-numeriques.5262)
+
+## bookSection (28)
+
+- (ohne Autor) (o. J.). *Schwerpunkt: Nachhaltigkeit*. Bibliothek Forschung und Praxis. [Link](https://www.degruyter.com/journal/key/bfup/45/3/html)
+- Schweizerische Gesellschaft für Geschichte; Société Suisse D'histoire (2001). *Ueberlieferungsbildung und Bewertung / Evaluation et Formation des sources Archivistiques*. Ueberlieferungsbildung und Bewertung / Evaluation et Formation des sources Archivistiques. [Link](https://www.e-periodica.ch/digbib/view?pid=szg-006:2001:51::644#644)
+- Booms, Hans (2002). *Ordre social et constitution du patrimoine archivistique: à propos de l'évaluation des sources d'archives*. Archives. Association des archivistes du Québec
+- Kretzschmar, Robert (2010). *Multiperspektivische Überlieferungsbildung in Archiven. Ziele und Methoden*. Überlieferungskultur. Wie viel Vergangenheit braucht die Gegenwart? Wie viel Gegenwart braucht die Zukunft?
+- Allemang, Dean; Hendler, Jim (2011). *About the authors*. Semantic Web for the Working Ontologist (Second Edition). [Link](https://www.sciencedirect.com/science/article/pii/B978012385965510024X)
+- Allemang, Dean; Hendler, Jim (2011). *Acknowledgments*. Semantic Web for the Working Ontologist (Second Edition). [Link](https://www.sciencedirect.com/science/article/pii/B9780123859655100238)
+- Allemang, Dean; Hendler, Jim (2011). *Appendix - Frequently asked questions*. Semantic Web for the Working Ontologist (Second Edition). [Link](https://www.sciencedirect.com/science/article/pii/B9780123859655100172)
+- Allemang, Dean; Hendler, Jim (2011). *Chapter 1 - What is the Semantic Web?*. Semantic Web for the Working Ontologist (Second Edition). [Link](https://www.sciencedirect.com/science/article/pii/B9780123859655100019)
+- Allemang, Dean; Hendler, Jim (2011). *Chapter 10 - SKOS—managing vocabularies with RDFS-Plus*. Semantic Web for the Working Ontologist (Second Edition). [Link](https://www.sciencedirect.com/science/article/pii/B978012385965510010X)
+- Allemang, Dean; Hendler, Jim (2011). *Chapter 11 - Basic OWL*. Semantic Web for the Working Ontologist (Second Edition). [Link](https://www.sciencedirect.com/science/article/pii/B9780123859655100111)
+- Allemang, Dean; Hendler, Jim (2011). *Chapter 12 - Counting and sets in OWL*. Semantic Web for the Working Ontologist (Second Edition). [Link](https://www.sciencedirect.com/science/article/pii/B9780123859655100123)
+- Allemang, Dean; Hendler, Jim (2011). *Chapter 13 - Ontologies on the Web—putting it all together*. Semantic Web for the Working Ontologist (Second Edition). [Link](https://www.sciencedirect.com/science/article/pii/B9780123859655100135)
+- Allemang, Dean; Hendler, Jim (2011). *Chapter 14 - Good and bad modeling practices*. Semantic Web for the Working Ontologist (Second Edition). [Link](https://www.sciencedirect.com/science/article/pii/B9780123859655100147)
+- Allemang, Dean; Hendler, Jim (2011). *Chapter 15 - Expert modeling in OWL*. Semantic Web for the Working Ontologist (Second Edition). [Link](https://www.sciencedirect.com/science/article/pii/B9780123859655100159)
+- Allemang, Dean; Hendler, Jim (2011). *Chapter 16 - Conclusions*. Semantic Web for the Working Ontologist (Second Edition). [Link](https://www.sciencedirect.com/science/article/pii/B9780123859655100160)
+- Allemang, Dean; Hendler, Jim (2011). *Chapter 2 - Semantic modeling*. Semantic Web for the Working Ontologist (Second Edition). [Link](https://www.sciencedirect.com/science/article/pii/B9780123859655100020)
+- Allemang, Dean; Hendler, Jim (2011). *Chapter 3 - RDF—The basis of the Semantic Web*. Semantic Web for the Working Ontologist (Second Edition). [Link](https://www.sciencedirect.com/science/article/pii/B9780123859655100032)
+- Allemang, Dean; Hendler, Jim (2011). *Chapter 4 - Semantic Web application architecture*. Semantic Web for the Working Ontologist (Second Edition). [Link](https://www.sciencedirect.com/science/article/pii/B9780123859655100044)
+- Allemang, Dean; Hendler, Jim (2011). *Chapter 5 - Querying the Semantic Web—SPARQL*. Semantic Web for the Working Ontologist (Second Edition). [Link](https://www.sciencedirect.com/science/article/pii/B9780123859655100056)
+- Allemang, Dean; Hendler, Jim (2011). *Chapter 6 - RDF and inferencing*. Semantic Web for the Working Ontologist (Second Edition). [Link](https://www.sciencedirect.com/science/article/pii/B9780123859655100068)
+- Allemang, Dean; Hendler, Jim (2011). *Chapter 7 - RDF schema*. Semantic Web for the Working Ontologist (Second Edition). [Link](https://www.sciencedirect.com/science/article/pii/B978012385965510007X)
+- Allemang, Dean; Hendler, Jim (2011). *Chapter 8 - RDFS-Plus*. Semantic Web for the Working Ontologist (Second Edition). [Link](https://www.sciencedirect.com/science/article/pii/B9780123859655100081)
+- Allemang, Dean; Hendler, Jim (2011). *Chapter 9 - Using RDFS-Plus in the wild*. Semantic Web for the Working Ontologist (Second Edition). [Link](https://www.sciencedirect.com/science/article/pii/B9780123859655100093)
+- Allemang, Dean; Hendler, Jim (2011). *Copyright*. Semantic Web for the Working Ontologist (Second Edition). [Link](https://www.sciencedirect.com/science/article/pii/B9780123859655100214)
+- Allemang, Dean; Hendler, Jim (2011). *Front Matter*. Semantic Web for the Working Ontologist (Second Edition). [Link](https://www.sciencedirect.com/science/article/pii/B9780123859655100202)
+- Allemang, Dean; Hendler, Jim (2011). *Preface to the second edition*. Semantic Web for the Working Ontologist (Second Edition). [Link](https://www.sciencedirect.com/science/article/pii/B9780123859655100226)
+- Allemang, Dean; Hendler, Jim (2011). *Semantic Web for the Working Ontologist (Second Edition)*. Semantic Web for the Working Ontologist (Second Edition). [Link](https://www.sciencedirect.com/science/article/pii/B9780123859655100196)
+- Eun Seo Jo; Gebru, Timnit (2020). *Lessons from archives: strategies for collecting sociocultural data in machine learning*. Proceedings of the 2020 Conference on Fairness, Accountability, and Transparency (FAT* '20). [Link](https://dl.acm.org/doi/10.1145/3351095.3372829)
+
+## document (21)
+
+- RIN; RLUK (o. J.). *The value of libraries for research and researchers*. [Link](https://www.rluk.ac.uk/wp-content/uploads/2014/02/Value-of-Libraries-report.pdf)
+- Cook, Terry; Library and Archives Canada (2001). *Appraisal Methodology: Macro- Appraisal and Functional Analysis. Part A: Concepts and Theory*. [Link](https://www.bac-lac.gc.ca/eng/services/government-information-resources/disposition/Documents/MacroappraisalPartA.pdf)
+- Cook, Terry; Library and Archives Canada (2001). *Appraisal Methodology: Macro- Appraisal and Functional Analysis. Part B: Guidelines for Performing an Archival Appraisal on Government Records*. [Link](https://www.bac-lac.gc.ca/eng/services/government-information-resources/disposition/Documents/MacroappraisalPartB.pdf)
+- Direction des Archives de France (2001). *Dictionnaire de terminologie archivistique*. [Link](https://francearchives.fr/file/4575c619ab1e1e738d81d2249ff8dd4115a3d8cb/ARCHIVES_DE_FRANCE_Dictionnaire_de_terminologie_archivistique.pdf)
+- Graf, Klaus (2007). *Quellenarbeit und Schriftgutverwaltung*
+- Couvidat, Anne (2009). *Le marketing des bibliothèques*. [Link](https://www.enssib.fr/bibliotheque-numerique/documents/48466-le-marketing-des-bibliotheques.pdf)
+- Commission Bibliothèque nationale (2010). *Charte des bibliothèques suisses / Charta der schweizer Bibliotheken / Carta delle biblioteche svizzere*. [Link](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwjysdaTtd36AhWjQuUKHQA1DhUQFnoECAoQAQ&url=https%3A%2F%2Fwww.nb.admin.ch%2Fdam%2Fsnl%2Ffr%2Fdokumente%2Fkommission_nb%2Fnormen_und_regelwerke%2Fcharta_der_schweizerbibliothekenmai2010.pdf&usg=AOvVaw0IvnTQ6KmdO3P8q6selwzf)
+- Chabin, Marie-Anne (2010). *Nouveau glossaire de l’archivage*. [Link](http://www.arcateg.fr/wp-content/uploads/2017/03/Nouveau_glossaire_de_l_archivage.pdf)
+- Comité interministériel aux Archives de France (2013). *Référentiel général de gestion des Archives*. [Link](https://www.gouvernement.fr/sites/default/files/contenu/piece-jointe/2014/07/r2ga_document_complet_201310.pdf)
+- Bibliothèque et Archives nationales du Québec (BAnq) (2014). *Recueil de règles de numérisation*. [Link](https://www.banq.qc.ca/a_propos_banq/publications/publications_electroniques/recueil_regles_numerisation/index.html)
+- Delcarmine, Nadine; Mercier, Silvère; Rigeade, Marine et al. (2016). *Qu'est-ce qui fait la valeur des bibliothèques ? Livre blanc - Notice bibliographique | Enssib*. [Link](https://www.enssib.fr/bibliotheque-numerique/notices/65997-qu-est-ce-qui-fait-la-valeur-des-bibliotheques-livre-blanc)
+- Verdicchio, Dirk (2017). *Open Access: models, strategies, costs*. [Link](https://boris.unibe.ch/101716/1/verdicchio-sgc.pdf)
+- Coutaz, Gilbert (2018). *Petit précis d'archivistique (Dossier thématique)*. [Link](https://www.vd.ch/fileadmin/user_upload/organisation/chancellerie/ACV/fichiers_pdf/dossier-thematique/Dossier-thematique-2018.pdf)
+- Deutscher Bibliotheksverband e.V. (dbv) • (2021). *Klares Bekenntnis für faire Rahmenbedingungen beim E-Lending in Bibliotheken. Deutscher Bibliotheksverband begrüßt Koalitionsvertrag der Ampelkoalition*. [Link](https://www.bibliotheksverband.de/sites/default/files/2021-11/PM_dbv%20zum%20Koalitionsvertrag_final.pdf)
+- Deschamps, Christophe (2021). *Les technologies du faux : un état des lieux*. [Link](https://www.outilsfroids.net/?mdocs-file=12764)
+- Deutscher Bibliotheksverband e.V. (dbv) • (2021). *Öffentliche Bibliothek 2025. Leitlinien für die Entwicklung der Öffentlichen Bibliotheken*. [Link](https://www.bibliotheksverband.de/sites/default/files/2021-03/Positionspapier_%C3%96B_2025_FINAL_WEB.pdf)
+- Deutscher Bibliotheksverband e.V. (dbv) • (2022). *Grundlagenpapier: Bibliotheken als Dritte Orte stärken und Sonntagsöffnung ermöglichen*. [Link](https://www.bibliotheksverband.de/sites/default/files/2022-08/Grundlagenpapier_Sonntags%C3%B6ffnung.pdf)
+- Deutscher Bibliotheksverband e.V. (dbv) (2022). *Grundlagenpapier: Zugang zu Büchern für alle: analog und digital*. [Link](https://www.bibliotheksverband.de/sites/default/files/2022-05/2022_05_30_dbv_Grundlagenpapier_Zugang%20zu%20E-Books_analog_und_digital_final.pdf)
+- Moser, Karin (2023). *Literaturliste zu ‚Wissensmanagement’*. [Link](https://ilias.unibe.ch/goto_ilias3_unibe_fold_2781399.html)
+- Béguelin, Sylvie; Guedj, Romain; Naito, Théophile et al. (2024). *Leitfaden für Digitale Langzeitarchivierung*. [Link](https://www.bibliosuisse.ch/Portals/0/DLZA%20Guide%20V9%20DE%20-%20clean.pdf)
+- Tizon-Germe, Anne-Cécile; Vasseur, Édouard (2024). *Yves Pérotin (1922-1981) : l'archiviste inimitable*
+
+## blogPost (20)
+
+- (ohne Autor) (o. J.). *Aaron Tay's Musings about librarianship*. [Link](http://musingsaboutlibrarianship.blogspot.com/)
+- (ohne Autor) (o. J.). *Archive 2.0*. [Link](https://archive20.hypotheses.org/)
+- Rajotte, David (o. J.). *Documentary Heritage News: About this blog / À propos de ce blogue*. [Link](http://documentary-heritage-news.blogspot.com/p/about-this-blog-propos-de-ce-blogue.html)
+- (ohne Autor) (o. J.). *DSHR's Blog*. [Link](https://blog.dshr.org/)
+- (ohne Autor) (o. J.). *IFLA Code of Ethics for Librarians and other Information Workers (full version) – IFLA*. [Link](https://www.ifla.org/publications/ifla-code-of-ethics-for-librarians-and-other-information-workers-full-version/)
+- Cheung, Melanie (o. J.). *Inclusive Collections, Inclusive Libraries*. [Link](https://www.rluk.ac.uk/icil-on-demand/)
+- (ohne Autor) (o. J.). *InetBib – Internet in Bibliotheken*. [Link](https://www.inetbib.de/#)
+- Yhello (o. J.). *La gestion documentaire au coeur des processus d’affaires – ISTE Editions*. [Link](https://www.istegroup.com/fr/produit/la-gestion-documentaire-au-coeur-des-processus-daffaires/)
+- Beudon, Nicolas (o. J.). *Le recueil factice*. [Link](http://nicolas-beudon.com/blog/)
+- (ohne Autor) (o. J.). *NAPLE Forum – National Authorities on Public Libraries in Europe*. [Link](https://naple.eu/)
+- Saarbrücken, Fachrichtung Informationswissenschaft (o. J.). *Zeittafel zur internationalen Entwicklung des Informationswesens nach 1945*. [Link](https://saar.infowiss.net/fachschaft/bufata-1996/thesen-heinz-marloth/)
+- (ohne Autor) (2008). *Bambou*. [Link](https://docmiop.wordpress.com/a-propos/)
+- Association des archivistes du Québec (2013). *Glossaire*. [Link](https://archivistesqc.wordpress.com/glossaire-2/)
+- Cavalié, Etienne (2014). *Médiation et désir mimétique : Le bibliothécaire intermédiaire ou médiateur ?*. [Link](https://bibliotheques.wordpress.com/2014/01/20/mediation-et-desir-mimetique-le-bibliothecaire-intermediaire-ou-mediateur/)
+- O'Neill, Kathleen (2020). *Analyzing the Born-Digital Archive | The Signal*. [Link](https://blogs.loc.gov/thesignal/2020/10/analyzing-the-born-digital-archive)
+- Naumann, Kai (2020). *Rückschau mit Perspektivprüfung: Ein Kompromissvorschlag in der digitalen Bestandserhaltung*. [Link](https://archive20.hypotheses.org/9912)
+- Warland, Andrew (2021). *A brief history of electronic document and records management systems and related standards*. [Link](https://andrewwarland.wordpress.com/2021/02/11/a-brief-history-of-electronic-document-and-records-management-systems-and-related-standards/)
+- (ohne Autor) (2021). *VSA-AAS - Verein Schweizerische Archivar:innen / Association des archivistes suisses*. [Link](https://vsa-aas.ch/)
+- Association des bibliothécaires de France (ABF) (2022). *ABF - Bibliothèques vertes*. [Link](https://bib.vertes.abf.asso.fr/bonjour-tout-le-monde/)
+- (ohne Autor) (2024). *Quelles perspectives pour des politiques de numérisation patrimoniale écoresponsables ?*. [Link](https://bib.vertes.abf.asso.fr/quelles-perspectives-pour-des-politiques-de-numerisation-patrimoniale-ecoresponsables/)
+
+## conferencePaper (12)
+
+- Conseil international des archives; Conférence internationale de la table ronde des archives (1991). *Actes de la Conférence internationale de la table ronde des archives (CITRA)*. [Link](https://ubbern.swisscovery.slsp.ch/discovery/search?query=any,contains,Actes%20de%20la%20Conf%C3%A9rence%20Internationale%20de%20la%20Table%20Ronde%20des%20Archives&tab=41SLSP_DN_CI&search_scope=DN_and_CI&vid=41SLSP_UBE:UBE&lang=en&offset=0)
+- Brübach, Nils (2000). *Der Zugang zu Verwaltungsinformationen - Tranparenz als archivische Dienstleistung: Beiträge des 5. Archivwissenschaftlichen Kolloquiums der Archivschule Marburg*. [Link](https://www.archivschule.de/DE/publikation/veroeffentlichungsreihe/voe33-online.html)
+- Kretzschmar, Robert; Verband deutscher Archivarinnen und Archivare Fachgruppe Staatliche Archive Frühjahrstagung; Verein Deutscher Archivare (2002). *Methoden und Ergebnisse archivübergreifender Bewertung*
+- Fromageau, Jérôme (2003). *Archives et recherche: aspects juridiques et pratiques administratives*
+- Archivschule Marburg; Archivwissenschaftliches Kolloquium (2004). *Archive und ihre Nutzer - Archive als moderne Dienstleister: Beiträge des 8. Archivwissenschaftlichen Kolloquiums der Archivschule Marburg*. [Link](https://www.archivschule.de/DE/publikation/veroeffentlichungsreihe/voe39-online.html)
+- Vereinigung Schweizerischer Archivare; Verein Schweizerischer Archivarinnen und Archivare; Schweizerisches Wirtschaftsarchiv et al. (2006). *Unternehmensarchive - ein Kulturgut?: Beiträge zur Arbeitstagung Unternehmensarchive und Unternehmensgeschichte*
+- Bischoff, Frank M. (2007). *Benutzerfreundlich, rationell, standardisiert: aktuelle Anforderungen an archivische Erschliessung und Findmittel*. [Link](https://www.deutsche-digitale-bibliothek.de/item/JZSCJBYSXVTTSKKB3XQ3ITEGC3ATONNC)
+- Ganz-Blättler, Ursula; Hungerbühler, Ruth; Deggeller, Kurt (2007). *Gehört - Gesehen: das audiovisuelle Erbe und die Wissenschaft = Heard - seen : the uses of digitised archives for the sciences*
+- Lutz, Alexandra (2009). *Zwischen analog und digital - Schriftgutverwaltung als Herausforderung für Archive: Beiträge zum 13. Archivwissenschaftlichen Kolloquium der Archivschule Marburg*. [Link](https://www.archivschule.de/DE/publikation/veroeffentlichungsreihe/voe49-online.html)
+- Journées des archives (2015). *L'archiviste dans quinze ans: nouvelles attentes, nouvelles responsabilités, nouveaux défis*
+- Kretzschmar, Robert; Hering, Rainer (2017). *Recherche und Weiterverarbeitung: digitale Angebote der Archive für die historische Forschung im Netz*
+- Büchler, Georg (2018). *Beiträge der 21. Jahrestagung des Arbeitskreises "Archivierung von Unterlagen aus digitalen Systemen" Basel, 28. Februar und 1. März 2017*. [Link](https://bop.unibe.ch/iw/issue/view/784)
+
+## report (5)
+
+- Brewer, Ashley (2020). *Pragmatic Audiovisual Preservation*. [Link](https://www.dpconline.org/docs/technology-watch-reports/2381-pragmatic-audiovisual-preservation-member-preview/file)
+- Bunn, Jenny (2021). *Born digital archive cataloguing and description*. [Link](https://www.dpconline.org/docs/technology-watch-reports/2468-born-digital-archive-cataloguing-and-description/file)
+- (ohne Autor) (2024). *Development and Access to Information 2024*. [Link](https://repository.ifla.org/handle/123456789/3334)
+- Arnold, Jonas; Lüpold, Martin; Theilkäs, Lorenz et al. (2024). *Whitepaper Maschinelles Lernen im Archiv: Tiefenerschliessung im Dienst des Archivzugangs*. [Link](https://vsa-aas.ch/wp-content/uploads/2024/08/MachineLearning_im_Archiv_Whitepaper_2024-08-08.pdf)
+- Kaltman, Eric; Schwaid-Lindner, Winnie; Jonathan, Drey et al. (2025). *An Overview of Emulation as a Preservation Method*. [Link](https://www.clir.org/wp-content/uploads/sites/6/2025/07/An_Overview_of_Emulation_as_a_Preservation_Method_CLIRpub194.pdf)
+
+## thesis (4)
+
+- Haber, Peter (2011). *Digital Past: Geschichtswissenschaft im digitalen Zeitalter*
+- Vogel, Johanna (2011). *Médiation numérique : qu’est-ce que les bibliothèques peuvent apporter au Web ?*. [Link](https://www.enssib.fr/bibliotheque-numerique/documents/49484-mediation-numerique-qu-est-ce-que-les-bibliotheques-peuvent-apporter-au-web.pdf)
+- Olgiati Pelet, Mirta (2011). *Nouveau regard sur l'information documentaire publique: régulation d'une ressource en émergence dans l'univers des archives, des bibliothèques et de l'administration suisses*
+- Chebbi, Aïda (2013). *Archivage du Web organisationnel dans une perspective archivistique*. [Link](https://papyrus.bib.umontreal.ca/xmlui/handle/1866/9203)
+
+## preprint (2)
+
+- Lincoln, Matthew; Corrin, Julia; Davis, Emily et al. (2020). *CAMPI: Computer-Aided Metadata Generation for Photo archives Initiative*. [Link](https://doi.org/10.1184/R1/12791807.v2)
+- Candela, Gustavo; Gabriëls, Nele; Chambers, Sally et al. (2023). *A Checklist to Publish Collections as Data in GLAM Institutions*. [Link](https://doi.org/10.48550/arXiv.2304.02603)
+
+## videoRecording (2)
+
+- (ohne Autor) (2022). *Jérémy Lachal : Pour un droit universel à la connaissance*. [Link](https://www.youtube.com/watch?v=X-hXa9FrCkM)
+- (ohne Autor) (2025). *Digitalisierung on demand*. [Link](https://www.youtube.com/watch?v=AXz4ZB-BTAA)
+
+## presentation (1)
+
+- (ohne Autor) (2008). *Count the traffic*. [Link](https://archive.ifla.org/IV/ifla74/papers/107-Hoivik-en.pdf)

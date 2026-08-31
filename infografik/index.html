@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Software-Mix Infografik — Das Lebendige Archiv</title>
+<style>
+  :root{--bg:#f6f1e7;--ink:#1b1712;--line:#dcd2bf;--brass:#b8742a}
+  *{box-sizing:border-box}
+  html,body{height:100%;margin:0}
+  body{font-family:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;background:var(--bg);color:var(--ink);display:flex;flex-direction:column}
+  .bar{display:flex;align-items:center;gap:1rem;flex-wrap:wrap;padding:.6rem 1rem;border-bottom:1px solid var(--line);background:#fffdf8}
+  .bar h1{font-family:Georgia,serif;font-size:1.05rem;margin:0;font-weight:700}
+  .bar .sub{font-size:.85rem;opacity:.55}
+  .bar a{color:var(--brass);text-decoration:none;font-size:.9rem}
+  .bar a:hover{text-decoration:underline}
+  .spacer{flex:1}
+  iframe{flex:1;border:0;width:100%}
+  @media (prefers-color-scheme:dark){:root{--bg:#16120e;--ink:#f2ead9;--line:#3a3228}.bar{background:#201a13}}
+</style>
+</head>
+<body>
+<div class="bar">
+  <h1>Software-Mix · Infografik</h1>
+  <span class="sub">eingebettet in sajon-platform</span>
+  <div class="spacer"></div>
+  <a href="../">← Repo-Übersicht</a>
+  <a href="../jonason-lebendiges-archiv.html">Konzeptseite</a>
+</div>
+<iframe src="infografik.html" title="Software-Mix Infografik"></iframe>
+</body>
+</html>
