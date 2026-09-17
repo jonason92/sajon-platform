@@ -132,11 +132,17 @@ def main():
     if os.path.isdir(src):
         shutil.copytree(src, os.path.join(SITE, "methodik"), dirs_exist_ok=True)
 
+    # Expeditionen-Seite publizieren
+    src = os.path.join(ROOT, "expeditionen")
+    if os.path.isdir(src):
+        shutil.copytree(src, os.path.join(SITE, "expeditionen"), dirs_exist_ok=True)
+
     # archive book
     build_book(os.path.join(ROOT, ARCHIVE[0]), "archive")
     archive_cards = card("archive/", ARCHIVE[2], "JH · Der Kern")
     archive_cards += card("notizen/", "Notizen-Atlas · 2008–2026", "JH · 315 Notizen · 10 Themen")
     archive_cards += card("methodik/", "Methodik · Wie aus Notizen Wissenschaft wird", "JH · 7 Arbeitsweisen")
+    archive_cards += card("expeditionen/", "Expeditionen · Frühere Forschungsreisen", "JH · 4 Chat-Projekte")
 
     # collections
     collection_html = []

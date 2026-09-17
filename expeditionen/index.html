@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Expeditionen · Das Lebendige Archiv</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;1,400&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+<style>
+:root { --cream:#F8F7E5; --ink:#1D1D1D; --gold:#b39c4f; --teal:#1f6f6b; }
+* { margin:0; padding:0; box-sizing:border-box; }
+body { background:var(--cream); color:var(--ink); font-family:'Inter',-apple-system,sans-serif; font-weight:300; font-size:17px; line-height:1.65; }
+::selection { background:#ECDDC1; }
+a { color:var(--teal); text-decoration:none; border-bottom:1px solid rgba(31,111,107,.35); }
+a:hover { border-color:transparent; }
+header.top { padding:100px 8vw 40px; border-bottom:1px solid rgba(29,29,29,.15); }
+.kicker { font-size:12px; letter-spacing:3px; text-transform:uppercase; color:var(--gold); margin-bottom:20px; }
+h1 { font-family:'Cormorant Garamond',serif; font-weight:500; font-size:clamp(38px,6vw,72px); line-height:1.05; }
+h1 em { font-style:italic; color:var(--gold); }
+.lead { margin-top:26px; max-width:60ch; font-family:'Cormorant Garamond',serif; font-style:italic; font-size:clamp(19px,2.2vw,26px); line-height:1.5; }
+main { padding:20px 8vw 100px; max-width:1200px; }
+section { padding:60px 0; border-bottom:1px solid rgba(29,29,29,.14); }
+.meta { font-size:12px; letter-spacing:2px; text-transform:uppercase; color:var(--teal); margin-bottom:10px; }
+h2 { font-family:'Cormorant Garamond',serif; font-weight:500; font-size:clamp(28px,3.6vw,44px); margin-bottom:16px; }
+section p { max-width:70ch; margin-bottom:14px; }
+blockquote { font-family:'Cormorant Garamond',serif; font-style:italic; font-size:clamp(19px,2vw,23px); line-height:1.55; border-left:2px solid var(--gold); padding:6px 0 6px 24px; margin:22px 0; max-width:62ch; }
+.designs { display:grid; gap:20px; margin-top:26px; }
+@media(min-width:900px){ .designs { grid-template-columns:repeat(3,1fr); } }
+.dcard { border-top:2px solid var(--gold); padding-top:16px; }
+.dcard h3 { font-family:'Cormorant Garamond',serif; font-weight:500; font-size:22px; margin-bottom:8px; }
+.dcard p { font-size:15px; opacity:.85; }
+.status-offen { display:inline-block; font-size:12px; letter-spacing:1.5px; text-transform:uppercase; border:1px dashed var(--gold); color:var(--gold); border-radius:999px; padding:4px 14px; margin-top:10px; }
+.status-ok { display:inline-block; font-size:12px; letter-spacing:1.5px; text-transform:uppercase; border:1px solid var(--teal); color:var(--teal); border-radius:999px; padding:4px 14px; margin-top:10px; }
+footer { padding:60px 8vw; font-size:13px; opacity:.6; }
+.reveal { opacity:0; transform:translateY(2vw); transition:opacity .8s ease, transform .8s cubic-bezier(.33,1,.68,1); }
+.reveal.on { opacity:1; transform:none; }
+</style>
+</head>
+<body>
+<header class="top">
+  <div class="kicker">sajon network · das lebendige archiv</div>
+  <h1>Expeditionen — <em>Frühere Forschungsreisen</em></h1>
+  <p class="lead">Vier Chat-Expeditionen, die dem Archiv vorausgingen: Bibliotheken der Zukunft, ein Brückenprojekt zwischen KI-Systemen, und Pläne, die Blogs wurden. Hier werden sie Teil des Werks.</p>
+</header>
+<main>
+
+<section class="reveal">
+  <div class="meta">expedition 01 · dokumentiert</div>
+  <h2>Zukunft E-Bibliotheken &amp; Literatur</h2>
+  <span class="status-ok">quelle im repo: Zukunft E-Bibliotheken &amp; Literatur.4.docx</span>
+  <p style="margin-top:20px">Aus dieser Expedition stammt die Leitvision des gesamten Archivs — das <strong>offene ausführbare Buch</strong>:</p>
+  <blockquote>«Man öffnet das digitale Dokument und erhält innerhalb der Inhaltsanzeige verschiedene Handlungsoptionen, um in das Buch einzutauchen … man kann mit dem Inhalt des Buches eine Diskussion starten und so in einen intimen Kontakt zu dessen Inhalt und/oder Autor kommen … So wird jedes Buch zum kleinen Kunstwerk. Das Tor in die Welt der Literatur ist geöffnet.»</blockquote>
+  <p>Die Expedition endete mit drei kontrastierenden Design-Studien — ein Methoden-Fund für die Gestaltung des Archivs selbst:</p>
+  <div class="designs">
+    <div class="dcard"><h3>1 · Digitales Archiv</h3><p>Ruhig, archivarisch, zeitlos. Expandierbare Trendkarten, Zeitstrahl, Literatur. Übersicht bei komplexen Themen.</p></div>
+    <div class="dcard"><h3>2 · Tech-Magazin</h3><p>Editorial, klar, tool-fokussiert. Schwarz-Weiss mit starken Kontrasten. Schnelle Informationsvermittlung.</p></div>
+    <div class="dcard"><h3>3 · Literarisches Portal</h3><p>Warm, einladend, fast magisch. Das Buch als lebendiges Zentrum mit sechs «Superkräften». Emotionale Verankerung der Vision.</p></div>
+  </div>
+  <p style="margin-top:22px">→ Anschluss im Archiv: <a href="../methodik/">Methodik 04 (Jupyter Books)</a> · <a href="../notizen/#futur">Notizen: Technik &amp; Zukunft</a></p>
+</section>
+
+<section class="reveal">
+  <div class="meta">expedition 02 · spuren im repo</div>
+  <h2>Kimi &amp; DeepSeek Brückenprojekt</h2>
+  <span class="status-ok">artefakt: 20262408paper_deepseek_for_spatiotemporally_computations.pdf</span>
+  <p style="margin-top:20px">Eine Expedition zu KI-Kollaboration — das DeepSeek-Paper zu spatiotemporalen Berechnungen liegt als Artefakt im Repo. Der Chat-Inhalt selbst ist noch nicht archiviert.</p>
+  <span class="status-offen">offen: chat-export nachreichen</span>
+</section>
+
+<section class="reveal">
+  <div class="meta">expedition 03 · spuren gesucht</div>
+  <h2>E-Bibliothek Zukunftsliste</h2>
+  <p>Die Liste der Zukunftsthemen für E-Bibliotheken — vermutlich die Rohfassung, aus der Expedition 01 erwuchs. Möglicherweise verbunden mit <code>docs/literatur-quellen.md</code> und der Bibliothek des Repos (<a href="https://github.com/jonason92/sajon-platform/tree/main/bibliothek" target="_blank" rel="noopener">bibliothek/</a>).</p>
+  <span class="status-offen">offen: chat-export nachreichen</span>
+</section>
+
+<section class="reveal">
+  <div class="meta">expedition 04 · spuren gesucht</div>
+  <h2>Convert Plans to Blog</h2>
+  <p>Die Früh-Expedition: Pläne in Blogs verwandeln — methodisch die Vorläuferin des jetzigen Workflows (Notizen → Themen → Kapitel → Page).</p>
+  <span class="status-offen">offen: chat-export nachreichen</span>
+</section>
+
+</main>
+<footer>
+  expeditionen v1 · <a href="../">zum portal</a> · <a href="../methodik/">methodik</a> · <a href="../notizen/">notizen-atlas</a>
+</footer>
+<script>
+const rio = new IntersectionObserver((es)=>{ es.forEach(e=>{ if(e.isIntersecting) e.target.classList.add('on'); }); }, {threshold:.12});
+document.querySelectorAll('.reveal').forEach(el=>rio.observe(el));
+</script>
+</body>
+</html>
