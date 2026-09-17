@@ -32,8 +32,9 @@ footer { padding:60px 8vw; font-size:13px; opacity:.6; }
 .reveal { opacity:0; transform:translateY(2vw); transition:opacity .8s ease, transform .8s cubic-bezier(.33,1,.68,1); }
 .reveal.on { opacity:1; transform:none; }
 </style>
+<link rel="stylesheet" href="../assets/la.css">
 </head>
-<body>
+<body data-section="methodik">
 <header class="top">
   <div class="kicker">sajon network · das lebendige archiv</div>
   <h1>Methodik — <em>wie aus Notizen Wissenschaft wird</em></h1>
@@ -122,5 +123,6 @@ footer { padding:60px 8vw; font-size:13px; opacity:.6; }
 const rio = new IntersectionObserver((es)=>{ es.forEach(e=>{ if(e.isIntersecting) e.target.classList.add('on'); }); }, {threshold:.12});
 document.querySelectorAll('.reveal').forEach(el=>rio.observe(el));
 </script>
+<script src="../assets/la.js"></script>
 </body>
 </html>

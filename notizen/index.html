@@ -107,8 +107,9 @@ a.lit { font-family:'Cormorant Garamond',serif; font-size:17px; color:var(--ink)
 a.lit:hover { border-color:transparent; color:var(--gold); }
 .lit-note { margin-top:18px; font-size:13px; opacity:.7; }
 </style>
+<link rel="stylesheet" href="../assets/la.css">
 </head>
-<body>
+<body data-section="notizen">
 <nav id="nav"><a href="#buecher" data-bg="#D1BDAB"><i>•</i>01 Bücher &amp; Empfehlungen</a><a href="#sound" data-bg="#F8F7E5"><i>•</i>02 Klang &amp; Bewegung</a><a href="#party" data-bg="#E9DCCB"><i>•</i>03 Fest, Spiel &amp; Alltag</a><a href="#reisen" data-bg="#D4D4C6"><i>•</i>04 Wege, Orte &amp; Herkunft</a><a href="#spirit" data-bg="#DCE3D4"><i>•</i>05 Geist &amp; Selbst</a><a href="#futur" data-bg="#E5E0D8"><i>•</i>06 Technik &amp; Zukunft</a><a href="#denken" data-bg="#EFE9DC"><i>•</i>07 Denken in Gegensätzen</a><a href="#humor" data-bg="#F4EBDD"><i>•</i>08 Humor &amp; Absurdes</a><a href="#echo" data-bg="#F8F7E5"><i>•</i>09 Echo &amp; Reaktion</a><a href="#gruss" data-bg="#EFE6D8"><i>•</i>10 Grüsse &amp; Freundschaft</a></nav>
 
 <header class="hero">
@@ -648,5 +649,6 @@ document.querySelectorAll('.theme-head, .impulse-col, .hero > *').forEach(el=>{
   el.classList.add('reveal'); rio.observe(el);
 });
 </script>
+<script src="../assets/la.js"></script>
 </body>
 </html>

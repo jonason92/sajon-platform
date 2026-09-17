@@ -1,0 +1,75 @@
+/* ============================================================
+   Living Archive · gemeinsame Design-Sprache (la.css)
+   Ein Papier, eine Tinte — sechs Register.
+   Jede Sektion trägt ihren eigenen Akzent (--accent) via
+   <body data-section="...">; Basis, Typo-Rhythmus und
+   Komponenten bleiben identisch. Einheit ohne Monotonie.
+   ============================================================ */
+
+:root{
+  /* Kanonische Basis (Papier-Familie) */
+  --la-paper:#F8F7E5;
+  --la-paper-2:#f1eeda;
+  --la-ink:#1D1D1D;
+  --la-ink-soft:#4a4238;
+  --la-muted:#7a7062;
+  --la-line:#ddd5bd;
+  --la-card:#fffdf4;
+  /* Akzent (wird pro Sektion gesetzt) */
+  --accent:#b39c4f;
+  --accent-deep:#8a7a3e;
+  --accent-tint:rgba(179,156,79,.10);
+}
+
+/* Sektions-Register — dieselbe Sprache, andere Stimme */
+body[data-section="portal"]       { --accent:#b8742a; --accent-deep:#8f5a1d; --accent-tint:rgba(184,116,42,.10); }
+body[data-section="notizen"]      { --accent:#b39c4f; --accent-deep:#8a7a3e; --accent-tint:rgba(179,156,79,.10); }
+body[data-section="methodik"]     { --accent:#1f6f6b; --accent-deep:#15514e; --accent-tint:rgba(31,111,107,.10); }
+body[data-section="expeditionen"] { --accent:#b8742a; --accent-deep:#8f5a1d; --accent-tint:rgba(184,116,42,.10); }
+body[data-section="studien"]      { --accent:#5b6aa8; --accent-deep:#424e80; --accent-tint:rgba(91,106,168,.10); }
+body[data-section="brouillon"]    { --accent:#5D80D9; --accent-deep:#3f5fae; --accent-tint:rgba(93,128,217,.10); }
+body[data-section="garten"]       { --accent:#064013; --accent-deep:#042c0d; --accent-tint:rgba(6,64,19,.08); }
+
+/* Gemeinsame Details */
+::selection{ background:var(--accent); color:var(--la-paper); }
+:focus-visible{ outline:2px solid var(--accent); outline-offset:2px; }
+a{ text-decoration-color:var(--accent-tint); text-underline-offset:2px; }
+a:hover{ text-decoration-color:var(--accent); }
+
+/* Archiv-Kompass (wird von la.js injiziert) */
+.la-kompass{
+  position:fixed; right:1.1rem; bottom:1.1rem; z-index:999;
+  font-family:ui-sans-serif,system-ui,sans-serif;
+}
+.la-kompass button.la-k-trigger{
+  width:46px; height:46px; border-radius:50%;
+  border:1px solid var(--la-line); background:var(--la-card);
+  color:var(--accent-deep); cursor:pointer; font-size:1.15rem;
+  box-shadow:0 3px 14px rgba(29,29,29,.18);
+  transition:transform .25s ease;
+}
+.la-kompass button.la-k-trigger:hover{ transform:rotate(45deg); }
+.la-kompass .la-k-menu{
+  position:absolute; right:0; bottom:56px; min-width:230px;
+  background:var(--la-card); border:1px solid var(--la-line);
+  border-radius:12px; padding:.5rem; display:none;
+  box-shadow:0 8px 30px rgba(29,29,29,.20);
+}
+.la-kompass.open .la-k-menu{ display:block; }
+.la-kompass .la-k-menu a{
+  display:flex; align-items:center; gap:.6rem;
+  padding:.45rem .6rem; border-radius:8px; text-decoration:none;
+  color:var(--la-ink); font-size:.85rem;
+}
+.la-kompass .la-k-menu a:hover{ background:var(--accent-tint); }
+.la-kompass .la-k-dot{
+  width:9px; height:9px; border-radius:50%; flex:none;
+  background:var(--dot,#999);
+}
+.la-kompass .la-k-menu a.here{ background:var(--accent-tint); font-weight:600; }
+.la-kompass .la-k-cap{
+  font-size:.62rem; letter-spacing:.14em; text-transform:uppercase;
+  color:var(--la-muted); padding:.35rem .6rem .15rem;
+}
+
+@media print{ .la-kompass{ display:none; } }

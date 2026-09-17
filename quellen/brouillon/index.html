@@ -38,8 +38,9 @@ footer{margin-top:3.5rem;border-top:1px solid var(--line);padding-top:1.2rem;fon
 footer a{color:var(--teal)}
 @media print{.searchbar,.chips{display:none}details.note{break-inside:avoid}details.note:not([open]) p{display:block}}
 </style>
+<link rel="stylesheet" href="../../assets/la.css">
 </head>
-<body>
+<body data-section="brouillon">
 <div class="wrap">
 <header class="top">
 <div class="kicker">Sajon Living Archive · Quellen · Textcorpus</div>
@@ -63,5 +64,6 @@ notes.forEach(d=>{const hit=!s||d.dataset.t.includes(s);d.classList.toggle('hidd
 grps.forEach(g=>{const vis=[...g.querySelectorAll('details.note')].some(d=>!d.classList.contains('hidden'));g.classList.toggle('hidden',!vis);});
 nores.style.display=any?'none':'block';});
 </script>
+<script src="../../assets/la.js"></script>
 </body>
 </html>

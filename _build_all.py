@@ -142,6 +142,11 @@ def main():
     if os.path.isdir(src):
         shutil.copytree(src, os.path.join(SITE, "studien"), dirs_exist_ok=True)
 
+    # Traumwald (interaktive Seite) publizieren
+    src = os.path.join(ROOT, "garten")
+    if os.path.isdir(src):
+        shutil.copytree(src, os.path.join(SITE, "garten"), dirs_exist_ok=True)
+
     # Quellen (Textcorpora, gemeinfreie Primärtexte) publizieren
     src = os.path.join(ROOT, "quellen")
     if os.path.isdir(src):
@@ -155,6 +160,7 @@ def main():
     archive_cards += card("expeditionen/", "Expeditionen · Frühere Forschungsreisen", "JH · 4 Chat-Projekte")
     archive_cards += card("studien/novalis-enzyklopaedistik/", "Studie · Novalis\u2019 Enzyklopädistik", "JH · Essay mit Quellenapparat")
     archive_cards += card("quellen/brouillon/", "Brouillon-Browser · Novalis interaktiv", "JH · 502 Aufzeichnungen · 36 Rubriken")
+    archive_cards += card("garten/", "Traumwald · Märchenwald & Traumgenerator", "JH · interaktiv · Ost-Brücke")
 
     # collections
     collection_html = []
@@ -207,6 +213,7 @@ TEMPLATE = r"""<!DOCTYPE html>
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <title>Das Lebendige Archiv</title>
 <link rel="stylesheet" href="assets/theme.css" />
+<link rel="stylesheet" href="assets/la.css" />
 <link rel="icon" href="assets/logo.png" />
 <style>
   :root{
@@ -261,7 +268,7 @@ TEMPLATE = r"""<!DOCTYPE html>
   footer{border-top:1px solid var(--line);padding:2rem;text-align:center;color:var(--muted);font-size:.85rem}
 </style>
 </head>
-<body>
+<body data-section="portal">
 <header>
   <span class="brand"><img src="assets/logo.png" alt="Logo" /> Das Lebendige Archiv</span>
   <button class="iconbtn" id="dm" title="Dunkelmodus">&#9681;</button>
@@ -306,6 +313,7 @@ TEMPLATE = r"""<!DOCTYPE html>
     var d=root.classList.toggle('dark');
     document.getElementById('dm').textContent=d?'\u25D1':'\u25D0';});
 </script>
+<script src="assets/la.js"></script>
 </body>
 </html>
 """

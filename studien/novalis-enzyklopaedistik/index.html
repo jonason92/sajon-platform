@@ -35,8 +35,9 @@ a:hover { border-color:transparent; }
 .reveal { opacity:0; transform:translateY(2vw); transition:opacity .8s ease, transform .8s cubic-bezier(.33,1,.68,1); }
 .reveal.on { opacity:1; transform:none; }
 </style>
+<link rel="stylesheet" href="../../assets/la.css">
 </head>
-<body>
+<body data-section="studien">
 <header class="top">
   <div class="kicker">studien · das lebendige archiv</div>
   <h1>Die Enzyklopädistik des Novalis — <em>Das Allgemeine Brouillon als lebendiges Archiv der Romantik</em></h1>
@@ -98,5 +99,6 @@ a:hover { border-color:transparent; }
 const rio = new IntersectionObserver((es)=>{ es.forEach(e=>{ if(e.isIntersecting) e.target.classList.add('on'); }); }, {threshold:.12});
 document.querySelectorAll('.reveal').forEach(el=>rio.observe(el));
 </script>
+<script src="../../assets/la.js"></script>
 </body>
 </html>
