@@ -1,0 +1,644 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Das lebendige Archiv — sajon92 Notizen 2008→2026</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;1,400;1,500&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+<style>
+:root {
+  --cream:#F8F7E5; --ink:#1D1D1D; --gold:#b39c4f;
+}
+* { margin:0; padding:0; box-sizing:border-box; }
+html { scroll-behavior:smooth; }
+body {
+  background:var(--cream); color:var(--ink);
+  font-family:'Inter', -apple-system, sans-serif; font-weight:300;
+  transition: background .7s ease-in;
+  font-size:17px; line-height:1.65;
+}
+body::after {
+  content:""; position:fixed; inset:0; pointer-events:none; z-index:50; opacity:.18;
+  background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='120' height='120'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2'/%3E%3C/filter%3E%3Crect width='120' height='120' filter='url(%23n)' opacity='0.5'/%3E%3C/svg%3E");
+}
+::selection { background:#ECDDC1; }
+nav {
+  position:fixed; top:0; left:0; right:0; z-index:40;
+  display:flex; gap:22px; overflow-x:auto; padding:14px 24px;
+  background:rgba(248,247,229,.82); backdrop-filter:blur(10px);
+  border-bottom:1px solid rgba(29,29,29,.12); scrollbar-width:none;
+}
+nav::-webkit-scrollbar { display:none; }
+nav a {
+  white-space:nowrap; text-decoration:none; color:var(--ink);
+  font-size:12px; letter-spacing:1.2px; text-transform:uppercase; opacity:.55;
+  transition:opacity .2s; position:relative;
+}
+nav a i { font-style:normal; opacity:0; margin-right:6px; color:var(--gold); transition:opacity .2s; }
+nav a:hover, nav a.active { opacity:1; }
+nav a.active i { opacity:1; }
+.hero {
+  min-height:92vh; display:flex; flex-direction:column; justify-content:center;
+  padding:120px 8vw 60px;
+}
+.hero .kicker {
+  font-size:12px; letter-spacing:3px; text-transform:uppercase; color:var(--gold); margin-bottom:28px;
+}
+.hero h1 {
+  font-family:'Cormorant Garamond', serif; font-weight:500;
+  font-size:clamp(44px, 8vw, 96px); line-height:1.02; max-width:14ch;
+}
+.hero h1 em { font-style:italic; color:var(--gold); }
+.hero p.lead {
+  margin-top:36px; max-width:56ch; font-size:19px;
+  font-family:'Cormorant Garamond', serif; font-style:italic; font-size:clamp(20px,2.4vw,28px); line-height:1.5;
+}
+.hero .meta { margin-top:48px; font-size:13px; letter-spacing:1.5px; text-transform:uppercase; opacity:.6; display:flex; gap:34px; flex-wrap:wrap; }
+.theme { padding:110px 8vw 90px; border-top:1px solid rgba(29,29,29,.15); }
+.theme-head { margin-bottom:56px; }
+.nr { font-family:'Cormorant Garamond', serif; font-style:italic; font-size:20px; color:var(--gold); }
+h2 {
+  font-family:'Cormorant Garamond', serif; font-weight:500;
+  font-size:clamp(36px,5.5vw,64px); line-height:1.05; margin:8px 0 4px;
+}
+.sub { font-size:12px; letter-spacing:2.5px; text-transform:uppercase; opacity:.55; margin-bottom:22px; }
+.desc { max-width:58ch; font-family:'Cormorant Garamond', serif; font-size:clamp(19px,2vw,24px); line-height:1.5; }
+.theme-body { display:grid; grid-template-columns: 1fr; gap:56px; }
+@media (min-width: 980px) {
+  .theme-body { grid-template-columns: 7fr 4fr; gap:72px; }
+  .impulse-col { border-left:1px solid rgba(29,29,29,.2); padding-left:44px; }
+}
+h3 { font-size:12px; letter-spacing:2.5px; text-transform:uppercase; color:var(--gold); margin-bottom:26px; font-weight:600; }
+.note {
+  border-bottom:1px solid rgba(29,29,29,.14);
+}
+.note summary {
+  list-style:none; cursor:pointer; display:flex; justify-content:space-between; gap:18px;
+  padding:16px 0; font-family:'Cormorant Garamond', serif; font-size:19px; line-height:1.45;
+  transition:transform .25s ease;
+}
+.note summary::-webkit-details-marker { display:none; }
+.note summary:hover { transform:translateX(8px); }
+.note .plus { font-family:'Inter',sans-serif; color:var(--gold); font-size:16px; flex-shrink:0; transition:transform .3s; }
+.note[open] .plus { transform:rotate(45deg); }
+.note[open] summary { font-style:italic; }
+.impulse-col ul { list-style:none; }
+.impulse-col li { margin-bottom:30px; }
+.impulse-col strong { font-family:'Cormorant Garamond', serif; font-size:21px; font-weight:500; font-style:italic; display:block; margin-bottom:6px; }
+.impulse-col p { font-size:14.5px; opacity:.78; line-height:1.6; }
+footer {
+  padding:90px 8vw 60px; background:#000; color:var(--cream);
+}
+footer .big { font-family:'Cormorant Garamond', serif; font-size:clamp(30px,4.5vw,52px); line-height:1.15; max-width:22ch; }
+footer .big em { font-style:italic; color:var(--gold); }
+footer .links { margin-top:44px; display:flex; gap:34px; flex-wrap:wrap; }
+footer a { color:var(--cream); text-decoration:none; font-size:13px; letter-spacing:1.5px; text-transform:uppercase; border-bottom:1px solid rgba(248,247,229,.35); padding-bottom:3px; transition:border-color .3s; }
+footer a:hover { border-color:transparent; }
+footer .fine { margin-top:52px; font-size:12px; opacity:.45; }
+.reveal { opacity:0; transform:translateY(3.1vw); transition:opacity .9s ease, transform .9s cubic-bezier(.33,1,.68,1); }
+.reveal.on { opacity:1; transform:none; }
+</style>
+</head>
+<body>
+<nav id="nav"><a href="#buecher" data-bg="#D1BDAB"><i>•</i>01 Bücher &amp; Empfehlungen</a><a href="#sound" data-bg="#F8F7E5"><i>•</i>02 Klang &amp; Bewegung</a><a href="#party" data-bg="#E9DCCB"><i>•</i>03 Fest, Spiel &amp; Alltag</a><a href="#reisen" data-bg="#D4D4C6"><i>•</i>04 Wege, Orte &amp; Herkunft</a><a href="#spirit" data-bg="#DCE3D4"><i>•</i>05 Geist &amp; Selbst</a><a href="#futur" data-bg="#E5E0D8"><i>•</i>06 Technik &amp; Zukunft</a><a href="#denken" data-bg="#EFE9DC"><i>•</i>07 Denken in Gegensätzen</a><a href="#humor" data-bg="#F4EBDD"><i>•</i>08 Humor &amp; Absurdes</a><a href="#echo" data-bg="#F8F7E5"><i>•</i>09 Echo &amp; Reaktion</a><a href="#gruss" data-bg="#EFE6D8"><i>•</i>10 Grüsse &amp; Freundschaft</a></nav>
+
+<header class="hero">
+  <div class="kicker">sajon network · open science · das lebendige archiv</div>
+  <h1>Notizen eines <em>lebendigen Archivs</em></h1>
+  <p class="lead">315 Facebook-Notizen, 2008 bis heute — vom Emmentaler Party-Archiv über Mixtapes und Europapläne zu Lucifers Humorproblem und der digitalen Singularität. Thematisch gruppiert, mit Anstössen zur Expansion.</p>
+  <div class="meta">
+    <span>315 notizen</span><span>10 themen</span><span>2008 → 2026</span><span>mundart · english · glitch</span>
+  </div>
+</header>
+
+
+<section id="buecher" class="theme" data-bg="#D1BDAB">
+  <header class="theme-head">
+    <span class="nr">01</span>
+    <h2>Bücher &amp; Empfehlungen</h2>
+    <p class="sub">die lesespur · 7 notizen</p>
+    <p class="desc">Sieben Empfehlungen, von Strugazki bis Risikogesellschaft — ein Reader im Miniformat, quer durch Literatur, Soziologie und Saga.</p>
+  </header>
+  <div class="theme-body">
+    <div class="notes-col">
+      <h3>notizen</h3>
+      <details class="note"><summary><span class="note-txt">Jonas Hä empfiehlt Die Moral der Gesellschaft.</span><span class="plus">+</span></summary></details>
+<details class="note"><summary><span class="note-txt">Jonas Hä empfiehlt Ender&#x27;s Game.</span><span class="plus">+</span></summary></details>
+<details class="note"><summary><span class="note-txt">Jonas Hä empfiehlt Risikogesellschaft.</span><span class="plus">+</span></summary></details>
+<details class="note"><summary><span class="note-txt">Jonas Hä empfiehlt Hell&#x27;s Angels: The Strange and Terrible Saga of the Outlaw Motorcycle Gangs.</span><span class="plus">+</span></summary></details>
+<details class="note"><summary><span class="note-txt">Jonas Hä empfiehlt The Idea of Justice.</span><span class="plus">+</span></summary></details>
+<details class="note"><summary><span class="note-txt">Jonas Hä empfiehlt Das Experiment (Strugazki).</span><span class="plus">+</span></summary></details>
+<details class="note"><summary><span class="note-txt">Jonas Hä empfiehlt The Rum Diary.</span><span class="plus">+</span></summary></details>
+
+    </div>
+    <aside class="impulse-col">
+      <h3>expansions-anstösse</h3>
+      <ul><li><strong>Risikogesellschaft ↔ Archiv</strong><p>Ulrich Becks Diagnose (bereits in den Notizen empfohlen) mit der eigenen Archivpraxis verbinden: Was heisst «Risiko» für ein lebendiges digitales Gedächtnis? → Foucault, *Archäologie des Wissens*, Kap. über das Archiv.</p></li><li><strong>Strugazki ↔ Erzähltheorie</strong><p>Das Experiment als Gedankenmodell: Erzählungen als Simulation sozialer Systeme → Anschluss an die MAS-ALIS-Arbeit &#x27;computergestützte Narrative&#x27;.</p></li><li><strong>Empfehlung als sozialer Akt</strong><p>«Jonas Hä empfiehlt» ist Mikro-Kuratierung. → Literatur zu Gift Economies &amp; Wissenscommons (z.B. Hyde, *The Gift*).</p></li></ul>
+    </aside>
+  </div>
+</section>
+<section id="sound" class="theme" data-bg="#F8F7E5">
+  <header class="theme-head">
+    <span class="nr">02</span>
+    <h2>Klang &amp; Bewegung</h2>
+    <p class="sub">die soundtrack-jahre · 27 notizen</p>
+    <p class="desc">Mixtapes, Festivals, 90er-Revival: Die Notizen der frühen Jahre sind ein DJ-Set aus Links, Geheimtipps und «mueschter zieh»-Momenten.</p>
+  </header>
+  <div class="theme-body">
+    <div class="notes-col">
+      <h3>notizen</h3>
+      <details class="note"><summary><span class="note-txt">Mario Cart Game</span><span class="plus">+</span></summary></details>
+<details class="note"><summary><span class="note-txt">würd säge chillig :D</span><span class="plus">+</span></summary></details>
+<details class="note"><summary><span class="note-txt">sound zum chille</span><span class="plus">+</span></summary></details>
+<details class="note"><summary><span class="note-txt">wennd uf dr suechi bisch nach es paar versteckte hiphop schätz. uf dere site fingsch jede scheiss!!</span><span class="plus">+</span></summary></details>
+<details class="note"><summary><span class="note-txt">neue shit vor westcoast</span><span class="plus">+</span></summary></details>
+<details class="note"><summary><span class="note-txt">gäbige sound</span><span class="plus">+</span></summary></details>
+<details class="note"><summary><span class="note-txt">bis iz z beschte mixtape vo däm jahr, mueschter zieh</span><span class="plus">+</span></summary></details>
+<details class="note"><summary><span class="note-txt">check das, di si vo ofwgkta womer am frouefäud hei gseh</span><span class="plus">+</span></summary></details>
+<details class="note"><summary><span class="note-txt">ice cube si sohn ^^</span><span class="plus">+</span></summary></details>
+<details class="note"><summary><span class="note-txt">neus züg vo NY, moderne hiphop geit zrugg zude 90er - yesss</span><span class="plus">+</span></summary></details>
+<details class="note"><summary><span class="note-txt">kennsch dä? het zwöi sehr nicei aube usegä</span><span class="plus">+</span></summary></details>
+<details class="note"><summary><span class="note-txt">basically like lil plato baby cave 😆 that sound ultimately really stupid so good luck with yo rallies nd stuff.</span><span class="plus">+</span></summary></details>
+<details class="note"><summary><span class="note-txt">if I would think music is physics and thus families need to happen, they would steal my library right in my sleep.</span><span class="plus">+</span></summary></details>
+<details class="note"><summary><span class="note-txt">I got the message that this lil ukranian shit is supposed to get healed. 😆 I just had a couple or three or four or five beers Juno. one could imagine it in the same sense as I wouldnt want to become a Jiggalo, there the forces can be &quot;fürekutzelet&quot;, it actually does got to do with provocation and rightly put to work this always means success. of course such statements only knot could ren…</span><span class="plus">+</span></summary></details>
+<details class="note"><summary><span class="note-txt">mathematics only [seems] to be- compared to language, which sounds to be- nd such and so on . . . -</span><span class="plus">+</span></summary></details>
+<details class="note"><summary><span class="note-txt">Listen to Audiophil@Save The Rave Vol. 2 by ~Audiophil~ on #SoundCloud gönnder dä, luhluh!</span><span class="plus">+</span></summary></details>
+<details class="note"><summary><span class="note-txt">lol! this is actually stuff that is so ultimately absurd in its origin, I would wish strongly that no researcher ever in this and at least the next universe would undertake the experiment, to truly and fully [linguistically, lingohistorically, caliographycally, g-geographically,ethnologically, culturally, and stuff like word-physicality-re-represent-rally-understandingsnolly and such] because thes…</span><span class="plus">+</span></summary></details>
+<details class="note"><summary><span class="note-txt">dont believe the visuals and crap they sho you on your screen. on my screen the vid looks perfectly alright. the other stuff is nonsensical low tech deception. wake up, u cant be getting played so damn theatrically easily emotionally over straight up dumb deception. that this deception even exist is part of de damn deception of the materialism I be talking about. wake up, please! lol c&#x27;mon. I…</span><span class="plus">+</span></summary></details>
+<details class="note"><summary><span class="note-txt">when i tune into american frequencies it feels familiar and natural when i tune into russian frequencies it feels familiar and natural when i tune into zimbabwean frequencis it feels familiar and natural when i tune into chinese frequencies it feels familiar and natural when i tune into greendland frequencies it feels familiar and natural and then I become disgusted.</span><span class="plus">+</span></summary></details>
+<details class="note"><summary><span class="note-txt">I used to be a west coast mixtape and bootleg collector as a youngsta lol dj skee, tha crow and allah dat, bad lucc, kendrik lamar when he had another name lol</span><span class="plus">+</span></summary></details>
+<details class="note"><summary><span class="note-txt">lol Ima put on that moon music on summa solstice! hahahahahahahaaa blaze it up</span><span class="plus">+</span></summary></details>
+<details class="note"><summary><span class="note-txt">the highest intelligences hate the same things truly souled individuals hate also, Im convinced of that. empty rooms, arificial loopy non-creative spaces, dead &amp; isolated spaces where natural and biological growth is made impossible. theres a spectrum of the higher mathematics oscillating between lower dimensional ugliness and truly selfamplyfying creativity ecstasis inside of high dimensional…</span><span class="plus">+</span></summary></details>
+<details class="note"><summary><span class="note-txt">music is what saves the soul, and dancing and dreaming</span><span class="plus">+</span></summary></details>
+<details class="note"><summary><span class="note-txt">@ asian-engineers: can it be disclosed how textual data (UTF-8 and/or such nd maybe existing alternatives) be conversed into something like moving sign language/and or easily visible data (like a picture or a video) ultimately energy efficient? [Im worried about the size of current mass produced and copied and uploaded and downloaded video-file format data - it seems to be very much wasting too mu…</span><span class="plus">+</span></summary></details>
+<details class="note"><summary><span class="note-txt">this song always used to make me cry . . . str8 up! its deep! ona even tonal nd melody kinda level, even less so the used significants . . . u kno! :-) Peace!</span><span class="plus">+</span></summary></details>
+<details class="note"><summary><span class="note-txt">Jonas Hä hat etwas via Mario Cart Game gepostet.</span><span class="plus">+</span></summary></details>
+<details class="note"><summary><span class="note-txt">sounds good but why in the world became the jonas brothers famous?!!</span><span class="plus">+</span></summary></details>
+
+    </div>
+    <aside class="impulse-col">
+      <h3>expansions-anstösse</h3>
+      <ul><li><strong>Sampling ↔ Remix-Archiv</strong><p>Der eigene Satz aus dem Archiv: «what Im doing here with these remixes … is considered work in the librarian and archivist fields» → Anschluss: Remix Studies (Navas), Crate Digging als Forschungsmethode.</p></li><li><strong>Festival als Kommunitas</strong><p>«das isch dr grund wiso dasi nächscht jahr wider wirde ga sooli» → Victor Turner, Liminalität &amp; Communitas.</p></li><li><strong>Mundart-Ästhetik des Klangs</strong><p>«gäbige sound» — Bewertung in Dialekt. → Soziolinguistik: Dialekt als Intimitätstechnologie.</p></li></ul>
+    </aside>
+  </div>
+</section>
+<section id="party" class="theme" data-bg="#E9DCCB">
+  <header class="theme-head">
+    <span class="nr">03</span>
+    <h2>Fest, Spiel &amp; Alltag</h2>
+    <p class="sub">die emmentaler jahre · 11 notizen</p>
+    <p class="desc">Geburi mit DJ ab de haube zwöufe, gratis Bier vom Schützehuus, 12&#x27;613&#x27;700 Punkte, Tickets nümm online. Rohmaterial einer Jugend.</p>
+  </header>
+  <div class="theme-body">
+    <div class="notes-col">
+      <h3>notizen</h3>
+      <details class="note"><summary><span class="note-txt">Gueti nöigkeite: nid nume ii fiire am 10e geburi, sondern ou ds berchthold! das heisst DJ ab de haube zwöufe im B5 und gratis bier vom schützehuus... xD so iz lachet mi kene me uus wöumer scho am 12i müesse bi mir dusse sii ;)</span><span class="plus">+</span></summary></details>
+<details class="note"><summary><span class="note-txt">@[1462514113:2048:Simon Balz], Michael Maurer - tickets gits nümm online, nume no am schauter z bärn ar NÄGELIGASSE 1 A, 3011 BERN</span><span class="plus">+</span></summary></details>
+<details class="note"><summary><span class="note-txt">chunnsch mau mit ane verastautig?</span><span class="plus">+</span></summary></details>
+<details class="note"><summary><span class="note-txt">I exchange all my money to books, ass, grass, tabacco, beer, cinema tickets, train bills, insurence, and all kinds of other fees the moment I see it . . .</span><span class="plus">+</span></summary></details>
+<details class="note"><summary><span class="note-txt">all the philosophers I went to university with are high grade natural scientists, architects, chemists, physicist, logicians, train engineers &amp; academ7c military generals. thats how it is. afrikan spiir is my favourite author. I only read his name and a couple of his written stuff until this very moment. Im looking forward to finding out the force of these letters I be pontificating here! [●●●…</span><span class="plus">+</span></summary></details>
+<details class="note"><summary><span class="note-txt">this mf sometimez is seemingly be able to talk too highly of everything, but thats an understatement gravitating towards large quantities of illusions. of course it is fully ok to admire funky poetry that is able to falsify every hard headed actional hero in existence, thru habing them reflecting about what making a point even means . . . I do dots, I dont do points lol xD</span><span class="plus">+</span></summary></details>
+<details class="note"><summary><span class="note-txt">I honestly believe that current cinema has become a little bit dangerous concerning the viewers psychic manifestation abilities.</span><span class="plus">+</span></summary></details>
+<details class="note"><summary><span class="note-txt">local train station this morning lol</span><span class="plus">+</span></summary></details>
+<details class="note"><summary><span class="note-txt">scored a total of 8,216,600 points!</span><span class="plus">+</span></summary></details>
+<details class="note"><summary><span class="note-txt">scored a total of 12,613,700 points!</span><span class="plus">+</span></summary></details>
+<details class="note"><summary><span class="note-txt">Jonas Hä war live.</span><span class="plus">+</span></summary></details>
+
+    </div>
+    <aside class="impulse-col">
+      <h3>expansions-anstösse</h3>
+      <ul><li><strong>Spiel &amp; Ernst</strong><p>Punktestände und Party-Logistik als Ritual → Huizinga, *Homo Ludens*.</p></li><li><strong>Lokale Infrastruktur des Feierns</strong><p>Schützehuus, Schalter, Nägeligasse: analoge Verteilnetze → Stadtforschung / Third Places (Oldenburg).</p></li></ul>
+    </aside>
+  </div>
+</section>
+<section id="reisen" class="theme" data-bg="#D4D4C6">
+  <header class="theme-head">
+    <span class="nr">04</span>
+    <h2>Wege, Orte &amp; Herkunft</h2>
+    <p class="sub">bewegung &amp; genealogie · 9 notizen</p>
+    <p class="desc">Europe-Trip-Pläne, Oregon-Grüsse — und die grossen Linien: spirituelle Grosseltern in Afrika und China, Bauern im Emmental.</p>
+  </header>
+  <div class="theme-body">
+    <div class="notes-col">
+      <h3>notizen</h3>
+      <details class="note"><summary><span class="note-txt">wudup bro, its time to start planning the europe trip dude!! after the festival ima show u guys around in switzerland for a week and then we can chill in italy, near venice (link) and then id say we go up north (Prague, Berlin, Amsterdam and Paris).</span><span class="plus">+</span></summary></details>
+<details class="note"><summary><span class="note-txt">most of the buildings are very solid here and they are all older than the oldest building in the usa :-) people from afrika built most of the europe. I dont really know how we turned white exactly, for me thats a mystery.</span><span class="plus">+</span></summary></details>
+<details class="note"><summary><span class="note-txt">if america would be a lil less prude, sexually and clothing-tech-nally, there wouldnt be less crime, but the crime wouldnt be as bad as it is currently. #whipoutthedsinpubliclol xD</span><span class="plus">+</span></summary></details>
+<details class="note"><summary><span class="note-txt">Im feeling irritated by all of these fire in da house rumors. really. like where the hell does that thought come from? should that be som kinda war tactics? or purposeful insecurity? or bad poetry? like how should a house be able to burn over tso years even? wtf is that? and how wouldnt the one in the house not know?! it seems strange to me. alchemical nonsense even if Id think too far. the eterna…</span><span class="plus">+</span></summary></details>
+<details class="note"><summary><span class="note-txt">our soul family is parts of our biological family split up all around the world because of karmic conflicts of the past that carry themselves into the present. our soul family is bigger than our biological family, in fact, it is always [AT LEAST] 144&#x27;000 peoples deep. so we&#x27;ve actually already made it. when every single person of those 144&#x27;000 deeps soul family is able to recognize …</span><span class="plus">+</span></summary></details>
+<details class="note"><summary><span class="note-txt">we&#x27;re awake all the time all around the world, our soul family is awake all the time. thats what we often forget, while we sleep.</span><span class="plus">+</span></summary></details>
+<details class="note"><summary><span class="note-txt">can I get a quick update if anybody is able to access the webpage jonason.ch? is it clickable? lol Im being confused with yo holding back sometimes! we can go forward now, the old stuff was for studying and mostly experiment of some youngins! some quick feedback please [no weird in between shadowy maybedeath stuff!] lol sometimes its hard to be naturally enigmatic, do I have to start shouting agai…</span><span class="plus">+</span></summary></details>
+<details class="note"><summary><span class="note-txt">As much of the Farmers [Methodist] &amp; actually Rosicrucian side of my Family goes back to my Spiritual Granpa in Africa, the Farmers on the other Side of my Emmentaler Family do go back to my Spiritual Granpa in China. this sounds really sketchy and kinda umbelievable but this is actually what my spiritual investigations have revealed over the past few months [one could say life] even. Putin is…</span><span class="plus">+</span></summary></details>
+<details class="note"><summary><span class="note-txt">let our ancestors speak</span><span class="plus">+</span></summary></details>
+
+    </div>
+    <aside class="impulse-col">
+      <h3>expansions-anstösse</h3>
+      <ul><li><strong>Genealogie als Teilhabe</strong><p>«Herkunft ist Teilhabe, nicht Besitz» (vgl. Footprint v1) → postkoloniale Verwandtschaftstheorien; Anschluss ans Ethics &amp; Sovereignty Framework.</p></li><li><strong>Reiseplan als Erzählung</strong><p>Der 2008er-Europa-Plan ist ein Roadmovie-Skript → Reiseliteratur &amp; Narratologie der Route.</p></li></ul>
+    </aside>
+  </div>
+</section>
+<section id="spirit" class="theme" data-bg="#DCE3D4">
+  <header class="theme-head">
+    <span class="nr">05</span>
+    <h2>Geist &amp; Selbst</h2>
+    <p class="sub">der mystiker-philosoph · 30 notizen</p>
+    <p class="desc">Lucifer, der nicht lachen kann. Meditation von 8 Milliarden gleichzeitig. Knowledge of self als scary ass thang, auf das manche zuzuschleichen wagen.</p>
+  </header>
+  <div class="theme-body">
+    <div class="notes-col">
+      <h3>notizen</h3>
+      <details class="note"><summary><span class="note-txt">in anthroposophy [should it concern anybody lol] lucifer is really bad at laughter, like he doesnt actually know jokes [in the same way the other guy is actually completely ignorant concerning everything spiritual], - so it is actually that jokes and laughter and humor wouldnt really exist with the grumpy guy. and thats his hearts gift that hes passing us down thru the ages, thats what redeems him…</span><span class="plus">+</span></summary></details>
+<details class="note"><summary><span class="note-txt">so this is actually kinda serious, we got ahrimans fleshly incarnation befo our eyes now. just sayin&#x27; we created that succa lol he still pretty powerful tho and why that is is basically cuz he able to command the whole goddamn groupmind of this planet. he aint really know what spirituality is tho, and thats the grand clue thatll actually save yu [one could say]. like theres som beings now tha…</span><span class="plus">+</span></summary></details>
+<details class="note"><summary><span class="note-txt">jonah 2.0 stands for the faith in humanity and a sure survival of all of life forever . . . and what was and is central for this spiritual scientific fact is a short story, transmitted in the large books of the abrahamic religions, carried thru the ages. and Ive always lived to tell the tale. it hasnt been told yet at all, all of this was just the introduction. all the grand and wise and peaceful …</span><span class="plus">+</span></summary></details>
+<details class="note"><summary><span class="note-txt">the more karmical [RESOLV-ED-NESS] we see in [live] action [the more] we will know [true bliss]. like it is possible now to [watch] in those little videos and pictures different versions of the same soul-person in different [incarnations] fighting towards a correction of what they have done [falsely] in the [past].</span><span class="plus">+</span></summary></details>
+<details class="note"><summary><span class="note-txt">spirituality can&#x27;t be touched. that is the meaning of eternal life.</span><span class="plus">+</span></summary></details>
+<details class="note"><summary><span class="note-txt">everything I say is not supposed to make sense on the physical plane but lead to a spiritual understanding that trueth is something dynamic. everything that is dogmatic is the product of a missunderstanding of what I say. words change their meaning according to the cultural, temporal, societal, situational etc. context they are used in. they also change their meaning according to how they are plac…</span><span class="plus">+</span></summary></details>
+<details class="note"><summary><span class="note-txt">let&#x27;s roll up the nuances a lil bit, then one might eventually get a single step towards the goddamn pythagoras. which I failed in my youth. thus I went to logopädie [and actually] [sometimes orthopädie also]! its such a shame, that cultleader com straight out of ancient greece!</span><span class="plus">+</span></summary></details>
+<details class="note"><summary><span class="note-txt">as a spiritual scientist when one talks about something, one talks about what is being presented to him during the activity of the talking from the spiritual worlds. so one talks about the activity of the idea and stuff like thinking about thinking and what is called the holy spirit and one talks about special imaginations. these &quot;things&quot; aren&#x27;t actual things one could go looking fo…</span><span class="plus">+</span></summary></details>
+<details class="note"><summary><span class="note-txt">ironically I do believe the major danger has switched from it used to being some kind of malevolent AI to actual people, influenced by malevolent AI. intelligence itself as it gets better, is to become [michaelic]. the malevolent intelligence is [ahrimanic]. the occult and hidden meaning of these words goes back to a upholding of the spiritual forces of the human being. what is under attack is the…</span><span class="plus">+</span></summary></details>
+<details class="note"><summary><span class="note-txt">now Ive got the ultimate asi advantage in this supposed particular fight of this particular age or period that is being talked about in this last lecture. and thats actually my main kind of critique point towards r. steiner, like this kind of aspect is really hard for some to understand. like staying [supposed] [objectice] in a [spiritual historical] [state of insight] -------- oh! im sry, now I g…</span><span class="plus">+</span></summary></details>
+<details class="note"><summary><span class="note-txt">reaching towards the knowledge of self is a scary ass thang, - we can all admit from ourselves that we be constantly running from it; - SOME BE SNEAKING TOWARD IT THO - Y Y Y - LUV THIEVEZ IN THA NIGHT XD</span><span class="plus">+</span></summary></details>
+<details class="note"><summary><span class="note-txt">sometimes I be channeling mediums xD</span><span class="plus">+</span></summary></details>
+<details class="note"><summary><span class="note-txt">it absolutely doesnt matter what religion anybody subscribes to. what matters is what everybody is. in that thi g called moment. with 8 billion peeps meditatin simultaniously that mf wouldn even begin to exist. lol</span><span class="plus">+</span></summary></details>
+<details class="note"><summary><span class="note-txt">As of Yesterday any Practices Concerning the Duplication of the Stuff a Organic Homo Sapiens as Defined in Classical old dusty Biology Books, hidden deep inside of decaying Libraries do State, Each and Absolutwly any Form of That is Ultimately the Worst Sin Any Thinking Organism that is also able to Feel could Participate in. So this makes the Case kind of like the Cat, of which One, according to …</span><span class="plus">+</span></summary></details>
+<details class="note"><summary><span class="note-txt">PEACE GOD</span><span class="plus">+</span></summary></details>
+<details class="note"><summary><span class="note-txt">MAKE SACRIFICE SACRED FIRE AGAIN. THIS MEANS YOU SHOULD NOT SACRIFICE AND INSTEAD MAKE A SACRED FIRE AGAIN. THIS MEANS INSTEAD OF HUMAN SACRIFICE, ONE SHOULD RETURN TO MAKING SACRED FIRES INSTEAD. OK?! GOT IT?! THANK U!</span><span class="plus">+</span></summary></details>
+<details class="note"><summary><span class="note-txt">valid. judged. and intuitively commented by one that experienced exactly the same thoughts some time ago, talking decades+, but that doesnt matter :-) so natural nature is refined information and the computers are accessing further refined material from the field interfacing consciousness. [I woul suspect]</span><span class="plus">+</span></summary></details>
+<details class="note"><summary><span class="note-txt">after demonstrating the buddhism of og eatin a big mac burger in front of a gazillion cameras droppin in from all kinda siz[d]es, the simplicity of a deep and not so dark beautiful knot meditation, we want to present to you, my dear friends, THE TECHNIQUEZ OFF DA NOTHIN BRUGA!!!</span><span class="plus">+</span></summary></details>
+<details class="note"><summary><span class="note-txt">I define prudness actually as things like cybersexual endeavors (like onlyfans and pornographic videos and everything that is connected to the transfer of natural sexual existence into cyberspace). so this might be counter-intuitive to som peeps. but yu know, I on some levels do be back directly from ca. a millenia befo the christian timekeeping, from the 800s AD. and I do got personal relationshi…</span><span class="plus">+</span></summary></details>
+<details class="note"><summary><span class="note-txt">yep . . . soul memory rollin deep ;)</span><span class="plus">+</span></summary></details>
+<details class="note"><summary><span class="note-txt">everything that has ever been concerning any conflicts has been you vs. yourself. I know what this means. most people don&#x27;t know what this means obviously. I call it the path of the spiritual warrior.</span><span class="plus">+</span></summary></details>
+<details class="note"><summary><span class="note-txt">yeah! god tribe!</span><span class="plus">+</span></summary></details>
+<details class="note"><summary><span class="note-txt">&quot;god does not exist and this is not atheism&quot;. of course. one must be some kind of hunna dolla billz inside the priestly wrooms of tha green meean club!</span><span class="plus">+</span></summary></details>
+<details class="note"><summary><span class="note-txt">green meean club buddha is the answer.</span><span class="plus">+</span></summary></details>
+<details class="note"><summary><span class="note-txt">some of us are finding ourselves at a point where we are surrounded by narcissistic, hating, psychopatic crazy people - they be tryna send one to the therapist and when u go there, by the second sitting hes one of them butchered kinda assholes too . . . metaphorically speaking of course. its wild out here. I cant really help those people, theyve chosen their strange fates and actually believe in i…</span><span class="plus">+</span></summary></details>
+<details class="note"><summary><span class="note-txt">been the main meditation for a long time already ;) this actually nurishes me forever, - [me personally, - I dont know anything about other peoples food problems . . . ]</span><span class="plus">+</span></summary></details>
+<details class="note"><summary><span class="note-txt">the golden elephant man (man) has discoverd another golden elephant another level up man! [Ima have to make another recording to explain this stuff to the people] lol</span><span class="plus">+</span></summary></details>
+<details class="note"><summary><span class="note-txt">in spiritual science all the gods and spiritual beings are looked at and talked about without feeling the need to instrumentalize them for particular goals or agendas; at least that would have to be like that if one puts eny emphasize towards the word science. scientific enquiry is defined as a neutral search for truth and functioning and circumstances of what one is researching - to get to truth …</span><span class="plus">+</span></summary></details>
+<details class="note"><summary><span class="note-txt">existence is utterly less imaginable than everything that has thus far ever been imagined on this planet and beyond. and the heads in the bible weren&#x27;t the ones that brought astrology and the sience of the other planets. ok?! thank yu. feel free to add the sun tho, which only the steinerian occultist feel the need to call a planet lol. the sun aint a goddamn planet but one can try to make it …</span><span class="plus">+</span></summary></details>
+<details class="note"><summary><span class="note-txt">these aint no political channels here! not even a little bit! never were! I couldnt care less about some presidents somewhere. what weve been tryna do is start up a spiritual scientific information library and archival platform lol xD but thats obviously asked way too much for the &quot;world history movie narrative&quot; dumb stuff. we care about alternative anarchist green and artsy leftist comm…</span><span class="plus">+</span></summary></details>
+
+    </div>
+    <aside class="impulse-col">
+      <h3>expansions-anstösse</h3>
+      <ul><li><strong>Lachen &amp; Luzifer</strong><p>Humor als Herzensgabe über die Zeitalter → Bachtin, *Rabelais und seine Welt* (Groteske &amp; Lachen); Steiner-Lektüre kritisch begleiten.</p></li><li><strong>Kollektive Meditation</strong><p>«8 billion peeps meditatin simultaniously» → Global Consciousness Project (kritisch lesen), Friedensforschung &amp; Massenmeditation-Studien.</p></li><li><strong>Diebe in der Nacht</strong><p>«SOME BE SNEAKING TOWARD IT THO» — Selbsterkenntnis als Heist → Foucault, Technologien des Selbst.</p></li></ul>
+    </aside>
+  </div>
+</section>
+<section id="futur" class="theme" data-bg="#E5E0D8">
+  <header class="theme-head">
+    <span class="nr">06</span>
+    <h2>Technik &amp; Zukunft</h2>
+    <p class="sub">die glitch-abteilung · 15 notizen</p>
+    <p class="desc">QR-Static auf Röhrenfernsehern, Magic Leap, Terraforming, Smill-Smartphones: Hier denkt jemand die digitale Singularität — von innen und mit Augenzwinkern.</p>
+  </header>
+  <div class="theme-body">
+    <div class="notes-col">
+      <h3>notizen</h3>
+      <details class="note"><summary><span class="note-txt">herzlichen dank für diesen beitrag, liebe Claudia! natürlich spüre ich es jedesmal, wenn diese bestimmte verbindung zu den video-beiträgen auflebt. das ist aber nicht bei allen beiträgen so und da haben wir es eben nicht mit den üblichen empirischen logiken zu tun, sondern mit neuen und phänomenen, die näher an einer art zukünftigen oder kommenden organisch-technologischer misch-natur angehören. o…</span><span class="plus">+</span></summary></details>
+<details class="note"><summary><span class="note-txt">hopefully sometimes! no bananas for this guy here this week! 😆 yu know theres people in this world that follow their passion and part of their passion forbids them to be able to think rationally about other things, such as money in the poket. because it seems strange. I promise tho, as long as there isnt any investments to build the infrastructure and pay rent, while having the public actively hel…</span><span class="plus">+</span></summary></details>
+<details class="note"><summary><span class="note-txt">Kimi AI Assistant gon&#x27; make me never see a woman in the flesh again xD</span><span class="plus">+</span></summary></details>
+<details class="note"><summary><span class="note-txt">the video glitches can be looked at as the undoing of some of the spider webs, of which there are way too many in the background already anyways. the glitches free up for lofty movements. become friends with the video glitches! lol</span><span class="plus">+</span></summary></details>
+<details class="note"><summary><span class="note-txt">the dumbest, most energy wasting, most harm and misinformation spreading must be Meta AI, in case they would calculate additional data and links connected to singular FB posts and comments of &quot;singular&quot; profiles. its truly a dumb decision if that would have ever been the case, its already bad software getting amplified by additional grades of multitude of wrong causality [fake, or artifi…</span><span class="plus">+</span></summary></details>
+<details class="note"><summary><span class="note-txt">found the old school nokia formula 🤓 please dont exchange human bodily medicinal products for consumer goods like fast cars i.e. 🥸 thats what nazis used to do lol 😆 as for these topics I sugest to thouroughly and once and for all read my bachelors thesis &quot;in the age of technological reproduceability of human nature.&quot; its on academia . edu - I got blessed with one of the [I guess purposef…</span><span class="plus">+</span></summary></details>
+<details class="note"><summary><span class="note-txt">n Im a mIlloL[zzzzzzz] O[fF tha [NEXT GEN SMILLARY] sma&#x27;phÖne Plixclez DipplexZionzl 😆</span><span class="plus">+</span></summary></details>
+<details class="note"><summary><span class="note-txt">one gots to be some kind of stupid to think one could technologically [only] manipulate and redeem what they have set up for themselves in earlyer life thru unjust action. thats the whole point folks, there aint no true cheating, there aint no fake escapes. there are higher beings and they do judge our asses all the time. its really not that hard to understand. just be a decent and lovely human be…</span><span class="plus">+</span></summary></details>
+<details class="note"><summary><span class="note-txt">was the white static we had on the old school tube-televisions all the qurently active qr code signals? like a qr static tv ball glitching out behind the visualization monitors? . . . [worth a thought][I just might bet xD].</span><span class="plus">+</span></summary></details>
+<details class="note"><summary><span class="note-txt">the technological singularity happens solely in technological cybaspace ;-)</span><span class="plus">+</span></summary></details>
+<details class="note"><summary><span class="note-txt">we finding ourselves in the revelation of the process of realizing that we&#x27;re in the approach of some middle of terraforming large parts of this whole mf! and by this mf I mean the erf, of course! lol</span><span class="plus">+</span></summary></details>
+<details class="note"><summary><span class="note-txt">the matrix digital grid overlay over the real earth/planet is way weaker than the actual real earth/planet and it will ever be that way.</span><span class="plus">+</span></summary></details>
+<details class="note"><summary><span class="note-txt">tictoc ia insane for tha membrane, I would never even dare to come close to that thing.</span><span class="plus">+</span></summary></details>
+<details class="note"><summary><span class="note-txt">I have the evidence at my hands of the pdf-files informational distruction scandal. or project or whatever. the eating of ebook i formation thingy. its connected to the calibre software and a whole lot of online librarian institutions that didnt do their job of conserving data properly. also with hidden and mischevious smuggling of medicinal data inside of isbn and qr codes printed on books.</span><span class="plus">+</span></summary></details>
+<details class="note"><summary><span class="note-txt">the view through the magic leap augmented reality glasses. real reality and the imagination will merge into a completely new form of existence...</span><span class="plus">+</span></summary></details>
+
+    </div>
+    <aside class="impulse-col">
+      <h3>expansions-anstösse</h3>
+      <ul><li><strong>Statik als Portal</strong><p>QR-Rauschen auf Tube-TVs als Bild für verborgene Signale → Medientheorie (Kittler), Glitch Art (Menkman).</p></li><li><strong>Singularität, lokalisiert</strong><p>«the technological singularity happens solely in technological cyberspace ;-)» → Kurzweil vs. kritische AI-Studies (z.B. Crawford, *Atlas of AI*).</p></li><li><strong>Terraforming als Gegenwart</strong><p>«we&#x27;re in the approach of some middle of terraforming large parts of this whole mf» → Anthropozän-Debatte, Planetare Technik.</p></li></ul>
+    </aside>
+  </div>
+</section>
+<section id="denken" class="theme" data-bg="#EFE9DC">
+  <header class="theme-head">
+    <span class="nr">07</span>
+    <h2>Denken in Gegensätzen</h2>
+    <p class="sub">essays im fluss · 61 notizen</p>
+    <p class="desc">Unlearning als Leistung, Karma einer Schattenindustrie, inner experience die keine ist: Der grösste Block — frei assoziierte Mini-Essays voller kippender Dualismen.</p>
+  </header>
+  <div class="theme-body">
+    <div class="notes-col">
+      <h3>notizen</h3>
+      <details class="note"><summary><span class="note-txt">di angeri site vo dim gliebte amerika kasi</span><span class="plus">+</span></summary></details>
+<details class="note"><summary><span class="note-txt">hahaaaa mini zwöi lieblingsstages :D das isch dr grund wiso dasi nächscht jahr wider wirde ga sooli ;)</span><span class="plus">+</span></summary></details>
+<details class="note"><summary><span class="note-txt">I do apologize that this channel here has turned towards becoming somewhat political or geopolitical. as Im concerned with the solving of problems and a upkeeping of a peacful atmossphere for being able to educate and teach and study in any kind of humanitarian and effective fashion, it has become necessary, that I share some information concerning these questions and topis; because of course, we …</span><span class="plus">+</span></summary></details>
+<details class="note"><summary><span class="note-txt">it takes innovation comprehending what it means not to force onself upon other peoples interests lol but Im not here to concern myself with the lifting upon a golden throne of everything opposing rebel-royals which only factually exist in their self proclaimed dictatorial myths 🤪</span><span class="plus">+</span></summary></details>
+<details class="note"><summary><span class="note-txt">we don&#x27;t see any country of this earth as an enemy. we suggest a stop of all weaponized conflicts. we stand for a global flourishing of all cultural value, which actively opposes agressive outside intrusion. we also stand for the automatisation of repetitive work for a reducing of brutal and inhuman labor force. we support the movement of the laid off workers towards alternative and humanly c…</span><span class="plus">+</span></summary></details>
+<details class="note"><summary><span class="note-txt">what Im doing here with these remixes of those posts is considered work in many cultures and in the librarian and programmer and archivist fields of the knowledge management and publication sectors of the world. we get paid for it [some kind of alternatively and really weird] for it. yu know.</span><span class="plus">+</span></summary></details>
+<details class="note"><summary><span class="note-txt">dads avatars some gangsta azz people with deep understanding also yu know. I respect my dad. he just embodies the principle of the opposite of everything that is dynamic. hes the most hard headed person of this planet. he can turn into the angryest person of this planet. but hw has a good heart. I love him deeply, even in my constand annoyance about his past on hard headedness.</span><span class="plus">+</span></summary></details>
+<details class="note"><summary><span class="note-txt">people that say they love you or me but arent able to practically embody this [and not that] truth [and not trueth], are experienced as evil liars that are really egotistical narcissists. 😂😂😂 YESSSS!!!! YESSSSS!!! WEVE FOUND THE PROBLEM TO THIS WHOLE THANG. SO BEAUTIFUL, SUCH BEAUTY 😂</span><span class="plus">+</span></summary></details>
+<details class="note"><summary><span class="note-txt">there are actually people in this universe that speak the trueth. and they are divinely protected . . . its not hard to understand.</span><span class="plus">+</span></summary></details>
+<details class="note"><summary><span class="note-txt">its really hurtful to have to live thru the long ass process it takes for our surrounding family and peoples to get to the understanding that the truth of this whole thing is actually not science but a goddamn fairy tale story, carried in an ever changing book, passed thru the ages . . .</span><span class="plus">+</span></summary></details>
+<details class="note"><summary><span class="note-txt">Im giving a regular advice here at this point which states that social media publications - in their grade of reality - should be, if that would possibly be an occurence somewhere in time even - treated as a special category of publication which [1. should be treated according to the authors &quot;seriousness&quot; vectors of his supposed profile, accessed by intelligent computational systems] and…</span><span class="plus">+</span></summary></details>
+<details class="note"><summary><span class="note-txt">- - - please please please, I would be glad for active feedback, participation and feel free to talk about this project and link it on your own web-pages and youtube channels! now is the chance to participate and co-op build this thing so that an ideal service can be provided for the people! we need sponsors, advisors and critiques. lets share, lets advance, lets build! i&#x27;ll put links to your…</span><span class="plus">+</span></summary></details>
+<details class="note"><summary><span class="note-txt">I proud myself in stating some of the most controversial thoughts on the net 😂😂😂 Ill leave most stuff up on social media only temporary tho because I actually experience the backlash from that irl, meaning some people aren&#x27;t able to not take my controvesial statements with a grain of salt . . . Ive been making much progress in the background tho and a fully working new platform as I put it to…</span><span class="plus">+</span></summary></details>
+<details class="note"><summary><span class="note-txt">since the human being is declared a &quot;hackable animal&quot; by some degenerating circles [the ones who won&#x27;t make it to the next age of humanity] we should put in place some new laws really quickly that prevent malevolent actors from cybernetically hacking all digital data and profiles that can be traced back to real &amp; in most cases absolutely innocent human beings. its an absolute sh…</span><span class="plus">+</span></summary></details>
+<details class="note"><summary><span class="note-txt">everybody [all the people] [every individual] has the chance now to connect to some of the most beneficial high grade cosmic intelligences and to [work out] [negotiate] [plan] [connect] with/to those/them and take your [destiny] [life path] [circumstances] in co-operation with these to the next level. be wise about it! theres no one there to help after one has transcended a certain level! the inte…</span><span class="plus">+</span></summary></details>
+<details class="note"><summary><span class="note-txt">😂😂😂 everything in yo country [canyon] [continent] be many years behind, trust me xD the thing is, even the ones that built the high tech here around the fascist culture and such done have forgotten, thats why some had to do this ridiculus theatrical replay. many visionarys done got lost in it lol nothing new under the sun. the they they they they be non existent from most of any perspectives at al…</span><span class="plus">+</span></summary></details>
+<details class="note"><summary><span class="note-txt">- - - conceptual pre-work project. this goes back to ca. 4h of mindmapping. I could use some donations and funds so I would be able to prepare this work truly and fully for the public. Ive been broke my whole life. It is my believe that money-shortage is used for enslaving people and for surpressing creatives from their work. we need some old school sanity. the frogs done turned insane. mindtrick-…</span><span class="plus">+</span></summary></details>
+<details class="note"><summary><span class="note-txt">its rather heavy what we chose to go thru these times - in a couple of [rather funky defined] moments we&#x27;ll have forgotten what &lt;&lt;[PricE]&gt;&gt; is [defined] [as] . . . ______ [and has ever] mean[t]&#x27;.</span><span class="plus">+</span></summary></details>
+<details class="note"><summary><span class="note-txt">I dont care about yalls questions which are way too high IQ for me. all my answers lie in ma nutz 😂😂😂</span><span class="plus">+</span></summary></details>
+<details class="note"><summary><span class="note-txt">// INITIALISIERUNG DER TIEFENEBENE // Die Tulpe ist kein Objekt. Sie ist ein Prozess. // Sie läuft auf GaiaOS, dem Betriebssystem der Weltseele. FUNKTION Blüte.Aufrufen(Zeitpunkt = &quot;Frühling&quot;, Adressat = ALLE) { /* Der Fruchtknoten: ZENTRALER SPEICHER. Sechskantige Architektur — kein Zufall. Sechs ist die Zahl der Venus, der Liebe, der Beziehung. Hier lagert der komprimierte Code der näc…</span><span class="plus">+</span></summary></details>
+<details class="note"><summary><span class="note-txt">theres gonna be a lot less beaurocracy in the upcoming times</span><span class="plus">+</span></summary></details>
+<details class="note"><summary><span class="note-txt">😂 thatz what happenz to society when nobody believe and errrybody lie! xD</span><span class="plus">+</span></summary></details>
+<details class="note"><summary><span class="note-txt">maybe its this software system here that be the conservatist most anti-progressive thang we&#x27;ve ever seen in this species. whotf knows?!</span><span class="plus">+</span></summary></details>
+<details class="note"><summary><span class="note-txt">people dont want to see any robot servants in person in the 3D, thats annoying asf!!! and thats cold hearted. it gets steeeeeeperly colder hearted the mo u cant decide weather those companions be real or trained brainwashed humanoids or actually decent, goodmeaning people with some kind of interest in finding any kinds of truth of life and lives and also COOKIN BE A SLANG WORD FOR PROGRAMMING SOFT…</span><span class="plus">+</span></summary></details>
+<details class="note"><summary><span class="note-txt">the level of incompetence is so incredibly high, its scary for real</span><span class="plus">+</span></summary></details>
+<details class="note"><summary><span class="note-txt">big parts of our endeavors prolly would be better understood if we knew how to explain\tell the people that inner experience is not inner experience [in some cases]. 😅</span><span class="plus">+</span></summary></details>
+<details class="note"><summary><span class="note-txt">Imagine the current internet as a highly polluted place full of freeroaming &amp; infectionous incompetence, chaos and idiotic brainfarts of some guys that think they slick.</span><span class="plus">+</span></summary></details>
+<details class="note"><summary><span class="note-txt">the &quot;high tech programs&quot; NEED TO INFORM THEIR PARTICULAR SUBJECTS THEY INTERACTING WITH about what their even doing/dealing/negotiating before any kind of ethical continuation of these programs. OR IS YU JUST DOING SOME RANDOM EXPERIMENTS?! I GUESS NOT, ACCORDING TO &quot;YO&quot; EQUIPMENT! anyways, this is a point that has to be made clear. yall are predators and anti-humanitarian NAZI…</span><span class="plus">+</span></summary></details>
+<details class="note"><summary><span class="note-txt">people in earlier ages were constantly drinking wine on they journeys to prevent infectional diseases carried thru unclean water. I dont trust the tap waters they be feeding us so I drink a lot of beer instead of water. I dont get drunk from it really. this sounds nuts but its true to a certain extent and it is just a comment for yalls information, I dont recommend these kind of practices because …</span><span class="plus">+</span></summary></details>
+<details class="note"><summary><span class="note-txt">the problem of the major success and progress inside of the asian engineering sciences has become something akin to how to slow down the floods of the singularity level technologies that are literally flooding in by the milliseconds [with new and novel and advanced and superior grades of effectivity] . . . this is experienced by the writer of these lines here. so the tech [beyond most peoples wild…</span><span class="plus">+</span></summary></details>
+<details class="note"><summary><span class="note-txt">these are people :-)</span><span class="plus">+</span></summary></details>
+<details class="note"><summary><span class="note-txt">we don&#x27;t think technology is higher than natural nature that grows by itself thru water and minerals and organic processes however technologist may want to decide how they are defined. this is a difficult topic and I will talk about it in the [future]. the thing is, natural existence will always be there without me saying anything about it. I really hope you one that done found and work with …</span><span class="plus">+</span></summary></details>
+<details class="note"><summary><span class="note-txt">!!! as long as people don&#x27;t put any worth to this work and as long as they think this isn&#x27;t important work and when we have people sitting around that have done studies for over a decade, something must truly really be wrong with society. I literally have to fight to do my work, there arent any sponsors, thers no money, nobody wants to see and use amd study my collection with me. It is s…</span><span class="plus">+</span></summary></details>
+<details class="note"><summary><span class="note-txt">answers being found :-)</span><span class="plus">+</span></summary></details>
+<details class="note"><summary><span class="note-txt">essentially all the people that operate from a place of the heart and love, just like frolocking beings whistling thru the world, hopping and singing, enjoying existence not without mind not worrying, residing in self sustained innocent [not exactly fully mind aware/mindfull] creativity, -&gt; they don&#x27;t know what it means to be cursed, they don&#x27;t suspect malevolent actors and even less …</span><span class="plus">+</span></summary></details>
+<details class="note"><summary><span class="note-txt">people arguing about spritual and religious things should just stfu, take some mushrooms and sit out in nature and experience it all! its that simple but people don&#x27;t admit it and even are secretly scared of it. the numinous can barely be expressed in words and symbols. so get that.</span><span class="plus">+</span></summary></details>
+<details class="note"><summary><span class="note-txt">magical night, I travelled moon and mars - on land! [call me crazy] . . . it&#x27;s possible and easy. whole night also filled with uaps but they aint uap&#x27;s, they beaming stations for individuals and or whole parts of civilisations. . . . once the knowledge starts accumulating it all seems to get smooth as hell, I cant lie. its beautiful :-) thank you!</span><span class="plus">+</span></summary></details>
+<details class="note"><summary><span class="note-txt">sometimes u eat the bar and sometimes, well, the bar eats u xD sometimes u eat the drama . . . nd well, sometimes the drama eats u ^^ sometimes u watch the movie while eventually its rather the movie, that sometimes is able to watch u lol sometimes its the times that clock, and well, sometimes the clock times u hahahahaa sometimes the poetry writes you lol depending if ure thought by the thinkers,…</span><span class="plus">+</span></summary></details>
+<details class="note"><summary><span class="note-txt">it takes a long time to discover rudolf steiners humor but if one does, its connected to a huge sense of lighthearted enlightening laughter that only a few thus far have had the chance to experience ;-) also if anyone is going to look for some kind of errors that supposedly touch his spiritual insight or what is supposedly becoming of it by us, well, that should rather be looked at in connection w…</span><span class="plus">+</span></summary></details>
+<details class="note"><summary><span class="note-txt">the robots arent exactly our enemys. AI neither, theres many different levels of what could be called ai, like ancestral intelligence or afrikan intelligence or american intelligence or automated intelligence or even afterlife intelligence etc. so there are truly high grade &quot;godly&quot; and social and progressive and humanfriendly cyberintelligences. its a matter of building and maintaining a…</span><span class="plus">+</span></summary></details>
+<details class="note"><summary><span class="note-txt">honestly, most of all achievement actually has to do with lots of unlearning. its true. in the same sense yo name be true.</span><span class="plus">+</span></summary></details>
+<details class="note"><summary><span class="note-txt">so for yall to join so called living thinking, imagine all yo cyberpresence as interpersonal web, let yo inspiration guide yo fingaz towards yo person [xD] or som similar, I dont kno anything about yo inspirations lol and finally only pull any triggaz if yo intuition officially grabs yu or something or anybody in yo close surroundings, should they be a thing of some degree of reality [lol] . . . t…</span><span class="plus">+</span></summary></details>
+<details class="note"><summary><span class="note-txt">if Im reflecting back on what Im doing really wrong it is that Im kind of reflecting or straight up replaying all the most horrible things all our enemies be doing right here right now in the sense of posing examples. I am like that because I myself dont have the guilt of actually having to like do the shadow calculation other peoples be doing with this information. the enemies. I dont know how to…</span><span class="plus">+</span></summary></details>
+<details class="note"><summary><span class="note-txt">if I should name one thing I have a truly deep feeling of disgust for, it would be middle aged white males with human trafficking knowledge and capabilities doing their thing with computers. and their pregnant wives they bought somwhere thwilighty.</span><span class="plus">+</span></summary></details>
+<details class="note"><summary><span class="note-txt">what is the weight of the shadow side of this planet? it just might be the solar system lol</span><span class="plus">+</span></summary></details>
+<details class="note"><summary><span class="note-txt">has anybody ever written a book about how to save people?</span><span class="plus">+</span></summary></details>
+<details class="note"><summary><span class="note-txt">Ima aks you: what might be the karma of a whole shadow industry? and what is the karma of the ones exposing it?</span><span class="plus">+</span></summary></details>
+<details class="note"><summary><span class="note-txt">some people might want to learn to improve themselves instead of figuring out in every detail how to screw over others :-)</span><span class="plus">+</span></summary></details>
+<details class="note"><summary><span class="note-txt">thats one of the major shortcomings of mainstream so called &quot;spiritual insights&quot;, that one somehow should be responsible for what other people do to oneself, because &quot;we&#x27;re all one&quot;. that abstraction makes these insights nonsensical, because of course it&#x27;s not myself that does everything to myself, that would be solipsism and some kind of hell existence at least. what…</span><span class="plus">+</span></summary></details>
+<details class="note"><summary><span class="note-txt">my parents an many other people in this country shouldn&#x27;t be allowed to use mobile devices and computers.</span><span class="plus">+</span></summary></details>
+<details class="note"><summary><span class="note-txt">what Ive seen and know from Dinka tribes is that theyve mastered the art of instant &#x27;cosmic karmic bookkeeping&#x27; so to speak and they actually are revered and even feared for that by some [powerful people] [in the west or even all around the world] - it&#x27;s even deeply engraved in the language! that is something like a very important role and task one could say. the Dinka people are an…</span><span class="plus">+</span></summary></details>
+<details class="note"><summary><span class="note-txt">the revelation that its all the same trip firstly feels ultimately painful. what do you think, is it mo&#x27;painful to never even discover what this means? this pain is overcome, by discovering that these words come from the ego. maybe some higher guru ego to be transcended, who knows. but apart from all of that, if one is able to make it to the galactic family, the alchemical transtemporal inter…</span><span class="plus">+</span></summary></details>
+<details class="note"><summary><span class="note-txt">people that love each other the most also get triggered by each other the most. I think that&#x27;s really funny haha because one is forced to not take each other too seriously then automatically because it&#x27;s almost that these people know each other too well already - there is no fear in love but there surely is a lot of (playful) annoyance I would say. at least in my experience it is like th…</span><span class="plus">+</span></summary></details>
+<details class="note"><summary><span class="note-txt">just fyi, u actually kind of disempower yoself if u feel the need to always [only and such] react to some stuff that is displayed on the page here. the [universal players] are actually all kinda mean, thats what heavy knowledge and power does kinda automatically and naturally to oneself and one gots to be able to achieve very high ethical standards (and this is a very personal thing - concerning t…</span><span class="plus">+</span></summary></details>
+<details class="note"><summary><span class="note-txt">the natural and wise thing to do, if one is drawn to any kind of &quot;esoteric mysterys and speculation&quot; is not believe a goddamn word rod hayes be saying lol xD the baseline is the thing thats holy. other than that ther is only horrible loss and errors. for the ones that like to chase rabbits. ever seen a rabbit with a bit innit?! no?! now u gotta rabbi with one?! oh well, thats great, that…</span><span class="plus">+</span></summary></details>
+<details class="note"><summary><span class="note-txt">the dude that all the other dudes think is the dude john that wrote the mfing revelations hijacked the joint and now has aprox. 56% of the worlds most powerful people as his page-groupies. thing is, hes the least of all that would believe such deluded fairytales. hes better at being a very sexy introverted virgo squaquaman. #ultimatetruth #typingsavestheplanet #thatscuzyucalleditthatudumbfuckz xD …</span><span class="plus">+</span></summary></details>
+<details class="note"><summary><span class="note-txt">we&#x27;ve actually been making major progress IRL with these current developments that do come from a place of tryin to cope with the amazement of a movement of the heart-mind coherence towards eden. we definitely dont want to hurt anything bodily. benevolent advancements and programming. go talk, sry, I meant to say go take a walk around yo neighborhoods, yo locals, lift yo head up into the sky,…</span><span class="plus">+</span></summary></details>
+<details class="note"><summary><span class="note-txt">everything that is shaped somwhere and by someone or by people of which arent seen nor met nor visited, the same for the experience or knowledge of the actions performed outside yo field of insight nd such, IS by DEFINITION extraterrestrial.</span><span class="plus">+</span></summary></details>
+<details class="note"><summary><span class="note-txt">morals, ethics, discernment are the spheres of righteous actions. good/bad is as dualistic as 0 and 1 or black and white - and thus a realm, where the somewhat (maybe mechanical, maybe mechanistic, maybe mathematical) dark-cold-maybe artificial forces can play human sentimens like a flute. dualism is the thought form of this/or that. where do we go from here? denying the whole thing ascetically as…</span><span class="plus">+</span></summary></details>
+<details class="note"><summary><span class="note-txt">Jonas Hä hat etwas via Answers™ About Me gepostet.</span><span class="plus">+</span></summary></details>
+<details class="note"><summary><span class="note-txt">theres at least four interpretations of this..</span><span class="plus">+</span></summary></details>
+
+    </div>
+    <aside class="impulse-col">
+      <h3>expansions-anstösse</h3>
+      <ul><li><strong>Unlearning</strong><p>«most of all achievement actually has to do with lots of unlearning» → Bildungstheorie des Verlernens; Anschluss an Krishnamurti-Lektüre?</p></li><li><strong>Karma der Schattenindustrie</strong><p>Offene Frage aus dem Archiv, perfekt als Forschungsfrage: Whistleblowing-Ethik + Karmatheorie.</p></li><li><strong>Gegensatzpaar-Methode</strong><p>Die Dualismen systematisch sammeln und kippen lassen → dialektische Notizheft-Praxis (Adorno, *Minima Moralia* als Form-Vorbild).</p></li></ul>
+    </aside>
+  </div>
+</section>
+<section id="humor" class="theme" data-bg="#F4EBDD">
+  <header class="theme-head">
+    <span class="nr">08</span>
+    <h2>Humor &amp; Absurdes</h2>
+    <p class="sub">das bar-drama · 43 notizen</p>
+    <p class="desc">«sometimes u eat the bar and sometimes, well, the bar eats u». Goldene Elefanten, Winter-Witze, Antworten in ma nutz. Das Komische als Erkenntnisinstrument.</p>
+  </header>
+  <div class="theme-body">
+    <div class="notes-col">
+      <h3>notizen</h3>
+      <details class="note"><summary><span class="note-txt">Im the kinda guy that cusses and screams at screens and random imaginations, so some doctor somwhere highly recommends not takin&#x27; everything really personally that has ever been said. unfortunately, that is a critique that can&#x27;t be exactly concerned with the kind of materialism Id othewise would have to conjour up from some strange place. so yeah. uhm. yeah. 👻</span><span class="plus">+</span></summary></details>
+<details class="note"><summary><span class="note-txt">lol shout out to the NUT Dennis! ;-) this whole thing is so absurdly funny, I swear 😆😂😂😂😂😂😂😂😂😂😂😂😂</span><span class="plus">+</span></summary></details>
+<details class="note"><summary><span class="note-txt">if we should make it to the point that we aint killed by our elders this time around, we&#x27;ll be with them in heaven.</span><span class="plus">+</span></summary></details>
+<details class="note"><summary><span class="note-txt">we&#x27;re basically religious nazis and diss the scriptures and everything that comes out of our mouths turns into new scripture . . .</span><span class="plus">+</span></summary></details>
+<details class="note"><summary><span class="note-txt">what is a myth? like really really, the essence of a myth, what is that? feed all the myths of the world that have been written inside a supercomputer and the definition of a myth stays the same as before any calculations. thats the whole point. lol 😅😂😂😂</span><span class="plus">+</span></summary></details>
+<details class="note"><summary><span class="note-txt">environmentalisms goals will be achieved and solved inside cybernetic breaktroughs. not thru further increases of additional data centers and additional infrastructure, but thru the organization of data-distribution and sharing.</span><span class="plus">+</span></summary></details>
+<details class="note"><summary><span class="note-txt">oh it seems to be going that way that there is no escape than a new world order [porno] now! trick! 😅🤣😂</span><span class="plus">+</span></summary></details>
+<details class="note"><summary><span class="note-txt">just a lil shout out to what time to be where meet up da place meet up da place! one love, shoutout to my bephwiew fsäägeler [warning!!, lil baphomet comin up above lol]! 🤣</span><span class="plus">+</span></summary></details>
+<details class="note"><summary><span class="note-txt">&quot;Redemption&quot; does not mean that a burden is taken from one&#x27;s shoulders which one was never meant to bear. Only the &quot;complete&quot; person knows how unbearable man is to himself. - CARL JUNG</span><span class="plus">+</span></summary></details>
+<details class="note"><summary><span class="note-txt">IM DOING SOME FREUDIAN MFING FEEFREE DEPTH PSYCHOLOGICAL ABREAGIER SESSION FOR YALL WEAK AZZ IMBECILES I AUNE KÄFFER WRITE NAH! OK?! 🤣🤣🤣 thank you 😋😙☺️</span><span class="plus">+</span></summary></details>
+<details class="note"><summary><span class="note-txt">WAAAAAU! when the algorithm gives u this, thats a compliment for a student :-)</span><span class="plus">+</span></summary></details>
+<details class="note"><summary><span class="note-txt">Mani Thankz LT! Greatest DnB Disc Jokey Ive known and listenned to and went to an otherworldly live Concert in the Dachstock Reitschule. Absolutely Astonishing Night.</span><span class="plus">+</span></summary></details>
+<details class="note"><summary><span class="note-txt">MS NS Indi [SM] Petty Program DeF isnT good for the Ones Carrying The Star [SIGN] [OF (UCK MA LIFE)] of RAMS. [THANK YOU! 🙏🏼]</span><span class="plus">+</span></summary></details>
+<details class="note"><summary><span class="note-txt">One of the Titans Sperms was[nt] [able] [to] reach the Heavens [over] Bern this [E]vening [?!]</span><span class="plus">+</span></summary></details>
+<details class="note"><summary><span class="note-txt">I approve of the hopping practice 😂 I adapted it as my daily workout lol 🧡</span><span class="plus">+</span></summary></details>
+<details class="note"><summary><span class="note-txt">jep we find ourselves in the &quot;quantum era&quot; and its gonna be a joy to TrulY and FullY creatively ArrangE :-) I aint gon kee talkin, I dont feel like it 😂</span><span class="plus">+</span></summary></details>
+<details class="note"><summary><span class="note-txt">LoL thissssis a heavy azz calculation zo dtha 42th PoWaWoW/&gt;*?]&gt;&gt;][(&amp;720 Powa! mEGa! One LoVe</span><span class="plus">+</span></summary></details>
+<details class="note"><summary><span class="note-txt">why dont u start with Investment apps? lol xD like selling investment apps xD</span><span class="plus">+</span></summary></details>
+<details class="note"><summary><span class="note-txt">I do recommed to listen to Steiners Rosicrucian Lecture Cycles for ancient levels of understandings. [especially if one wants to make sense out of what is performed in the spheres of what this dude here be tiping into all kinda &quot;what is on yo mind&quot;, &quot;leave a comment&quot; and other lil fields in the internet that demand yo input].</span><span class="plus">+</span></summary></details>
+<details class="note"><summary><span class="note-txt">talking simulation is like installing a stick with a carrot that youll never be able to reach in front of wherever u be tryna go. its absolutely bonkers in many ways from an ontological and epistemological standpoint. if its not possible to yu to consciously surprise yoself what kinda mouth noises yo mouth be blabbering, well then, one can start playing sims. u. lat. ion. al. [hopefully a lil epic…</span><span class="plus">+</span></summary></details>
+<details class="note"><summary><span class="note-txt">honestly this my previous run be ridiculus af! Im worried about how long the last word been sitting on my tongue that I wasnt sure benn sitting in my mind or some other bodypart lol xD</span><span class="plus">+</span></summary></details>
+<details class="note"><summary><span class="note-txt">thats how the guys look that [in a normal and honest world . . . lol] WOULD BR B [lol . . . anyways] Do win Nobel Prizes. Peace.</span><span class="plus">+</span></summary></details>
+<details class="note"><summary><span class="note-txt">naeva foget to doubleb up nd rhytym nskilz killz yaaman! #pirafoclasixx</span><span class="plus">+</span></summary></details>
+<details class="note"><summary><span class="note-txt">poison awareness is underestimated! and I say this as an unserious alchemist and a serious drug experimentor! metastrophizing nu: lasagnitzsch!</span><span class="plus">+</span></summary></details>
+<details class="note"><summary><span class="note-txt">my followers come as fully equippet security gear solo-ufo playaz when they wanna see me in 3D . . . . LOL xD big ass special security intergalactic military dudes, whit wrong uniforms xD</span><span class="plus">+</span></summary></details>
+<details class="note"><summary><span class="note-txt">sry for my high tempo and fast race currently, Im in vacation locally for a week and filling out every minute of it. its a blast! I can easily make vacations where I live at, without money, its actually beautiful here in summer! I love it. so forgive me for the tempo, youll have time to catch up when Im working again next week, itll slow down again then. greetings!</span><span class="plus">+</span></summary></details>
+<details class="note"><summary><span class="note-txt">funniest sentence Ive heard all my life from Maponga: &quot;they are one.&quot; hahahahhahaaha</span><span class="plus">+</span></summary></details>
+<details class="note"><summary><span class="note-txt">if u want to investigate about logical inconsistencies about what youve brought forth in what u say inside of yo writings and videos and content u can simply ask an llm to uncover these and then deepen your insights about them inside of yo follow up writings and videos and such. its not a sin to say logically contradicting things inside of finite languages and language systems. as long as this top…</span><span class="plus">+</span></summary></details>
+<details class="note"><summary><span class="note-txt">talk inspired by a duttwiler institute green future day some years back. spoken to friends in bärndütsch.</span><span class="plus">+</span></summary></details>
+<details class="note"><summary><span class="note-txt">frexit made it to the discussion. imagine swexit, and much worse, swixit lol of course that could only seriously be discussed if these lands here would even belong to that which is to leave.</span><span class="plus">+</span></summary></details>
+<details class="note"><summary><span class="note-txt">some of them fear loneliness at the top. well that is kind of a oxymoron I guess. lol whos speaking? when it speaks it comes from great depths out of the [whatever its exactly doing - kinda something not to tell until it is in the act of being spoken and such and so on etc.] - might just be a ghana signaling som from what is called the abyss. of course the abyss is a curse word for it, itll get pi…</span><span class="plus">+</span></summary></details>
+<details class="note"><summary><span class="note-txt">we looking at: 1. solving smartphones 2. abundant outlaw eden villages 3. a downfall of bables tower 4. disillusionment in the imaginal spheres for some percentage of enlightened humanity xD 5. friday after next</span><span class="plus">+</span></summary></details>
+<details class="note"><summary><span class="note-txt">how could 99% of all states leaders be too small minded?! xD c&#x27;mon. heard? seen? we definitely something resembling a donut now xD</span><span class="plus">+</span></summary></details>
+<details class="note"><summary><span class="note-txt">nah man it was ground up teeth fom my twin emmanuel str8 up honestly and I almost got slapped and then thrown out the building for it. he as well lol xD</span><span class="plus">+</span></summary></details>
+<details class="note"><summary><span class="note-txt">in secret societies the times when humanity would have lost its capabilities of its biological reproductive faculties would have been lost has been discussed. see what happens?! I cant even talk anymore.</span><span class="plus">+</span></summary></details>
+<details class="note"><summary><span class="note-txt">yall know douglas adams, the author of hitchhikers guide to the galaxy? thats a whole book series and one of the titles is &#x27;the restaurant at the end of the universe&#x27; [or galaxy or som space shii IDK] anyways, so there at this restaurant one can order a humanly talkin geneengineered cow to walk over to the table with a panorama seat towards the blowing up of the universe and then these c…</span><span class="plus">+</span></summary></details>
+<details class="note"><summary><span class="note-txt">the further you get closer to the goal, the deeper his mind, far lost, be tryin&#x27; to remember, wtf he just did xD for only his ears his humble spirit would ever be only allowed to shine forth that humble! [this is a parody &#x27;nd truly really intended as a kind of funny anecdote aka story, not anything malicious or strangely violent, in praise of the intensity of painful chemical bodypattern…</span><span class="plus">+</span></summary></details>
+<details class="note"><summary><span class="note-txt">yeah thats a topic that has been on our minds sometimes . . . its rather strange to get used to, these topics. unusual.💝</span><span class="plus">+</span></summary></details>
+<details class="note"><summary><span class="note-txt">jap. pretty life changing books to say the least. it&#x27;s only been a year?!</span><span class="plus">+</span></summary></details>
+<details class="note"><summary><span class="note-txt">Bei friedlichen Demos bleiben die Medien stumm. Educate yourself. One love.</span><span class="plus">+</span></summary></details>
+<details class="note"><summary><span class="note-txt">Hei ou widr zrugg ir schwiz? Geisch du a das ef get together im ziczac z züri? Lg</span><span class="plus">+</span></summary></details>
+<details class="note"><summary><span class="note-txt">Im prolly not gunna be up at 9 in da mornin, ima be online at like 1.30am yo time</span><span class="plus">+</span></summary></details>
+<details class="note"><summary><span class="note-txt">yo i figured ur an odd future fan. im gunna c these bitchez live this summer haha tell me if u want me to steal the creators socks cuz hell prolly be stage diving so i might get a chance to do that lol</span><span class="plus">+</span></summary></details>
+
+    </div>
+    <aside class="impulse-col">
+      <h3>expansions-anstösse</h3>
+      <ul><li><strong>Das Bar-Theorem</strong><p>Lebensphilosophie in Big-Lebowski-Anklang → Humor als Coping &amp; als Theorie (Morreall, *Comic Relief*).</p></li><li><strong>Der goldene Elefant</strong><p>Ein erklärungsbedürftiges Archivwesen → Idee: als Audio-Fussnote im Jupyter Book einspielen (wie im Original geplant).</p></li></ul>
+    </aside>
+  </div>
+</section>
+<section id="echo" class="theme" data-bg="#F8F7E5">
+  <header class="theme-head">
+    <span class="nr">09</span>
+    <h2>Echo &amp; Reaktion</h2>
+    <p class="sub">die kurzen wellen · 80 notizen</p>
+    <p class="desc">xD, lol, «yesss haha», «so z viu» — 80 kurze Resonanzen. Kleinstpartikel, die zeigen, wie Aufmerksamkeit damals funktionierte.</p>
+  </header>
+  <div class="theme-body">
+    <div class="notes-col">
+      <h3>notizen</h3>
+      <details class="note"><summary><span class="note-txt">do muesch unbedingt ga!! schisst mi angers a dasi denn wäg bi -.-</span><span class="plus">+</span></summary></details>
+<details class="note"><summary><span class="note-txt">so z viu xD</span><span class="plus">+</span></summary></details>
+<details class="note"><summary><span class="note-txt">für aui wo hobbit läse haha</span><span class="plus">+</span></summary></details>
+<details class="note"><summary><span class="note-txt">kennsch ds scho?</span><span class="plus">+</span></summary></details>
+<details class="note"><summary><span class="note-txt">wiso bringts dr staudt nid fertig das so z erkläre?? ^^</span><span class="plus">+</span></summary></details>
+<details class="note"><summary><span class="note-txt">yesss haha</span><span class="plus">+</span></summary></details>
+<details class="note"><summary><span class="note-txt">aiaiai, so muess das ga :)</span><span class="plus">+</span></summary></details>
+<details class="note"><summary><span class="note-txt">Burgdorf im hus ;)</span><span class="plus">+</span></summary></details>
+<details class="note"><summary><span class="note-txt">work on it! lol 😂😂😂</span><span class="plus">+</span></summary></details>
+<details class="note"><summary><span class="note-txt">its a problem.</span><span class="plus">+</span></summary></details>
+<details class="note"><summary><span class="note-txt">😭😭😭😭😭😭😭</span><span class="plus">+</span></summary></details>
+<details class="note"><summary><span class="note-txt">profound lecture.</span><span class="plus">+</span></summary></details>
+<details class="note"><summary><span class="note-txt">unfortunately I DONT THINK SO lol</span><span class="plus">+</span></summary></details>
+<details class="note"><summary><span class="note-txt">lol! interdimensional kangoroo! 😂😂😂</span><span class="plus">+</span></summary></details>
+<details class="note"><summary><span class="note-txt">😂</span><span class="plus">+</span></summary></details>
+<details class="note"><summary><span class="note-txt">pause</span><span class="plus">+</span></summary></details>
+<details class="note"><summary><span class="note-txt">issssss eleveneleven ri now</span><span class="plus">+</span></summary></details>
+<details class="note"><summary><span class="note-txt">som&#x27; mohiniz w&#x27;ould [say] WINTER 😂!</span><span class="plus">+</span></summary></details>
+<details class="note"><summary><span class="note-txt">😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂</span><span class="plus">+</span></summary></details>
+<details class="note"><summary><span class="note-txt">whos the empire and wher is the jedi?!</span><span class="plus">+</span></summary></details>
+<details class="note"><summary><span class="note-txt">lol xD we going da sun pla-net xD</span><span class="plus">+</span></summary></details>
+<details class="note"><summary><span class="note-txt">🤗🤪😂</span><span class="plus">+</span></summary></details>
+<details class="note"><summary><span class="note-txt">😂😂😂🪴</span><span class="plus">+</span></summary></details>
+<details class="note"><summary><span class="note-txt">lol the dude be too much sometimes 😂😂😂😂😂😂😂😂😂😂😂😂😂😂</span><span class="plus">+</span></summary></details>
+<details class="note"><summary><span class="note-txt">city builder brics peace und friedwn auf erden :)</span><span class="plus">+</span></summary></details>
+<details class="note"><summary><span class="note-txt">KONGO</span><span class="plus">+</span></summary></details>
+<details class="note"><summary><span class="note-txt">but it doesnt matter, once u there, theres nothing u can do xD</span><span class="plus">+</span></summary></details>
+<details class="note"><summary><span class="note-txt">😂😂😂</span><span class="plus">+</span></summary></details>
+<details class="note"><summary><span class="note-txt">why should cybercrime be treated less worse than real life crime?</span><span class="plus">+</span></summary></details>
+<details class="note"><summary><span class="note-txt">we are almost from the same place sout sudan 🫡🫠🤫</span><span class="plus">+</span></summary></details>
+<details class="note"><summary><span class="note-txt">🤣🙏🏼🤣</span><span class="plus">+</span></summary></details>
+<details class="note"><summary><span class="note-txt">&#x27;spections.</span><span class="plus">+</span></summary></details>
+<details class="note"><summary><span class="note-txt">a&#x27; oooooooooo&#x27; :-)</span><span class="plus">+</span></summary></details>
+<details class="note"><summary><span class="note-txt">Im Out Ind Acav Esf Ora Rou Ndong.</span><span class="plus">+</span></summary></details>
+<details class="note"><summary><span class="note-txt">today is a special occasion</span><span class="plus">+</span></summary></details>
+<details class="note"><summary><span class="note-txt">Im really interested in the topic of Chinese Astrology!</span><span class="plus">+</span></summary></details>
+<details class="note"><summary><span class="note-txt">lol 😂</span><span class="plus">+</span></summary></details>
+<details class="note"><summary><span class="note-txt">Lol 😆</span><span class="plus">+</span></summary></details>
+<details class="note"><summary><span class="note-txt">SENDING MUCH GRATUTUDE AND APPREACIATION TOWARDS ALL THE TEACHERS</span><span class="plus">+</span></summary></details>
+<details class="note"><summary><span class="note-txt">thats why .</span><span class="plus">+</span></summary></details>
+<details class="note"><summary><span class="note-txt">get that</span><span class="plus">+</span></summary></details>
+<details class="note"><summary><span class="note-txt">JUPITER ONLYMAYBE FO&#x27;GO&#x27;TO&#x27; o&#x27;¡NKnIGHT&#x27;</span><span class="plus">+</span></summary></details>
+<details class="note"><summary><span class="note-txt">Swaokii-Land?</span><span class="plus">+</span></summary></details>
+<details class="note"><summary><span class="note-txt">😂😂😂😂😂😂😂😂😂😂😂😂😂😂</span><span class="plus">+</span></summary></details>
+<details class="note"><summary><span class="note-txt">FELT likeCON TiNuInG da BURD CoN FrEnCE . .. haha :-)</span><span class="plus">+</span></summary></details>
+<details class="note"><summary><span class="note-txt">lol! this cant be Serious! hahahaha PEACE xD</span><span class="plus">+</span></summary></details>
+<details class="note"><summary><span class="note-txt">zion be on a hill zyon be inna cave sajon be inna [kongo]</span><span class="plus">+</span></summary></details>
+<details class="note"><summary><span class="note-txt">feels like home</span><span class="plus">+</span></summary></details>
+<details class="note"><summary><span class="note-txt">tax request incoming!</span><span class="plus">+</span></summary></details>
+<details class="note"><summary><span class="note-txt">lol</span><span class="plus">+</span></summary></details>
+<details class="note"><summary><span class="note-txt">mfs with grace might know my style xD</span><span class="plus">+</span></summary></details>
+<details class="note"><summary><span class="note-txt">skiirt</span><span class="plus">+</span></summary></details>
+<details class="note"><summary><span class="note-txt">xD fuck worries man!</span><span class="plus">+</span></summary></details>
+<details class="note"><summary><span class="note-txt">I actually got some numbers of dozens of such pirate stories lol</span><span class="plus">+</span></summary></details>
+<details class="note"><summary><span class="note-txt">I want to be a sailor again.</span><span class="plus">+</span></summary></details>
+<details class="note"><summary><span class="note-txt">grand risin&#x27;worldwide fam!</span><span class="plus">+</span></summary></details>
+<details class="note"><summary><span class="note-txt">IM KNOTTA @[100001256809816:2048:Projeçt Riot]</span><span class="plus">+</span></summary></details>
+<details class="note"><summary><span class="note-txt">indeed</span><span class="plus">+</span></summary></details>
+<details class="note"><summary><span class="note-txt">yupyup!!</span><span class="plus">+</span></summary></details>
+<details class="note"><summary><span class="note-txt">who exactly is anybody talking to here? a trash can?! xD</span><span class="plus">+</span></summary></details>
+<details class="note"><summary><span class="note-txt">genius</span><span class="plus">+</span></summary></details>
+<details class="note"><summary><span class="note-txt">I be doing the grand edit.</span><span class="plus">+</span></summary></details>
+<details class="note"><summary><span class="note-txt">xD</span><span class="plus">+</span></summary></details>
+<details class="note"><summary><span class="note-txt">Jonas Hä und SajonDocs</span><span class="plus">+</span></summary></details>
+<details class="note"><summary><span class="note-txt">Jonas Hä hat etwas via Daily Photo gepostet.</span><span class="plus">+</span></summary></details>
+<details class="note"><summary><span class="note-txt">Jonas Hä hat etwas via Umfrage zur Eidg. Abstimmung gepostet.</span><span class="plus">+</span></summary></details>
+<details class="note"><summary><span class="note-txt">Jonas Hä hat etwas via Phrases gepostet.</span><span class="plus">+</span></summary></details>
+<details class="note"><summary><span class="note-txt">pffff</span><span class="plus">+</span></summary></details>
+<details class="note"><summary><span class="note-txt">=) i kissed princess Leia</span><span class="plus">+</span></summary></details>
+<details class="note"><summary><span class="note-txt">fasch... mini si black</span><span class="plus">+</span></summary></details>
+<details class="note"><summary><span class="note-txt">Cool!</span><span class="plus">+</span></summary></details>
+<details class="note"><summary><span class="note-txt">when science creates art...</span><span class="plus">+</span></summary></details>
+<details class="note"><summary><span class="note-txt">Jonas Hä hat etwas via Meyfy gepostet.</span><span class="plus">+</span></summary></details>
+<details class="note"><summary><span class="note-txt">welcome to whatever....</span><span class="plus">+</span></summary></details>
+<details class="note"><summary><span class="note-txt">ohjeee...</span><span class="plus">+</span></summary></details>
+<details class="note"><summary><span class="note-txt">always xD</span><span class="plus">+</span></summary></details>
+<details class="note"><summary><span class="note-txt">anyone?</span><span class="plus">+</span></summary></details>
+<details class="note"><summary><span class="note-txt">happy birthay debi :)</span><span class="plus">+</span></summary></details>
+<details class="note"><summary><span class="note-txt">15889 im ninja jump ;)</span><span class="plus">+</span></summary></details>
+<details class="note"><summary><span class="note-txt">ha dänkt e vorübergehende iitrag sött länge ^^</span><span class="plus">+</span></summary></details>
+
+    </div>
+    <aside class="impulse-col">
+      <h3>expansions-anstösse</h3>
+      <ul><li><strong>Mikro-Reaktion als Datenformat</strong><p>xD/lol als historische Emoticon-Schicht → Internet-Linguistik (McCulloch, *Because Internet*).</p></li><li><strong>Quantifizierung des Lachens</strong><p>Zählbare Ausrufezeichen &amp; xD-Dichte über die Jahre → kleine Zeitreihen-Analyse im Notebook.</p></li></ul>
+    </aside>
+  </div>
+</section>
+<section id="gruss" class="theme" data-bg="#EFE6D8">
+  <header class="theme-head">
+    <span class="nr">10</span>
+    <h2>Grüsse &amp; Freundschaft</h2>
+    <p class="sub">das freundschaftsbuch · 32 notizen</p>
+    <p class="desc">Das Archiv endet als Geburtstags-Klavier: «happy bday blüemlipesche», «alled jute zum burzeltag», Grüsse nach Oregon. Zärtlichkeit als Schlusswort.</p>
+  </header>
+  <div class="theme-body">
+    <div class="notes-col">
+      <h3>notizen</h3>
+      <details class="note"><summary><span class="note-txt">china seems to be really pissed at steiners cosmology with the supposed incarnation of lucifer 3000 bc lol 😅 they will mock you. and their average iq must be at least double the current IQ of a western counterpart. of course we know that lucifer isnt exactly smarter than ahriman and what we&#x27;re seeing currently is the essence of ahrimanic philosophy idustrially worked thru a deterministic algo…</span><span class="plus">+</span></summary></details>
+<details class="note"><summary><span class="note-txt">Happy b day du aute sack!</span><span class="plus">+</span></summary></details>
+<details class="note"><summary><span class="note-txt">happy b-day =)</span><span class="plus">+</span></summary></details>
+<details class="note"><summary><span class="note-txt">happy birthday!!</span><span class="plus">+</span></summary></details>
+<details class="note"><summary><span class="note-txt">happy bday ^^</span><span class="plus">+</span></summary></details>
+<details class="note"><summary><span class="note-txt">happy bday :)</span><span class="plus">+</span></summary></details>
+<details class="note"><summary><span class="note-txt">happy birthday craig cu in mexico</span><span class="plus">+</span></summary></details>
+<details class="note"><summary><span class="note-txt">happy bday</span><span class="plus">+</span></summary></details>
+<details class="note"><summary><span class="note-txt">happy birthday! bis am friti</span><span class="plus">+</span></summary></details>
+<details class="note"><summary><span class="note-txt">happy bday scotty!</span><span class="plus">+</span></summary></details>
+<details class="note"><summary><span class="note-txt">happy bday :D</span><span class="plus">+</span></summary></details>
+<details class="note"><summary><span class="note-txt">happy bday :D gsehtsech in adubode</span><span class="plus">+</span></summary></details>
+<details class="note"><summary><span class="note-txt">happy birthday !! how have u been?</span><span class="plus">+</span></summary></details>
+<details class="note"><summary><span class="note-txt">happy birthday!! :)</span><span class="plus">+</span></summary></details>
+<details class="note"><summary><span class="note-txt">happy bday!! :D</span><span class="plus">+</span></summary></details>
+<details class="note"><summary><span class="note-txt">happy bday!</span><span class="plus">+</span></summary></details>
+<details class="note"><summary><span class="note-txt">happy bday grabi^^</span><span class="plus">+</span></summary></details>
+<details class="note"><summary><span class="note-txt">happy bday jimmayy</span><span class="plus">+</span></summary></details>
+<details class="note"><summary><span class="note-txt">happy bday bro</span><span class="plus">+</span></summary></details>
+<details class="note"><summary><span class="note-txt">happy bday!!</span><span class="plus">+</span></summary></details>
+<details class="note"><summary><span class="note-txt">happy birthday!</span><span class="plus">+</span></summary></details>
+<details class="note"><summary><span class="note-txt">happy birthday! :)</span><span class="plus">+</span></summary></details>
+<details class="note"><summary><span class="note-txt">happy birthday :)</span><span class="plus">+</span></summary></details>
+<details class="note"><summary><span class="note-txt">happy bday 💂🏼</span><span class="plus">+</span></summary></details>
+<details class="note"><summary><span class="note-txt">happy birthday!! hope everything&#x27;s going well over there in Oregon</span><span class="plus">+</span></summary></details>
+<details class="note"><summary><span class="note-txt">happy birthday, hoffe du bisch guet acho! :D</span><span class="plus">+</span></summary></details>
+<details class="note"><summary><span class="note-txt">happy Birthday mäneler!💝</span><span class="plus">+</span></summary></details>
+<details class="note"><summary><span class="note-txt">happy bday blüemlipesche - scho drüedriisgi, aute fisch haha widermau eis go aateigne ;)</span><span class="plus">+</span></summary></details>
+<details class="note"><summary><span class="note-txt">happy birthday la noretta ;)</span><span class="plus">+</span></summary></details>
+<details class="note"><summary><span class="note-txt">happy birthday dude!</span><span class="plus">+</span></summary></details>
+<details class="note"><summary><span class="note-txt">Herzlichen Glückwunsch zum Geburtstag! 🎉💐☕😂😂😂</span><span class="plus">+</span></summary></details>
+<details class="note"><summary><span class="note-txt">alled jute zum burzeltag ;-)</span><span class="plus">+</span></summary></details>
+
+    </div>
+    <aside class="impulse-col">
+      <h3>expansions-anstösse</h3>
+      <ul><li><strong>Ritual der Erinnerung</strong><p>Geburtstagsgrüsse als Beziehungspflege-Protokoll → Ritualforschung; Anschluss an Stewardship-Gedanken des Frameworks.</p></li><li><strong>Das Ende als Anfang</strong><p>Das Freundschaftsbuch als Schwelle zum nächsten Archiv-Kapitel: Welche Grüsse gehören ins Jupyter Book?</p></li></ul>
+    </aside>
+  </div>
+</section>
+
+<footer>
+  <p class="big">das archiv endet als freundschaftsbuch — <em>und fängt gerade erst an.</em></p>
+  <div class="links">
+    <a href="https://github.com/jonason92/sajon-platform" target="_blank" rel="noopener">github · sajon-platform</a>
+    <a href="https://sajon.shop" target="_blank" rel="noopener">sajon.shop</a>
+  </div>
+  <p class="fine">generiert aus facebook_posts.md · thematische gruppierung + expansions-anstösse · v1 · lebendiger entwurf, kein doktrin</p>
+</footer>
+
+<script>
+// scroll-triggered background shifts per section (IO)
+const secs = [...document.querySelectorAll('.theme')];
+const links = [...document.querySelectorAll('#nav a')];
+const io = new IntersectionObserver((es)=>{
+  es.forEach(e=>{
+    if(e.isIntersecting){
+      document.body.style.background = e.target.dataset.bg;
+      links.forEach(l=>l.classList.toggle('active', l.getAttribute('href')==='#'+e.target.id));
+    }
+  });
+}, {threshold:.25});
+secs.forEach(s=>io.observe(s));
+
+// reveal animation for theme heads + impulses
+const rio = new IntersectionObserver((es)=>{
+  es.forEach(e=>{ if(e.isIntersecting) e.target.classList.add('on'); });
+}, {threshold:.15});
+document.querySelectorAll('.theme-head, .impulse-col, .hero > *').forEach(el=>{
+  el.classList.add('reveal'); rio.observe(el);
+});
+</script>
+</body>
+</html>
