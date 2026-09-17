@@ -6,9 +6,9 @@
 
 - **Werk:** Novalis (Friedrich von Hardenberg), *Das Allgemeine Brouillon*, 1798/99 — 1151 nummerierte Aufzeichnungen in vier chronologischen Gruppen.
 - **Textgrundlage:** Historisch-kritische Ausgabe (HKA), Band 3: *Das philosophische Werk II*, hg. v. Hans-Joachim Mähl, Stuttgart: Kohlhammer 1965, S. 207–278.
-- **Digitale Quelle:** Bibliotheca Augustana (Ulrich Harsch, TH Augsburg), Auswahl von 126 Aufzeichnungen, abgerufen September 2026.
+- **Digitale Quellen:** (1) *Erste Gruppe, Volltext Nr. 1–440:* Aquarium – Novalis im Netz (Frank Fischer), novalis.autorenverzeichnis.de. (2) *Gruppen 2–4, Auswahl:* Bibliotheca Augustana (Ulrich Harsch, TH Augsburg). Abgerufen September 2026.
 - **Rechtlicher Status:** Der Werktext ist gemeinfrei (Novalis † 1801). Edierter Apparat und Einleitungen der HKA unterliegen dem Urheberrecht — hier ist nur der gemeinfreie Notiztext gespeichert, mit Quellenangabe.
-- **Umfang:** 126 von 1151 Notizen (die von der Bibliotheca Augustana publizierte Auswahl, darunter die zentralen enzyklopädistischen Aufzeichnungen). Vollständiger Text der Ersten Gruppe zusätzlich über die Novalis-Seiten von Frank Fischer; die komplette Edition in der HKA (Kohlhammer).
+- **Umfang:** 502 von 1151 Notizen — darunter die Erste Gruppe nahezu vollständig (Nr. 1–440; die Schlussnotizen 441–444 liegen online nicht maschinenlesbar vor, sie stehen in der HKA). Die Auswahl der Gruppen 2–4 enthält die zentralen enzyklopädistischen Aufzeichnungen.
 
 ## Mähls Vorbemerkung (aus dem HKA-Vorwort)
 
@@ -19,204 +19,1332 @@
 
 ## Erste Gruppe · Nr. 1–444
 
-*September/Oktober 1798 · 64 Aufzeichnungen in dieser Auswahl*
+*September/Oktober 1798 · Volltext Nr. 1–440 (Frank Fischer, Aquarium – Novalis im Netz) · 440 Aufzeichnungen*
 
 
-**Nr. 3.** DICHTK[UNST]. Beywörter der griechischen Dichter – durchaus mahlerisch bedeutend – z. B. In der Juno geben die Augen den Ton an und so fort. Theorie der idealischen Proportionen.
+**Nr. 1.** < Fleischmasse der Robben. Fische. >
 
 
-**Nr. 4.** MED[IZIN]. Kranckheitsproportionen – Elementarproportionen – In Einen giebt der Magen, in den andern die Lunge und so fort, den Ton an.
+**Nr. 2.** <perspect[ivische] Stereometrik der Mahlerey. (Flächen und Linienkunst. Kubische Kunst.)>
 
 
-**Nr. 6.** <Attribute – Signaturen – Heraldik, Individualität.>
+**Nr. 3.** Dichtk[unst]. Beywörter der griechischen Dichter – durchaus mahlerisch bedeutend – z. B. In der Juno geben die Augen den Ton an und so fort. Theorie der idealischen Proportionen .
 
 
-**Nr. 9.** <Geschichte der Encyclopaedistik.>
+**Nr. 4.** Med[icin]. Kranckheitsproportionen – Elementarproportionen – In Einen giebt der Magen, in den andern die Lunge und so fort, den Ton an.
 
 
-**Nr. 10.** <Romantisiren ähnlich dem Algebraisiren. – Brief an Fr[iedrich Schlegel] – romantisch] >
+**Nr. 5.** <Winkelmann Gesch[ichte] der gr[iechischen] Kunst.>
 
 
-**Nr. 43.** (MED[ICIN]). Rausch aus Stärke – Rausch aus [Schwäche]. Die narcotischen Gifte, der Wein etc. bewirken einen Rausch [aus] Schwäche. – Sie entziehn dem Denkorgan etwas. – Sie machen es unf[ähig] für seinen gewöhnlichen Reitz. / Leidenschaften, fixe Ideen sind vielleicht eher ein Rausch aus Stärke, – bewircken Localentzündungen. / Wollust berauscht auch, wie Wein. Im Rausch aus Schwäche hat man viel lebhaftere, durchdringendere Sensationen. Je besonnener, desto unsinnlicher.
+**Nr. 6.** < Attribute – Signaturen. Heraldik. Individualitaet.>
 
 
-**Nr. 56.** ENC[YCLOPAEDISTIK]. Der W[issenschafts]Lehrer behandelt blos W[issenschaft] im Ganzen – Hat blos mit W[issenschaften], als solchen zu thun. / Die W[issenschafts]L[ehre] ist eine wahrhafte, unabhängige, selbständige Encyclopaedik – W[issenschaft] d[er] W[issenschaften]. / W[issenschafts]L[ehre] ist System des wissenschaftlichen Geistes – die Psychologie, wenn ich so sagen darf – der Wissenschaften im Ganzen.
+**Nr. 7.** <War Rafael Seelenmahler? W[as] h[eißt] d[as]?>
 
 
-**Nr. 67.** PHYSIK. Das Schellingsche Wärmesystem verbunden mit dem Franklinism / der nichts anders ist, als Brownism / wird die Grundlage des künftigen UniversalNatursystems.
+**Nr. 8.** <Die Physik ist jezt nur Masse – aus einzelnen Massen bestehend. Es giebt noch keine Physik – es giebt nur einzelne physikalische W[issenschaften] – vielleicht auch noch nicht Physikalisch .>
 
 
-**Nr. 87.** ROMANTIK. Absolutisirung – Universalisirung – Classification des individuellen Moments, der ind[ividuellen] Situation etc. ist das eigentliche Wesen des Romantisirens. vid. Meister. Mährchen.
+**Nr. 9.** <Geschichte der Encyklopaedistik.>
 
 
-**Nr. 146.** ENC[YCLOPAEDISTIK]. Eine W[issenschaft] gewinnt durch Fressen – durch Assimiliren andrer Wissenschaften etc. So d[ie] Mathem[atik] z. B. durch den gefressenen Begriff des Unendlichen.
+**Nr. 10.** <Romantisiren ähnlich dem Algebraisiren – Brief an Fr[iedrich Schlegel] – romantisch.>
 
 
-**Nr. 155.** ENC[YCLOPAEDISTIK]. Doppelte Universalität jeder wahrhaften W[issenschaft] – Eine entsteht, wenn ich alle andern W[issenschaften] zur Ausbildung der besondern benutze. – Die Andre, wenn ich sie zur Universalwissenschaft mache und sie selbst unter sich ordne – alle andre Wissenschaften, als ihre Modificationen betrachte. Den Ersten Versuch der leztern Art hat Fichte mit der Phil[osophie] unternommen. Er soll in allen W[issenschaften] unternommen werden.
+**Nr. 11.** <Naturgeschichte. Nat[ur]Beschreibungen. Besch[reibung] der El[ectricitaet] – des Magnetism etc. (Kunstbeschr[eibung].) Bearbeitung d[er] Nat[ur]Gesetze. Algebraisirung d[er] mathematischen Gesetze .>
 
 
-**Nr. 176.** ENC[YCLOPAEDISTIK]. Universale Poëtik und vollst[ändiges] System der Poësie. Eine Wissenschaft ist vollendet, 1. wenn sie auf alles angewandt ist – 2. wenn alles auf sie angewandt ist – 3. Wenn sie, als abs[olute] Totalitaet, als Universum betrachtet – sich selbst als abs[olutes] Individuum mit allen übrigen W[issenschaften] und K[ünsten], als relat[iven] Individuen, untergeordnet wird.
+**Nr. 12.** Teleol[ogie]. Alles, was wegzuwünschen ist, ist nur falsche Meynung – Irrthum. Kranckh[eit] und Übel sind solches nur in der und durch die Einbildung – sie sind nicht zu statuiren. Med[icin]. Nutzen jeder Kranckheit – Poësie derselben . Eine Kr[anckheit] kann kein Leben seyn, sonst müßte die Verbindung mit Kr[anckheit] unsre Existenz erhöhen . Forts[etzung] dieses merckw[ürdigen] Gedankens.
 
 
-**Nr. 186.** PHYSI[KALISCHE] SINNLEHRE. Sprechen und Hören ist Befruchten und Empfangen. / PSYCH[OLOGIE]. Scham – Scheu vor Kundwerdung – / ARTISTIK. symbolisch religioese Mimick – Sittenmimik – Grüßen etc. Was bedeutet z. B. Enthüllung? Synth[esis] von Mann und Weib. / PHYS[IK]. Grund der Gastfreundschaft der Alten – Abendmahl – gemeinschaftliches Essen und trinken ist eine Art Vereinigung – ein generationsact. [190] PSYCH[OLOGIE]. Traurigkeit ist Symptom – Stimmung der Sekretion – Freude Symptom des Genusses – der Nutrition. / Die Arterien betreiben den Nutritions- und die Venen den Sekretionsprocess./
+**Nr. 13.** < Handel – Geist des Handels. / Stadtrecht – Forstrecht – Landesrecht oder Landeshoheit etc.>
 
 
-**Nr. 194.** PSYCH[OLOGIE]. Wie man aus den Symptomen den Sitz der Leidenschaft finden kann? Rationelle und medicinische Mimik. Zufällige – willkührliche und wesentliche Symptome. Classification der Leidenschaften – Theorie ihrer äußern Symptome. Der Sitz der Seele ist bald hier, bald dort – bald an mehreren Orten zugleich – er ist veränderlich – und so auch der Sitz ihrer Hauptglieder – die man durch die Hauptleidenschaften kennen lernt.
+**Nr. 14.** <Betreibung im Großen / Mehr über die sonderbare Indikation der Untersch[iede] zwischen Praxis und Theorie. Die Praxis soll theoretischer werden.>
 
 
-**Nr. 195.** PSYCH[OLOGIE]. Das Gedächtniß nimmt mit der Fähigkeit, die Gegenstände a priori zu finden, ab und zu.
+**Nr. 15.** <Man lernt Handwercke – Maschinen – Wissenschaften – Künste – Menschen etc. durch geschickte Eintheilung und zweckmäßige Successive Betrachtung am leichtesten und besten kennen.>
 
 
-**Nr. 198.** ENC[YCLOPAEDISTIK]. Die W[issenschaft] im Großen besteht, nach Hemsterhuis, aus dem Produkt der Gedächtnißwiss[enschaften], oder der gegebnen Kenntnisse. Die leztern sind das bloße Werck des Menschen. Die W[issenschaft] im Großen ist also überhaupt die TotalFunction der Daten und Facten – die n Potenz des Reihenbinoms der Daten und Facten. Hier wird die combinator[ische] Analysis Bedürfniß.
+**Nr. 16.** Paedag[ogik]. Erziehung v[on] Kindern, wie Bildung eines Lehrlings – nicht durch directe Erziehung – sondern durch allmäliches Theilnehmen lassen an Beschäftigungen etc. d[er] Erwachsenen. /
 
 
-**Nr. 199.** ENC[YCLOPAEDISTIK]. Die größesten Wahrheiten unsrer Tage verdanken wir dem Contact der lange getrennten Glieder der Totalwissenschaft. Hemsterhuis.
+**Nr. 17.** <Langeweile ist Hunger – oder asthenischer Mangel. Indirecte Langeweile: Directe – – – >
 
 
-**Nr. 201.** PHYS[IKALISCHE] SINNENLEHRE. Anschaun ist ein elastischer Genuß. / PHIL[OSOPHISCHE] PHYS[IK]. Das Bedürfniß eines Gegenstandes ist schon Resultat einer Berührung in distans – Anfang der Negation – der Heterogenëisierung. Die Fuga Vacui ist nichts als eine Anziehung des Leeren und des Vollen. Alle Fuga Vacui ist relativ – nur bis zu einem gewissen Punct wircksam. Sie hat wie alle Anziehung, und Saturation einen Terminus ad quem.
+**Nr. 18.** <Begr[iff] von Con figuration – Symmetrie. (Proportionen der Körper.)>
 
 
-**Nr. 204.** ARTISTIK. (PSYCH[OLOGIE]). Die Hand wird beym Mahler Sitz eines Instinkts – so auch beym Musiker – der Fuß beym Tänzer. Das Gesicht beym Schauspieler – und so fort.
+**Nr. 19.** K[unst]L[ehre]. Grenzen der Mahlerey – und Sculptur – Gang d[er] Sculpt[ur] vom Ideal heraus. Gang d[er] Mahlerey zum Ide[al] hinein
 
 
-**Nr. 205.** PSYCH[OLOGIE]. Schmerz und Angst bezeichnen die träumenden Glieder der Seele. Körperliche Lust und Unlust sind Traumprodukte. Die Seele ist nur zum Theil wach. Wo sie träumt, wie z. B. in den unwillkührlichen Organen – wohin in gewisser Hinsicht der ganze Körper gehört – da empfindet sie Lust und Unlust. Schmerz und Kitzel sind Sensationen der gebundnen Seele.
+**Nr. 20.** Hist[orik]. Übergang der heydnischen Relig[ion] (Liturgie) in die katholische. (S. 2-3)
 
 
-**Nr. 210.** ZUKÜNFTIGE LITTER[ATUR]. Es wird eine schöne Zeit seyn, wo man nichts mehr lesen wird, als die schöne Composition – als die Litterairischen Kunstwerke. Alle andre Bücher sind Mittel und werden vergessen, wenn sie keine tauglichen Mittel mehr sind – und dies können die Bücher nicht lange bleiben.
+**Nr. 21.** <Die Kinder sind Antiken. Nicht alle Kinder aber sind Kinder. Auch die Jugend ist antik. Aber auch nicht alle Jünglinge sind Jünglinge.>
 
 
-**Nr. 213.** LITTER[ATUR]. Gelehrsamkeit entspricht dem Gedächtniß. Fähigkeit oder Geschicklichkeit dem Geist. Beydes verbinden h[eißt] beydes, als ein Binomium ansehn und dieses potenziren. (Romantische Gelehrsamkeit – und romantische Geschicklichkeit – Combinations – und Variationsfertigkeit.)
+**Nr. 22.** Hist[orik]. Alterthum – vom Ideal heraus. Jugendthum zum Ideal hinein.
 
 
-**Nr. 214.** THÄTIGKEITSL[EHRE]. Chaotische Thätigk[eit] – polare Th[ätigkeit] – synthetische Thätigkeit.
+**Nr. 23.** Hist[orik]. Die Erwachsenen sind die Jüngern , in andrer Beziehung.
 
 
-**Nr. 217.** ENC[YCLOPAEDISTIK]. (Wie Epos, Lyra und Drama die (Elemente) der Poësie – so giebt es auch ähnliche (Elemente) der Scienz, oder Wissenschaft.) [218] <Meine Hauptbeschäftigungen sollen jezt 1. Die Encyclopaedistik. 2. ein Roman. 3. der Brief an Schlegel seyn. Im leztern werde ich ein Bruchstück aus 1. so romantisch, als möglich, vortragen. (Soll es eine Recherche (oder Essai), eine Sammlung Fragmente, ein Lichtenbergischer Commentar, ein Bericht, ein Gutachten, eine Geschichte, eine Abhandlung, eine Recension, eine Rede, ein Monolog oder Bruchstück eines Dialog etc. werden?)>
+**Nr. 24.** <Theorie der Erregung – Brown. (Bewegung)>
 
 
-**Nr. 244.** SCIENT[IA] ARTIS LITTER[ARIAE]. Die Schriftkunst (Tonkunst) schriftkünstlich behandelt liefert die Wissenschaft von der Schriftkunst (Scientiam artis litterariae). Die Kritik der Schriftkunst bereitet diese Wissenschaft vor. Unser Alphabet ist eine TonSchriftkunst und noch obendrein von einem individuellen Instrumente, dem menschlichen Sprachwerckzeugsystem. Allgemeines, reines Schriftsystem – und besondre abgeleitete Schriftsysteme. (vid. das Zahlensystem.) Noten.
+**Nr. 25.** < Kleidung und Person sind bey den griechischen Figuren eins – Assimilation d[er] Kleidung.>
 
 
-**Nr. 245.** MUSIK. Die Consonanten sind die Fingersetzungen und ihre Folge und Abwechselung gehört zur Aplicatur. DieVocale sind die tönenden Saiten oder Luftstäbe. Die Lunge ist der bewegte Bogen. Die mehreren Sayten auf einem Instrument sind nur zur Bequemlichkeit – es sind Abbreviaturen. Es ist eigentlich nur Eine Sayte. Die Orgeln sind Nachahmungen der Sayteninstrumente. Über den karacterisirenden Ton der Sayte – der Grund dieser Individualitaet – Masse – länge – Dicke etc. Über die Mittönungen. Tonreihe jedes Saytenstrichs. Dauer des Strichs – Ansetzpunct des Bogens. Steg. Bau des Instruments. Harmonika. Euphon[ie]. Über den Glockenton. Theorie des Harmonikaspielens. Die tastirte Harmonika. Warum die Wellen und Ströme des Wassers nicht tönen? Acusticitaet der Luft. Schwingungen einer mit El[ectricitaet] geladenen Glocke. Über die allg[emeine] n Sprache der Musik. Der Geist wird frey, unbestimmt angeregt – das thut ihm so wohl – das dünkt ihm so bekannt, so vaterländisch – er ist auf diese kurzen Augenblicke in seiner indischen Heymath. Alles Liebe – und Gute, Zukunft und Vergangenheit regt sich in ihm – Hoffnung und Sehnsucht. Vers[uch] bestimmt durch die Musik zu sprechen. Unsre Sprache – sie war zu Anfang viel musicalischer und hat sich nur nach gerade so prosaisirt – so enttönt. Es ist jezt mehr Schallen geworden – Laut, wenn man dieses schöne Wort so erniedrigen will. Sie muß wieder Gesang werden. Die Consonanten verwandeln den Ton in Schall.
+**Nr. 26.** <Schwarze Kreide, Farben, Striche, Worte sind ächte Elemente , wie mathematische Linien und Flächen.>
 
 
-**Nr. 269.** PSYCHO[LOGIE]. Das Lächerliche ist eine Mischung, die auf Null hinausläuft. (Detonation.) (Mischung des Gemeinen, Niedrigen und Erhabenen etc.)
+**Nr. 27.** <Eine Bilds[äule] und Gemählde müssen auch wohl Formeln für ihre Construction – individuelle Kunstregeln – seyn?>
 
 
-**Nr. 270.** <Instinkt ist Kunst ohne Absicht – Kunst, ohne zu wissen wie und was man macht. Der Instinkt läßt sich in Kunst verwandeln – durch Beobachtung der Kunsthandlung. Was man also macht, das läßt sich am Ende kunstmäßig zu machen, erlernen. Kunst, das Lächerliche und das Romantische hervorzubringen.> PSYCH[OLOGIE]. Das Lächerliche ist nicht beißend. Lachen ist ein Krampf. Die Ursache des Lachens muß also von einer plötzlichen Entladung der gespannten Aufmercksamkeit – durch einen Contrast entstehn. Aehnlichkeit mit dem electrischen Funken. Der ächte Komicker muß ernsthaft und wichtig aussehn, wenn er eine Posse macht. (Ironie. Parodie. Travestie. – Die Verkleidung ist ein Haupt-Bestandteil des Lächerlichen. Wortspiele. Lächerliche Fragen und Antworten. Anekdoten. Scenen. Shakespeare. Die Italiaener. Aristophanes. Witz der gemeinen Leute. Carricaturen. Hogarth. Lichtenberg.) Lachen – Kur der Hypochondrie. Aus vielen Lachen und Witzeln kann aber auch Hypochondrie entstehn. Lachen bekömmt sthenischen Constitutionen vorzüglich gut. Alles was die Aufmercksamkeit erregt und nicht befriedigt ist lächerlich. – Nur das Plötzliche Abspannen der Aufmercksamkeit ist aber die eigentlich lachenmachende Operation. Das Weinen ist eine sthenische Krisis – das Rührende ist das Gegentheil des Lächerlichen. Das Rührende fängt mit Abspannung an – und spannt plötzlich – das Rührende oder das Eindringende dringt schnell ein – eh man Zeit hat es zu fassen. Es ist eine Übersättigung – Weichwerden – zerfließen – schmelzen. Jenes ist ein Absonderungs, dies ein Einschluckungsprocess – Jenes ein Flüchtigwerden – daher die Kälte des Lächerlichen – Dies ein Gerinnen – ein Starrwerden – daher die Wärme. Das Weinen und Lachen mit ihren Modificationen gehören so zum Seelenleben, wie Essen und Secerniren zum körperlichen Leben. Das Weinen macht das arterielle – das Lachen das venöse System.
+**Nr. 28.** <Wissenschaftliche Dythiramben – (Zu häufiger Gebrauch terminologischer Ausdrücke.)>
 
 
-**Nr. 274.** PSYCHO[LOGIE]. Durch Abstraction wird die Reitzbarkeit vermehrt. Zuviel Abstraction erzeugt Asthenie – zuviel Reflexion Sthenie. Ich muß viel reflectiren und nicht viel abstrahiren. Icb bin schon reitzbar genug. Ein scharfer Denker ist ein empfindlicher Meter – ein sehr subtiles Reagens. [279] GRAM[MATIK]. Übergang einer Sprache in die Andre – durch corrupte oder eigenthümliche Aussprache. Erhebung der gemeinen Sprache zur Büchersprache. Die gemeine Sprache wächst unaufhörlich – aus ihr wird die Büchersp[rache] gebildet. Übergang und Umbildung der Vocalen und der Sylben in einander. 1, 2, 3, 4, und mehrsylbige Wörter. Allg[emeines] Sprachsystem – Sprachgeschichtssystem. Erfindung jeder Sprache a priori. Verschiedenheit der Aussprache.
+**Nr. 29.** <(Über Thiermalerey .)>
 
 
-**Nr. 288.** PSYCH[OLOGIE]. Sympathie (erhöht) (verstärkt) das Leiden – Substantielles Leiden. Der Symp[athie] entspricht die Coaction – Mitleiden – Mitthätigkeit. Leiden und Th[ätigkeit] wird erst durch Mitleiden und Mitthätigkeit lebendig. Eine Art der Mitfreude ist sympathetisch – Eine Art des Mitleids ist coactiv.
+**Nr. 30.** <Colossale Darstellungen – Colossaler Roman.> (S. 3-4)
 
 
-**Nr. 289.** PSYCH[OLOGIE]. Geduld ist zweyerley – ruhige Ertragung des Mangels – ruhige Ertragung des Übermaaßes. Die ächte Geduld zeugt von großer Elasticitaet.
+**Nr. 31.** < Buchstaben sind geistige Münze – Chiffern . Schl[egel] Sen[ior].>
 
 
-**Nr. 292.** PSYCH[OLOGIE]. Das Sittliche Wesen – das Mor[al] Princip – ist wohl die Substanz der Seele? Der universale, encyclopaedisirte Willen ist d[as] Moral Princip. (Universal – unendlich gebildet, der höchsten Ordnung – oder der abs[oluten] Ordnung.) (vielleicht der omniversale Willen – der Panharmonische Willen.)
+**Nr. 32.** Logik. Contraste – sind inverse Aehnlichkeiten.
 
 
-**Nr. 296.** POËTIK. Der Effekt spielt dieselbe Rolle in der Poësie, wie die Glückseeligkeit in der Moral. Effect und Glückseligkeit : Ideal und Sittengesetz Seele : Geiste PSYCH[OLOGIE]. Seele ist angewandter, unreiner, vermischter, practischer Geist. Geist ist theoretische Seele. Die Seele soll als Geist werden – oder quod idem est – der Geist, als Geist, Seele. Harmonie.
+**Nr. 33.** <Mit einem Talent – einem Sinn etc. kokettiren . (Koquettiren – Streben Aufmerksamkeit zu erregen und so ind[irect] zu gefallen. rhetorisch.) Schl[egel]sen[ior]>
 
 
-**Nr. 304.** TECHN[IK]. Manufaktur – Fabrik.
+**Nr. 34.** <Begr[iff] von Migniatur. Schl[egel]Sen[ior].>
 
 
-**Nr. 313.** PHYS[IK]. Da jedes Glied in der Natur eine Function derselben, und umgek[ehrt], ist so muß auch die Wissenschaft jedes einzelnen Gliedes eine Function der gesammten Nat[ur]W[issenschaft] und umg[ekehrt] seyn. WärmeLehre. Magnetologie – Electrologie etc.
+**Nr. 35.** < Phaenomenologische Natur der Mahlerey.>
 
 
-**Nr. 324.** PHILOL[OGIE]. Beyspiele sind eine Art von Citaten. Man muß jeden theoretischen Satz in einer theoretischen Erzählung (allg[emeines] Raisonnement) oder Beschr[eibung] – mit einem Beyspiele zu belegen wissen. Alle allg[emeinen] Raisonnements müssen durchgängige Beziehung auf wirkliche Facta haben. abstractes allg[emeines] Raisonnement. (Allg[emeine] Geschichte.) concretes oder verstecktes allg[emeines] Raisonnement. Beydes zugleich. Bes[onders] ist diese Ausdrückliche Belegung jedes allg[emeinen] Erzählungssatzes mit individuellen Beyspielen zum Vortrag und Unterricht nöthig.
+**Nr. 36.** K[unst]L[ehre]. Über das caracterisirende Glied einer jeden Composition.
 
 
-**Nr. 325.** PSYCH[OLOGIE]. reine Theorie der Ideen Entstehung – angewandte. Gesetze der Ideenassoziation – Ideenpolitik – Contrat social.
+**Nr. 37.** < Bekleidete Natur. Ton der Landschaft. ( Still-Leben )>
 
 
-**Nr. 333.** ENC[YKLOPAEDISTIK]. GRAM[MATIK]. Ein gewöhnl[iches] Wörterbuch ist ein oryctognostisches Wörtersystem. Es läßt sich noch ein grammat[ikalisches] und ein chym[isches] oder philosophisches Wörtersystem [denken] – dieses könnte wieder dreyfach seyn – progressiv hist[orisch] phil[osophisch] – regressiv hist[orisch] phil[osophisch] – absolut hist[orisch] phil[osophisch]. Einem Worte entspricht ein Satz. (Ein Satz ist die Potenz des Worts. Jedes Wort kann zum Satz, z[ur] Definition, erhoben werden.) Es giebt auch verschiedne Satzsysteme. Sätze werden zu Wissenschaften erhoben – W[issenschaft] ist die Dignitaet des Satzes – und so läßt sich diese Erhöhung bis zur abs[oluten] Universal- w[issenschaft] fortsetzen. Bis dahin kann es noch verschiedne Systeme geben – die jedes seinen be[sonderen] Zweck und seine eignen Gesetze hat. Das oryctognostische Verzeichniß ist also die primitive gelehrte Masse, die der Gelehrte überhaupt bearbeitet. Jedem System dieser Art entspricht eine Grammatik – eine systematische Sammlung seiner Gebrauchsregeln. Theile der Gramm[atik] . 1. Rechtschreibe- und Rechtaussprache Regeln. 2. Naturbeschreibung und dieser gemäße BehandlungsRegeln. Flexion. 3. Syntax. (Potenzierungsconstruktionsregeln.)
+**Nr. 38.** K[unst]L[ehre]. Krit[ik]. Über das neuere Princip der Nachahmung der Natur . / Realisirung des Scheins . Schl[egel]Sen[ior]./ *
 
 
-**Nr. 334.** GRAM[MATIK]. Nicht jedes Wort ist ein vollkommnes Wort. Die Worte sind theils Vocalen – theils Consonanten – Geltende und mitgeltende Worte. Anwendung auf Wissenschaftsconstructionen. Substantielle (Vocal)sätze und W[issenschaften] – accidentelle (consonant[ische]) Sätze und W[issenschaften]. Substantiva, Verba etc.
+**Nr. 39.** Psych[ologie]. Was man mit Fertigkeit und Leichtigkeit thun kann, dazu hat man Neigung ; fürs Entgegengesezte, Abneigung . Unser Wille ist entweder abhängig von + und – Neigung oder unabhängig.
 
 
-**Nr. 340.** ANTHROP[OLOGIE]. Mit Instinkt hat der Mensch angefangen – mit Instinkt soll der Mensch endigen. Instinkt ist das Genie im Paradiese – vor der Periode der Selbstabsonderung[,] Selbsterkenntniß. (Soll der Mensch sich Selbzweyen, und nicht allein das, sondern auch selbdreyen etc.) [347] PSYCH[OLOGIE]. Alles Neue wirckt als Äußres, Fremdes poëtisch–. Alles Alte wirckt als Innres, Eigenes ebenfalls romantisch – Beydes im Kontrast gegen das Gewöhnliche – oder gegen einander. Neuheit des Alten – Altheit des Neuen. Das Gemeine Leben ist prosaïsch – Rede nicht Gesang. Die Menge des Gewöhnlichen verstärkt nur die Gewöhnlichkeit – daher der fatale Eindruck der Welt aus dem gemeinen (indifferenten) nützlichen, prosaïschen Gesichtspunct.
+**Nr. 40.** ( Psych[ologie]. ) Was man nicht auf einmal fassen und thun kann oder will, faßt und thut man successive und theilweise . (S. 4-5)
 
 
-**Nr. 351.** PSYCH[OLOGIE]. Wozu man ernstlich Lust – Trieb – hat, dazu hat man Genie. Das Genie offenbart sich in Lust und Trieb. (Unlust – Nichttrieb.)
+**Nr. 41.** <Beschreibende und erzählende Physik./ Wenn man über die Feuerflamme nachzudenken anfängt, wie verfährt man da. Zergliedernd. (Feuriger Rauch, feuriger Dampf – feurige Luft, feuriger Aether, feuriges Solidum, feuriges liquidum.)>
 
 
-**Nr. 352.** THEORIE D[ES] GEMEINEN LEBENS. Gebildete Aussprache und Declamation des gewöhnlichen, gemeinen Lebens als Prosa. – Man muß sich mit Sprechen begnügen, wenn man nicht singen kann. musicalische Instrumente – poëtische Instrumente. (Platte Einfälle = (oberflächliche) Einfälle v[on] d[er] Oberfläche.) [353] PSYCH[OLOGIE]. Das B[ewußt]S[eyn] ist nichts, als Sensation des (Algebraïschen) VergleichungsSinns – VerhältnißSinns. Willkührliche Affectionen dieses Sinns. Ursprüngliche Verhältnisse – algebr[aische] Verhältniße. Theorie der lebendigen Verhältnisse. Naturverh[ältnisse]. Künstliche Verh[ältnisse]. Synth[etische] Verh[ältnisse]. – Mystische Proportionallehre. Das B[ewußt]S[eyn] ist die Subst[anz] der Sinne – mithin sind auch seine Sensationen Substanzen etc. Wo Ein Sinn ist, da ist auch kein B[ewußt]S[eyn].
+**Nr. 42.** Mathem[atik]. Der Vortrag der Mathem[atik] muß selbst mathematisch seyn. / Mathem[atik] d[er] Mathem[atik].
 
 
-**Nr. 362.** PHYS[IK] UND GRAMM[ATIK]. Ein gedämpfter, sehr naher Ton dünkt uns weit zu seyn./ Lateralbewegungen der Luft beym Schall. Figurirte Schallbewegungen wie Buchstaben. (Sollten die Buchstaben ursprünglich acustische Figuren gewesen seyn. Buchst[aben] a priori?) Lateral und figurirte Bew[egungen] des Lichts und der Wärme. Farbenbilder sind Lichtfiguren. Der Lichtstrahl ist der streichende Fiedelbogen. Was vertritt wohl hier die Stelle des Sandes? Man (zwingt) eigentlich den Schall, sich selbst abzudrucken – zu chiffriren – auf eine Kupfertafel zu bringen. Weitere Anwendung dieser Idee. (Bestreuung einer Tafel mit Phosphorpulver – das die Farben des verschiednen Lichts annähme, oder das bey einer gelinden Erwärmung verschiedengestalteter und mannichfach berührter Körper in sonderbaren Figuren brennte – und leuchtete – Bereitung eines solchen Pulvers.) Reflex[ion], Refraction und Inflexion des Schalls. /Der schmerzhafte Laut – Kritzeln auf den Teller etc. Schneidender Ton. / Über das Sprechen der Staare. / Natürliche, mimische, bildliche Sprache – Künstliche, zufällige, willkührliche Sprache. (Der Begr[iff] d[er] Caussalitaet ist z. B. ein willkührliches Zeichen, (transscendentales Z[eichen]) eines gewissen Verhältnisses.) Transscendentale Logik. / Jedes Wort sollte eine acustische Formel seiner Construction, seiner Aussprache seyn – Die Aussprache selbst ist ein Höheres, mimisches Zeichen einer höhern Aussprache – Sinnconstruction des Worts. Alles dies hängt an den Gesetzen der Association. Die sog[enannten] willkührlichen Zeichen dürften am Ende nicht so willk[ührlich] seyn, als sie scheinen – sondern dennoch in einem gewissen Realnexus mit dem Bezeichneten stehn. <Instinktartige Sprache – Ausartung des Instinkts – conventionelle Sprache – diese soll wieder eine instinktartige, aber gebildete Sprache werden.>
+**Nr. 43.** ( Med[icin] ). Rausch aus Stärke – Rausch aus [Schwäche]. Die narcotischen Gifte, der Wein etc. bewircken einen Rausch [aus] Schwäche – Sie entziehn dem Denkorgan etwas . – Sie machen es unf[ähig] für seinen gewöhnlichen Reitz. / Leidenschaften, fixe Ideen sind vielleicht eher ein Rausch aus Stärke – bewircken Localentzündungen. / Wollust berauscht auch, wie Wein. Im Rausch aus Schwäche hat man viel lebhaftere, durchdringendere Sensationen. Je besonnener, desto unsinnlicher.
 
 
-**Nr. 365.** ENC[YCLOPAEDISTIK]. Jede wissenschaftliche Entdeckung ist eine allg[emeine] wissenschaftliche Entdeckung. Erklärt ist eine Sache nur durch ihre vollst[ändige] encyklopaedische, wissenschaftliche Betrachtung.
+**Nr. 44.** <Reduction verwickelter Figuren auf einfache. So mit den Größen etc.>
 
 
-**Nr. 366.** MUSIK. Höhere Töne sind sthenischer – tiefere Töne – asthenischer Natur. Redeton. Höhere Töne drücken erhöhtes Leben – tiefere Töne – vermindertes Leben – Mangel aus. Harte, und weiche Töne. Wollüstige Töne.
+**Nr. 45.** <Stieglitz architectonisches Wörterbuch.>
 
 
-**Nr. 367.** Die Dialecte und Pronunciationen werden durch Consonanten und Vocale im Großen gebildet. Lippensprache – Gaume – Kehle – Zunge – Zähne – Nase etc. Manche Sprache wird aus dem e, u ,o etc. gesprochen. So hat jeder Mensch seinen Hauptvocal. vid. Schocher. Es ist damit, wie in der Musik – So hat jedes musical[ische] Stück seinen Grundton – auch sein Thema. Moll – und Dur.
+**Nr. 46.** <Man betrachtet eine Maschine (Begr[iff] d[er] Maschine) entw[eder] im statischen, oder mechanischen Momente d. h. entw[eder] in Beziehung auf das Gleichgewicht der Theile , oder in Bewegung – dies ist die Hauptbetrachtung des Mechanikers.>
 
 
-**Nr. 368.** PSYCH[OLOGIE]. Alle Leidenschaften endigen sich wie ein Trauerspiel. Alles Einseitige endigt sich mit Tod – so die Philos[ophie] der Empfindung – die Phil[osophie] der Fantasie – die Phil[osophie] des Gedankens. Alles Leben endigt sich mit Alter und Tod. Alle Poësie hat einen tragischen Zug. (Ächtem Scherz liegt Ernst zum Grunde. Tragische Wirckung der Farce, des Marionettenspiels – des buntesten Lebens – des Gemeinen, Trivialen.)
+**Nr. 47.** ( Techn[ische] und wissensch[aftliche] Paedag[ogik] ). Der Lehrling darf noch nicht raisonniren. Erst muß er mechanisch fertig werden, dann kann er anfangen nachzudenken und nach Einsicht und Anordnung des Gelernten streben. Das voreilige Denken hält mehr auf, als daß es befördert. Diese Pflicht des wissenschaftlichen Anfängers gehört zu der allg[emeinen] Pflicht seine Vernunft gefangen zu n[ehme]n – Auch diese Gefangennehmung kann zur Kunst werden .
 
 
-**Nr. 373.** <Briefe sollen Erholungen seyn, und ich sollte sie auch, als solche, für mich bearbeiten. Abends Briefe – leicht, frey, romantisch, mannichfaltig – Vorarbeit zum Roman.>
+**Nr. 48.** <Bemerkungen bey Kants [Schre]iben an Hufeland.>
 
 
-**Nr. 376.** PHYS[IK]. Sollte alle plastische Bildung, vom Krystall bis auf den Menschen, nicht acustisch, durch gehemmte Beweg[ung] zu erklären seyn? Chemische Acustik. [377] <Man kann nur dann die Welt verstehn, i. e. vergleichen, wenn ich selbst eine ausgebildete Welt im Kopfe habe.>
+**Nr. 49.** Psych[ologie] und Encyklop[aedistik]. Deutlich wird etwas nu[r] [du]rch Repraesentation. Man versteht eine Sache am leicht[este]n, wenn man sie repraesentirt sieht. So versteht man das Ich nur insofern es vom N[icht]I[ch] repraesentirt wird. Das N[icht]I[ch] ist das Symbol des Ich, und dient nur zum Selbstverständniß des Ich. So versteht man das N[icht]I[ch] umgekehrt, nur insofern es vom Ich repraesentirt wird, und dieses sein Symbol wird. In Hinsicht auf die Mathem[atik] läßt sich diese Bemerckung so anwenden, daß die Mathem[atik], um verständlich zu seyn repraesentirt werden muß. Eine Wissenschaft läßt sich nur durch eine andre wahrhaft repraesentiren. Die paedagogischen Anfangsgründe der Mathem[atik] müssen daher symbolisch und analogisch seyn. Eine bekannte W[issenschaft] muß zum Gleichniß für die Mathematik dienen und diese Grundgleichung muß das Princip der Darstellung der Mathematick werden./ So wie die Anthropologie, die Basis der Menschengeschichte, so ist die Physik der Mathematik die Basis der Geschichte der Mathematik. Die Physik überhaupt ist die ursprüngliche, eigentliche Geschichte. Die gewöhnlich so genannte Geschichte ist nur [abg]eleitete Geschichte./ / Gott selbst ist nur durch Re[praesentation] verständlich./ Phil[osophie]. / Ursprünglich ist Wissen und Thun vermischt – dann trennen sie sich und am Ziel sollen sie wieder vereinigt , und cooperirend, harmonisch, aber nicht vermischt seyn. Man will zugleich wissen und thun in wechselseitiger Beziehung – wissen, wie und was man thut, thun, wie und was man weiß./ </Die Chymie ist die Stoffkunst /Unisono/, die Mechanik die Bewegungskunst /Dissono/. Die Physik /Synthesis/. die verbündete Chymie und Mechanik (Harmonie) die Lebenskunst./>
 
 
-**Nr. 378.** PSYCH[OLOGIE]. Aller unbestimmte, allg[emeine] Subjective Trieb oder Reitz läßt sich nur durch eine unendl[iche] Reihe bestimmter Handlungen befriedigen – er strebt nach keinem Obj[ect] – er erhält sich nur selbst – es ist eine Sollicitatio perpetua. – Er ist die ewige Triebfeder unendlicher terminirter Veränderungen.
+**Nr. 50.** [50.] Encyclop[aedistik]. Die Transcendentale Physik ist die Erste , aber die niedrigste Wissenschaft – wie die W[issenschafts]L[ehre]. Eschenmayer nennt sie Naturmetaphysik. Sie handelt von der Natur , eh sie Natur wird – in demjenigen Zustande, wo Mischung und Bewegung , (Stoff und Kraft) noch eins sind. Ihr Gegenstand ist das Chaos . Verwandlung des Chaos in harmonischen Himmel und Erde . / Begriff des Himmels. Theorie des wahren Himmels – des innern Universums. / Der Himmel ist die Seele des Sternsystems – und dieses sein Körper. /Chymie Stoffveränderungs(Bereitungs)kunst. Kraft und Bewegung ist synonym. Mechanik – Bewegung[s]Veränderungskunst – Modificationskunst der Bewegung. practis[che] Physik – Kunst die Natur zu modificiren – Naturen nach B[elie]ben hervorzubringen. Natur und Lebendiges ist eins. Chymie und Mechanik haben noch etwas chaotisches an sich. <Ihr Vortrag wird also wohl von der Transscendentalen Physik abhängig seyn.> In der practischen Physik, oder der höhern Chymie und Mechanik / die Mechanik der Chymie und die Chymie der Mechanik sind, wie mir scheint, eigne abhängige Wissenschaften / giebt es nur Stoffverbindungen nicht Mischungen, Bewegungsverbindungen nicht Mischungen, Stoff und Bewegungsverbindungen nicht Mischungen – hingegen in der Chymie giebt es nur Stoffmischungen – und Stoffbewegungen (kräftige Stoffe), und in der Mechanik ebenfalls Bewegungsmischungen und BewegungsStoffe (stoffige Kräfte). Die moderne Ansicht der Naturerscheinungen war entweder chymisch, oder mechanisch / Neuton und Euler beym Lichte./ Der Scientifiker der practischen Physik betrachtet die Natur zugleich als selbstständig und Selbstverändernd , und als übereinstimmend harmonisch mit dem Geiste. Seine Chymie ist höher – sie verbindet Stoffe, ohne ihre Individualitaet zu vernichten, und bringt höhere republicanische Körper hervor. So auch seine Mechanik. Jene hat mir dieser Ein Medium – Stoff und Bewegung gepaart durch gegenseitige Zuneigung – / + und –, Männliche und weibliche Form./ Kraft und Stoff in Harmonie – Verschiedne Stoffe und Bewegungen verbinden sich simultan. Jedes beabsichtigt sich indirect . Moralisirung der Natur. Die magische Chemie, Mechan[ik] und Physik gehören in ein ganz andres Gebiet. Die Factur ist der Natur entgegengesetzt. Der Geist ist der Künstler. / Factur und Natur vermischt – getrennt – vereinigt. Jenes behandelt die Transcendental Physik und Poëtik – die Getrennten die practische Physik und die Poëtik – die Verbündeten die höhere Physik und Poëtik. Die höhere Phil[osophie] behandelt die Ehe von Natur und Geist . Chemische und mechanische Psychologie. Transscendentale Poëtik . practische Poëtik. Die Natur zeugt, der Geist macht. Il est beaucoup plus commode d'être fait, que de se faire lui même. Psych[ologie]. Die Liebe ist der Endzweck der Weltgeschichte – das Unum des Universums. (S. 5-8)
 
 
-**Nr. 379.** <Über unsern Umgang und unsre Verhältnisse mit Büchern. >
+**Nr. 51.** Enc[yclopaedistik]. Die Transcendentale Poëtik handelt vom Geiste, eh er Geist wird. In der chemischen und mechanischen Psychologie herrscht eine beständige Vernichtung der scheinbaren Individualitaeten. In der transc[endentalen] Poët[ik] gibt [es] nur Ein gemeines rohes Individuum. In der practischen Poëtik ist von gebildeten Individuen – oder Einem unendlich gebildeten Individuum die Rede.
 
 
-**Nr. 380.** MUS[IK] UND RYTHMIK. Der Hexameter in Perioden – im Großen. Großer Rythmus. In wessen Kopfe dieser große Rythmus, dieser innre poëtische Mechanismus einheimisch geworden ist, der schreibt ohne sein absichtliches Mitwircken, bezaubernd schön und es erscheint, indem sich die höchsten Gedanken von sclbst diesen sonderbaren Schwingungen zugesellen und in die reichsten, mannichfaltigsten Ordnungen zusammentreten, der tiefe Sinn sowohl der alten orphischen Sage von den Wundern der Tonkunst, als der geheimnißvollen Lehre von der Musik, als Bildnerinn und Besänftigerinn des Weltalls. Wir thun Hier einen tiefen, belehrenden Blick in die acustische Natur der Seele, und finden eine neue Aehnlichkeit des Lichtes und der Gedanken – da beyde sich Schwingungen zugesellen. [381] PSYCH[OLOGIE]. Der Traum belehrt uns auf eine merckwürdige Weise von der Leichtigkeit unsrer Seele in jedes Obj[ect] einzudringen – sich in jedes sogleich zu verwandeln.
+**Nr. 52.** Archaeologie. Galvanism der Antiken, ihr Stoff – Revivification des Alterthums. Wunderbare Religion , die sie umschwebt – Ihre Geschichte – die Philosophie der Skulptur – Gemmen – menschliche Petrificationen – Mahlerey – Portrait – Landschaften – der [Me]nsch hat immer symbolische Philosophie seines Wesens in seinen Wercken und seinem Thun und Lassen ausgedrückt – Er verkündigt sich und sein Evangelium der Natur. Er ist der Messias der Natur – die Antiken sind zugleich Produkte der Zukunft und der Vorzeit – Göthe betrachtet die Natur wie eine Antike – Karacter der Antike – die Epigrammen – die Antiken sind aus einer andern Welt – Sie sind, wie vom Himmel gefallen. Etwas über die Madonna. Zum Schluß einige Gedichte. Die Betrachtung der Antiken muß gelehrt (physisch) und poëtisch seyn. Giebt es eine Zentral Antike – oder einen Universalgeist der Antiken? Mystischer Sinn für Gestalten. D[ie] Antiken berühren nicht Einen sondern alle Sinne, die ganze Menschh[ei]t.
 
 
-**Nr. 382.** (K[UNST]L[EHRE]). (Malerey) Plastik also nichts anders als Figuristik der Musik. Merckwürdiger Ausdruck: im höchsten Schwunge. (Malerey) Plastik – obj[ective] Musik. Musik – subjective Musik oder Malerey. Man sollte alles (nöthigen) sich acustisch abzudrucken, zu Silhouettiren, zu chiffriren. Fixirte Bewegungen sind Linien. Der Zirkel entsteht durch Centralschwingung einer Fläche. Die Poësie ist die Prosa unter den Künsten. Worte sind acustische Konfigurationen der Gedanken. Jedes Instrument ist ein eigenthümlich im Großen consonirtes Tonsystem. Mollinstrumente – Durinstrumente – jedes hat seinen eignen Grundvocal. Die menschliche Stimme ist gleichsam das Princip und Ideal der Instrumentalmusik. Klingt überhaupt eigentlich der Körper oder die Luft? Ist nicht das elastische Fluidum der Vocal, und der Körper der Consonant – die Luft die Sonne – und die Körper die Planeten – jenes die erste Stimme – diese die 2te. Geometrie und Mechanik verhalten sich, wie Plastik und Musik. (chymische Bewegungen, chymische Hemmungen.) Alle Methode ist Rythmus. Hat man den Rythmus der Welt weg – so hat man auch die Welt weg. Jeder Mensch hat seinen individuellen Rythmus. Die Algeber ist die Poësie. Rythmischer Sinn ist Genie. Fichte hat nichts als den Rythmus der Philosophie entdeckt und verbalacustisch ausgedrükt. Reitzbarkeit ist ächt rythmische Natur. Das individuelle Verhältniß der Reitzbarkeit und d[es] Reitzes ist der Rythmus der individuellen Gesundheit. Ist dieses Verhältniß fehlerhaft, so wird der fehlerhafte Rythmus gesundheitswidrige Figurationen, Catenationen etc. hervorbringen. musicalische Natur der Fieber. Localkranckheiten. Gicht. chymischer Rythmus. Die Lehre v[on] d[en] Associationen. (Reale – schaffende Musik.)
+**Nr. 53.** Wenn der Vortrag der Mathem[atik] mathematisch, so muß ja wohl auch die Physik physicalisch vorgetragen werden können und so fort.
 
 
-**Nr. 384.** POËTIK. Wenn der Roman retardirender Natur ist, so ist er wahrhaft poëtisch, prosaisch, ein Consonant.
+**Nr. 54.** Physik[alische] Gesch[ichte]. Untersuchung der Frage, ob sich nicht die Natur mit wachsender Kultur wesentlich geändert hat?
 
 
-**Nr. 415.** MUS[IK]. Die Musik hat viel Ähnlichkeit mit der Algéber.
+**Nr. 55.** Physiol[ogie]. Gehört etwa die Sensibilitaet schon der Seele an? (Reitzbarkeit und Sensibilitaet haben einen sehr bemercklichen Einfluß auf die Organisation – Ein Reitzbarer wird mehr Gefäße, zartere Muskeln, und ein mehr sensibler mehr und zärtere Nerven haben bes[onders] in den Theilen, die oft afficirt werden. Wo die Reitzbarkeit eines Theils sehr erhöht ist, da treiben neue Gefäße und Nerven hervor – der Körper wird gebildeter, aber zärter. / Über Secretion, Gewöhnung, Abführungsmittel, Mangel an Reitzen, sthenische Disposition – Ro[bu]ration und Debilitation. Wirckung eines krancken Gliedes auf die Andern – Kranckheitsverschiedenheiten – Krisen – Fieber – Complicationen – Consensus etc. /
 
 
-**Nr. 416.** ANGEW[ANDTE] GEISTL[EHRE]. Genie ist gleichsam Seele d[er] Seele – es ist ein Verhältniß zwischen Seele und Geist. Man kann das Substrat oder Schema des Genies sehr füglich Idol nennen – das Idol ist ein Analogon des Menschen.
+**Nr. 56.** Enc[yclopaedistik]. Der W[issenschafts]L[ehrer] behandelt blos W[issenschaft] im Ganzen – Hat blos mit W[issenschaften], als solchen zu thun. / Die W[issenschafts]L[ehre] ist eine wahrhafte, unabhängige, selbstständige Encyklopädik. – W[issenschaft] d[er] W[issenschaften]. / W[issenschafts]L[ehre] ist System des wissenschaftlichen Geistes – die Psychologie , wenn ich so sagen darf – der Wissenschaften im Ganzen.
 
 
-**Nr. 419.** <Schiller musizirt sehr viel philosophisch – Herder und Schlegel auch. Göthe im Meister auch mitunter. Jean Paul poëtisirt musicalische Fantasien. Tiecks Lieder sind auch durchaus musicalisch. >
+**Nr. 57.** Phil[osophische] Krit[ik]. Ist Fichtens Darst[ellung] der W[issenschafts]L[ehre] nicht doch dogmaticistisch ? Fichtens Vorurtheile – oder sein wissenschaftlicher Caracter .
 
 
-**Nr. 421.** THEORIE D[ES] GEMEINEN LEBENS. Das Fluchen ist eine Art von Selbstbeschwörung – Selbstermannung – Spornung.
+**Nr. 58.** Phil[osophie]. Philosophie ohne Vorurtheile – karacterlose – nicht individuelle Philosophie. Philosophie der Menschheit – Phil[osophie] des Geistes überhaupt – oder reine Philosophie – uninterressirte Philosophie.
 
 
-**Nr. 423.** <Die Aesthetik dürfte wohl ganz zur Psychol[ogie] gehören.>
+**Nr. 59.** Enc[yclopaedistik]. Sollte die Menschenpsychologie etwa wie die W[issenschafts]L[ehre], blos den Menschen als ein Ganzes, als System, betrachten (und blos von oben herunter ) und Psychol[ogie] überhaupt blos mit Ganzen zu thun haben. Dann schiene mir Psychologie und Physiologie vollkommen Eins zu seyn – und die Seele nichts, als Princip des Systems , Substanz , zu seyn – ihre Wohnstätte wäre der Himmel . Physiologie überhaupt wäre Weltpsychologie – und Natur und Seele auch eins – da unter Natur doch nur Geist des Ganzen , substantielles Princip verstanden wird.
 
 
-**Nr. 424.** <Üb[er] d[en] Ausdruck: sich selbst Besinnen.>
+**Nr. 60.** Cosmologie. Gott und Natur muß man hiernach trennen – Gott hat gar nichts mit der Natur zu schaffen – Er ist das Ziel der Natur – dasjenige, mit dem sie einst harmoniren soll. Die Natur soll moralisch werden und so erscheint allerdings der Kantische Moralgott und die Moralitaet in einem ganz andern Lichte. Der moralische Gott ist etwas weit Höheres, als der magische Gott. (S. 8-10)
 
 
-**Nr. 426.** ENC[YKLOPAEDISTIK]. Die Politik – die Gesellschaftslehre – die Ehetheorie – gehören in die höhere M[enschen]L[ehre] , wo von zusammengesezten Menschen gehandelt wird. [427] <Ächt thätige Menschen sind diejenigen – die Schwierigkeiten reitzen.>
+**Nr. 61.** Theosophie. Wir müssen Magier zu werden suchen, um recht moralisch seyn zu können. Je moralischer, desto harmonischer mit Gott – desto göttlicher – desto verbündeter mit Gott. Nur durch den Moralischen Sinn wird uns Gott vernehmlich – der moralische Sinn ist der Sinn für Daseyn , ohne äußre Affection – der Sinn für Bund – der Sinn für das Höchste – der Sinn für Harmonie – der Sinn für freygewähltes, und erfundenes und dennoch gemeinschaftliches Leben – und Seyn – der Sinn fürs Ding an sich – der ächte Divinationssinn . / diviniren, etwas ohne Veranlassung, Berührung, vernehmen./ Das Wort Sinn, das auf mittelbares Erkenntniß, Berührung , Mischung , hindeutet, ist hier freylich nicht recht schicklich – indeß ist ein unendlicher Ausdruck – wie es unendliche Größen giebt. Das Eigentliche kann hier nur approximando, zur Nothdurft, ausgedrückt werden. Es ist Nichtsinn , oder Sinn, gegen den jenes Nichtsinn ist. Will ich nun Gott oder die Weltseele in den Himmel setzen? Besser wär es wohl, wenn ich den Himmel zum moralischen Universo erklärte – und die Weltseele im Universum ließe.
 
 
-**Nr. 428.** <Was für die Seele der Reitz ist, das ist für den Geist die Schönheit.>
+**Nr. 62.** Mor[al] und Relig[ion]. Moralisch handeln und religioes handeln sind sonach aufs innigste vereinigt. Man soll zugleich innere und äußere Harmonie beabsichtigen – zugleich das Gesetz und den Willen Gottes, jedes um sein selbstwillen, erfüllen. Es giebt also ein einseitiges moralisches und einseitiges religioeses Handeln.
 
 
-**Nr. 430.** <Höchst interressante Vergleichung zwischen Jean Paul und Göthe. mit in den Briefen an die Schlegeln. Die Antiken auch hier.>
+**Nr. 63.** Personenlehre. Eine ächt synthetische Person ist eine Person, die mehrere Personen zugleich ist – ein Genius. Jede Person ist der Keim zu einem unendlichen Genius . Sie vermag in mehrere Person[en] zertheilt, doch auch Eine zu seyn. Die ächte Analyse der Person, als solcher bringt Personen hervor – die Person kann nur in Personen sich vereinzeln, sich zertheilen und zersetzen. Eine Person ist eine Harmonie – keine Mischung, keine Bewegung – keine Substanz , wie die » Seele «. Geist und Person sind Eins. (Kraft ist Ursache.) Jede persönliche Äußerung gehört einer bestimmten Person an. Alle Äußerungen – der Person gehören zur unbestimmten (Universal) personalität und zu einer oder mehreren bestimmten Personalitäten zugleich. z. B. eine Äußerung, als Mensch , Bürger , Familienvater und Schriftsteller zugleich.
 
 
-**Nr. 432.** <Soll der Schriftsteller gleichsam der Genius seiner Materialien, seiner Caraktere – Jedes Buch – Darstellung eines Genius seyn – eines zusammengesezten, Geistigen Wesens?>
+**Nr. 64.** Cosmologie. Es muß unendliche Wissenschaften, unendliche Menschen, unendliche Moralisten, unendliche Götter, wie unendliche Größen, geben. Heterogene Dinge können sich einander nur nähern .
+
+
+**Nr. 65.** Enc[yclopaedistik]. Die Elemente entstehn später, als die Dinge – So ist der Körper vor der Fläche, die Fläche vor der Linie etc., die Elemente sind künstliche Bestandtheile. Allg[emeine] Begriffe, Gattungsnotionen, etc. gehören zu den Elementen .
+
+
+**Nr. 66.** Enc[yclopaedistik]. Real Integration und Differentiation. Die Geometrie ist bisher methodo integrali vorgetragen worden. Differentiale Geometrie. Differentiiren ist in Elemente zerlegen (idealische Analyse) Integriren ist das Entgegengesezte (Realsynthese) Der gewöhnliche Diff[erential] und Int[egral]Calcül ist nur eine abermalige Zerlegung der Elemente in Elemente. (Verschiedne Sorten von Einheiten )
+
+
+**Nr. 67.** Physik. Das Schellingsche Wärmesystem verbunden mit dem Franklinism / der nichts anders ist, als Brownism/ wird die Grundlage des künftigen UniversalNatursystems.
+
+
+**Nr. 68.** <Essai über die vollkommne Sprache – Einleitung zur mathematischen Revolution. /Essai ist zwischen Brief und Abhandl[ung]>
+
+
+**Nr. 69.** Math[ematik]. Am Ende ist die ganze Mathemat[ik] gar keine besondre Wissenschaft – sondern nur ein allgem[ein] wissenschaftliches Werckzeug – ein schönes Werckzeug ist eine Contradictio in adjecto. Sie ist vielleicht nichts, als die exoterisirte , zu einem äußern Object und Organ , gemacht Seelenkraft des Verstandes – ein realisirter und objectivirter Verstand. Sollte dieses vielleicht mit mehreren und vielleicht allen Seelenkräften der Fall seyn – daß sie durch unsre Bemühungen, äußerliche Werckzeuge werden sollen? – Alles soll aus uns heraus und sichtbar werden – unsre Seele soll repraesentabel werden – Das System der Wissenschaften soll symbolischer Körper (Organsystem) unsers Innern werden – Unser Geist soll sinnlich wahrnehmbare Maschine werden – nicht in uns, aber außer uns. /Umgekehrte Aufgabe mit der Äußern Welt./
+
+
+**Nr. 70.** Kosmologie. Über den Idealism – vid. Spinotza, von Humboldt citirt. Dieses hängt sehr mit den vorigen zusammen. Eine sinnlich wahrnehmbare , zur Maschine gewordene Einbildungskraft ist die Welt . Die Einbild[ungs]Kr[aft] ist am leichtesten und ersten zur Welt gekommen , oder geworden – die Vernunft vielleicht zulezt . Über diese Herausbildung – und geistige Secretion ./ Keim und Reitz Secretion – erstere weiblich – leztere männlich./ Entwicklung unsrer Natur . Erste Zeugung – 2te – dritte etc. cumulative. (S. 10-12)
+
+
+**Nr. 71.** <3fache Ansichten unsrer Selbst – nach d[er] Kat[egorie] d[er] Caussalit[aet], der Substantialitaet, und d[er] Harmonie. Die beyden ersten sind wieder doppelt.>
+
+
+**Nr. 72.** Erreg[ungs]Theor[ie]. Aller Reitz soll nur temporell, nur Erziehungsmittel , nur Veranlassung zur Selbstthätigkeit seyn.
+
+
+**Nr. 73.** Bild[ungs]Lehre d[er] Natur. Die Natur soll moralisch werden. Wir sind ihre Erzieher – ihre moralischen Tangenten – ihre moralischen Reitze. Läßt sich die Moralitaet, wie der Verstand etc., objectiviren und organisiren – Sichtbare Moral .
+
+
+**Nr. 74.** Mensch[en]verh[ältnis]Lehre. Weil wir jezt noch ein fremder Reitz für die Natur sind, so ist unser Contact mit der Natur auch nur zeitlich. Sie secernirt uns allmälich wieder – Vielleicht ist es eine Wehselsekretion.
+
+
+**Nr. 75.** Dito. Wir sind zugleich in und außer der Natur.
+
+
+**Nr. 76.** ( Erz[iehungs]Lehre ). Dem Kinde (Subject) wird Glauben – abs[olute] Annahme eines Thätigkeit erweckenden Princips (Object) zugemuthet. Phil[osophie]. Der Anfang des Ich ist blos idealisch . – Wenn es angefangen hätte, so hätte es so anfangen müssen. Der Anfang ist schon ein späterer Begr[iff]. Der Anfang entsteht später, als das Ich, darum kann das Ich nicht angefangen haben. Wir sehn daraus, daß wir hier im Gebiet der Kunst sind – aber diese künstliche Supposition ist die Grundlage einer ächten Wissenschaft die allemahl aus künstlichen Factis entspringt. Das Ich soll construirt werden. Der Philosoph bereitet, schafft künstliche Elemente und geht so an die Construction. Die Naturgeschichte des Ich ist dieses nicht – Ich ist kein Naturproduct – keine Natur – kein historisches Wesen – sondern ein artistisches – eine Kunst – ein Kunstwerck. Die Naturgeschichte des Menschen ist die andre Hälfte . Die Ichlehre und Menschengeschichte – oder Natur und Kunst werden in einer höhern Wissenschaft – (der moralischen Bildungslehre ) vereinigt – und wechselseitig vollendet . /Natur und Kunst werden durch Moralitaet gegenseitig armirt ins unendliche./
+
+
+**Nr. 77.** <Kann die Chymie Kunst werden? Hauptfrage. Sie solls durch Moralitaet werden.>
+
+
+**Nr. 78.** Zukunftslehre. ( Cosmogogik ). Die Natur wird moralisch seyn – wenn sie aus ächter Liebe zur Kunst – sich der Kunst hingiebt – thut, was die Kunst will – die Kunst, wenn sie aus ächter Liebe zur Natur – für die Natur lebt, und nach der Natur arbeitet. Beyde müssen es zugleich aus eigner Wahl – um ihrer Selbst willen – und aus fremder Wahl um des Andern willen, thun. Sie müssen in sich selbst mit dem Andern und mit sich selbst im Andern zusammentreffen. Wenn unsre Intelligenz und unsre Welt harmoniren – so sind wir Gott gleich .
+
+
+**Nr. 79.** [79.] Menschenlehre. Ein Kind ist eine sichtbargewordne Liebe. Wir selbst sind ein sichtbargewordner Keim der Liebe zwischen Natur und Geist oder Kunst. Theosophie. Gott ist die Liebe . Die Liebe ist das höchste Reale – der Urgrund. Enc[yclopaedistik]. Theorie der Liebe ist die höchste W[issenschaft] – die NaturWissenschaft – oder WissenschaftNatur. Philielogia (oder auch Philologie). Physik und ZukunftsLehre. Eine Generation ist der Keim der unendlichen Generation – die das Weltdrama beschließt. Die ächte Generation ist unsre Menschwerdung. Die gewöhnlichen Generationen sind nur BedingungsProcesse der ächten Generation. Phys[ikalische] Phil[osophie]. Wenn die Einheit x das Positive ist , so ist die Vielheit y das Negative . Das Product ist die Neutralisationssfäre von x und y – oder die Allheit. Einem bestimmten x entspricht ein bestimmtes y – oder eine bestimmte Vielheit. (z. B. v[on] Bedingungen –) Bestimmte x und y kann es aber vor bestimmten Allheiten z nicht geben. Z ist also das Erste – Primitife – eine allbestimmbare Allheit. Z wird dann durch Berührung eines andern Z in y und x zersezt – das allbestimmbare Z natürlich in allbest[immbare] y und x. Alles Bestimmte ist nur insofern bestimmt , und individuell – als es schon in einem System oder z begriffen ist. Jedes wäre isolirt ein Universum – ein allbest[immtes] Z. Cosmologie. Der Stein ist nur in diesem Weltsystem Stein und von Pflanze und Thier verschieden. Die jetzige Bestimmung und Vertheilung eines jeden Individuums in diesem Weltsystem ist wohl nur scheinbar oder relativ , zufällig – historisch – unmoralisch? Jedes hat nach seinem mitgebrachten Antheil , nach seiner inferirten Relation von Welt (Synth[esis] v[on] Quant[ität] und Qual[ität]) seinen Platz im Weltsystem erhalten. Zuk[unfts]Lehre. Dieser rechtliche Zustand soll ein moralischer werden – und dann fallen alle Schrancken [,] alle Bestimmungen von selbst weg – und jeder ist und hat alles unbeschadet der Andern. Die Mathematik bezieht sich auch nur auf Recht – rechtliche Natur und Kunst – nicht magische Natur und Kunst . Magisch werden beyde nur durch moralisirung . Liebe ist der Grund der Möglichkeit der Magie. Die Liebe wirckt magisch. Alles Seyn soll in ein Haben verwandelt werden. Seyn ist einseitig – Haben synthetisch, liberal .
+
+
+**Nr. 80.** [80.] Romantik. Alle Romane, wo wahre Liebe vorkommt, sind Mährchen – magische Begebenheiten . (S. 12-15)
+
+
+**Nr. 81.** Physik. Sollte jede Umarmung zugleich die Umarmung des ganzen Paars – als Einer Natur, mit Einer Kunst (Einem Geiste) seyn und das Kind das vereinigte Produkt der doppelten Umarmung. Sollten die Pflanzen etwa die Produkte der weiblichen Natur und d[es] männlichen Geistes – und die Thiere die Produkte der männlichen Natur und des weiblichen Geistes seyn? Die Pflanzen etwa die Mädchen – die Thiere die Jungen der Natur? Oder sind die Steine Produkte der Wurzelgeneration – Pflanzen – der Generation 2 – Thiere – der Generat[ion] 3 – und Menschen – der Generation n oder ∞?
+
+
+**Nr. 82.** Phil[osophie] d[er] Menschheit. ( Diaetet[ik] d[er] Menschh[eit] .) Der zu frühzeitige und unmäßige Gebrauch der Religion ist dem Wachsthum und Gedeihn der Menschheit äußerst nachtheilig – wie Brantewein etc. der physischen Ausbildung. vid. Morgenland etc. Der Proselitism ist schon eine Verbesserung – hier wird doch Religion schon eine Beförderung der Thätigkeit.
+
+
+**Nr. 83.** Phys[ik]. Eine Ehe sollte eigentlich eine langsame, continuirliche Umarmung, Generation – wahre Nutrition – Bildung eines Gemeinsamen, harmonischen Wesens seyn? Selbstbildung, Selbstbetrachtung ist Selbstnutrition, Selbstgeneration.
+
+
+**Nr. 84.** Archaeol[ogie]. Definition der Antike. Antike Darstellung der Antike . Erziehung zu den Antiken.
+
+
+**Nr. 85.** Kunstl[ehre]. Sind technische Definitionen und Construc[tion]sFormeln – Recepte eins?
+
+
+**Nr. 86.** Nat[ürliche] Kunstl[ehre]. Ein Element ist ein Kunstproduct. Es giebt noch keine Elemente – es sollen aber welche gemacht werden. Sollte die Kunst eine Differentiation (und Integration) des Geistes seyn? Philologie im ausgedehnten Sinne ( Archaelogie ), als Wissenschaft der Kunstgeschichte – etc. – etwa die Integrationslehre? Ein K[unst]Werck ist ein Geistelement.
+
+
+**Nr. 87.** Romantik. Absolutisirung – Universalisirung – Classification des individuellen Moments, der ind[ividuellen] Situation etc. ist das eigentliche Wesen des Romantisirens . vid. Meister . Mährchen .
+
+
+**Nr. 88.** Phys[ik]. Absolute Passivitaet ist ein vollkomner Leiter – abs[olute] Activitaet ein vollk[ommner] Nichtleiter . Jenes ist so gut höchster Effort von Kraft, als dies. Passivitaet ist nicht so verächtlich, als man glaubt. Nichts schwächt eine fremde Gewalt mehr, als abs[olute] Passivitaet. Unvollkommne Leiter verstärken den angreifenden Theil. Vollk[ommne] Nichtleiter schwächen auf die entgegengesezte Weise abs[olut] .
+
+
+**Nr. 89.** Phys[ikalische] Kunstl[ehre]. Wie wenig Menschen haben Genie zum Experimentiren. Der ächte Experimentator muß ein dunkles Gefühl der Natur in sich haben, das ihn, je vollkomner seine Anlagen sind, um so sicherer auf seinem Gange leitet und mit desto größerer Genauigkeit das versteckte entscheidende Phaenomèn finden und bestimmen läßt. Die Natur inspirirt gleichsam den ächten Liebhaber und offenbart sich um so vollkommner durch ihn – je harmonischer seine Constitution mit ihr ist. Der ächte Naturliebhaber zeichnet sich eben durch seine Fertigkeit die Experimente zu vervielfältigen, zu vereinfachen, zu combiniren, und zu Analysiren, zu romantisiren und popularisiren, durch seinen Erfindungsgeist neuer Experimente – durch seine Naturgeschmackvolle oder Natursinnreiche Auswahl und Anordnung derselben, durch Schärfe und Deutlichkeit der Beobachtung, und artistische, sowohl zusammengefaßte, als ausführliche Beschreibung, oder Darstellung der Beobachtung aus. Also – Auch Experimentator ist nur das Genie.
+
+
+**Nr. 90.** Enc[yclopaedistik]. Es giebt sehr viel sogenannte Wissenschaften, deren heterogène Lehrtheile nur durch ein künstliches Zentrum vereinigt und ausgewählt sind – so z. B. der Bergbau, die Salinistik etc. Der Gegenstand derselben ist nur eine gemischte wissenschaftliche Aufgabe . Es sind Künste und keine Wissenschaften. Fast jedes Handwerck – jede Kunst sezt verschiedne, wissenschaftliche Organe zugleich in Bewegung. (Jeder Handwerker bedarf wenigstens die oryktognostische Kenntniß der Güte seiner Materialien etc.) Manche W[issenschaften] bestehn ganz aus Hülfswissenschaften, wie die Oben Genannten – Hier würde der Name Hülfswissenschaften nicht passend seyn – besser Elementarwissenschaften. Die Organologie ist eine wahre Hülfswissenschaft der Chymie. Vorbereitungswissenschaften giebts, wie Vorbereitende Künste. Es giebt W[issenschaften] und K[ünste] die gleichsam die Schlüssel zu allen sind – hat man diese inne, so werden die andern mit Leichtigkeit erlernt und ausgeübt. Die Basis aller Wissenschaften und Künste muß eine W[issenschaft] und Kunst seyn – die man der Algéber vergleichen kann – Sie wird freylich, wie diese, später, als die meisten speciellen Künste und W[issenschaften] entstehn – weil die Gattung oder das Gemeinsame später, als das Einzelne entsteht – indem es erst durch den Contact der gebildeten Individuen erzeugt wird – ho[c] est ins Fleisch kommt. (S. 15-17)
+
+
+**Nr. 91.** Polit[ik]. Constitution ist Constructionsformel einer Nation, eines Staats.
+
+
+**Nr. 92.** Enc[yclopaedistik]. Die Grammatik und bes[onders] ein Theil von ihr, das Abcbuch einer best[immten] Sprache ist eine bes[ondere] Elementarwissenschaft – Die allg[emeine] Grammatik nebst dem allg[emeinen] Abcbuche ist schon eine höhere Elementarwissenschaft – aber doch noch eine Anwendung auf Sprache . Die höchste Elementarwissenschaft ist diejenige, die schlechterdings kein bestimmtes Obj[ect] – sondern ein reines N. behandelt. So auch mit der Kunst. Das Machen mit Händen ist auch schon ein specielles, angewandtes Machen. Das N Machen mit dem N Organ ist der Gegenst[and] dieser allg[emeinen] Kunstlehre und Kunst. (Vielleicht nichts anders, als ächte Philosophie – als Bildungslehre und Bildungskunst und Erweckungsmittel des Genies überhaupt.)
+
+
+**Nr. 93.** Artistik. HandwercksFertigkeiten ( Handwercker ) dirigirt der Künstler. Er concentrirt durch eine höhere Einheit verschiedne Handwercke, durch welche höhere Concentration sie selbst eine höhere Bedeutung erhalten. Der höhere Künstler componirt aus den Einheiten der niederern Künstler eine Variationsreihe höherer Einheiten und so fort.
+
+
+**Nr. 94.** Phys[ik]. Sollte das Organ schon eine höhere Einheit von Stoffen und Bewegungen seyn? ein componirt wircksamer und veränderlicher Stoff?
+
+
+**Nr. 95.** Enc[yclopaedistik]. Wo Eine Kunst und Wissenschaft nicht weiter kann, beschränckt ist, da fängt die Andre an und so fort. (Anw[endung] dieser Bem[erkung] auf d[ie] sog[enannten] Elemente des Organikers).
+
+
+**Nr. 96.** Mineral[ogie]. Steine in Potenzen – specifisch verschiedne Fossilien – dem Grad nach verschiedne Steine. Wenn man einen philosophischen Stein hat, so hat man auch wohl einen mathematischen und artistischen Stein? etc.
+
+
+**Nr. 97.** Gesch[ichts]Lehre. Was ist eigentlich Alt? Was Jung? Jung – wo die Zukunft vorwaltet. Alt – wo die Vergangenheit die Übermacht hat. Jung und alt – polare Praedicte der historischen Substanz. (Die Accidenzen sind immer polarisch.) Kein Alterthum , ohne Jugendthum – und umgek[ehrt]. Alt entspricht dem Starren. Jung – – – dem Flüssigen. Das Alte ist das Gebildete – plastisch. Das Junge – – – das Bewegliche – Gemeinsame. Wenn sich Historien berühren, so werden beyde polarisch. Das Karacterisirende lößt sich in jedem. (nach Wernerscher Farbenterminologie) Hier wird das Alterthum der karacterisirende Bestandtheil – dort das Jugendthum. /Anwendung dieser lezten neuen Ansicht der Polaritaet auf die übrigen Polaritaeten./ Physik der Historie. /Physik des Raums./
+
+
+**Nr. 98.** Enc[yclopaedistik]. Analogische Analysis (Analysis – Kunst aus bekannten das Unbekannte zu finden) Analogische Gleichungen – und Aufgaben.
+
+
+**Nr. 99.** Gesch[ichts]Lehre. Die Geschichte der Menschheit steht mit der Masse der individuellen Geschichten in Polaritaet. Die (neuere) Gesch[ichte] hat das Alterthum am Ende – die (ältere) Geschichte am Anfang – et sic porro.
+
+
+**Nr. 100.** Dito. Über den gegenwärtigen Moment – oder den immerwährenden Erstarrungspro[ce]ß d[er] irrdischen Zeit – Sie hat eine sonderbare Lebensflamme. Die Zeit macht auch alles, wie sie auch alles zerstört – bindet – trennt. Natur der Erinnerung – Seelenflamme – besondres Leben der Seele – innre Lebensweise – der Erstarrungsproceß. Dies rührt von der Berührung einer 2ten Welt – eines 2ten Lebens her – wo alles entgegengesezt ist. Wir springen, wie ein electrischer Funken, in die Andre Welt hinüber etc. Zunahme der Capacitaet. Tod ist Verwandlung – Verdrängung des Individualprincips – das nun eine neue haltbarere , fähigere Verbindung eingeht. (S. 17-19)
+
+
+**Nr. 101.** Menschenlehre. Die Frauen haben eigentlich einen entschiednen Sinn für das Äußre – Es sind geborne Oryktognosten.
+
+
+**Nr. 102.** Enc[yclopaedistik]. Die Skulptur und die Musik sind sich, als entgegengesezte Härten , gegen über. Die Mahlerey macht schon den Übergang. Die Skulptur ist das Gebildete Starre. Die Musik, das (Gebildete) Flüssige . /Masken der Alten Schauspieler./ /Über Härten /
+
+
+**Nr. 103.** <Der gewöhnliche Geschmack in der Litteratur entspricht vollkommen dem Geschmack des großen Haufens in der Mahlerey und Musik etc. – und es ist da nichts besonders, sich zu verwundern.>
+
+
+**Nr. 104.** Enc[yclopaedistik]. Wenn es eine Philosophie des Lebens gibt, so kann man auch nach einer Philologie, Mathematik – Poëtik, und Historie des Lebens fragen.
+
+
+**Nr. 105.** Artistick. Je einfacher im Ganzen – und je Individueller, und mannichfacher im Detail – desto vollkommner das Kunstwerk. Auch die Fibra simplicissima muß noch individuell und gebildet und analog seyn.
+
+
+**Nr. 106.** Menschenl[ehre]. Die Kindheit ist der Erwachsenheit entgegengesezt – Blüthe und Frucht – Frühling und Herbst. Jahrszeitenlehre. / Es giebt keinen Sommer . Es giebt nur Eine, oder 2, oder 3, oder 4, oder unendlich viel Jahrszeiten. Morgen, Abend und Nacht entspricht dem Frühling, Herbst und Winter. Die Eintheilung in Tag und Nacht, der in Sommer und Winter./
+
+
+**Nr. 107.** Erdenlehre. Eintheilungen der Erde . Philosophische, und poëtische Geografie. historische Geographie ist die Specielle . Weltgegenden. Fictionen der Astronomie. Sternbilder. Lichtmeßkunst . Sollte man nicht nach der mittlern Stärke des Lichts die Entfernungen berechnen können?
+
+
+**Nr. 108.** <Compendia aller Wissenschaften . (Köhlersche Buchh[andlung])>
+
+
+**Nr. 109.** <Jacobsons technologisches Wörterbuch v[on] Burgsdorf.>
+
+
+**Nr. 110.** Gesch[ichts]Lehre. Neu und Jung ist Eins. Neu ist das Obj[ect]. Jung das Subject. /Bekannt und Alt sind auch nahe verwandt./ (S. 19-20)
+
+
+**Nr. 111.** Mathem[atik]. Allg[emeiner] Begriff der Multiplication – nicht blos der Mathematischen – so der Diversion, Addition etc. Vorzüglich interressant ist diese philosophische Betrachtung der bisher blos mathematischen Begriffe und Operationen – bey den Potenzen, Wurzeln, Differentialen, Integralen, Reihen – Curven – und Directen – Functionen. Der Binomialsatz dürfte noch eine weit höhere Bedeutung – eine viel interressantere Anwendung in der Physik – in Betr[eff] der Polaritaeten etc. erhalten. 3fache Polaritaeten – Infinitinomische Polaritaeten . Nicht blos Binomism – sondern auch Infinitinomism. Ich verstehe eine Größe, wenn ich in ihrer Aequation auf der andern Seite eine Function der Gegengröße habe. Eine Haupt Antithese der Mathematik ist, Bekannte und Unbekannte Größen . (+ und –. Groß – Klein. Theil – Ganzes .) Entw[eder] such ich nun die Unbekannten Größen mit Functionen der Bekannten zu gleichen, oder umgek[ehrt] – Zur leztern RechnungsArt gehört der Infinitesimalcalcül.
+
+
+**Nr. 112.** <Hindenburg über das Infinitinomium.>
+
+
+**Nr. 113.** Cosmologie. Unsre Welt ist das was sie ist, als Glied des Universalweltsystems. Ihre Veränderungen werden mit durch die Veränderungen des großen Systems bestimmt. Je mannichfacher Etwas individualisirt ist – desto mannichfacher ist seine Berührung mit andern Individuen – desto veränderlicher seine Grenze – und Nachbarschaft . Ein unendlich caracterisirtes Individuum ist Glied eines Infinitinomiu[m]s – So unsre Welt – Sie gränzt an unendliche Welten – und doch vielleicht nur an Eine . Die Welt im Ganzen hat auch nur Eine Welt gegen sich über. Himmel und Erde . Entstehung der Kranckheit durch Berührung eines stärkern Lebens . Analoge Gleichung der andern Welt – Theorie des Himmels .
+
+
+**Nr. 114.** Enc[yclopaedistik]. Numismatik . Selbst Heraldik . Krugs Encyclopaedie. Aelteste Physik. Modenlehre – Kleidungslehre. Kochkunst. Meublementslehre. Adoratslehre. Farbenlehre. Akustik. (Universalisirung der Handwercke.) Statistik – /Statistik des römischen Rechts/ (Die Geschichte kann eine Statistik zum Zwecke haben – das Gegenwärtige ist dann das Resultat des langen historischen Experiments oder Factums – oder nicht. Jenes pragmatische Geschichte – dies Geschichte an sich. /Romantische Behandl[ung] der speciellen Geschichte./
+
+
+**Nr. 115.** Die seelige Hoffnung des Quintus Quintus bin ich geblieben, geplackt und arm, wie die Landmaus, Freudig sterb ich – gewiß, Tertius drüben zu seyn.
+
+
+**Nr. 116.** Relig[ions]Lehre. Sonderbar, daß in so viel Religionen die Götter Liebhaber des Häßlichen zu seyn scheinen.
+
+
+**Nr. 117.** N[atur]L[ehre]. Je lebhafter das zu Fressende widersteht, desto lebhafter wird die Flamme des Genußmoments seyn. Anwendung aufs Oxigène. /Nothzucht ist der stärkste Genuß./ Das Weib ist unser Oxigène –./ N[atur]L[ehre]. Sind alle Excremente befruchtende Potenzen, vid. d[en] Mist . Unterschied zwischen Thier und Pflanzendünger. Menschenkeime gedeihen auch schneller und üppiger, wenn sie durch höhern Mist befruchtet werden. Wie wir den Pflanzenboden düngen, so düngen uns die Pflanzen den Luftboden. Die Pflanzen sind Erdenkinder — Wir Kinder des Aethers (Erde für Starr – Aether, für Flüssig) Die Lunge ist eigentlich unser Wurzelkern — Wir leben, wenn wir Athmen und fangen unser Leben mit Athmen an. (Kinder des Himmels freyten die Töchter der Erde.) Wir fressen die Pflanze, und sie gedeihen in unserm Moder. Was uns das Fressen ist, das ist den Pflanzen die Befruchtung. Empfangen ist das weibliche Genießen — Verzehren das Männliche. (Ein Säufer ist einer liederlichen Frau zu vergleichen.) Das Befruchten ist die Folge des Essens – es ist die umgek[ehrte] Operation – dem Befruchten steht das Gebären , wie dem Essen, das Empfangen entgegen. /Der Mann ist gewissermaaßen auch Weib, so wie das Weib Mann — entsteht etwa hieraus die verschiedne Schamhaftigkeit?/
+
+
+**Nr. 118.** Relig[ions]Gesch[ichte]. Vorstellung der Gottheit, als eines Verzehrenden und befruchtenden Wesens . [Jeanne Marie Bouvier de la Motte] Guyon. Nonnen. Bey Mönchen hat Onanie und Paederastie daraus entstehn müssen.
+
+
+**Nr. 119.** N[atur]L[ehre]. Grade der Vegetabilitaet – Animalitaet – Mineralitaet.
+
+
+**Nr. 120.** N[atur]L[ehre]. Sind Natur und Kunst schlechthin nicht Krank – und entsteht Kranckheit – blos durch fehlerhafte Verbindungen wie Mißgeburt etc. Abortus etc. (S. 20-23)
+
+
+**Nr. 121.** Kosmologie. Die Atmossfäre des Universums muß im Gegensatz immanent seyn. Synth[ese] v[on] Himmel und Erde.
+
+
+**Nr. 122.** <Ausdruck – Selbstbefleckung – Selbsttrübung – Selbstpraecipitation .> / Gram[matik]. Die Sprache ist Delphi . / Phys[ik]. Licht Symbol und Agens der Reinheit . Wo das Licht nichts zu thun findet – weder etwas zu trennen, noch zu verbinden – da fährts durch. Was nicht getrennt und Verbunden werden kann – ist rein – einfach. Anwendung auf El[ectricitaets]Leiter – Nichtleiter und Halbleiter.
+
+
+**Nr. 123.** N[atur]L[ehre]. Ist die Verbind[ung] d[es] Körpers und der Seele / Polare Entgegensetzungen – auch hier nicht blos Binom./ cohaerenz, Gravitation – electr[isch], Magnetisch – chymisch etc.?
+
+
+**Nr. 124.** Geistige Phys[ik]. Unser Denken ist schlechterdings nur eine Galvanisation – eine Berührung des irdischen Geistes – der geistigen Atmosphäre – durch einen himmlischen, außerirrdischen Geist. Alles Denken etc. ist also an sich schon eine Sympraxis im höhern Sinn. Enc[yclopaedistik]. Die Denklehre entspricht der Meteorologie . Enc[yclopaedistik]. Die Erde ist a – die Atmosphaere x . (veränderliche Größe) Die Atmosphärologie ist die Meteorologie. Ferne Hindeutung auf Astrologie . Symbolische Prophezeyungen. Chiromantie.
+
+
+**Nr. 125.** Phys[ik]. Der Nutritionsprocess erwärmt – der entgegengesezte, der SekretionsProcess – erkältet . Sollten alle Potenzen schwächen und stärken nach Beschaffenheit. (W[as] ist Stärke?) Vom Fieber . Fieberfrost – Desoxydation (des Festen) und (Oxidation des Flüßigen) – Fieberhitze – Desoxidation des Flüßigen (und Oxidation des Festen) Doppelte Brennbarkeit des Festen und Flüßigen./ Inflammable Luft/ – Weingeist – Oel etc.) Ist bey der Reduction der Metalle eine wahre Oxidation der Luft –? <(Die größere Röthe des Bluts in den Vénen ist leicht durch den Sekretionsproceß der arteriellen und venösen Muskeln erklärbar.)>
+
+
+**Nr. 126.** [126.] Physik. Das Leben der Pflanzen ist gegen das Leben der Thiere gehalten – ein unaufhörliches Empfangen und Gebären – und lezteres gegen dieses – ein unaufhörliches Essen und Befruchten. Wie das Weib das höchste sichtbare Nahrungsmittel ist, das den Übergang vom Körper zur Seele macht – So sind auch die Geschlechtstheile die höchsten, äußern Organe, die den Übergang von sichtbaren und unsichtbaren Organen machen. Der Blick – (die Rede) – die Händeberührung – der Kuß – die Busenberührung – der Grif an die Geschlechtstheile – der Act der Umarmung – dis sind die Staffeln der Leiter – auf der die Seele heruntersteigt – dieser entgegengesezt ist eine Leiter – auf der der Körper heraufsteigt – bis zur Umarmung. Witterung – Beschnüffelung – Act . Vorbereitung der Seele und d[es] K[örpers] zur Erwachung des Geschlechtstriebes. Seele und K[örper] berühren sich im Act. – chemisch – oder galvanisch – oder electrisch – oder feurig – Die Seele ißt den K[örper] (und verdaut ihn?) instantant – der Körper empfängt die Seele – (und gebiert sie?) instantant.
+
+
+**Nr. 127.** Über die Bewegung der gereizten Muskel faser. (Innrer Generations process zwischen den festen Theilen (d[en] Muskeln) und den flüßigen.)
+
+
+**Nr. 128.** [128.] Med[icin]. Alle Exantheme sind Zersetzung einer Gattung Krankheit in viele Individuen – Schwächung durch Vereinzelung. Polypen, wild Fleisch, Exostosen, Krebs, Brand, sind vollkommne Schmarotzerthiere (oder Thierpflanzen) – sie wachsen , sie werden erzeugt, sie zeugen, sie haben ihre Organisation, sie secerniren, sie essen. (Wahres Leben – Falsches Leben – täuschende Symptome – Kranckheiten sind lebendig scheinende Todte ( Gift und Tod ist Eins) – Todte mit Merckmalen des Lebens – Leben mit Merckmalen des Todtes – Scheintodt – Scheinkranckheit – Schein Gift. Kranckheiten sind partielle Überwältigungen – Individualveränderungen. Tod ist Generalüberwältigung . Der Tod ist das Centrum der Kranckheiten.)
+
+
+**Nr. 129.** Phys[ik]. ( Chymie .) Sollte man nicht Gährung der Verbrennung entgegensetzen können. pos[itive] und neg[ative] Flamme./ Ist Hydrogén vielleicht ein gasartiges Metall (bunte Farben in Morästen) – Wasser also ein flüssiger Metallkalch . Eis – Ein Metallglas durch Kälte – Das Hydrogène ist auch das Pigment der Pflanzen. Der Kohlenstoff ist dann vielleicht der Gährungs, der Reductionsstoff – dem Brennbaren wird das Gährbare entgegengesetzt. (Schwefel ist wohl Oel – krystallisirtes – oder auch Metall.) positiv brennbar – negat[iv] brennbar. ( Feuer – pos[itive] Combustion – Gährung – neg[ative] C[ombustion].) Feuer der Nutritions – Gährung – neg[ative] C[ombustion].) Feuer der Nutritions – Gährung, der secretions Process – (Zeugungsproceß, vielleicht beydes zugleich.) Was ist, statt des Lichts bey d[er] Gährung? (pos[itives] – neg[atives] Licht vielleicht.)
+
+
+**Nr. 130.** Enc[yclopaedistik]. Die Phil[osophie], die die Natur vom Mineral zum Menschen fortschreiten läßt – ist die Nutritions – pos[itive] Combustions – Feuertheorie – die es Umgekehrt zugehn läßt – die Gährung neg[ative] Combustions – Secretionstheorie. (S. 23-25)
+
+
+**Nr. 131.** Physiol[ogie]. Athmen ist schon ein gemischter, synth[etischer] Process – ein Wechselproc[eß] zwischen Flüssigen und Starren – ein Gährungs und Combustionsprocess zugleich – mithin ein Generationsprocess. Das Pulsiren ist Secretionsprocess. (Schnelligkeit des Pulses in asthenischen Kr[anckheiten].) Die Drüsen (Lymphat[ische] Gefäße) sind dem Nutritionsgeschäft gewidmet. (Peristaltische Bewegung vielleicht der Blutbewegung entgegengesezt.)
+
+
+**Nr. 132.** Enc[yclopaedistik]. Druck verhält sich vielleicht zu Stoß, wie Wärme zur Elektricität.
+
+
+**Nr. 133.** Phys[ik]. Aus einer geistvollen, absol[ut] ähnlichen Benutzung (Bearbeitung) eines oder einiger Phaenomène, ist die antiphlogistische Theorie entstanden. Mehrere solche Versuche. Sie ist eigentlich nichts, als die Nutritionstheorie – die pos[itive] Combustionslehre – freylich nur halb . Sollte man ihr etwa den Beynamen – mineralische Chemie geben können – die andre Hälfte, ist die Gährungstheorie – die Vegetabilische Chemie – Beyde werden durch die Generationstheorie vereinigt . Hauptphaenomène der GährungsTheorie – Hauptphaenomèn der Generationstheorie .
+
+
+**Nr. 134.** <(Der unendliche Stein kann weder stoßen – noch gestoßen werden. [F. Schlegel])> Chemie. Schelling ist der Philosoph der neuern Chemie – der abs[olute] Oxigénist.
+
+
+**Nr. 135.** Sauerstoff – Basis des Mineralreichs. Hydrogèn – Basis des Metallreichs. Kohlenstoff – vegetabilische Basis. Stickstoff – thierische Basis. Da entständen vielleicht – 4 Chymien – 2 chemische Philosophieen. Die Eine vom Stickstoff herunter – zum Oxigène – die andre, umgekehrt. Dem Einen wäre die Natur ein unendlich modificirtes Oxigène – dem andern ein unendlich modificirter Stickstoff. /Reine Atmosphäre. Meteorologische Physik oder Chymie – auch dieser wäre eine geologische Chymie entgegengesezt – beyde vereinigt d[ie] galv[anische] Chymie. Ox[igène] und Hydr[ogène] auf Einer Seite – Kohlenstoff und Stickstoff auf der andern – anorgische und Organische Chemie.
+
+
+**Nr. 136.** Begr[iff] von Ansteckung.
+
+
+**Nr. 137.** Magie. (mystische Sprachl[ehre]) Sympathie des Zeichens mit dem Bezeichneten (Eine der Grundideen der Kabbalistik.) Die Magie ist von Philos[ophie] etc. ganz verschieden und bildet eine Welt – eine Wissensch[aft] – eine Kunst für sich. Magische Astronomie, Grammatik, Philosophie, Religion, Chymie etc. Wechselrepraesentationslehre des Universums. Emanationslehre. (personificirte Emanationen.) In der Magie dienen die Geister. Beschauliches Leben. Plato nennt die Magie d[es] Zoroaster einen Dienst der Götter. Theurgie. Der Weise . Mittler zwischen Gott und Menschen, mit denen sich der Weise vereinigen müsse. Klassificationssystem der Daemonen . Amulete. Talismane. Beschwörungen. Kalenderreligion der Egypter.
+
+
+**Nr. 138.** Überall liegt eine grammatische Mystik, wie mir scheint zum Grunde – die sehr leicht das erste Erstaunen über Sprache und Schrift erregen konnte. (Die wilden Völker halten die Schrift noch jezt für Zauberey.) Hang zum Wunderbaren und Geheimnißvollen ist nichts als Streben – nach unsinnlichen – geistigen Reitz. Geheimnisse sind Nahrungsmittel – incitirende Potenzen. Erklärungen sind verdaute Geheimnisse.
+
+
+**Nr. 139.** W[as] i[st] Synkretismus ?
+
+
+**Nr. 140.** Med[icin]. Auch Kranckheiten können Beförderungsmittel der Mischung und Universalisirung der nähern Bestandth[eile] der Menschheit (der Nationen und Raçen) werden – (so sind z. B. die Pocken erst eine (endemische, und) Nationalkranckheit gewesen –) und so fort. Dies ist sehr merckwürdig . (S. 25-27)
+
+
+**Nr. 141.** Philosophie der HumoralPathologie.
+
+
+**Nr. 142.** Dito. Die Philosophie der Medicin – und ihrer Geschichte ist ein ganz ungeheures und noch ganz unbearbeitetes Feld. (Organ[ische] Kranckh[eiten]. anorgische Kr[anckheiten]. Rythmische etc. Jeder Mensch hat eigne Kranckheiten – eigene Gänge , Erscheinungen und Complicationen der Kranckheiten.) Phil[osophie] der Physiologie. / galvan[ische] Wirck[ungen] der Blähungen./ Häufige Seelenbewegungen – Übungen etc. vermehren den Zusammenhang v[on] K[örper] und S[eele] und machen Beyde Sensibler gegen einander. Krampf ist ein Secretionsprocess – hängt an der Gährung / die Gährung im lebendigen Thier ist freylich anders modificirt, als im Todten. (Einfacher Gährungsproceß.)
+
+
+**Nr. 143.** Enc[yclopaedistik]. Vitale Astronomie – und astronomische Heilkunde. / Gram[matik]. Der Mensch spricht nicht allein – auch das Universum spricht – alles spricht – unendliche Sprachen. / Lehre von den Signaturen./ Med[icin]. Die Arzeneykunst ist allerdings die Kunst zu tödten . / Psych[ologie]. Aberglauben, Aberwitz, Abervernunft. Polit[ik]. Was ist der Gemeine Mann? Der absolute, gemeine Mann? / Med[icin]. Aechte Gesundheitsmittel giebts nicht – Alle Mittel sind weil sie überhaupt wircksam sind, schädlich . Gemeinschaft mit dem Gesunden – dem Abs[olut] Gesunden – macht Gesund. Durch alle Arzeneyen entsteht ein fremdes, gemischtes Wesen. Vollkomne Isolation des Körpers – Verwandlung eines Leiters, in einen Nichtleiter – Man suche den Körp[er] unabhängig v[on] äußern Influenzen zu machen – aus der Welt heraus zu heben.
+
+
+**Nr. 144.** Enc[yclopaedistik]. Die Eintheilung der Mechanik in Statik und Bewegungslehre , ist viel allgemeiner, als man glaubt – Es ist eine universell wissenschaftliche Eintheilung.
+
+
+**Nr. 145.** Enc[yclopaedistik]. Witzige Physik , Geschichte, Mathem[atik], Phil[osophie] etc. hat besonders Voltaire versucht. Die amüsirende Ansicht der W[issenschaft] ist auch eine eigne , wissensch[aftliche] Behandlung.
+
+
+**Nr. 146.** Enc[yclopaedistik]. Eine W[issenschaft] gewinnt durch Fressen – durch Assimiliren andrer Wissenschaften etc. So d[ie] Mathem[atik] z. B. durch den gefressenen Begriff des Unendlichen.
+
+
+**Nr. 147.** Cosmol[ogie]. Natürlich organisirter Körper – und Künstlich zu organisirender Geist – Natürlich organisirter Geist und künstlich zu organisirender Körper. Der Körper ist das Innre bey der Entgegengesezten Welt und der Geist das Äußre – das Feste – etc. Fluctuirender Körper – fluctuirender Geist. Alle körperliche Operationen sind ein entgegengeseztes Denken. Drüben ist Brennen, gähren, stoßen etc. – was hier Denken, Empfinden etc. ist.
+
+
+**Nr. 148.** <In der Mathem[atik] nur das Universelle aufgesucht.>
+
+
+**Nr. 149.** Med[icin]. Sollte die Medicin nicht vorzüglich historisch und poëtisch seyn? (Individualsinn.) (Über die Ruhe in medic[inischer] Hinsicht.)
+
+
+**Nr. 150.** Physiolog[ie]. Kritische Revue der Eintheilungen des menschlichen Körpers. (S. 27-29)
+
+
+**Nr. 151.** Phil[osophie]. Alle Schrancken sind blos des Übersteigens wegen da – und so fort .
+
+
+**Nr. 152.** Krit[ik]. Toujours en état de Critique. Etat der Kritik ist für die Freyheit (das Element der [Freyheit]) – (Element in diesem Sinne). (Vielleicht ist so Starres und Flüssiges d[ie] beyden entgegengesezten Elemente des Feuers.)
+
+
+**Nr. 153.** Philol[ogie]. Anspielungen sind indirecte Citate. / Philol[ogie]. Es ist gewiß, daß eine Meynung sehr viel gewinnt, so bald ich weiß, daß irgend jemand davon überzeugt ist – sie wahrhaft annimmt – freylich muß es auf eine Art seyn, deren Ursache nicht gleich in die Augen fällt – Gewicht der Autoritaeten – eine Autoritaet macht eine Meynung mystisch – reitzend. / Rhetorische Gewalt des Behauptens ./ Geheimniße sind Armaturen, Condensatoren des Divinations – des Erkenntnißvermögens.
+
+
+**Nr. 154.** Phys[ik]. Hylozoïsten oder Organisten – und Materialisten oder Maschinisten, Anorgisten.
+
+
+**Nr. 155.** Enc[yclopaedistik]. Doppelte Universalität jeder wahrhaften W[issenschaft] – Eine entsteht, wenn ich alle andern W[issenschaften] zur Ausbildung der Besondern benutze. – Die Andre, wenn ich sie zur Universalwissenschaft mache und sie selbst unter sich ordne – alle andre Wissenschaften, als ihre Modificationen betrachte. Den Ersten Versuch der leztern Art hat Fichte mit der Phil[osophie] unternommen. Er soll in allen W[issenschaften] unternommen werden.
+
+
+**Nr. 156.** Med[icin]. Wirckung der Mittelsalze im Körper – durch allmäliche Zersetzung – Alle Arzeneymittel wirken da, wo sie zersezt werden. Gift und Gegengift – Allmäliche Verstärckung des beyderseitigen Processes – im Generat[ions]proc[eß].
+
+
+**Nr. 157.** <Oxidationspr[oceß]. Kohlungspr[oceß]. Azotation. Hydrodationspr[oceß] etc. (Alcalisationspr[oceß]) (Verwandtsch[aft] d[es] Stickst[offs] mit dem Oxigène.) (Sollte Schwefel wahre neutralisirte Hydrogènesäure seyn?)> <(Mit den wesentlichen Oelen, bes[onders] mit Einigen, ist Ox[igène] wohl so nur verbunden – wie Hydrogène mit Wasser im Weingeist – und mit Säuren in der Naphta.) (Nähere Untersuchung der Naphten – ihrer Verbindung mit den Alcalien .) (Sollte die Flamme etc. nur sichtbarer Combust[ions] Proc[eß] im Flüssigen seyn – Combustionsproc[eß] im Starren.)>
+
+
+**Nr. 158.** Chemie. Problematischer Satz: Alles Säuerbare muß schon die Grundlage des Sauren neutralisirt enthalten.
+
+
+**Nr. 159.** Chemie. Mannichfache Arten der chymischen Berührungen oder Verhältnisse – z. B. in den monotonischen Pflanzen und Thierstoffen.
+
+
+**Nr. 160.** Gesch[ichts] Lehre. Verwandl[ung] des Jungen in das Alte – und des Veränderlichen in das Bleibende, – des Flüssigen in das Starre. Die Vorzeit nimmt zu – die Zukunft ab (Nicht auch zugl[eich] umgek[ehrt]?) (Oder geht dies bis zu einem Maximum? Oder in einer Cur[ve]?). (S. 29-30)
+
+
+**Nr. 161.** Enc[yclopaedistik]. Universalisirung der Geschichtlichen und geografischen Wesen. (Überall ist Sardinien, wo man allein schläft.) (Encyklopaedisirung einer W[issenschaft].)
+
+
+**Nr. 162.** Polit[ik]. Eine Stadt, als Maschine – einfache Figur einer Stadt.)
+
+
+**Nr. 163.** Chem[ische] Physiol[ogie]. Nutritionspr[oceß] = organischer Bild[ungs-], Gerinnungspr[oceß].
+
+
+**Nr. 164.** Menschenl[ehre]. Alle Menschen sind in einen perpetuirlichen Duell begriffen.
+
+
+**Nr. 165.** Numism[atik]. Galvanismus des Geldes.
+
+
+**Nr. 166.** Menschenl[ehre]. Medic[inische] Ansicht der Ehe . (Gesunde – kränckliche Ehe.) Glückliche Ehe.
+
+
+**Nr. 167.** Med[icin]. Könnte sich jemand erhalten, wenn er seine Excremente fräße. –
+
+
+**Nr. 168.** Med[icin]. Die Reinlichkeit der Haut vermehrt die Lebenskonsumtion.
+
+
+**Nr. 169.** Romantik. Sollte nicht der Roman alle Gattungen des Styls in einer durch den gemeinsamen Geist verschiedentlich gebundnen Folge begreifen?
+
+
+**Nr. 170.** Polit[ik]. Zünfte – Zunftregierungen. Noch viel mehr Handwercker und Künste. Oeconomische Zunft. (S. 30-31)
+
+
+**Nr. 171.** Phys[ik]. Aus der idealen Zersetzung des Lebens entstehn K[örper] und Seele. Dito. /Sind die äußern Sinne Fresser ?/ Dito. Vermischung der Farben durch schnelle Bewegung. Schwindel. ruhende Bewegung. Ruhe trennt, was Bewegung verbindet und umgekehrt./ Haltbare Farben, die sich nicht zersetzen. / An [Friedrich] Schl[egel] ausgegangen von seiner Philologie, seiner Natur etc. /Abstracte Bewegung – abstracter Stoff. /<Das Alterth[um], Bruchstück aus Novalis Geschichte. Contact mit dem Geist der Geschichte.>
+
+
+**Nr. 172.** Phys[ik]. Leben ist Naturfreyheit – sinnliche Freyheit . Abs[olute] 2 – Freiheit – individuelle Freyheit – relative Freyheit – Sensible Freyheit .
+
+
+**Nr. 173.** Gesch[ichts] und Raumlehre. Synth[esis] von Raum und Zeitindividuen . Sichtbare historien. – sichtbare Zeitfüllen (Raumfüllen). (Gliederung der Zeitfüllen.) – Zeitbildungen. Die Zeitnaturen sind wie der Wein – je älter, je köstlicher – Gährung – Abklärung – Vergeistigung – Sie werden oeliger . (Oel, Symbol des Geistes – sein Körper.) Die Zeit entsteht mit dem Factum (Bewegung) – der Raum mit der Stoffung . ( Stoff und Raum – Zeit und Bewegung – sind wie Nichts und Etwas schon antithetische – i. e. subalterne Begriffe – Begriffe von späterer Formation .)
+
+
+**Nr. 174.** MenschenL[ehre]. Ein Mensch kann alles dadurch adeln (seiner würdig machen), daß er es will .
+
+
+**Nr. 175.** Artistik. Idealische Fossilien und Pflanzenmahlerey – Idealische Thierbildnerey. /Attribute der griechischen Götter. Signaturen./
+
+
+**Nr. 176.** Enc[yclopaedistik]. Universale Poëtik und vollst[ändiges] System der Poësie. Eine Wissenschaft ist vollendet, 1. wenn sie auf alles angewandt ist – 2. wenn alles auf sie angewandt ist – 3. Wenn sie, als abs[olute] Totalitaet, als Universum betrachtet – sich selbst als abs[olutes] Individuum mit allen übrigen W[issenschaften] und K[ünsten], als relat[iven] Individuen, untergeordnet wird.
+
+
+**Nr. 177.** Phys[ik]. Sollten die Farben der Übergang von abs[oluter] Bewegung (des pos[itiven] und neg[ativen] Lichtstoffs) zu absoluter Ruhe seyn. Bewegung bindet – was Ruhe zersezt und umgekehrt .
+
+
+**Nr. 178.** Physiol[ogie]. Jedes Glied im menschlichen Körper ist eine Function des Systems – mehrerer Glieder – und jedes Glieds. (Regeln der physiologischen Algéber.) ( Rechnungsarten. Gleichung. Methode der Auflösung.)
+
+
+**Nr. 179.** Psych[ologie]. Sollte die Seele ebenfalls ein künstliches oder zufälliges Produkt seyn? Auch der Sitz der Seele ist willkührlich oder zufällig? Seelenconstructionslehre. Art[istik]. (Die Kunst überhaupt sollte die das Princip der äußern Kennzeichen seyn – überhaupt Fremde Einwirckung – Beziehung auf das Fremde.) Mischung und Trennung der Merckmale d[er] Bewegung und Ruhe.
+
+
+**Nr. 180.** Enc[yclopaedistik]. Beobachtung der Zeitenergie der Seele und d[es] Körpers. Physiologische und Psychologische Zeitlehre . /Veränderung der bloßen RaumsCapacitaet – (Capacitaet des Volums[,] d[er] extens[iven] Raumfülle, der Gestalt) – der intensiven Raum-Capacitaet (der Masse – oder intensiven Raumfülle) – der extensiven Zeitcapacitaet (Kapacit[aet] der Dauer – Zeitvolums – der intensiven Zeitcapacitaet (der Geschwindigkeit – der intensiven Zeitfülle) (S. 31-32)
+
+
+**Nr. 181.** Phil[osophie]. Von dem Verhältniß zwischen Gegenstand und Vorstellung – eine kritische Bemerkung (Symbolisch sympathisch nach der Lehre v[on] den Signaturen.)
+
+
+**Nr. 182.** Med[icin]. Über nicht wachsende Kranckheiten – schwächliche Constitutionen – Dispositionen.
+
+
+**Nr. 183.** N[atur]L[ehre]. Die Natur verändert sich sprungweise. /Folgerungen daraus. Synthetische Operationen sind Sprünge – (Einfälle – Entschlüsse.) Regelmäßigkeit des Genies – des Springers par Excellençe .
+
+
+**Nr. 184.** Gesch[ichts]Lehre. Wo ewige, unabänderliche Gesetze walten – da ist Alterthum, Vergangenheit. Der Process der Geschichte ist ein Verbrennen. Die Mathematische Natur verzehrt die Unermeßliche –. Enc[yclopaedistik]. (Liquidostatik und Liquidomechanik der Zukunft.) Universelle hist[orische] Mechanik.
+
+
+**Nr. 185.** Litteraristik. Schriftsteller Kunst – wie man sich zum Schriftsteller bildet. Bibliothek – in Beziehung auf die Schriftstellerkunst – wie Gemäldegallerie in Beziehung auf die Mahlerkunst. Klassificationen der Bücher. Bestandtheile der Bücher – vollständiges Buch. Kunst zu lesen –
+
+
+**Nr. 186.** Phys[ikalische] Sinnlehre. Sprechen und Hören ist Befruchten und Empfangen./ Psych[ologie]. Scham – Scheu vor Kundwerdung – / Artistik. symbolisch religioese Mimick – Sittenmimik – Grüßen etc. Was bedeutet z. B. Enthüllung? Synth[esis] v[on] Mann und Weib. / Phys[ik]. Grund der Gastfreundschaft der Alten – Abendmahl – Gemeinschaftliches Essen und trinken ist eine Art Vereinigung – ein generationsact.
+
+
+**Nr. 187.** Litterarist[ik]. Academie des Sciences – wissenschaftliche Fabrick. Buchhandel.
+
+
+**Nr. 188.** Geisteslehre. Ächte Unschuld – ist absolute Elasticitaet – nicht zu überwältigen .
+
+
+**Nr. 189.** Polit[ik]. Der vollk[ommne] Bürger lebt ganz im Staate – er hat kein Eigenthum außer dem Staate. / Das Völkerrecht ist der Anfang zur universellen Gesetzgebung zum universellen Staate – Über Alliançen – Friedensschlüsse – Tractate – Unionen – Garantieen . Republik und Monarchie durch eine Unionsacte vollkommen vereinigt. Es müssen mehrere nothwendige Stufen v[on] Staaten geben – die aber durch eine Union vereinigt seyn müssen. Jur[istik]. Sonst hat man das römische Recht für ein römisches Specificum angesehn und so vieles. Der Proceß ist der Generationsprocess des Urtheils – des Rechts – etwas, wie ein Beweis. Der Allg[emeine] Process.
+
+
+**Nr. 190.** [190.] Psych[ologie]. Traurigkeit ist Symptom – Stimmung der Sekretion – Freude Symptom des Genusses – der Nutrition. / Die Arterien betreiben den Nutritions und die Venen den Sekretionsprocess./ (S. 32-34)
+
+
+**Nr. 191.** Med[icin]. Über die Arzeneymittel, die der Mensch in seiner Gewalt hat – d. h. über diej[enigen] Willensthätigkeiten, die der Mensch, als Mittel, den Kranckheiten entgegensetzen kann – z. B. über die durch Anstrengung mögliche allmäliche Verminderung des Hustens. Widerstand gegen die Kranckheiten. Phil[osophie] jeder einzelnen Kranckheit . Bessre Classification der Kranckheiten. Kritik der Sprengelschen Pathologie .
+
+
+**Nr. 192.** Med[icin]. Krampf und Entzündung sollen beständig im menschlichen Körper verbunden und wechselnd da seyn – in bestimmten Proportionen. Die Bestimmungen dieser Proportionen machen die individuellen Temperamente und Constitutionen.
+
+
+**Nr. 193.** Phys[ik]. Über die Centralbildung und Erzeugung der Wellen – Welle entsteht im Mittelpuncte der Bewegung .
+
+
+**Nr. 194.** Psych[ologie]. Wie man aus den Symptomen den Sitz der Leidenschaft finden kann? Rationelle und medicinische Mimik. Zufällige – willkührliche und wesentliche Symptome. Classification der Leidenschaften – Theorie ihrer äußern Symptome. Der Sitz der Seele ist bald hier, bald dort – bald an mehreren Orten zugleich – er ist veränderlich – und so auch der Sitz ihrer Hauptglieder – die man durch die Hauptleidenschaften kennen lernt.
+
+
+**Nr. 195.** Psych[ologie]. Das Gedächtniß nimmt mit der Fähigkeit die Gegenstände a priori zu finden, ab, und zu.
+
+
+**Nr. 196.** Enc[yclopaedistik]. 1. Gedächtniß Wissenschaften = Natur Elementar W[issenschaften] (NaturElemente. Kunstelemente) 2. W[issenschaften] d[es] Kombinationsvermögens = W[issenschaften] des Zusammengesezten etc. 1. abs[olute] Ged[ächtnis] W[issenschaften]. Abgeleitete 2. abs[olute] Komb[inations] W[issenschaften]. Abgeleitete.
+
+
+**Nr. 197.** Enc[yclopaedistik]. Die magischen W[issenschaften] entspringen, nach Hemsterhuis , durch die Anwendung des moralischen Sinns auf die übrigen Sinne – i. e. durch die Moralisirung des Weltalls, und der übrigen Wissenschaften.
+
+
+**Nr. 198.** Enc[yclopaedistik]. Die W[issenschaft] im Großen besteht, nach Hemsterhuis, aus dem Produkt der Gedächtnißwiss[enschaften], oder der gegebnen Kenntnisse, und der Vernunftw[issenschaften], oder der gemachten (erworbnen) Kenntnisse. Die leztern sind das bloße Werck des Menschen. Die W[issenschaft] im Großen ist also überhaupt die TotalFunction der Daten und Facten – die n Potenz des Reihenbinoms der Daten und Facten . Hier wird die combinator[ische] Analysis Bedürfniß.
+
+
+**Nr. 199.** Enc[yclopaedistik]. Die größesten Wahrheiten unsrer Tage verdanken wir dem Contact der lange getrennten Glieder der Totalwissenschaft. Hemsterhuis.
+
+
+**Nr. 200.** Menschengesch[ichts]lehre. Hemsterhuis und Dumas merckwürdige Ideen von den Aphélien, und Perihélien des menschl[ichen] Geistes – dem Caracter jeder Perihélie und seiner Entstehung und Ausbildung . (S. 34-35)
+
+
+**Nr. 201.** Phys[ikalische] Sinnenlehre. Anschaun ist ein elastischer Genuß . / Phil[osophische] Phys[ik]. Das Bedürfniß eines Gegenstandes ist schon Resultat einer Berührung in distans. Anfang der Negation – der Heterogenëisirung. Die Fuga Vacui ist nichts, als eine Anziehung des Leeren und des Vollen. Alle Fuga Vacui ist relativ – nur bis zu einem gewissen Punct wircksam – Sie hat, wie alle Anziehung, und Saturation einen Terminus ad quem.
+
+
+**Nr. 202.** Sofologie. Weisheit muß man hienieden meist nur beym Mittelmäßigen (Eingeschränkteren) suchen. Hemsterh[uis]. Weisheit ist Harmonie. 2 und 3 sind leichter in Harmonie, als 1 und 100. Schwierige Harmonie des Genies. (quant[itatives] Genie. qualit[atives] Genie. Ihre Synth[esis].)
+
+
+**Nr. 203.** Mor[alische] Erzieh[ungs]Lehre. Hemsterhuis moralische Heilkunst im Simon .
+
+
+**Nr. 204.** Artistik. ( Psych[ologie] ). Die Hand wird beym Mahler Sitz eines Instinkts – so auch beym Musiker – der Fuß beym Tänzer. Das Gesicht beym Schauspieler – und so fort.
+
+
+**Nr. 205.** Psych[ologie]. Schmerz und Angst bezeichnen die träumenden Glieder der Seele. Körperliche Lust und Unlust sind Traumprodukte. Die Seele ist nur zum Theil wach. Wo sie träumt , wie z. B. in den unwillkührlichen Organen – wohin in gewisser Hinsicht der ganze Körper gehört – da empfindet sie Lust und Unlust. Schmerz und Kitzel sind Sensationen der gebundnen Seele.
+
+
+**Nr. 206.** Erreg[ungs]Theorie. Die Erregbarkeit ist Repulsivkraft – die Capacitaet – Attractionskraft.
+
+
+**Nr. 207.** Historie. Über die Zeit, wo Vögel, Thiere und Bäume gesprochen haben.
+
+
+**Nr. 208.** Artistik. Ein Theater ist, wie Fabrik und Academie – ein großer mannichfaltiger Virtuos .
+
+
+**Nr. 209.** <Sollte die Operation des Willens – die Wahl erst polarisiren > Psych[ologie]. Daß der Wille die polarisirende Macht ist, ist außer Zweifel – die Best[immung], was, nach beschehner Polarisirung , rechts oder links, pos[itiv] oder negativ seyn soll – ist ein 2ter Act des Willens .
+
+
+**Nr. 210.** Zukünftige Litter[atur]. Es wird eine schöne Zeit seyn, wo man nichts mehr lesen wird, als die schöne Composition – als die Litterairischen Kunstwerke. Alle andre Bücher sind Mittel und werden vergessen, wenn sie keine tauglichen Mittel mehr sind – und dies können die Bücher nicht lange bleiben. (S. 35-37)
+
+
+**Nr. 211.** Physiologie. Schlaf ist ein vermischter Zustand des Körp[ers] und d[er] Seele. Im Schlafe ist K[örper] und S[eele] chymisch verbunden. Im Schlafe ist die Seele durch den K[örper] gleichmäßig vertheilt – der Mensch ist neutralisirt . Physiol[ogie]. Wachen ist ein getheilter – polarischer Zustand. Im Wachen ist die Seele punctirt – localisirt. Schlaf ist Seelenverdauung; der Körper verdaut die Seele – (Entziehung des Seelenreitzes) – Wachen ist Einwirckungsstand des Seelenreitzes – der Körper genießt die Seele. Im Schlafe sind die Bande des Systems locker – im Wachen angezogen .
+
+
+**Nr. 212.** Cosmol[ogie]. Qual[itatives] – quant[itatives] – und relatives Chaos .
+
+
+**Nr. 213.** Litter[atur]. Gelehrsamkeit entspricht dem Gedächtniß . Fähigkeit oder Geschicklichkeit dem Geist. Beydes verbinden h[eißt] beydes, als ein Binomium ansehn und dieses potenziren. (Romantische Gelehrsamkeit – und romantische Geschicklichkeit – Combinations und Variationsfertigkeit .)
+
+
+**Nr. 214.** ThätigkeitsL[ehre]. Chaotische Thätigk[eit] – polare Th[ätigkeit] – synthetische Thätigkeit.
+
+
+**Nr. 215.** Psych[ologie]. Über den Tiefsinn – 3te Dimension .
+
+
+**Nr. 216.** Erkenntnisslehre. Die mittelbare (organische) Erkenntniß, Berührung und Genießung ist die 2te Epoke. Die erste Epoke ist die des Chaos . Die dritte Epoke ist die Synthetische – Die unmittelbar Mittelbare Erkenntniß, Genießung und Berührung.
+
+
+**Nr. 217.** Enc[yclopaedistik]. (Wie Epos, Lyra und Drama die (Elemente) der Poësie – so giebt es auch ähnliche (Elemente) der Scienz , oder Wissenschaft.)
+
+
+**Nr. 218.** [218.] <Meine Hauptbeschäftigungen sollen jezt 1. Die Encyclopaedistik. 2. ein Roman. 3. der Brief an Schlegel seyn. Im leztern werde ich ein Bruchstück aus 1. so romantisch, als möglich, vortragen. (Soll es eine Recherche (oder Essai), eine Sammlung Fragmente, ein Lichtenbergischer Commentar, ein Bericht, ein Gutachten, eine Geschichte, eine Abhandlung, eine Recension, eine Rede, ein Monolog oder Bruchstück eines Dialogs etc. werden?)>
+
+
+**Nr. 219.** <Sur les Kategoriees.>
+
+
+**Nr. 220.** Geistige BildungsL[ehre]. Man studirt fremde Systeme um sein eignes System zu finden. Ein fremdes System ist der Reitz zu einem Eignen . Ich werde mir meiner eignen Philosophie, Physik etc. bewußt – indem ich von einer Fremden afficirt werde – versteht sich, wenn ich selbstthätig genug bin. Meine Phil[osophie] oder Physik kann nun mit dem Fremden übereinstimmen oder nicht. Im erstern Falle zeigt es Homogenëitaet – gleichen wissenschaftlichen Karacter, wenigstens in dieser Beziehung an. (Ehe der heterogènen Systeme.) (S. 37-38)
+
+
+**Nr. 221.** Phyl[osophie]. Unter Phil[osophie] hat man fast immer nur eine höhere Potenz der Wissenschaftlichkeit überhaupt verstanden – nichts Specifisches .
+
+
+**Nr. 222.** Enc[yclopaedistik]. Nicht das Wesentliche – karacterisirt – nicht die Hauptmassen – sondern das Unwesentliche – Eigenthümliche. Werners Oryktogn[osie]. Die vollk[ommen] unabh[ängige] Oryktogn[osie] und die vollk[ommen] unabh[ängige] mineralische Chemie machen als völlig Heterogène ein System.
+
+
+**Nr. 223.** [223.] Med[icin]. Ein Hauptmangel der Arzeneykunst liegt noch in der willkührlichen, unsystematischen Dosenbestimmung – und Dosen-Suite. (Schnelle Kur – weniger dauerhaft, als die Langsame. Je länger der Mensch Kind bleibt, desto älter wird er.)
+
+
+**Nr. 224.** LebensGenussl[ehre]. Je mehr der Mensch seinen Sinn fürs Leben künstlerisch ausbildet, desto mehr interressirt ihn auch die Disharmonie – wegen der Auflösung. Einfache Harmonie – (Melodie) – complicirte mannichfache Harmonie. (analytische – synth[etische] Harmonie).
+
+
+**Nr. 225.** Med[icin]. Eigenthümlich – fremd.) Einfach Gesund – complicirt gesund – Einfaches Wolbefinden – complicirtes Wolbefinden. Theodicee. Wenn nun Gut und Übel seine eigenthümlichen Vorzüge hätte, so wäre doch ihre Verknüpfung sehr wünschenswerth. Psych[ologie]. WechselVerstärkung und Schwächung – und neutralisirung des + Angenehmen und – Angenehmen.
+
+
+**Nr. 226.** Dynamik. Wenn die Repulsiv Kraft überwältigt ist, so fängt die Eindringung des Fremden an. / Überwältigt zum Theil – überwältigt und nicht überwältigt zugleich . Bey allen unmittelbaren Processen der Chymie ist das Überwältigte zugleich das Überwältigende .
+
+
+**Nr. 227.** [227.] Chemie. Chymische Bereitungsprocesse. Gebrauch jedes chymischen Produkts. Seine Beschreibung – seine Definition oder Bestandtheile und deren Verhältniß – Seine Gleichniße . (Immanente Gleichung – transcendente Gleichung.)
+
+
+**Nr. 228.** <Addiren, subtr[ahiren,] multipl[iciren,] divid[iren,] Logarythmisiren, delogarythmisiren, Gleichen, und Auflösen, differentiiren und integriren, Exponenziren und radiciren. seriiren und Summiren etc. Proportioniren – disproportioniren.>
+
+
+**Nr. 229.** <Jezt will ich alle W[issenschaften] speciell durchgehn – und Materialien zur Encyklopaedistik sammeln. Erst die Mathematischen – dann die Übrigen – die Philosophie, Moral etc. zulezt.>
+
+
+**Nr. 230.** Technik. ( Mechanik .) Mechanisch verbinden – mechanisch trennen . (Glätten – rauh machen. Formgeben) trennungs und Verbindungsinstrumente. (Scheere, Meißel, Messer, Pfriem, Beil, Keil, Feile, Bohrer, Hammer, Zange, Nähnadel, Schaber etc. sind im Grunde einerley Instrumente –) Mechanische Bindestoffe – Zwirn etc. Nägel, Nadeln – Riegel – sie sind theils zäh, theils Starr. Dies beruht alles auf der specifischen Cohaerenz . (Schuster, Schneider, Beutler, Sattler, (Tapezierer) Näther, Perückenmacher, Puzmacher, sind Ein Handwerck.) Jacobson. (S. 38-39)
+
+
+**Nr. 231.** [231.] <Gravitationslehre – und Arythmetika universalis will ich zuerst durchgehn. Jener soll Eine Stunde, dieser 2 Stunden gewidmet werden. Was mir nebenher einfällt, wird in das allg[emeine] Brouillon mit hineingeschrieben. Die übrige Zeit wird theils dem Roman, theils vermischter Lektüre gewidmet – und d[er] Chymie und Encyclopaedistik überhaupt. Das Cabinet v[on] Heynitz und Hofmann wird erst nach geendigten praeparativen Theil d[er] Oryktognosie betrachtet. Der Gravitationslehre folgt die Mechanik.>
+
+
+**Nr. 232.** <1 Stunde ist den chymischen Bereitungen gewidmet. (B[ereitungen] v[on] Processen, von Leben aller Art.) 1. chymische Bereitungen chymischer etc. Kräfte – d[es] Feuers, d[es] Lichts – der Kälte, der Gährung, der Detonation etc. der Electr[icitaet], d[es] Magnet[ism]. (B[ereitung] v[on] Proc[ess] Organen – von Organen aller Art) 2. Bereitungen chemischer Stoffe.>
+
+
+**Nr. 233.** <1 Stunde der Encyclopaedistik überhaupt. Diese enthält wissensch[aftliche] Algeber – Gleichungen . Verhältnisse – Aehnlichkeiten – Gleichheiten – Wirckungen der Wissenschaften auf einander. Früh v[on] 6-12 folgen sich diese Stunden. Nachmittag ist, wenn früh keine St[unde] verlohren gegangen ist, Roman und Lektüre. Briefe unterbrechen alle St[unden]. Die übrige St[unde] früh kann der Motion und d[en] Pausen gewidmet seyn. V[on] 9-10 z. B. wird spatzieren geritten oder v[on] 11-12. Wird früh v[on] 6-7 etwa gelesen so wird Nachmit[tags] eingeholt.>
+
+
+**Nr. 234.** [234.] Romant[ik] etc. Märchen. Nessir und Zulima. Romantisirung der Aline. Novellen. Tausend und Eine Nacht. Dschinnistan. La Belle et la Bète. Musaeus Volksmärchen. Romantischer Geist der neuern Romane. Meister. Werther. Griechische Volksmährchen. Indische Märchen. Neue, originelle Märchen. In einem ächten Märchen muß alles wunderbar – geheimnißvoll und unzusammenhängend seyn – alles belebt. Jedes auf eine andre Art. Die ganze Natur muß auf eine wunderliche Art mit der ganzen Geisterwelt vermischt seyn. Die Zeit der allg[emeinen] Anarchie – Gesezlosigkeit – Freyheit – der Naturstand der Natur – die Zeit vor der Welt (Staat.) Diese Zeit vor der Welt liefert gleichsam die zerstreuten Züge der Zeit nach der Welt – wie der Naturstand ein sonderbares Bild des ewigen Reichs ist. Die Welt des Märchens ist die durchausentgegengesezte Welt der Welt der Wahrheit (Geschichte) – und eben darum ihr so durchaus ähnlich – wie das Chaos der vollendeten Schöpfung . (Über die Idylle .) In der künftigen Welt ist alles, wie in der ehmaligen Welt – und doch alles ganz Anders . Die künftige Welt ist das Vernünftige Chaos – das Chaos, das sich selbst durchdrang – in sich und außer sich ist – Chaos 2. oder ∞. Das ächte Märchen muß zugleich Prophetische Darstellung – idealische Darstell[ung] – abs[olut] nothwendige Darst[ellung] seyn. Der ächte Märchendichter ist ein Seher der Zukunft. Bekenntnisse eines wahrhaften, synth[etischen] Kindes – eines idealischen Kindes. (Ein Kind ist weit klüger und weiser, als ein Erwachsener – d[as] Kind muß durchaus ironisches Kind seyn.) – Die Spiele d[es] K[indes] – Nachahmung der Erwachsenen. (Mit der Zeit muß d[ie] Gesch[ichte] Märchen werden – sie wird wieder, wie sie anfieng.)
+
+
+**Nr. 235.** Phys[ik]. ( Leben überhaupt ist das eigentliche abs[olute] Menstruum universale – und univers[ales] Bindungsmittel .) (Es giebt unendlich viel Arten des Lebens. Alles Organ ist Excrement oder Produkt des Lebens .)
+
+
+**Nr. 236.** MenschenL[ehre]. Ewige Jungfrau ist nichts, als ewiges, weibliches Kind . Was entspricht der Jungfrau bey uns Männern. Ein Mädchen, die nicht mehr wahrhaftes Kind ist, ist nicht mehr Jungfrau. (Nicht alle Kinder sind Kinder).
+
+
+**Nr. 237.** Zuk[unfts]L[ehre] d[es] Lebens. Unser Leben ist kein Traum – aber es soll und wird vielleicht einer werden.
+
+
+**Nr. 238.** Mathem[atische] Phil[osophie]. ( Grammatik .) Die Kategorieen sind das Alphabet cogitationum humanarum – worinn jeder Buchstabe eine Handlung begreift – eine philosophische Operation – einen höhern (mathematischen) Calcül – Die Philosophie der Kategorieen ist von der höchsten Wichtigkeit.
+
+
+**Nr. 239.** Phys[ik]. Allgemeine Ansicht der chémischen Operationen – Ihre Algebraïsirung. /Nasser Weg – trockner Weg – philosophischer Weg./ Alles ins Gleichgewicht setzen ist ein Selbst wägen der Natur – ein Selbstproportioniren – / Die Verhältnisse des Volums, der Ausstreckung etc. sind Selbstmessungen – die Graderhöhungen sind potenzirungen – das Polarisiren – ein poniren und Negiren – Das Logarythmisiren und Gleichen – das differentiiren und integriren quid? Zahlensystem und Sprachsystem .
+
+
+**Nr. 240.** Enc[yclopaedistik]. Wie werden die philosophischen Kupfertafeln beschaffen seyn? Dahin gehören schon die Kategorieentafel – das Fichtische theoretische System – die Dyanologie – die Tafeln an der Logik v[on] Maaß – die Bacosche Tafel der Wissenschaften etc. Tabellen etc. Geografische – Geognostische – mineralogische – chronologische – mathematische – technologische – chymische – Cameralistische – politische – galvanische – physicalische – Artistische – physiologische – musicalische – heraldische – Numismatische – statistische – philologische – Grammatische – psychologische – Litterairische – philosophische Kupfertafeln. Die Pläne vor d[en] Büchern sind gewissermaßen schon Kupfertafeln – (Die Alphabete) – Die Indices sind die Speciellen Wörterbücher und Encyclopaedieen. /Die Geometrie z. B. in eine große Tabelle gebracht – die Arythmetik – die Algéber etc./ Alle mögliche litterairische artistische und weltliche Geschichte muß in Tafelnsuiten gebracht werden können. (Je weniger ein Buch in eine Tafel gebracht werden kann, desto schlechter ist es.) (S. 39-42)
+
+
+**Nr. 241.** Campers Buch./
+
+
+**Nr. 242.** Mathem[atik]. Die Combinatorische Analysis gehört eigentlich zur universellen Arythmetik – Sie die Algéber und sog[enannte] Analysis machen Eine Wissenschaft aus. Sie handelt im allg[emeinen] von Zahlen oder Zeichensystemen. (Zahl ist Vielheit. eine Zahl Menschen) von localen Veränderungen – sie ist eine sonderbare Art von entgegenges[ezter] Mechanik – Stellenlehre –. Die Discerptionen gehören in eine andre Klasse – doch hängen sie genau damit zusammen. Bey ihr sind die Zeichen individuell . Algebraïsirung ihrer Operationen.
+
+
+**Nr. 243.** Anal[ogische] Mathem[atik]. Produkte sind unvollk[ommne] Potenzen etc. / Der Geist ist das potenzirende Princip – daher ist die Schriftwelt die Potenzirte Natur oder technische Welt.
+
+
+**Nr. 244.** Scient[ia] artis Litter[ariae]. Die Schriftkunst (Tonkunst) schriftkünstlich behandelt liefert die Wissenschaft von der Schriftkunst (Scientiam artis litterariae). Die Kritik der Schriftkunst bereitet diese Wissenschaft vor. Unser Alphabet ist eine TonSchriftkunst und noch obendrein von einem individuellen Instrumente , dem menschlichen Sprachwerckzeugsystem. Allgemeines, reines Schriftsystem – und besondre, abgeleitete Schriftsysteme. (vid. das Zahlensystem.) Noten.
+
+
+**Nr. 245.** Musik. Die Consonanten sind die Fingersetzungen und ihre Folge und Abwechselung gehört zur Aplicatur . Die Vocale sind die tönenden Saiten, oder Luftstäbe . Die Lunge ist der bewegte Bogen . Die mehreren Sayten auf einem Instrument sind nur zur Bequemlichkeit – es sind Abbreviaturen. Es ist eigentlich nur Eine Sayte . Die Orgeln sind Nachahmungen der Sayteninstrumente. Über den karacterisirenden Ton der Sayte – der Grund dieser Individualitaet – Masse – länge – Dicke etc. Über die Mittönungen . Tonreihe jedes Saytenstrichs. Dauer des Strichs – Ansetzpunct des Bogens. Steg. Bau des Instruments . Harmonika. Euphon[ie]. Über den Glockenton. Theorie des Harmonikaspielens. Die tastirte Harmonika. Warum die Wellen und Ströme des Wassers nicht tönen? Acusticitaet der Luft. Schwingungen einer mit El[ectricitaet] geladenen Glocke. Über die allg[emeine] n Sprache der Musik. Der Geist wird frey, unbestimmt angeregt – das thut ihm so wohl – das dünkt ihm so bekannt, so vaterländisch – er ist auf diese kurzen Augenblicke in seiner indischen Heymath. Alles Liebe – und Gute, Zukunft und Vergangenheit regt sich in ihm – Hoffnung und Sehnsucht./ Vers[uch] bestimmt durch die Musik zu sprechen. Unsre Sprache – sie war zu Anfang viel musicalischer und hat sich nur nach gerade so prosaisirt – so enttönt . Es ist jezt mehr Schallen geworden – Laut , wenn man dieses schöne Wort so erniedrigen will. Sie muß wieder Gesang werden. Die Consonanten verwandeln den Ton in Schall .
+
+
+**Nr. 246.** <Suckows Anf[angs]Gr[ünde] der oecon[omischen] und technischen Chemie, nebst den jezt herausgekommenen Zusätzen . Betracht[ungen] üb[er] d[ie] Kriegskunst. 2ter Theil. Theoret[ische] Bruchst[ücke] üb[er] d[ie] Natur d[er] Erde, Sonnen und Planetenwelt. Düsseldorf Daenzer. Göthe Prophylaen. Göttlings Handb[uch] der Chemie. La Grange v[on] Gruson. 2ter Th[eil]. La Sue Grundlinien zur Physiognomik aller lebenden Körper vom Menschen bis zur Pflanze. Weygand. Probe einer neuen Ausgabe der griech[ischen] und röm[ischen] Classiker in Fragmenten. Leipzig. Feind. Rüdigers physische Ketzereyen. Weygand. Schillers Musenallmanach. Tiecks neue Romane.>
+
+
+**Nr. 247.** Denkl[ehre]. Unendliche Gedanken – ideale Gedanken – Ideale mit 2 und 3 Dimensionen. Wie kann man sich der unendlichen Gedanken zur Lösung endlicher Gedankenprobleme bedienen?
+
+
+**Nr. 248.** <Die Kunst ist das Compliment der Natur.>
+
+
+**Nr. 249.** Pol[itik]. Freyheit und Gleichheit verbunden ist der höchste Caracter der Republik, oder der ächten Harmonie.
+
+
+**Nr. 250.** Pol[itik]. Eine vollk[ommene] Constitution – Bestimmung des Staatskörpers – der Staatseele – des Staatsgeistes – macht alle ausdrückliche Gesetze überflüssig. Sind die Glieder genau bestimmt, so verstehn sich die Gesetze von selbst. So lange die Glieder noch nicht vollk[ommene] Glieder sind – noch nicht genau bestimmt – so muß es Gesetze geben – Mit wahrer Kultur im Allg[emeinen] vermindert sich die Zahl der Gesetze. Gesetze sind das Complement mangelhafter Naturen und Wesen, daher synthetisch. Wenn wir das Wesen eines Geistes näher bestimmen werden, so haben wir auch keine geistigen Gesetze mehr nöthig. Ethik. Über das Moralgesetz . Mit vollständiger Selbstkenntniß – und Weltkenntniß – vollständiger Selbst und Weltbestimmung verschwindet das Moralgesetz und die Beschreibung des moralischen Wesens steht an der Stelle des Moralgesetzes. Gesetze sind die Data, aus denen ich Beschreibungen zusammensetze . (S. 42-45)
+
+
+**Nr. 251.** Pol[itik]. Wir sind mit dem Unsichtbaren näher, als mit dem Sichtbaren verbunden. (mystischer Republicaner.)
+
+
+**Nr. 252.** Logik. Gesetze sind nothwendige Folgen des unvollkommnen Denkens – oder Wissens.
+
+
+**Nr. 253.** <Über die Mittel ein mechanisches Gemenge zu Sortiren – eine Anwend[ung] auf Chymie.>
+
+
+**Nr. 254.** [254.] Pol[itik]. Hierarchie = Monarchie. Regierung eines Einzelnen Episcopalverfassung = Aristocratie. Regierung Mehrerer. Protestantism = Democratie. Regierung aller – und eines jeden. Ihre Vermischungen – Beschränkungen etc.
+
+
+**Nr. 255.** Lebensl[ehre]. Das Leben ist ein moralisches Princip. (Unvollk[ommene] Moralität – unvollkommnes Leben.
+
+
+**Nr. 256.** Erzieh[ungs]W[issenschaft] d[es] Gelehrten. Der Historiker wird durch die Zeitungen (ein Verzeichniß individueller Nachrichten) gebildet. Hier kann er Kritik lernen. kritisches Zeitunglesen und Schreiben. Falsche Nachrichten – einseitige – entstellte – lernt er nachgerade benutzen. Vollk[ommen] entgegengesezte Nachrichten heben sich auf – Unvollk[ommen] entgegengesezte geben die Wahrheit zum Resultat, wenn man die sich aufhebenden Data oder Glieder durchstreicht. Die Materialien des Historikers sind die Quellen oder die Zeitungen – oder die Historien, welches Eins ist. Kritisch ordnet der directe Historiker seine Data zu Gleichungen [,] zu einer großen gut geordneten Aufgabe. Dies ist die erste Arbeit – die Auflösung dieser Aufgabe – oder des Gleichungen Systems – ist die 2te Arbeit – diese beschäftigt den reflectirenden Historiker. Die Zeit ist der sicherste Historiker. Die gewöhnlichen Zeitungen liefern eine reale Kritik. Den directen kann man auch den beobachtenden Historiker nennen. (Die Beobachtung bereitet den Beweis vor .) (Jeder Beweis ist eine Ahnenprobe .) Der Beweis ist die umgekehrte Auflösung. Bey der Auflösung folgt die Integration der Differentiation – bey dem Beweise umgekehrt. (Integrat[ion] und Diff[erentiation] nehm ich hier nicht ganz in d[er] gewöhnl[ichen] Bedeutung.)
+
+
+**Nr. 257.** [257.] Rel[igions]L[ehre]. Das sind glückliche Leute, die überall Gott vernehmen – überall Gott finden – diese Leute sind eigentlich religiös . Religion ist Moral in der höchsten Dignitaet, wie Schleyermacher vortrefflich gesagt hat.
+
+
+**Nr. 258.** Anthrop[ologie]. Unaufhörliche Thätigkeit in best[immter] Richtung, object[ive] Thätigkeit – ist die negative Kette, die die positive (subject[ive] allg[emeine]) Thätigkeit sehr verstärkt – und nur im vereinigten Besitz dieser beyden Thätigkeiten und im Zustande ihrer Harmonie ist man wahrhaft besonnen – wahrhaft ruhig und freythätig zu allem Geschickt – durchaus Gesund. (Künstler aus Sittlichkeit.) (Der vollständige, und der vollk[ommene] Künstler überhaupt ist von selbst sittlich – so auch der vollständige und vollk[ommene] Mensch überhaupt .)
+
+
+**Nr. 259.** Paed[agogik]. Alles was dem sich bildenden Menschen noch schwer dünckt , da sollt er nach gerade seine Kräfte daran versuchen, um es heben, und mit großer Leichtigkeit – und Geschicklichkeit heben und bewegen zu können. Dadurch gewinnt er es lieb. Was einem Mühe kostet, das hat man lieb.
+
+
+**Nr. 260.** Physik d[er] geistigen Thätigk[eit]. Moralität des Glaubens überhaupt. Er beruht auf Annahme der Harmonie. Aller Glauben geht von moralischen Glauben aus. (S. 45-46)
+
+
+**Nr. 261.** Pol[itik]. Der Staat ist immer instinktmäßig nach der relativen Einsicht und Kenntniß der menschlichen Natur eingetheilt worden – der Staat ist immer ein Macroandropos gewesen – die Zünfte = die Glieder und einzelnen Kräfte – die Stände = die Vermögen. Der Adel war das Sittliche Vermögen – die Priester das religiöse Vermögen – die Gelehrten die Intelligenz, der König der Wille . Allegorischer Mensch.
+
+
+**Nr. 262.** Pol[itik]. Auflösung des hauptpolitischen Problems. Ist ein politisches Leben möglich? oder Sind Verbindungen der entgegengesezten politischen Elemente a priori möglich? Genialischer Staat. (Reunion der Oppositen)
+
+
+**Nr. 263.** Phys[ik]. Die Elemente haben nicht des mindeste Verhältniß zum Composito . (vid. Linien zu Flächen – Flächen zu Körpern.)
+
+
+**Nr. 264.** W[issenschafts]L[ehre] – oder Phil[osophie]. Über die Formel Ich – die Aufgabe Ich ? Formel des Genies – Formel des Geistes. Die Auflösung ist in ihr enthalten.
+
+
+**Nr. 265.** Techn[ik]. Aehnliche Eintheilung der chemischen und mechanischen Geschäfte.
+
+
+**Nr. 266.** <Wasser und Feuer sind die HauptKraft quellen .>
+
+
+**Nr. 267.** <Synthetische, simultane Reitzbarkeit des Menschen oder Thiers. Simultane Reitze – Componirte synth[etische] simultane Reitzung. vid. Browns Ein seitigkeit etc.>
+
+
+**Nr. 268.** Astr[onomie]. Die Sternwarte ist dem Dienste der Gestirne gewidmet.
+
+
+**Nr. 269.** Psych[ologie]. Das Lächerliche ist eine Mischung, die auf Null hinausläuft . (Detonation.) (Mischung des Gemeinen , Niedrigen und Erhabenen etc.)
+
+
+**Nr. 270.** <Instinkt ist Kunst ohne Absicht – Kunst, ohne zu wissen wie und was man macht. Der Instinkt läßt sich in Kunst verwandeln – durch Beobachtung der Kunsthandlung. Was man also macht , das läßt sich am Ende kunstmäßig zu machen, erlernen. Kunst das Lächerliche und das Romantische hervorzubringen.> Psych[ologie]. Das Lächerliche ist nicht beißend . Lachen ist ein Krampf. Die Ursache des Lachens muß also von einer plötzlichen Entladung der gespannten Aufmercksamkeit – durch einen Contrast entstehn. Aehnlichkeit mit dem electrischen Funken. Der ächte Komicker muß ernsthaft und wichtig aussehn, wenn er eine Posse macht. (Ironie. Parodie. Travestie – Die Verkleidung ist ein Haupt-Bestandtheil des Lächerlichen. Wortspiele. Lächerliche Fragen und Antworten. Anecdoten. Scenen. Shakespeare. Die Italiaener. Aristophanes. Witz der gemeinen Leute . Carricaturen. Hogarth. Lichtenberg. ) Lachen – Kur der Hypochondrie . Aus vielen Lachen und Witzeln kann aber auch Hypochondrie entstehn. Lachen bekömmt sthenischen Constitutionen vorzüglich gut. Alles was die Aufmercksamkeit erregt und nicht befriedigt ist lächerlich – Nur das Plötzliche Abspannen der Aufmercksamkeit ist aber die eigentlich lachen machende Operation. Das Weinen ist eine sthenische Krisis – das Rührende ist das Gegentheil des Lächerlichen. Das Rührende fängt mit Abspannung an – und spannt plötzlich – das Rührende oder das Eindringende dringt schnell ein – eh man Zeit hat sich zu fassen – Es ist eine Übersättigung – Weichwerden – zerfließen – schmelzen. Jenes ist ein Absonderungs, dies ein Einschluckungsprocess – Jenes ein Flüchtigwerden – daher die Kälte des Lächerlichen. Dies ein Gerinnen – ein Starrwerden – daher die Wärme. Das Weinen und Lachen mit ihren Modificationen gehören so zum Seelenleben, wie Essen und Secerniren zum körperlichen Leben. Das Weinen macht das arterielle – das Lachen das venöse System. (S. 46-48)
+
+
+**Nr. 271.** <Verhältnisse des arteriellen und venösen Systems in jeder Constitution. Sollte die Gicht etc. nicht oft von fehlerhaften Verhältnissen dieser Systeme (und ihrer Säfte ) herrühren. (Verhältniß der Röthe d[es] arteriellen Bl[utes] zur Schwärze des venösen Bluts)>
+
+
+**Nr. 272.** Psych[ologie]. Aller Ernst frißt – und aller Spaß sondert ab.
+
+
+**Nr. 273.** Psych[ologie]. Ist Dencken auch Absondern – ? Dann ist vielleicht empfinden Fressen. Selbstdenken ist vielleicht ein Lebensproceß – Freß und Absonderungsproceß zugleich. Denken und Empfinden zugleich.
+
+
+**Nr. 274.** Psych[ologie]. Durch Abstraction wird die Reitzbarkeit vermehrt. Zuviel Abstraction erzeugt Asthenie – zu viel Reflexion Sthenie. Ich muß viel reflectiren und nicht viel abstrahiren. Ich bin schon reitzbar genug. Ein scharfer Denker ist ein empfindlicher Meter – ein sehr subtiles Reagens.
+
+
+**Nr. 275.** Phys[ik]. Daß der Erzeugungspr[oceß] so früh und so vorzüglich die phil[osophischen] Physiker beschäftigt ist kein Wunder – Sie ahndeten wohl daß hier eine merckwürdige Grenzhöhe läge. Was ich begreife, das mus ich machen können – was ich begreifen will – machen lernen. Kommt die Physik hier an eine wirckliche Grenze, so muß sie die angrenzende Wissenschaft requiriren. Vielleicht ist der Erzeugungsproc[eß] nur antinomisch construirbar – i. e. nur phil[osophisch] – Die Physiologie liefert das eine Eine Glied – die Psychologie das 2te – und die Phil[osophie] construirt aus beyden den ZeroProcess. (Die W[issenschaft] v[on] d[en] Substanzen und Ursachen (und Harmonieen) kann man auch die Lehre vom Unendlichen oder von den Zeros nennen. Die Harmonie ist wohl die Synth[ese] v[on] Substanz und Ursache.)
+
+
+**Nr. 276.** Kriegsk[unst]. W[as] ist eine Schlacht? ein Desorganisationsprocess. Der Zweck der Schlacht ist – die feindliche Armee zu vernichten. Sie kann durch ihre Aufreibung oder ihre Auflösung, als Armee, zerstört werden. Tödten ist keine Kunst – aber binden – trennen etc. Der Festungs oder Positionskrieg ist eine ganz andre Art von Krieg.
+
+
+**Nr. 277.** Ideall[ehre]. Weisheit ist moralische Wissenschaft und Kunst.
+
+
+**Nr. 278.** <Bearbeitung einer Sprache. Sylbenverzeichniß. caracterisirende Bestandtheile der Sprache. Scientifisch systematisches Lexicon.>
+
+
+**Nr. 279.** [279.] Gram[matik]. Übergang einer Sprache in die Andre – durch corrupte, oder eigenthümliche Aussprache. Erhebung der gemeinen Sprache zur Büchersprache. Die gemeine Sprache wächst unaufhörlich – aus ihr wird die Büchersp[rache] gebildet. Übergang und Umbildung der Vocalen und der Sylben in einander. 1, 2, 3, 4, und mehrsylbige Wörter. Allg[emeines] Sprachsystem – Sprachgeschichtssystem. Erfindung jeder Sprache a priori. Verschiedenheit der Aussprache.
+
+
+**Nr. 280.** Gram[matik]. Die gem[eine] Sprache ist die Nat[ur]Spr[ache] – die Büchersprache die Kunstsprache. (S. 48-50)
+
+
+**Nr. 281.** Psych[ologie] ( Aestethik ). Karacter der Geschwätzigkeit. Geschwätzigkeit des Humors – Tristr[am] Shandy. Jean Paul.
+
+
+**Nr. 282.** Enc[yclopaedistik]. Encyclopaedisirungs Calcul./ Litt[eratur]. Über den moralischen Schriftsteller . Der ächte Moralist – die höchste Stufe der litterairischen Bildung. Buchkünstler der Moral./ Enc[yclopaedistik]. Die Oryktognosie in Tafeln./ Menschenbild[ungs]L[ehre]. Um die Stimme zu bilden muß der Mensch mehrere Stimmen sich anbilden – dadurch wird sein Organ substantieller. So um seine Individualitaet auszubilden muß er immer mehrere Individualitaeten anzunehmen und sich zu assimiliren wissen – dadurch wird er z[um] substantiellen Individuum. Genius./ Die mahlerische Bekleidung muß harmonisch mit dem Bekleideten zusammenstimmen. Die Kleidung muß selbstständig – frey sich schönbildend – congruppirend seyn. Menschenlehre. Alles, was der Mensch macht , ist ein Mensch – oder quod idem est ein Bestandtheil des Menschen – ein Menschliches Wesen. (W[issenschaft] Kunstw[erk] etc.)
+
+
+**Nr. 283.** mor[alische] Psych[ologie]. Der Busen ist die in GeheimnißStand erhobne Brust – die moralisirte Brust. Fernere Bemerkungen dieser Art. So z. B. ist ein gestorbner Mensch ein in abs[oluten] Geheimnißzustand erhobener Mensch.
+
+
+**Nr. 284.** Phys[ik] ( Enc[yclopaedistik] ). Sentimentale Betrachtungen und Ansichten der Natur etc. Jean Paul hat hierinn etwas geleistet.
+
+
+**Nr. 285.** Cosmol[ogie]. Universum – Multiversum – Omniversum. Für d[as] Höchste Allumfassende ein namenloser Ausdruck.
+
+
+**Nr. 286.** Phil[osophie]. Product d[er] Harmonie v[on] Subj[ect] und Obj[ect] – ihrer chemischen Mischung ihrer mech[anischen] Berührung etc.
+
+
+**Nr. 287.** Krit[ik]. Jean Paul ließ sich vielleicht ein humoristischer Epiker nennen. Er ist auch ein (instinctartiger) natürlicher , encyclopaedischer Humorist. ( Enc[yclopaedistik]. Die Encyclopädistik hat viel Verwandtschaft mit der Philologie .)
+
+
+**Nr. 288.** Psych[ologie]. Sympathie (erhöht) (verstärkt) das Leiden – Substantielles Leiden. Der Symp[athie] entspricht die Coaction – Mitleiden – Mitthätigkeit. Leiden und Th[ätigkeit] wird erst durch Mitleiden und Mitthätigkeit lebendig . Eine Art der Mitfreude ist sympathetisch – Eine Art des Mitleids ist coactiv .
+
+
+**Nr. 289.** Psych[ologie]. Geduld ist zweyerley – ruhige Ertragung des Mangels – ruhige Ertragung des Übermaaßes. Die ächte Geduld zeugt von großer Elasticitaet .
+
+
+**Nr. 290.** Menschenl[ehre]. Der gebildete und der ungebildete, rohe Karacter kann excentrisch und gemein seyn. Gebildet und gegliedert ist Eins. Auch der gewöhnlichste Karacter kann unendlich gebildet seyn. Seine Unendlichkeit ist gegen die Unendlichkeit des gebildeten excentrischen Karacters von der niedrigsten Ordnung ./ Ontol[ogie]. Die Unendlichkeiten verhalten sich wie die Endlichkeiten, mit denen sie im Wechsel stehn . Die Endlichkeit ist das Integral der Einen (Kleinen.) Unendlichkeit – und das Differential der andern (Großen) Unendlichkeit – dasselbe, was Eins ist. Die Differentialen des Unendlich Großen, verhalten sich wie die Integralen des Unendlich Kleinen – weil sie eins sind. Die Verhältnisse der verschiednen Einheiten oder Mittelglieder sind gleich den Verhältnissen der dazu gehörigen Endglieder geb[ildet]. (S. 50-51)
+
+
+**Nr. 291.** Produkte etc. Heterogener Constituenten verschwinden z. B. die Produkte von Größen verschiedner Ordnungen – oder Grade. Relativen Gehalt oder Bestand haben sie nur in Beziehung auf einander . Eine Größe kann verschwindender , als die Andre seyn – je nachdem die Heterogeneïtaet der Constituenten größer oder kleiner ist – So entstehn relative Größen – relativer Gehalt – das Nichts hat Grade und in Beziehung der verschiednen 0en auf einander bekömmt jede einen relativen Gehalt – sie wird zur rel[ativen] Zahl, zur rel[ativen] Größe, zum rel[ativen] Etwas. Das relat[ive] Etwas ist aber 0 in Beziehung auf ein absol[utes] Etwas . Jede Größe, jedes Etwas ist 0. in Beziehung auf etwas Anderes – Heterogenes. Nur durch Homogenëisirung realisiren sich die relativen 0en für einander – werden (allg [emeines] Annihilationssystem!) sie vergleichbar – Factoren einer gemeinschaftlichen Größe – mittelst des homogénëisirenden Princips. Menschenl[ehre]. (Sollte der Mensch die Einheit für die Natur (das Weltall) seyn i. e. das Differential der unendlich Großen, und das Integral der unendlich kleinen Natur – das allg[emeine] homogenëisirende Princip – das Maaß aller Dinge – ihr gegenseitiges Realisirungsprincip – das Organ ihres Contacts?).
+
+
+**Nr. 292.** Psych[ologie]. Das Sittliche Wesen – das Mor[al] Princip – ist wohl die Substanz der Seele? Der universale, encyclopaedisirte Willen ist d[as] Moral Princip. (Universal – unendlich gebildet , der höchsten Ordnung – oder der abs[oluten] Ordnung.) (vielleicht der omniversale Willen – der Panharmonische Willen).
+
+
+**Nr. 293.** [293]. Menschenl[ehre]. Der gewöhnliche oder kleinere Karacter kann unendlich ins Kleine gebildet seyn. Der Größere Karacter ebenfalls. Die Functionen des unendlich Großen Karacters und des unendlich kleinen Karacters, werden den Functionen des abs[oluten] Mittelkaracters gleich seyn. (Atmosphaerischer Karacter.)
+
+
+**Nr. 294.** Psych[ologie] und Phys[ik]. Gewohnheit ist ein entstandner Mechanismus – eine zur Natur gewordne Kunst. Naturgesetze sind Gewohnheits Gesetze. Gewohnheits Entstehung – Naturentstehung. Die Natur ist eine Gewohnheit – und also aus Kunst – und d[urch] Wiederholung entstanden – Ungeschickte – unvollkommne – ungesezmäßige, unrythmische Natur.
+
+
+**Nr. 295.** Cosmol[ogie]. Das Äußre ist ein in Geheimnißzustand erhobnes Innre –/ (Vielleicht auch umgekehrt.) Das Organ ist das Integral und Differential dieser entgegengesezten unendlichen Geheimnisse – zugl[eich] aber das homogénëisirende Princip – das wechselseitig realisirende Princip – das Maas beyder – oder ihre Function überhaupt. Man kann es auch das potenzirende Princip nennen – insofern Geheimniß der Dignitaetszustand ist – relative Dignitaet – relatives Geheimniß. Das Organ ist das trennende – Verbergende – Verhüllende – isolirende . Die Mittelbarkeit verstärkt die Unmittelbarkeit auf der andern Seite. Je vollkommner auf Einer Seite isolirt, desto vollk[ommner] auf der Andern verbunden – desto harmonischer . (Indem sich die Organe berühren harmoniren die Seelen). (Ohne Trennung ist keine Verbindung. Berührung ist Trennung und Verbindung zugleich). 2 werden durch den Dritten getrennt und verbunden.
+
+
+**Nr. 296.** Poëtik. Der Effect spielt dieselbe Rolle in der Poësie, wie die Glückseeligkeit in der Moral. Psych[ologie]. Seele ist angewandter, unreiner , vermischter, practischer Geist. Geist ist theoretische Seele . Die Seele soll als Seele Geist werden – oder quod idem est – der Geist, als Geist , Seele. Harmonie.
+
+
+**Nr. 297.** Phys[ik]. Über die vermannichfaltende Kraft in uns und außer uns. Unendlichkeit der Figuren – Mischungen etc. Figuren sind eigentlich mechanische Sonderungen. Das chemische Princip ist dem figurirenden Princip zuwider – es zerstört die Figuren. FigurenLehre – ihre Verwandl[ungen] – Übergänge. Höhere Figurenlehre. (Organische Figuren – chymische und mechanische Sonderungen sogleich.)
+
+
+**Nr. 298.** Chemie. Höhere Chemie gibt sich mit zusammengesezten Körp[ern] folglich mit der Sonderung der nähern Best[and]th[eile] ab.
+
+
+**Nr. 299.** [299.] Moral. Über sittliche Virtuosen – Leute die ihre sittliche Existenz so zu universalisiren und zu erhöhen streben – wie andre ihre wissenschaftliche Existenz. Erweiterung oder absolute Erziehung des sittlichen Wesens – und d[er] Intelligenz. Reine Pflichten – Abgeleitete Pflichten. reine Ethik – angewandte Ethik.
+
+
+**Nr. 300.** Litter[atur]gesch[ichts]Lehre. Die Erscheinungen der Gestirne und d[er] Naturkräfte sind am ersten reflectirt worden. Fernere Geschichte d[er] W[issenschaften] a priori etc. (S. 52-54)
+
+
+**Nr. 301.** Ethik. Über die ersten Erscheinungen der Sittlichkeit.
+
+
+**Nr. 302.** Pol[itische] Oec[onomie]. Über das physiocratische System.
+
+
+**Nr. 303.** Oec[onomie]. Die Oeconomie ist durchaus chemisch – mineral[isch] chemisch (Stoffbereitungsk[unst]) und Vegetab[ilisch] und thierisch oder physiologisch chemisch.
+
+
+**Nr. 304.** Techn[ik]. Manufactur – Fabrik.
+
+
+**Nr. 305.** Pol[itische] Paedagog[ik]. Die Academie ist die geistig gymnastische ErziehungsAnstalt. Dialectik. Geistesübungen aller Art. Disput[i]rübungen. Technische Academie – Körperlich gymnastische[s] Erz[iehungs] Institut. Hier werden alle handw[erklichen] Kandidaten gebildet. Ethische Academie – sittlich gymnastisches Erz[iehungs] Institut.
+
+
+**Nr. 306.** Völkerlehre. Volkspaedag[ogik]. Ein Volk ist, wie ein Kind, ein individuelles, paedag[ogisches] Problem. Dieses und jenes Volk hat, wie dies und jenes Kind, ein vorzügliches Talent – die Andern müssen nicht über dies Eine auszubilden vergessen werden. Ein Talent isolirt in die Höhe geschossen, verwelkt frühzeitig, weil es ihm an Nahrung fehlt. Diese Nahrung können ihm nur die übrigen Talente gewähren. Die sämmtlichen Talente machen gleichsam Einen Körper aus. Wenn erst der Körper auf Kosten Eines Gliedes leidet, so leidet nachher das Glied indirecte mit.
+
+
+**Nr. 307.** Polit[ik]. Wenn die ewigen Bünde sich darauf eingelassen hätten für alle Kantons einerley Verfassungsform zu bestimmen, sie wären längstens und um so schneller zerfallen, je genauer einförmig – je künstlicher organisirt sie gewesen wäre. Die Regel der Natur ist eine unendliche Mannichfaltigkeit in den Formen – Einheit in dem Principium, welches, alles umfaßt. Müllers Geschichte d[er] Schweitz.
+
+
+**Nr. 308.** Pol[itik]. Staatskranckheiten – Staatsunschuld. StaatsGeist –Staatsfertigkeit – Staats leben – Staatsphysiologie – Staatshandel [–] Gemeinschaft und wechselseitiger Tauschhandel aller Glieder. Staats lage – Staatsterritorium. An vielen Orten sollte gar kein Staat angelegt werden.
+
+
+**Nr. 309.** Geogr[aphie]. Die heißen und kalten Zonen verstärken sich gegenseitig.
+
+
+**Nr. 310.** Farbenlehre. Die farbigen Schatten – Gelb und Blau. Roth. (S. 54-55)
+
+
+**Nr. 311.** [311.] Lichttheor[ie]. Je stärker die RepulsivKraft eines leuchtenden Körpers ist, desto mehr Geschwindigkeit erhalten die Lichtstrahlen – desto kräftiger sind sie. Lichttheorie nach der Wärmetheorie .
+
+
+**Nr. 312.** Technik. ( Bauk[unst] ). Ein Haus ist ein complicirter Kasten. Eintheilung der nähern Best[immungen] dieses Kastens nach den mannichfachen zugl[eich] beabsichtigten Zwecken. Der Inhalt des Hauses. Vertheilung desselben – darnach wird gebaut. Das Innere des Hauses bestimmt das äußre Haus – das Behältniß. Eintheilung des Hausgeräthes – des Wirtschaftsapparats. Über die allg[emeinen] Werckzeuge eines gewöhnlichen europaeischen Hauses vom mittlern Range. Ihre Eintheilung.
+
+
+**Nr. 313.** Phys[ik]. Da jedes Glied in der Natur eine Function derselben, lud umgek[ehrt], ist so muß auch die Wissenschaft jedes einzelnen Gliedes eine Function der gesammten Nat[ur]W[issenschaft] und umg[ekehrt] seyn. WärmeLehre. Magnetologie – Electrologie etc.
+
+
+**Nr. 314.** Enc[yclopaedistik]. Jede W[issenschaft] hat ihren Gott, der zugleich ihr Ziel ist. So lebt eigentlich die Mechanik vom Perpetuo mobili – und sucht zu gleicher Zeit, als ihr höchstes Problem, ein Perpetuum mobile zu construiren. So die Chymie mit dem Menstruo universali – und dem geistigen Stoffe, oder dem Stein der Weisen. Die Phil[osophie] sucht ein erstes und einziges Princip. Der Mathem[atiker] die Quadratur des Zirkels und eine Principalgleichung. Der Mensch – Gott . Der Mediciner ein Lebenselixier – eine Verjüngungsessenz und vollk[ommenes] Gefühl und Handhabung d[es] Körpers. Der Politiker einen vollkomnen Staat – Ewigen Frieden – Freyer Staat . (Jede immer getäuschte und immer erneuerte Erwartung deutet auf ein Capitel in der Zukunftslehre hin. vid. mein erstes Fragment im Blüthenstaub.) Über die Hindernisse der Auflösung jeder dieser Aufgaben. (Approximationsprincipe. Hierzu gehört auch das absolute Ich .) Es liegt nur an der mangelhaften Natur, an den unvollkommnen Verhältnissen der gewählten Constructions elemente der Gegenstände dieser Aufgaben, (Elemente sind Accidenzen ) daß sie nicht gelößt werden. Die Aufgaben sind theoretisch wahr und identische (pleonastische) Sätze , so z. B. Perpet[uum] mobile, ewiges Leben – Gemessener Zirkel . Phil[osophie] dieser Aufgaben.
+
+
+**Nr. 315.** Paraphrase – quid? / Formel – quid? Kant[ische] Definition.
+
+
+**Nr. 316.** Litter[airische] Polit[ik]. Litterairische – geistige Republik – Auch ihr Princip ist wohl posit[ive] und neg[ative] geistige Sicherheit gegen geistige Gewaltthätigkeiten – pos[itive] Sicherheit ist Erziehung – Bildung .
+
+
+**Nr. 317.** Phys[ikalische] Pol[itik]. Alles was in Noth ist, stößt die Schwächlinge, die SelbstNothleidenden, und alle diejenigen ab, die selbst nichts missen können, ohne in Noth zu gerathen. Es zieht alle diejenigen an , die Überfluß haben – die Reichen – Starken. Mangel zieht Überfluß + Schwäche – Stärke + Zwang – Freyheit + Zufall – Nothwendigkeit an .
+
+
+**Nr. 318.** Schulden, Visiten abstoßen . Er nimmt Anstoß . (Directe – indirecte Wissenschaften – (directe – indirecte Sensationen – directe – indirecte Gedanken .))
+
+
+**Nr. 319.** Gram[matik] und Log[ik]. Denken ist Sprechen. Sprechen und thun oder machen sind Eine nur modificirte Operation. Gott sprach es werde Licht und es ward.
+
+
+**Nr. 320.** Zuk[unfts]Lehre d[er] Menschh[eit]. ( Theologie .) Alles was von Gott praedicirt wird enthält die Menschliche Zukunftslehre . Jede Maschine, die jezt vom Großen Perpetuo mobili lebt, soll selbst Perpetuum mobile – jeder Mensch, der jezt von Gott und d[urch] Gott lebt, soll selbst Gott werden. (S. 55-57)
+
+
+**Nr. 321.** Mensch[en]L[ehre]. Der Mensch soll ein vollkommnes und Totales Selbstwerckzeug seyn.
+
+
+**Nr. 322.** Magie. Der physische Magus weiß die Natur zu beleben, und willkührlich, wie seinen Leib , zu behandeln.
+
+
+**Nr. 323.** Poétik. Die Poësie im strengern Sinn scheint fast die Mittelkunst zwischen den bildenden und tönenden Künsten zu seyn. Musik. Poësie. DescriptivPoësie.) Sollte der Tact der Figur – und der Ton der Farbe entsprechen? rythmische und melodische Musik – Skulptur und Mahlerey. Elemente der Poësie.
+
+
+**Nr. 324.** Philol[ogie]. Beyspiele sind eine Art von Citaten. Man muß jeden theoretischen Satz in einer theoretischen Erzählung (allg[emeines] Raisonnement) oder Beschr[eibung] – mit einem Beyspiele zu belegen wissen. Alle allg[emeinen] Raisonnements müßen durchgängige Beziehung auf wirkliche Facta haben. abstractes allg[emeines] Raisonnement. (Allg[meine] Geschichte.) concretes oder verstecktes allg[emeines] Raisonnement. Beydes zugleich. Bes[onders] ist diese Ausdrückliche Belegung jedes allg[emeinen] Erzählungssatzes mit individuellen Beyspielen zum Vortrag und Unterricht nöthig.
+
+
+**Nr. 325.** Psych[ologie]. reine Theorie der Ideen Entstehung – angewandte . Gesetze d[er] Ideen association – Ideenpolitik – Contrat social .
+
+
+**Nr. 326.** Pol[itik]. Der Mensch hat den Staat zum Polster der Trägheit zu machen gesucht – und doch soll der Staat gerade das Gegentheil seyn – Er ist eine Armatur der gesammten Thätigkeit – Sein Zweck ist den Menschen abs[olut] mächtig – und nicht abs[olut] schwach – nicht zum trägsten – sondern zum thätigsten Wesen zu machen. Der Staat überhebt den Menschen keiner Mühe, sondern er vermehrt seine Mühseligkeiten vielmehr ins Unendliche – Freylich nicht ohne seine Kraft ins Unendliche zu vermehren. Der Weg zur Ruhe geht nur durch den Tempel (das Gebiet ) der allumfassenden Thätigkeit.
+
+
+**Nr. 327.** [327.] Psych[ologische] Zukunftsl[ehre]. Gedächtniß, Verstand, und Einbildungskraft sollen sich künftig nicht mehr einander nöthig haben – sie sollen aus Elementen unsers Geistes – Bestandtheile, Glieder, selbstständige Geister gleichsam werden. Gedächtniß ist directer (pos[itiver]) Sinn – Verstand – indirecter (neg[ativer]) Sinn. Die Einb[ildungs]Kr[aft] ist das würckende Princip – Sie h[eißt] Fantasie indem sie auf das Gedächtniß wirckt – und Denk kraft indem sie auf den Verstand wirckt. Die Einb[ildungs]Kr[aft] soll (äußrer) directer und (innrer) indirecter Sinn zugleich werden. Der indirecte Sinn soll directer Sinn und selbstwirckend – lebendig, und d[er] directe Sinn, indirecter Sinn und selbstwirckend zugl[eich] werden. Diese 3 Verwandlungen werden und müssen zugleich – in demselben Momente geschehn. (Direct, indirecte, und substantielle Welt sollen harmonisch werden.) (Harmonie v[on] Poësie, Phil[osophie], und Gelehrsamkeit.)
+
+
+**Nr. 328.** Enc[yclopaedistik]. Das historische Wissen (Ged[ächtniß]) ist polarisch dem verständigen Wissen (Phil[osophie]) entgegengesezt. Dort lernt man – hier verlernt man – hier weiß man unmittelbar – dort hört man auf unmittelbar zu wissen. Weil man mit Lernen anfängt , so entsteht nothwendig eine Verstandesschwäche und ein Übergewicht d[er] Fantasie. Diese soll auf der Academie wieder geheilt – und die Denkkraft geübt und gestärkt werden. Auf umgek[ehrtem] Wege würde eine Ged[ächtniß]Schwäche, und ein Übergewicht d[er] Denkkr[aft] üb[er] d[ie] Fantasie entstehn.
+
+
+**Nr. 329.** [329.] Phys[ik]. Wie es den Alten bey uns gegangen ist, so geht es der Natur – Über der Sylbenkrämerey wird das Beste vergessen und übersehn.
+
+
+**Nr. 330.** Mus[ik]. Sollte die Musik der Alten mehr rythmisch gewesen – die Unsre mehr melodisch seyn (S. 57-59)
+
+
+**Nr. 331.** Psych[ologie]. ( Enc[yclopaedistik] ). Der Verstand soll auf das Ged[ächtniß], und d[as] Ged[ächtniß] auf d[en] Verstand angewandt werden. Die sog[enannten] reflectirten oder indirecten W[issenschaften] sind nicht combinatorisch sensu generali – aber sie sollen es werden. Ged[ächtnis] und Verst[and] sind jezt isolirt – sie sollen wechselseitig vereinigt werden. (Das Abstracte soll versinnlicht , und das Sinnliche abstract werden – (Entgegengesezte Operationen – die Eine mit der Andern besteht und vollendet wird. Neue Ansicht v[on] Ideal[ismus] und Real[ismus].)
+
+
+**Nr. 332.** Enc[yclopaedistik]. Jede Simplification ist von der andern Seite eine Complication. (Elever au Rang (Dignité.) de Substance – de Cause)
+
+
+**Nr. 333.** Enc[yclopaedistik]. Gram[matik]. Ein gewöhnl[iches] Wörterbuch ist ein oryctognostisches Wörtersystem. Es läßt sich noch ein grammat[ikalisches] und ein chym[isches] oder philosophisches Wörtersystem [denken] – dieses könnte wieder dreyfach seyn – progressiv hist[orisch] phil[osophisch] – regressiv hist[orisch] phil[osophisch] – abs[olut] histor[isch] phil[osophisch]. Einem Worte entspricht ein Satz. (Ein Satz ist die Potenz des Worts. Jedes Wort kann zum Satz, z[ur] Definition, erhoben werden.) Es giebt also auch verschiedne Satzsysteme. Sätze werden zu Wissenschaften erhoben – W[issenschaft] ist die Dignitaet des Satzes – und so läßt sich diese Erhöhung bis zur abs[oluten] Universalw[issenschaft] fortsetzen. Bis dahin kann es noch verschiedne Systeme geben – die jedes seinen bes[onderen] Zweck und seine eignen Gesetze hat. Das oryctognostische Verzeichniß ist also die primitive gelehrte Masse, die der Gelehrte überhaupt bearbeitet. Jedem System dieser Art entspricht eine Grammatik – eine systematische Sammlung seiner Gebrauchsregeln. Theile der Gramm[atik]. 1. Rechtschreibe und Rechtaussprache Regeln. 2. Naturbeschreibung und dieser gemäße BehandlungsRegeln. Flexion. 3. Syntax. (Potenzirungsconstructionsregeln.)
+
+
+**Nr. 334.** Gram[matik]. Nicht jedes Wort ist ein vollkomnes Wort. Die Worte sind theils Vocalen – theils Consonanten – Geltende und mitgeltende Worte. Anwendung auf Wissenschaftsconstructionen . Substantielle (Vocal)sätze und W[issenschaften] – accidentelle (consonant[ische]) Sätze und W[issenschaften]. Substantiva, Verba etc.
+
+
+**Nr. 335.** <Die vermannichfaltende Kraft.> / Physiol[ogie]. Gesundheit Bildungsprocess – Seine Unterbrechungen. Wachsthum ist nichts anders. Sekretion ist wohl nur eine zufällige Wirckung der Thäthigkeit – zufällig wegen des die Fortschaffung bewirckenden Spiralförmigen Baus der Faser.
+
+
+**Nr. 336.** [336.] <(Genealogie et generation des Idées./ Die reflectirten W[issenschaften] entstehn durch Behandlung der directen Sensationen./ Système des idées innées./ En effet, n'y ayant aucun rapport entre chaque Sensation et l'objét, qui l'occasionne, ou du moins, auquel nous la rapportons, il ne paroit pas, qu'on puisse trouver, par le raisonnement, de passage possible de l'un a l'autre: il n'y a qu'une Espèce d'Instinct, plus sur que la raison mème, qui puisse nous forçer a franchir un si grand Intervalle, et çet Instinct est si vif a nous, que quand on supposeroit pour un moment, qu'il subsistat, pendant que les objets exterieurs seroient anéantis, çes mémes Objéts reproduits tout a coup, ne pourroient augmenter sa Forçe./ Durch die Gemeinschaft und den Umgang mit andern Menschen wird der Glaube an die Existenz der äußern Welt befestigt.) Le Corps intelligible est terminé par des bornes intellectuelles ./ L'arythmétique est l'art de trouver d'une maniére abregée l'expression d'un rapport unique, qui resulte de la Comparaison de plusieurs autres. Les differentes manières de comparer cés rapports donnent çes différentes Regles de l'arythmetique. Les Formules algébraïques sont des calculs arythmétiques indiqués./ Plus on diminue le nombre des prinçipes d'une Science, plus on leurs donne d'étendue et de Fécondité. L'esprit systématique est l'esprit de Reduction ou de Simplification./ (aus der Encyclopaedie.)>
+
+
+**Nr. 337.** Schriftst[eller] W[issenschaft]. Man will nicht bloß den Satz oder das Urtheil, sondern auch die Acten dazu.
+
+
+**Nr. 338.** [338.] Metaphysik. Wenn ihr die Gedanken nicht mittelbar (und zufällig) vernehmbar machen könnt, so macht doch umgekehrt die äußern Dinge unmittelbar (und willkührlich) vernehmbar – welches eben so viel ist, als wenn ihr die Gedanken nicht zu äußern Dingen machen könnt, so macht die äußern Dinge zu Gedanken. Könnt ihr einen Gedanken nicht zur selbstständigen, sich von euch absondernden – und nun auch fremd – d[as] h[eißt] äußerlich vorkommenden Seele machen, so verfahrt umgekehrt mit den äußerlichen Dingen – und verwandelt sie in Gedanken. Beyde Operationen sind idealistisch. Wer sie beyde vollkommen in seiner Gewalt hat ist der magische Idealist . Sollte nicht die Vollkommenheit jeder von beyden Operationen von der andern abhängig seyn. (Das N[icht]I[ch] ist die uranfängliche Absonderung – Zeugung im Großen. Medicinische Folgen dieser Absonderung. Erziehung des N[icht]I[chs]. Ein Freund erzieht den andern für sich. (In einem Geist (Seelen)vollen Menschen bildet sich mit jeder neuen Erscheinung ein neuer Sinn – ein neues Werckzeug, dem auf eigne Weise geschmeichelt und das auf eigne Weise beleidigt werden kann (eine neue Art des Wolgefallens und Mißfallens.)
+
+
+**Nr. 339.** [339.] Allg[emeine] Bem[erkungen]. Über Vignetten . (Alle Asche ist Blüthenstaub – der Kelch ist der Himmel.)
+
+
+**Nr. 340.** Anthrop[ologie]. Mit Instinkt hat der Mensch angefangen – mit Instinkt soll der Mensch endigen. Instinkt ist das Genie im Paradiese – vor der Periode der Selbstabsonderung [,] Selbsterkenntniß. (Soll der Mensch sich Selbzweyen, und nicht allein das, sondern auch selbdreyen etc.) (S. 59-61)
+
+
+**Nr. 341.** Geisterl[ehre]. Die Geisterwelt ist uns in der That schon aufgeschlossen – Sie ist immer offenbar – Würden wir plötzlich so elastisch, als es nöthig wäre, so sähen wir uns mitten unter ihr. Heilmethode des jetzigen mangelhaften Zustandes. Ehemals durch Fasten und moralische Reinigungen. Jezt vielleicht durch die stärkende Methode.
+
+
+**Nr. 342.** Phil[osophie]. Das Unbekannte, Geheimnißvolle ist das Resultat , und der Anfang von Allem. (Wir kennen nur eigentlich, was sich selbst kennt.) Folgerungen daraus. Was sich nicht begreifen läßt ist im unvollkommnen (Natur) Zustande – Es soll allmälich begreiflich gemacht werden. Der Begriff oder d[ie] Erk[enntniß] ist die Prosa – das Indifferente. Auf beyden Seiten ist + und –[.] Die Erkenntniß ist ein Mittel um wieder zur Nichterkenntniß zu gelangen. (vid. Instinkt.) Die Natur ist unbegreiflich per se. Ruhe und gebildete Unbegreiflichkeit./ Die Phil[osophie] ist die Prosa. Ihre Consonanten. Ferne Phil[osophie] klingt wie Poesie – weil jeder Ruf in die Ferne Vocal wird. Auf beyden Seiten oder um sie her liegt + und minus Poësie. So wird alles in der Entfernung Poësie – Poëm . Actio in distans. Ferne Berge, ferne Menschen, ferne Begebenheiten etc. alles wird romantisch, quod idem est – daher ergiebt sich unsre Urpoëtische Natur. Poësie der Nacht und Dämmerung. Das Nützliche ist per se prosaïsch. Jeder best[immte] Zweck ist ein consonirter – gehemmter Zweck überhaupt. Ferne Zwecke.
+
+
+**Nr. 343.** Phil[osophie]. Jede Wissensch[aft] ist vielleicht nur eine Variation der Philosophie. / Die Phil[osophie] ist gleichsam die Substanz der W[issenschaft] – die überall gesucht wird – überall vorhanden ist, und nie dem Sucher erscheint. Dennoch soll sie auch in concreter Gestalt erscheinen, wie der Stein der Weisen und dies ist das höchste Problem.
+
+
+**Nr. 344.** Ethik. Jeder Tugend entspricht eine specifische Unschuld. Unschuld ist moralischer Instinkt. Tugend ist die Prosa. Unschuld die Poësie. rohe Unschuld – gebildete Unschuld – Die Tugend soll wieder verschwinden und Unschuld werden.
+
+
+**Nr. 345.** <Mährchen, wie Tiecks Lieder – romantische Fantasieen, aus dem täglichen Leben. / Jean Pauls Naturszenen . Die Natur wirkt auf seinen GleichnißSinn./>
+
+
+**Nr. 346.** <Logik der Empfindung und Fantasie. / Logik ist schlechtweg Grammatik.>
+
+
+**Nr. 347.** [347.] Psych[ologie]. Alles Neue wirckt, als Äußres , Fremdes, poëtisch –. Alles Alte wirckt als Innres, Eigenes, ebenfalls romantisch – Beydes im Kontrast gegen das Gewöhnliche – oder gegen einander. Neuheit des Alten – Altheit des Neuen. Das Gemeine Leben ist prosaïsch – Rede – nicht Gesang . Die Menge des Gewöhnlichen verstärkt nur die Gewöhnlichkeit – daher der fatale Eindruck der Welt aus dem gemeinen (indifferenten) nüzlichen, prosaïschen Gesichtspunct.
+
+
+**Nr. 348.** Mathem[atik]. Innre Lebendigkeit der Mathematick. Magie der Zahlen. Mystische Lehre des Pythagoras – Personification der 3 – der 4 etc.
+
+
+**Nr. 349.** pract[ische] hist[orische] Lebensl[ehre]. Man kann durch das künftige Leben das Vergangene Leben retten und veredeln.
+
+
+**Nr. 350.** <Kants Begr[iff] vom Schema .> (S. 61-63)
+
+
+**Nr. 351.** Psych[ologie]. Wozu man ernstliche Lust – Trieb – hat, dazu hat man Genie. Das Genie offenbart sich in Lust und Trieb. (Unlust – Nichttrieb.)
+
+
+**Nr. 352.** Theorie d[es] gemeinen Lebens. Gebildete Aussprache und Declamation des gewöhnlichen, gemeinen Lebens, als Prosa. – Man muß sich mit Sprechen begnügen, wenn man nicht singen kann. musicalische Instrumente – poëtische Instrumente. (Platte Einfälle = (oberflächliche) Einfälle v[on] d[er] Oberfläche.)
+
+
+**Nr. 353.** [353.] Psych[ologie]. Das B[ewußt]S[eyn] ist nichts, als Sensation des (Algebraïschen) Vergleichungs Sinns . – VerhältnißSinns. Willkührliche Affectionen dieses Sinns. Ursprüngliche Verhältnisse – algebr[aische] Verhältniße. Theorie der lebendigen Verhältnisse. Naturverh[ältnisse]. Künstliche Verh[ältnisse]. Synth[etische] Verh[ältnisse]. – Mystische Proportionallehre. Das B[ewußt]S[eyn] ist die Subst[anz] der Sinne – mithin sind auch seine Sensationen Substanzen etc. Wo Ein Sinn ist, da ist auch kein B[ewußt]S[eyn].
+
+
+**Nr. 354.** <Roher Zufall – gebildeter Zufall – Harmonie. / Antiken – Novellen der Modernen .>
+
+
+**Nr. 355.** < Figur ist ein Begr[iff], wie Staat.>
+
+
+**Nr. 356.** Phys[ik]. Die Körperwelt ist die prosaische – der bloße (rohe) Raum ist Anfangspoém. Endpoém wird der gebildete Raum seyn. Natürlicher Raum – künstlicher Raum. Ein Körper ist ein consonirter Raum. Der ferne Körper lößt sich wieder in Raum auf – verschwindet in Raum. (chemische Entfernung) – Diamant im Feuer. (Was kleiner wird, entfernt sich.) Alles soll wieder Raum werden. ( KörperSchema – Weltkugel.) (Schema der Züge oder Ströme – Weltkugelfluß. Zug oder Strom. Dem Körper entgegengesezt – Bewegung. Die consonirte Bewegung der Zeit ist die wirckliche Bewegung. Ferne Bewegung lößt sich wieder in abs[olute] Bew[egung] auf. Wo Körp[er] ist, ist Raum nicht. Wo Beweg[ung] ist, ist Zeit nicht. Alle Ströme und Bewegungen sollen Zeit (Ewigkeit) werden. rohe Zeit – gebildete Zeit . Die Zeit dauert absolut. Alle Ströme sollen dauernd – alle Körper durchdringlich werden etc. (Begr[iff] v[on] Lage .)
+
+
+**Nr. 357.** < Rohes Vergnügen – consonirtes (beschränktes – mangelhaftes) Vergnügen – gebildetes Vergnügen. (Alle Beschränckung ist Beraubung – Ihre Folge höhere Reitzbarkeit – Zärtlichkeit . ( Asthenie )) (Ist die eigentliche Gesundheit – Prosa? – Rede – In Beziehung auf Nutzen – Fähigkeit . Rohe Gesundh[eit] – consonirte Gesundh[eit] gebildete Gesundheit.) (Über Verbindung und Trennung .)>
+
+
+**Nr. 358.** <Lassen sich alle Arten von Schmerzen auf eine intendirte oder wirckliche Trennung der Theile zurückführen? Hierdurch ist übrigens nichts zur Erklärung des Schmerzes gewonnen. Überdem entstehn viele Schmerzen auch aus einer intendirten oder wircklichen Verbindung .>
+
+
+**Nr. 359.** <Begr[iff] von Spannung . (Verwandtschaft mit Trieb – Kraft – Action etc. (Elasticitaet. Galvan[ismus].) Spannung = gehemmte (wirckliche) Kraft. gebildete Kraft.>
+
+
+**Nr. 360.** Anal[ogische] Poëtik. Die Nahrung ist prosaisch – indifferent . Arzeneymittel sind poëtisch. Rohe Nahrung – gebildete Nahrung. (S. 63-65)
+
+
+**Nr. 361.** <Sollte die Säure in den Nahrungsmitteln in eben dem Verhältnisse nothwendig seyn, wie in der Luft? Sind alle wohlschmeckenden und wohlriechenden Sachen Mittelsalze – und alle übelschmeckenden und übelriechenden – Lebern . (Mittels[alze] – Lebersäuren) (Leberprincip)>
+
+
+**Nr. 362.** Phys[ik] und Gramm[atik]. Ein gedämpfter, sehr naher Ton dünkt uns weit zu seyn./ Lateralbewegungen der Luft beym Schall. Figurirte Schallbewegungen wie Buchstaben . (Sollten die Buchstaben ursprünglich acustische Figuren gewesen seyn. Buchst[aben] a priori?) Lateral und figurirte Bew[egungen] des Lichts und der Wärme. Farben bilder sind Lichtfiguren. Der Lichtstrahl ist der streichende Fiedelbogen. Was vertritt wohl hier die Stelle des Sandes? Man (zwingt) eigentlich den Schall sich selbst abzudrucken – zu chiffriren – auf eine Kupfertafel zu bringen. Weitere Anwendung dieser Idee. (Bestreuung einer Tafel mit Phosphorpulver – das die Farben des verschiednen Lichts annähme, oder das bey einer gelinden Erwärmung verschiedengestalteter und mannichfach berührter Körper in sonderbaren Figuren brennte – und leuchtete – Bereitung eines solchen Pulvers.) Reflex[ion] Refraction und Inflexion des Schalls . /Der schmerzhafte Laut – Kritzeln auf den Teller etc. Schneidender Ton. / Über das Sprechen der Staare . / Natürliche, mimische, bildliche Sprache – Künstliche, zufällige, willkührliche Sprache. (Der Begr[iff] d[er] Caussalitaet ist z. B. ein willkührliches Zeichen , (transscendentales Z[eichen]) eines gewissen Verhältnisses.) Transscendentale Logik. / Jedes Wort sollte eine acustische Formel seiner Construction, seiner Aussprache seyn – die Aussprache selbst ist ein Höheres, mimisches Zeichen einer höhern Aussprache – Sinnconstruction des Worts. Alles dies hängt an den Gesetzen der Association . Die sog[enannten] willkührlichen Zeichen dürften am Ende nicht so willk[ührlich] seyn, als sie scheinen – sondern dennoch in einem gewissen Realnexus mit dem Bezeichneten stehn. <Instinktartige Sprache – Ausartung des Instinkts – conventionelle Sprache – diese soll wieder instinktartige, aber gebildete Sprache werden.>
+
+
+**Nr. 363.** <Kreutzende Lichtstrahlen und Kreutzende Prismatische Strahlen. Über d[as] abs[olut] elastische Fluidum, wodurch erst das Licht zu Licht wird. Es ist im Weltraum verbreitet.>
+
+
+**Nr. 364.** Teleol[ogie]. Ist unsre Unwissenheit etwa Bedingung unsrer Moralität – Sollen wir unwissend seyn, weil wir es, bewandten Umständen nach, wollen müssen . Wir sind nur unwissend, weil wir es wollen. (Mehreres zugleich wollen – synth[etisches] Wollen.)
+
+
+**Nr. 365.** Enc[yclopaedistik]. Jede wissenschaftliche Entdeckung ist eine allg[emeine] wissenschaftliche Entdeckung. Erklärt ist eine Sache nur durch ihre vollst[ändige] encyklopaedistische, wissenschaftliche Betrachtung.
+
+
+**Nr. 366.** Musik. Höhere Töne sind sthenischer – tiefere Töne – asthenischer Natur. Redeton. Höhere Töne drücken erhöhtes Leben – tiefere Töne – vermindertes Leben – Mangel aus. Harte , und weiche Töne. Wollüstige Töne.
+
+
+**Nr. 367.** Die Dialecte und Pronunciationen werden durch Consonanten und Vocale im Großen gebildet. Lippensprache – Gaume – Kehle – Zunge – Zähne – Nase etc. Manche Sprache wird aus dem e, u, o etc. gesprochen. So hat jeder Mensch seinen Hauptvocal. vid. Schocher. Es ist damit, wie in der Musik – So hat jedes musical[ische] Stück seinen Grundton – auch sein Thema . Moll – und Dur .
+
+
+**Nr. 368.** Psych[ologie]. Alle Leidenschaften endigen sich, wie ein Trauerspiel . Alles Einseitige endigt sich mit Tod – so die Philos[ophie] der Empfindung – die Phil[osophie] der Fantasie – die Phil[osophie] des Gedankens. Alles Leben endigt sich mit Alter und Tod. Alle Poësie hat einen tragischen Zug. (Ächtem Scherz liegt Ernst zum Grunde. Tragische Wirckung der Farce, des Marionettenspiels – des buntesten Lebens – des Gemeinen, Trivialen.)
+
+
+**Nr. 369.** <Die Versteigerung der Sybille.>
+
+
+**Nr. 370.** Phys[iologie]. Die Thiere haben kein allg[emeines] Hauptorgan der Vitalitaet. Die Nerven überhaupt scheinen aber durchgehends d[er] Sitz der plastischen Kraft zu seyn. (Ein Thier wird d[urch] d[en] Magen, ein andres durch den Kopf und so fort caracterisirt – Anwendung davon auf entomologische und Zoologische Classificationen) (S. 65-67)
+
+
+**Nr. 371.** <Einfluß der warmen Luft auf die Brust. Manche tragen sich zu warm, viele zu kalt. Alles ist Reitz – Verhältnisse der Reitze – Entstehung des Begr[iffes] Reitzbarkeit. Vollk[ommene] und unvollk[ommene] Desoxidation der Muskelbew[egung].> Anal[ogische] Physiol[ogie]. Geistige Muskelbewegung – ihre Absonderung. Pflichtmäßige Reflexion (Ausdehnung) und Abstraction (Contraction.) Geistige Muskelstärke. Kampf mit der Kranckheit. Versetzung der Kranckheit in bequemere oder willkührliche Organe. Gewöhnung an Ein Arzeneymittel ist Fortificationsmittel des Systems.
+
+
+**Nr. 372.** Erregungsl[ehre] und Anal[ogische] E[rregungs]L[ehre]. Je einfacher, isolirter, ermangelnder, desto reizbarer für das Eine, was übrig bleibt. Anw[endung] auf d[as] Element. Das Einfache hat abs[olute] Reitzbarkeit für den Einen übrigbleibenden Reitz. Je mannichfacher , desto schwächere Reitzbarkeit für jeden einzelnen Reitz. Blinder. Tauber etc. Anwendung auf Physik. Es soll aber einst höchste Mannichfaltigkeit und höchste Energie vereinigt seyn. Anwendung auf Physik. Der höchste Reitz verlangt die geringste Reitzbarkeit – so wie die höchste Reitzbarkeit den geringsten Reitz verlangt. Jedes Individuum hat sein bestimmtes Maas – oder Gesundheitsverhältniß – Unter oder über diesen Maaß sind seine Krankheiten. Das wäre das vollk[ommen] gesunde Individuum, dessen Gesundheitssfäre auch die Sfären der Kr[ankheit] mit inbegriffe, so wie dasjenige Volk am Gebildetsten seyn würde, dessen Prosa – Rede [–] Gespräch – die ganze Sfäre der Poësie und des Gesanges mit einschlösse – wo kein Unterschied zwischen Poësie und Prosa wäre.
+
+
+**Nr. 373.** <Briefe sollen Erholungen seyn und ich sollte sie auch, als solche, für mich bearbeiten. Abends Briefe – leicht, frey, romantisch, mannichfaltig – Vorarbeit zum Roman.>
+
+
+**Nr. 374.** Med[icin]. Manche Constitutionen vertragen übrigens heilsame Arzeney und NahrungsMittel durchaus nicht in concentrirter Gestalt – und wenn es auch tropfenweise wäre. Bey erhöhter Qualität kommts nicht auf die Quantität an – Die Verdünnung ist hier nothwendig und dann kann gehörig verdünnt eine viel größere Quantität ohne Schaden gebraucht werden. Hierinn liegt auch wohl das Eigenthümliche des Giftes.
+
+
+**Nr. 375.** Physiol[ogie]. Je geistvoller, gebildeter ein Mensch ist, desto persönlicher sind seine Glieder . z. B. seine Augen, seine Hand, seine Figur etc. Anwend[ung] auf Antiken, Physiognomik, die sonderbare Meynung, daß jedes Glied seinen specifischen Beytrag zur Zeugung eines Menschen geben müsse.
+
+
+**Nr. 376.** Phys[ik]. Sollte alle plastische Bildung, vom Krystall bis auf den Menschen, nicht acustisch , durch gehemte Beweg[ung] zu erklären seyn. Chemische Acustik.
+
+
+**Nr. 377.** [377.] <Man kann nur dann die Welt verstehn i. e. vergleichen wenn ich selbst eine ausgebildete Welt im Kopf habe.>
+
+
+**Nr. 378.** Psych[ologie]. Aller unbestimmte, allg[emeine] Subjective Trieb oder Reitz läßt sich nur durch eine unendl[iche] Reihe bestimmter Handlungen befriedigen – er strebt nach keinem Obj[ect] – er erhält sich nur selbst – es ist eine Sollicitatio perpetua – Er ist die ewige Triebfeder unendlicher terminirter Veränderungen.
+
+
+**Nr. 379.** <Über unsern Umgang und unsre Verhältnisse mit Büchern.>
+
+
+**Nr. 380.** Mus[ik] und Rythmik. Der Hexameter in Perioden – im Großen. Großer Rythmus. In wessen Kopfe dieser große Rythmus, dieser innre poëtische Mechanismus einheimisch geworden ist, der schreibt ohne sein absichtliches Mitwircken, bezaubernd schön und es erscheint, indem sich die höchsten Gedanken von selbst diesen sonderbaren Schwingungen zugesellen und in die reichsten mannichfaltigsten Ordnungen zusammentreten, der tiefe Sinn sowohl der alten orphischen Sage von den Wundern der Tonkunst, als der geheimnißvollen Lehre von der Musik, als Bildnerinn und Besänftigerinn des Weltalls. Wir thun Hier einen tiefen, belehrenden Blick in die acustische Natur der Seele, und finden eine neue Aehnlichkeit des Lichtes und der Gedanken – da beyde sich Schwingungen zugesellen. (S. 67-69)
+
+
+**Nr. 381.** [381.] Psychol[ogie]. Der Traum belehrt uns auf eine merckwürdige Weise von der Leichtigkeit unsrer Seele in jedes Obj[ect] einzudringen – sich in jedes sogleich zu verwandeln.
+
+
+**Nr. 382.** ( K[unst]L[ehre]. ) (Malerey) Plastik also nichts anders, als Figuristik der Musik. Merckwürdiger Ausdruck: im höchsten Schwunge . (Malerey) Plastik – obj[ective] Musik. Musik – subjective Musik, oder Malerey. Man sollte alles (nöthigen) sich acustisch abzudrucken , zu Silhouettiren, zu chiffriren. Fixirte Bewegungen sind Linien . Der Zirkel entsteht durch Centralschwingung einer Fläche. Die Poësie ist die Prosa unter den Künsten. Worte sind acustische Configurationen der Gedanken. Jedes Instrument ist ein eigenthümlich im Großen consonirtes Tonsystem. Mollinstrumente – Durinstrumente – jedes hat seinen eignen Grundvocal. Die menschliche Stimme ist gleichsam das Princip und Ideal der Instrumentalmusik. Klingt überhaupt eigentlich der Körper oder die Luft. Ist nicht das elastische Fluidum der Vocal, und der Körper der Consonant – die Luft die Sonne – und die Körper die Planeten – jenes die erste Stimme – diese die 2te. Geometrie und Mechanik verhalten sich, wie Plastik und Musik. (chymische Bewegungen, chymische Hemmungen.) Alle Methode ist Rythmus . Hat man den Rythmus der Welt weg – so hat man auch die Welt weg. Jeder Mensch hat seinen individuellen Rythmus. Die Algeber ist die Poësie . Rythmischer Sinn ist Genie. Fichte hat nichts, als den Rythmus der Philosophie entdeckt und Verbalacustisch ausgedrükt. Reitzbarkeit ist ächt rythmische Natur. Das individuelle Verhältniß der Reitzbarkeit und d[es] Reitzes ist der Rythmus der individuellen Gesundheit. Ist dieses Verhältniß fehlerhaft, so wird der fehlerhafte Rythmus gesundheitswidrige Figurationen, Catenationen etc. hervorbringen. musicalische Natur der Fieber. Localkranckheiten. Gicht. chymischer Rythmus – Die Lehre v[on] d[en] Associationen . (Reale – schaffende Musik.)
+
+
+**Nr. 383.** <Versuche chymische Auflösungen durch mannichfache Vibrationen zu decomponiren etc.>
+
+
+**Nr. 384.** Poëtik. Wenn der Roman retardirender Natur ist, so ist er wahrhaft poëtisch , prosaïsch, ein Consonant .
+
+
+**Nr. 385.** [385.] Phil[osophie]. Ist nicht die Reflexion auf sich selbst, oder die Abstraction von der Außenwelt – consonirender Natur. Gesang nach außen – Außenwelt – Gesang nach innen – Innenwelt . Rede – Prosa – Kritik . Universale Kritik – höhere Prosa – univers[ale] Poësie. Kritik, Prosa, und Poësie sind eclektischer Natur. Allumfassender, universaler Eclecticism . Academie. Vereinigung des Synkretism und Eclecticism . Universale Philisterey.
+
+
+**Nr. 386.** <Unendliches Gesundheits Maaß – allumfassende Constitution – die eines unendl[ichen] Maximums und eines unendl[ichen] Minimums von Reitzbarkeit fähig ist – unendl[icher] Rythmus .> Med[icin]. Jede Kranckheit ist ein musicalisches Problem – die Heilung eine musicalische Auflösung . Je kürzer und dennoch vollständiger die Auflösung – desto größer das musicalische Talent des Arztes. Kr[anckheiten] lassen mannichfaltige Auflösungen zu. Die Wahl der zweckmäßigsten bestimmt das Talent des Arztes. Inoculation des Alters. Über die Inoculation – die in allem Betracht höchst merckwürdig ist. Sollt es wircklich Humoralkranckheiten geben – so gut wie Nervenkranckheiten und diese nosologische Classification die Queerspeichen im medicinischen Rade bilden – den Nord und Südpol . Die Brownische Einth[eilung] ist die Allg[emeine] – diese ist die Specifische . Es giebt Humoralsthenieen und Asthenieen – und Nerven (Gefäß Faser) sthenieen und Asthenieen. Die Humor[al]Sthenie hat indirecte Asthenie der Gefäße – etc. zur Folge.
+
+
+**Nr. 387.** Mus[ikalische] Phys[ik]. Der Mittelpunct ist ein Consonant – so wie die Peripherie (des Universums.) Die Betrachtung der Welt fängt im unendlichen – abs[oluten] Discant am Mittelpunct an und steigt die Skala herunter – Die Betrachtung unsrer selbst fängt mit dem unendlichen, abs[oluten] Bass an der Peripherie, und steigt die Skala aufwärts. Abs[olute] Vereinigung des Basses und des Discants. Dies ist die Systole und Diastole des göttlichen Lebens.
+
+
+**Nr. 388.** Phil[osophie]. Ein Object vollst[ändig] betrachten h[eißt] es zum Mittelpunct meiner Thätigkeit machen. Die Lehre von den bloßen Obj[ecten] ist Enc[yclopaedistik] wie die Lehre von den Weltkörpern überhaupt – durchaus mathematisch und daher ist auch diese geistige Astronomie so einfach. Die Astronomie ist die reale Algeber der Physik – die Astronomie kann man auch die Metaphysik der Natur nennen. Metaphysik und Astronomie sind Eine Wissenschaft. Die Sonne ist in der Astr[onomie] was Gott in der Metaphysik ist. Freyheit und Unsterblichkeit sind wie Licht und Wärme. Gott, Freyheit und Unsterblichkeit werden einst die Basen der geistigen Physik eben so werden – wie Sonne, Licht und Wärme die Basen der irrdischen Physik.
+
+
+**Nr. 389.** <Kunst zu leben – Kunst Leben zu construiren.>
+
+
+**Nr. 390.** Üb[er] W[ilhelm] Meister. Lothario ist nichts, als die männliche Therese mit einem Übergang zu Meister . Natalie – die Verknüpfung und Veredlung von der Tante und Therese. Jarno macht den Übergang von Theresen zum Abbé. Der Oheim ist, wie die Tante, einseitig. Meister ist eine Verknüpfung von Oheim und Lothario. Die individuelle Religion der Tante ist in Natalien zur wolthätigen, practischen Weltreligion geworden. Cypriani ist eine matte Repetition des Oheims – Aurelie hat Familienähnlichkeit mit der Tante. Der Harfner und Mignon gehören zusammen. Werner nähert sich der Therese – wie der Arzt dem Abbé – man könnte ihn den physischen Abbé nennen. Felix ist ganz Marianens Sohn, Laertes und Madam Melina stehn auf Einer Stufe. Serlo ist Jarno, als Schauspieler. Fridrich ist der würdige Inhaber Philinens. Der Abbé erscheint nicht ohne Sinn doppelt. Mariane und die Gräfin sieht man gern mit Einem Blick an. Melina ist der gemeine Jarno. Der Graf ist der schwache Oheim, der sich bey einer unbedeutenden Gelegenheit von der Tante bekehren läßt. Auch er macht mit seiner Frau ein passendes Paar. Auch Jarno erscheint doppelt, wie der Abbé. Auch die Personen des Hintergrunds zeigen Spuren einer ähnlichen Besetzung des alten Theaters – man errinnre sich an Wilhelms Oheim. Die Tante und Therese – Jarno und d[er] Oheim sind 2 Hauptkontraste. Philine gehört zur Jarnoschen Familie – Narziss ebenfalls. Sowie der Oheim zur Tante gehört, so Jarno zur Therese. Ein dritter Hauptkontrast ist Mignon und Philine – dieser durchkreuzt beyde Familien. Tragische und komische Hauptmassen des Romans. (Antik) (modern.) (Gemein) (Edel.) (S. 69-72)
+
+
+**Nr. 391.** [391.] Geogn[osie]. Flüsse und Meere werden durch die Tiefen und vice versa. Die Flüsse sind überhaupt merckwürdig genug. Höchster und tiefster Ort in Deutschland. Ansicht der Gebürge und ihrer Übergänge in Ebenen – dauerhafte Gebürge, dauerhafte Ebenen. Mittelgebürge – metallhaltige . Humoral und Gefäß Geologie. ihre Vereinigung.
+
+
+**Nr. 392.** Cosmol[ogie]. Prosaische Natur des jetzigen Himmels und der jetzigen Erde. Weltperiode des Nutzens. Welt gericht – Anfang der neuen, gebildeten, poëtischen Periode.
+
+
+**Nr. 393.** Geistlehre Der Geist ist die sanctionirende, aussprechende, rechtskräftig machende Macht. Das sprechende Glied ist das Klügste und dünckt sichs zu seyn. So der Geist.
+
+
+**Nr. 394.** Staatswirthschaft. Philosophie der Accise . Nie ist die Bevölkerung zu groß. Die zweckmäßige, systematische Beschäftigung der Menschenmasse ist das Hauptproblem des Politikers. Stehendes Militair. Kein Stand wird übersezt, ohne, daß nicht ein Andrer Mangel leidet. Je mehr Abgaben, je mehr Staatsbedürfnisse, desto vollkommner der Staat. Keine Abgabe soll seyn, die nicht ein Gewinn für den Einzelnen ist. Wie viel mehr müßte ein Mensch außerm Staate anwenden um sich Sicherheit, Recht, gute Wege etc. zu verschaffen. Nur wer nicht im Staate lebt, in dem Sinne, wie man in seiner Geliebten lebt, wird sich über Abgaben beschweren. Abgaben ist der höchste Vortheil. Die Abgaben kann man, als Besoldung des Staats d[as] i[st] eines sehr mächtigen, sehr gerechten, sehr klugen und sehr amusanten Menschen , betrachten. Pol[itik]. Das Bedürfniß eines Staats ist das dringendste Bedürfniß eines Menschen. Um Mensch zu werden und zu bleiben, bedarf er eines Staats . Der Staat hat natürlich Rechte und Pflichten, wie der einzelne Mensch. Ein Mensch, ohne Staat ist ein Wilder. Alle Kultur entspringt aus den Verhältnissen eines Menschen mit dem Staate. Je gebildeter, desto mehr Glied eines gebildeten Staats. Es giebt wilde Staate[n] – Es giebt gesittete Staaten – moralische und unmoralische – Genialische und PhilisterStaaten. Erziehung und Bildung des Staats. Staaten erziehen sich selbst, oder werden erzogen von andern Staaten. Staatswirthsch[aft]. Benutzung des Geldes . Mehr Stellen im Staate. Besoldungssystem. Mit einem Contract muß man auch in der Seele des Gegners zufrieden seyn können. Allg[emeine] Europaeische Gebrechen. Waren die Gelehrten Stände nicht sonst zu gut bezahlt.
+
+
+**Nr. 395.** Medicinische Politzey. Die Kochkunst gehört zum Ressort der Politzey. Über die Diaet der verschiednen Stände. Die Volkslustbarkeiten hat die poëtisch medicinische Politzey unter sich.
+
+
+**Nr. 396.** Kochkunst. Kritik der Gewürze – der Nahrungsmittel – etc.
+
+
+**Nr. 397.** Staatsoeconomie. Zur Holzersparung – gemeinschaftliche Küchen – Gemeinsch[aftliche] Wohngebäude. Politzeyaufsicht der Meublirung und d[es] Hausgeräths. Die ganze Oeconomie im Staate könnte im Großen betrieben werden – Der Baurenstand fiele weg und es bliebe nur ein Geschäftsstand. Taxation der Arbeiten.
+
+
+**Nr. 398.** Politik. Die Lehre vom Mittler leidet Anwendung auf die Politik. Auch hier ist der Monarch – oder die Regierungsbeamten – Staatsrepraesentanten – Staatsmittler . Was dort gilt, gilt hier. Hier ist der physiologische Satz umgekehrt – Je geistvoller und lebendiger die Glieder sind – desto lebendiger, persönlicher ist der Staat. Aus jedem ächten Staatsbürger leuchtet der Genius des Staats hervor – so wie in einer religiösen Gemeinschaft ein persönlicher Gott gleichsam in tausend Gestalten sich offenbart. Der Staat und Gott, so wie jedes geistige Wesen erscheint nicht einzeln , sondern in tausend, mannichfaltigen Gestalten – nur panthëistisch erscheint Gott ganz – und nur im Panthëismus ist Gott ganz überall, in jedem Einzelnen. So ist für das große Ich, das gew[öhnliche] Ich und das gew[öhnliche] Du nur Supplemente. Jedes Du ist ein Supplement zum großen Ich. Wir sind gar nicht Ich – wir können und sollen aber Ich werden. Wir sind Keime zum Ich werden. Wir sollen alles in ein Du – in ein zweytes Ich verwandeln – nur dadurch erheben wir uns selbst zum Großen Ich – das Eins und Alles zugleich ist.
+
+
+**Nr. 399.** Physiol[ogie]. Tod ist nichts, als Unterbrechung des Wechsels zwischen innrem und äußerm Reitz – zwischen Seele und Welt. Das Mittelglied – das Produkt gleichsam diser beyden unendlichen veränderlichen Größen ist der Körper, das Erregbare – oder besser das Medium der Erregung. Der Körper ist das Product und zugleich das Modificans der Erregung – eine Function von Seele und Welt – diese Function hat ein Maximum und Minimum, ist dies erreicht, so hört der Wechsel auf. Der Tod ist natürlich zweyfach. Das Verhältniß zwischen x und y ist vor und rückwärts veränderlich – die Function im Ganzen ist aber auch veränderlich . Das Maas der Constitution ist der Erweiterung und der Verengerung fähig. Der Tod läßt sich also in unbestimmte Fernen hinaussetzen. Die Lebensordnungslehre im strengern Sinn enthält eigentlich die Kunst der ConstitutionsBildung und Verbesserung. Die eigentliche Heilkunst blos die Vorschriften zur Erhaltung und Restauration des speciellen Verhältnisses und Wechsels der Reitze oder der Factoren. Der Künstler der Unsterblichkeit betreibt die höhere Medicin – die Infinitesimalmedicin – Er betreibt die Medicin, als höhere Kunst – als synth[etische] Kunst. Er betrachtet beständig die beyden Factoren zugleich, als Einen, und sucht sie harmonisch zu machen – sie zu Einem Zwecke zu vereinigen. (Sollte ein König, der zugleich moralisches Genie ist, nicht von selbst unsterblich seyn.) Der äußre Reitz ist schon in seiner Unermeßlichkeit gleichsam da und größestentheils in der Gewalt des Künstlers. Wie gering ist aber der innere Reitz gegen den Äußern . Ällmäliche Vermehrung des innren Reitzes ist also die Hauptsorge des Künstlers der Unsterblichkeit. Mit welchem Recht kann man hier nicht sagen, auch darinn haben die Dichter auf eine sonderbare Weise wahrgesagt – daß die Musen allein Unsterblichkeit geben. Jezt erscheint auch der Gelehrte Stand in einem neuen Lichte. Mein magischer Idealismus. Die gemeine Medicin ist Handwerck. Sie hat nur das Nüzliche im Sinn. Jede Kranckheit, jede Verletzung sollte benuzt werden können zu jenem großen Zwecke.
+
+
+**Nr. 400.** hist[orische] Ethik. Allzufrühe Moral ist dem Menschengeschlecht äußerst nachtheilig. Sie hat, wie Religion, unendlich viel Schaden angerichtet und sich selbst sehr verspätet. Gemeine und höhere Moral etc. So Religion, Politik, Philosophie etc. (S. 72-75)
+
+
+**Nr. 401.** Phil[osophische] Teleol[ogie]. Die Phil[osophie] kann kein Brod backen – aber sie kann uns Gott, Freyheit und Unsterblichkeit verschaffen – welche ist nun practischer – Philos[ophie] oder Oeconomie. (Verschaffen ist Machen – Machen drückt nichts anders aus)
+
+
+**Nr. 402.** Phil[osophie]. Der Idealism ist nichts, als ächter Empirism .
+
+
+**Nr. 403.** Med[icin]. Der Mensch muß nicht allein an stärkere Reitze; sondern auch an schnellere Abwechselungen gewöhnt werden. Diese beyden Gesichtspuncte gehören in die Kunstlehre der Unsterblichkeit.
+
+
+**Nr. 404.** <Rousseaus Dictionnaire de Musique.>
+
+
+**Nr. 405.** Med[icin] und Phys[ik]. Indirecte Entzündungen in der anorgischen Natur./ Das heiße Gefühl eines sehr erkalteten Metalls zeigt die indirecte Entzündung genugsam an. Dir[ecte] Asth[enie] endigt mit Entzündung – so wie Sthenie mit (Gährung.) Je heftiger die direct[e] asth[enische] Ursache – desto schneller ist die Entzündung da, und umgekehrt, je heftiger die sthenische Ursache – je schneller ist die Gährung da. Die Genesis bestimmt den Modus der Degenesis. Die Naturgeschichte der Kranckheiten ist ganz von der Erregungstheorie verschieden – Ihre Classificationen sind ganz verschieden. Die Naturgeschichte der Kranckh[eiten] zerfällt in mehrere Classen – 1. Die Lehre von den äußern Bestandtheilen – und äußern Kennzeichen. 2. Die Lehre von den innern Bestandtheilen und den innern Kennzeichen. 3. Die Lehre von den Verhältnissen . (Die Werner auch die physicalischen Kennzeichen nennt. In diese Lehre gehören ebenfalls – die Topographie, die Chronologie , die Meteorologie, und Historie der Kr[anckheiten].)
+
+
+**Nr. 406.** So wie sich die Natur an gewisse Mittel gewöhnt, so gewöhnt sie sich auch an Heilmethoden und man hat nöthig oft bey chronischen Kr[anckheiten], die diesen Namen nicht ohne Bedeutung führen, plötzlich oder allmälich nach Befinden der Umstände mit der Heilmethode zu changiren. Daher hat oft ein 2ter Doctor so viel Glück.
+
+
+**Nr. 407.** Verm[ischtes]. Reitzbarkeit und Sensibilitaet stehn in ähnlichen Verhältnissen, als Seele und Körper – oder Geist und Mensch oder Welt. Die Welt ist der Macroandropos . Es ist ein Weltgeist, wie es eine Weltseele giebt. Die Seele soll Geist – der Körper Welt werden. Die Welt ist noch nicht fertig – so wenig wie der Weltgeist – Aus Einem Gott soll ein Allgott werden. Aus Einer Welt – ein Weltall. Gemeine Physik – höhere Physik. Der Mensch ist gemeine Prosa – er soll höhere Prosa – allumfassende Prosa werden. Bildung des Geistes ist Mitbildung des Weltgeistes – und also Religion . Der Geist wird aber durch die Seele gebildet – denn die Seele ist nichts, als gebundener, gehemmter, consonirter Geist. Universalschranke, die alle Schranken übersteigen hilft, die alle Schrancken in unsre Gewalt giebt, wie Oxigène und Menstruum universale etc. Die Antiphlogistiker machen das Oxigène zum Stein d[er] Weisen. Bildung der Seele ist also Mitbildung der Weltseele – und also indirect religiöse Pflicht. (Kinderreligion, Kindermoral etc.)
+
+
+**Nr. 408.** Enc[yclopaedistik]. Je einfacher die Gesetze, je schwieriger in der Anwendung. Simplification ist also nicht zur Beförderung der Trägheit, sondern, wie der Staat etc., Mittel zur Erweckung der höchsten, complicirtesten Thätigkeit – höchster Reitz. Der höchste Grundsatz würde die höchste Thätigkeit erwecken und nothwendig machen.
+
+
+**Nr. 409.** Physiol[ogie]. Viel innrer Reitz – viel Sensibilitaet . Viel äußrer Reitz, viel Reitzbarkeit. Es ist eben schlimm genug, daß zeither ein Wechsel der Opposition hier statt fand – und äußerer und innrer Reitz – Sensibilitaet und Reitzbarkeit – Discant und Bass – sich gegenseitig aufhoben, so daß mit der Zunahme d[es] äußern Reitzes der innre abnahm und so auch mit d[er] Sensibilitaet und Reitzbarkeit. Unvollk[ommene] Med[icin] ist, wie unvollkommne Politik, mit unvollkommenen, wircklichen , gegenwärtigen Zuständen nothwendig verbunden (Streit zwischen Praxis und Theorie.) Aber es ist nöthig, daß scientifische Ideale aufgestellt werden – als nothwendige Basen und Anfänge einer künftigen Verbesserung des Gegenstandes und der Kunst. (Anfang und Ende sind beydes Enden .) Wenn sich die höchste Reitzbarkeit in heftigen Bewegungen und Spannungen offenbart, so offenbart sich hingegen die höchste Sensibilitaet in unmercklichen Spannungen und Bewegungen. Reizbarkeit zeigt sich durch große Veränderungen und Wirckungen – Sensibilitaet durch kleine – Unendl[iche] Reitzb[arkeit] d[urch] unendl[ich] Große – unendliche Sensibilitaet durch unendlich kleine Veränderungen. Synthesis von Seele und Körper – und Reitzbarkeit und Sensibilitaet. Sie gehn natürlich jezt schon in einander durch Indifferenzsfären über – unendliche Erweiterung dieser Indifferenzsfären – Realisirung, Ausfüllung der Null ist das schwierige Problem d[es] Künstlers der Unsterblichkeit. Die Indifferenzsfäre ist das Maas d[er] Constitution. Willkührliche Glieder sind Sinne im strengern Sinn. Vermehrung der Sinne und Ausbildung der Sinne gehört mit zu der Hauptaufgabe d[er] Verbesserung des Menschengeschlechts, der Graderhöhung der Menschheit. Wir sahen vorhin, daß Bildung und Vermehrung der Seele das wichtigste und erste Unternehmen ist. Äußere Reitze haben wir schon in unsrer Hand – und mit ihnen die Reitzbarkeit – es kommt nur vorzüglich auf Vermehrung und Bildung der Sensibilitaet und zwar auf die Weise an, daß die Reitzbarkeit und der äußre Reitz nicht dabey leiden, nicht dabey vernachlässigt werden – denn sonst webt man ein sehr zerreißbares Gewebe, und ein Gewebe der Penelope; man animirt (säuert) den Körper, ohne an seine Erneuerung ( Erneuerung der Basis – Zulegung v[on] Brennmaterialien) zu denken. Der Geist ist das Oxigène des Körpers – die Seele ist die eindringende Basis des Oxigèns. Leben ist ein Feuerproceß. Je reiner der Geist ist, desto heller und feuriger das Leben, die Säuerung oder Animirung – der organische Stoff ist animirbar, wie brennbar – (Entzündung, ohne Feuer, durch Friction . Anwendung auf Leben.) Je besser der organische Stoff, desto vollk[ommener] die animirung – desto totaler die Animation (die Verbrennung.) Vollkommner organischer (brennbarer) Stoff. Es giebt keinen abs[olut] höchsten Grad d[er] Säuerung, so wenig, wie der Animation – die Concentration (Oxigènation) ist unendlicher Grade fähig. Die Sinne im strengern Sinn sind viel animirter , wie die übrigen Organe; der übrige Körper soll ihnen nachfolgen – und sie sollen zugl[eich] mehr animirt werden – und so ins unendliche. Der übrige Körper soll auch immer willkührlicher werden, wie sie. Vielleicht entsteht jezt aus der Disproportion der Sinne und des übrigen Körpers die Nothwendigkeit des Schlafs . Der Schlaf muß die Folgen der übermäßigen Reitzung der Sinne für den übrigen Körper wieder gut machen. Verbannung des Schlafs. (Unwillkührlich – instinctartig.) Der Schlaf ist nur den Planetenbewohnern eigen – Einst wird der Mensch beständig zugleich Schlafen und Wachen. Der größeste Theil unsers Körpers, unsrer Menschheit selbst schläft noch tiefen Schlummer. Der Samen ist ein Nahrungs und Reitzungsmittel des Weibes zum Ersatz für die Menstrua. Im eigentlichsten Sinn lebt also der Mann für die Frau mit . Sollte die Frau sensibler , der Mann reizbarer seyn.
+
+
+**Nr. 410.** <Electricitaet – vielleicht unreifes Feuer – wie das Nordlicht unreife Electricitaet.> (S. 75-79)
+
+
+**Nr. 411.** <Die Lunge, das Herz und die lymphatischen Gefäße arbeiten im Schlafe – das Übrige ruht – was ist Ruhe? Ist Abends die Sensibilitaet vermehrt und d[ie] Reitzbarkeit vermindert? Kr[anckheit] aus Überfluß – Kranckh[eit] aus Mangel .>
+
+
+**Nr. 412.** Phil[osophie]. Das ächte Princip der wahren Phil[osophie] muß – das gesundheitmachende – frey, heiter, und jung – mächtig, klug und gut machende Princip seyn.
+
+
+**Nr. 413.** [413.] Phil[osophie]. Jeder allg[emeine] unbest[immte] Satz hat etwas musicalisches. Er erregt phil[osophische] Fantasieen – ohne irgend einen best[immten] phil[osophischen] Gedankengang, irgend eine individuelle phil[osophische] Idee auszudrücken.
+
+
+**Nr. 414.** Ethik. Gerade wegen der Einfachheit ihrer Grundgesetze ist die Moral so schwierig in der Praxis.
+
+
+**Nr. 415.** Mus[ik]. Die Musik hat viel Ähnlichkeit mit der Algéber .
+
+
+**Nr. 416.** Angew[andte] Geistl[ehre]. Genie ist gleichsam Seele d[er] Seele – es ist ein Verhältniß zwischen Seele und Geist. Man kann das Substrat oder Schema des Genies sehr füglich Idol nennen – das Idol ist ein Analogon des Menschen .
+
+
+**Nr. 417.** <Gemeines und höheres B[ewußt]S[eyn] . (Moralisches Herz – sinnliches – verständiges Herz . Gemeines Herz – höheres Herz.)>
+
+
+**Nr. 418.** < Spielt Gott und die Natur nicht auch? Theorie d[es] Spielens. Heilige Spiele . reine Spiellehre – gemeine – und höhere . Angewandte Spiellehre.>
+
+
+**Nr. 419.** <Schiller musizirt sehr viel philosophisch – Herder und Schlegel auch. Göthe im Meister auch mitunter. Jean Paul poëtisirt musicalische Fantasien. Tiecks Lieder sind auch durchaus musicalisch.>
+
+
+**Nr. 420.** Anthropom[orphe] Phys[ik]. Die Natur hat Witz – Humor, Fantasie etc. Naturkarricaturen – Unter den Thieren – den Pflanzen . Im Thierreiche war die Natur am Witzigsten – durchaus Humoristisch. (Über das Lustige der Prügel .) Aesopische Fabel. (S. 79-80)
+
+
+**Nr. 421.** Theorie d[es] gemeinen Lebens. Das Fluchen ist eine Art von Selbstbeschwörung – Selbstermannung – Spornung.
+
+
+**Nr. 422.** Phys[ik]. Die Stein und Pflanzennatur trägt mehr das Gepräge der Fantasie. In der Menschenwelt zeigt sich die vernünftige Natur , mit Fantasie und Witz geschmückt. Malerey d[er] Natur – ihre Baukunst – ihre Sculptur – Ihre Musik. Der Bach und die unbeseelte Natur spricht größtentheils Prosa – nur der Wind ist zuweilen musicalisch. Ihre Mathematik – Geometrie im Krystall – In der Astronomie ihre Mechanik. Ihre Acustik. Grotesken und Arabesken der Natur – Ihre Quodlibets. Sonderbare Eindrücke eines französischen Gartens. Ihre Contraste mit der Kunst – Ihre Ironie und Bespottung der Kunst. Ihre Decorationen – ihre Opern. Die Natur, als Geognostin – Mineralogin – Philosophin – Chymist – etc.
+
+
+**Nr. 423.** <Die Aestethik dürfte wohl ganz zur Psychol[ogie] gehören.>
+
+
+**Nr. 424.** <Üb[er] d[en] Ausdruck: sich selbst Besinnen .>
+
+
+**Nr. 425.** <Die Zukunftslehre gehört zur Geschichte.>
+
+
+**Nr. 426.** Enc[yclopaedistik]. Die Politik – die Gesellschaftslehre – die Ehetheorie – gehören in die höhere M[enschen]L[ehre] wo von zusammengesezten Menschen gehandelt wird.
+
+
+**Nr. 427.** [427.] <Ächt thätige Menschen sind diejenigen – die Schwierigkeiten reitzen.>
+
+
+**Nr. 428.** <Was für die Seele der Reitz ist, das ist für den Geist die Schönheit .>
+
+
+**Nr. 429.** Enc[yclopaedistik]. Es giebt eine phil[osophische], eine kritische, eine Mathem[atische], eine poëtische, eine chemische, eine historische W[issenschafts]L[ehre] .
+
+
+**Nr. 430.** <Höchst interressante Vergleichung zwischen Jean Paul und Göthe . mit in den Briefen an die Schlegeln. Die Antiken auch hier.> (S. 80-81)
+
+
+**Nr. 431.** Enc[yclopaedistik]. Analogistik. Die Analogie – als Werckzeug, beschrieben und ihren mannichfaltigen Gebrauch gezeigt.
+
+
+**Nr. 432.** <Soll der Schriftsteller gleichsam der Genius seiner Materialien, seiner Caractere – Jedes Buch – Darstellung eines Genius seyn – eines zusammengesezten, Geistigen Wesens? >
+
+
+**Nr. 433.** Hist[orik]. Die Bibel fängt herrlich mit dem Paradiese, dem Symbol der Jugend an und schließt mit dem ewigen Reiche – mit der heiligen Stadt . Auch ihre 2 Hauptbestandteile sind ächt Großhistorisch . (In jedem Großhistorischen Gliede muß gleichsam die große Geschichte symbolisch verjüngt liegen.) Der Anfang des neuen Testaments ist der 2te, höhere Sündenfall – und der (Eine Sünde, was gesühnt werden muß.) Anfang der neuen Periode : Jedes Menschen Geschichte soll eine Bibel seyn – wird eine Bibel seyn. Xstus ist der neue Adam. Begr[iff] der Wiedergeburt. Eine Bibel ist die höchste Aufgabe der Schriftstellerey.
+
+
+**Nr. 434.** [434.] Poëtik. Die Poësie ist die Jugend unter den Wissenschaften – Als Kind mag sie ausgesehn haben, wie der Engel unter der Madonna, der den Finger so bedeutend auf den Mund drückt, als traut er diesem Leichtsinn nicht.
+
+
+**Nr. 435.** poët[ische] Physiol[ogie]. Unsre Lippen haben oft viel Aehnlichkeit mit den beyden Irrlichtern im Märchen. Die Augen sind das höhere Geschwisterpaar der Lippen – Sie schließen und öffnen eine heiligere Grotte, als den Mund. Die Ohren sind die Schlange, die das begierig verschluckt, was die Irrlichter fallen lassen. Mund und Augen haben eine ähnliche Form. Die Wimpern sind die Lippen. Der Apfel die Zunge und d[er] Gaum und der Stern die Kehle. Die Nase ist die Stirn des Mundes – und die Stirn die Nase der Augen. Jedes Auge hat sein Kinn am Wangenknochen.
+
+
+**Nr. 436.** Phil[osophische] Phys[ik]. Mat[erie] ist das Schema der Kraft – gleichsam der Typus der Bewegung . Daher man auch sich fast der Ausdrücke Wärmestoff, Lichtmaterie etc. nicht entbrechen kann.
+
+
+**Nr. 437.** mathem[atische] Physiol[ogie]. Die Lebenfunction beschreibt in ihren verschiednen Perioden eine regelmäßige Kurve – beynah eine Figur, wie die Schwingungscontoure einer Sayte . Sie ist in sthenischer Tendenz bis zu den Mitteljahren – da sie hingegen von diesen gegen das Alter zu in asthenischer Tendenz ist. Die locale, temporelle und individuelle Summe äußrer Reitze und die Oeconomie damit – ihre Vertheilung bestimmt die Länge des Lebens. Koncentrirtes, und verdünntes Leben. Das verdünnteste Leben ist das längste Leben. Die langen Lebensjahre der Patriarchen sind daraus a priori zu erweisen. Der Reitz vermindert die Reitzbarkeit indirect – i. e. d[urch] Sensibilität. Verhältnisse der Sensibilitaet und Reitzbarkeit. Die Sensibilitaet ist das vertheilende Vermögen. Durch geschickte Vertheilung erhält das Organ die höchste Kraftfähigkeit. Wird das vertheilende Vermögen übereilt , so geht eine große Menge Kraft verlohren – die Reitzbarkeit selbst wird nicht vermindert, aber die Kraft wird zur Schwere – hebt sich selbst auf. Die Reitzbarkeit wird unbehülflich . Das Maaß wirckt nur bis auf eine gewisse Distanz nach – freylich im Verhältniß dieser Distanz immer schwächer. Jenseits ihrer Sfäre oder da, wo ihre Wirckungen zu schwach werden hört der richtige Wechsel auf – und die Sensibilitaet wächst mit – dann erst entsteht Sthenie – die sich, ohne Einhalt, mit dem Tode endigt. Die Wircksamkeit dieses Maaßes heißen die Ärzte Heilkraft der Natur . Außerhalb ihrer engern und weitern Sfäre , geht die Sfäre der Wircksamkeit der Weltseele und d[es] Weltkörpers an – auch des Weltgeistes. Jedes zieht gleichsam das Seinige illimitirt an – der Mensch wird aufgelößt und aus einandergezogen. Der Mensch geht durch drey Leidenschaften zu Grunde. Empfänglichkeit für Große – für Kleine Reitze – Empfänglichkeit für beyde zugleich – Synth[esis] von Beweglichkeit und Capacitaet . Je größer die Erregbarkeit, wenn wir mit diesem Namen die Synth[esis] belegen wollen – dieses Vermögen des Maaßes , ist – desto vollk[ommner] die Constitution. Zersezt besteht die Erregbarkeit aus Sensibilitaet und Reitzbarkeit – oder Beweglichkeit und Capacitaet. Es ist natürlich, daß bey einer Verminderung der Totalgröße der Reitze – der Rest in kleinere Portionen vertheilt wird – gleichsam fractionirt wird – und so umgek[ehrt] daß bey Vermehrung der Totalgr[öße] der Reitze die Portionen vergrößert und mithin multiplicirt werden – d[as] ist soviel, im erstern Fall wird der Rest verdünnt – im andern d[ie] Summe verdichtet . Die Verdünnung und Verdichtung der Säfte ist eigentlich ohne Grenzen – Begrenzt ist sie nur d[urch] das Maaß der Constitution. Was theils die Lebenslänge – theils die Lebensmasse , den Körper , begreift. Beyde Bestandth[eile] d[es] Maaßes werden eines Theils gegenseitig durch einander bestimmt – anderntheils durch fremde Ursachen. Die org[anische] Masse wird durch die org[anische] Beschaffenheit der Mutter – und die org[anische] Besch[affenheit] des Vaters und die Verhältnisse dieser beyden Organisationen zu einander bestimmt. Ist dieses Verhältniß ein vollk[ommen] Gesundes , so werden auch die Kinder mit vollk[ommen] ges[unden] Anlagen geboren werden. Zufälle in der Schwangerschaft und nachherige Behandl[ung] abgerechnet. In der Gesundheit sind Asthenie und Sthenie vereinigt – und darinn liegt auch der Caracter der Erregbarkeit. Die Bestandth[eile] d[er] Ges[undheit] sind A[sthenie] und S[thenie]. Die Gesundheit ist in unendlich viel Grade eingetheilt – Grade oder Sfären . Die dünne und elastische Sfäre – steht der dichten und elastischen Sfäre gegenüber – beyde sind in der rein elastischen Sfäre vereinigt. Dünn elastisch ist der ges[unde] Sanguiniker. Dichtelastisch – der ges[unde] Melancholiker. Der ächte Choleriker ist der vermischt elastische. Diese Namen sind freylich schlecht. Der Mel[ancholiker] hat antiken – d[er] Sanguin[iker] modernen Geist – Jener sieht und lebt in der Vergangenheit – dieser in d[er] Zukunft.
+
+
+**Nr. 438.** Der Rausch und das Fasten (Hunger und Durst) sind populare Phaenomène für den Arzt. Man kann an ihnen die ganze med[icinische] Theorie entwickeln. Es sind reine Kranckheitszustände – da die meisten übrigen Kranckheitszustände complicirte, mit fremden Phaenomènen vermischte Phaenomene sind. Reine Kr[anckheits]L[ehre] – gemeine – höhere . Angewandte Kr[anckheits]L[ehre]. Die vermischten Kr[anckheiten] sind Erscheinungen der Kr[anckheit] in unnatürlichen organischen Gebäuden – und unter ungewöhnlichen organischen Vertheilungen und Verrichtungen. Die Physiol[ogie] beschäftigt sich mit der organischen Architektonik einerseits – und mit der organischen Technik andererseits. Leztere ist chymisch, mechanisch etc. Es giebt physiologische Klassen der rel[ativ] vollk[ommenen] org[anischen] Gebäude und der relat[iv] vollk[ommenen] Organismen.
+
+
+**Nr. 439.** Die Lebenslehre ist gleichsam die physiologische Politik. Sie zerfällt in org[anische] Archit[ektur] und org[anische] Technik. Die specielle Lebenslehre ist nun gleichsam der practische Theil der Lebenslehre überhaupt – und beschäftigt sich mit der Auflösung der Probleme der th[eoretischen] Lebensl[ehre] unter d[en] mannichfachsten Umständen. Die ganze Lehre von den speciellen Kr[anckheiten] und ihrer Kur gehört in die specielle Lebenslehre – die Erregungsth[eorie] gehört in die theoretische Lebenslehre.
+
+
+**Nr. 440.** So wie die Lebensfunction Grade hat – so hat auch die Erregbarkeit – der Karacter d[er] Lebensfunction – Grade. Sie ist leichter oder schwerer zersetzbar – in bloße Sensibilitaet oder bloße Reitzbarkeit übergehend. Erregbarkeit besteht aus elastischer S[ensibilitaet] und el[astischer] R[eitzbarkeit] – Je geringer d[ie] Elast[icitaet] d[er] Sensibilitaet desto weniger und schlechter mit der Reitzbarkeit vereinigt – und so umgek[ehrt] mit der Reitzbarkeit. D[er] Sangu[iniker] nähert sich dem direct asth[enischen] – der Melanch[oliker] dem indirect asth[enischen] Phlegmatiker. (der Wässrige und Bleyerne Phlegmatiker.) (S. 81-85)
 
 
 ## Zweite Gruppe · Nr. 445–692
 
-*Oktober/November 1798 · 36 Aufzeichnungen in dieser Auswahl*
+*Oktober/November 1798 · Auswahl der Bibliotheca Augustana · 36 Aufzeichnungen*
 
 
 **Nr. 454.** PSYCH[OLOGIE]. Wer alles räumlich, figurirt und plastisch sieht, dessen Seele ist musicalisch – Formen erscheinen durch unbewußte Schwingungen. – Wer Töne, Bewegungen etc. in sich sieht, dessen Seele ist plastisch – denn Mannichfaltigkeit der Töne und Bewegungen entsteht nur durch Figuration. (Seltenheit des großen Mechanikers.) Wird aber der Musikalische Mensch guter Maler und Sculptor, so wie umgek[ehrt] der plastische Mensch guter Musikus etc. werden können – da alle Einseitigkeit sich selbst Schaden thut? Oder besteht eben das Genie in der Vereinigung – und die Bildung des Genies in Construktion dieser Vereinigung – Ausbildung des schwächern Vereinigungskerns. Jeder Mensch hätte genialischen Keim – nur in verschiednen Graden der Ausbildung und Energie.
@@ -329,7 +1457,7 @@
 
 ## Dritte Gruppe · Nr. 693–930
 
-*November/Dezember 1798 · 11 Aufzeichnungen in dieser Auswahl*
+*November/Dezember 1798 · Auswahl der Bibliotheca Augustana · 11 Aufzeichnungen*
 
 
 **Nr. 698.** Theorie der Fantasie. Sie ist das Vermögen des Plastisirens.
@@ -367,7 +1495,7 @@
 
 ## Vierte Gruppe · Nr. 931–1151
 
-*Dezember 1798 – Frühjahr 1799 · 15 Aufzeichnungen in dieser Auswahl*
+*Dezember 1798 – Frühjahr 1799 · Auswahl der Bibliotheca Augustana · 15 Aufzeichnungen*
 
 
 **Nr. 945.** Jedes Stück meines Buchs, das in äußerst verschiedner Manier geschrieben seyn kann – In Fragmenten – Briefen – Gedichten – wiss[enschaftlich] strengen Aufsätzen etc. – Einem oder einigen meiner Freunde dedicirt.
