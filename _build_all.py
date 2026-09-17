@@ -117,6 +117,11 @@ def main():
         src = os.path.join(ROOT, rel)
         if os.path.isfile(src):
             shutil.copy2(src, os.path.join(SITE, rel))
+    # Notizen-Atlas (2008-2026) publizieren
+    src = os.path.join(ROOT, "notizen")
+    if os.path.isdir(src):
+        shutil.copytree(src, os.path.join(SITE, "notizen"), dirs_exist_ok=True)
+
     for rel in ("bibliothek", "infografik"):
         src = os.path.join(ROOT, rel)
         if os.path.isdir(src):
@@ -125,6 +130,7 @@ def main():
     # archive book
     build_book(os.path.join(ROOT, ARCHIVE[0]), "archive")
     archive_cards = card("archive/", ARCHIVE[2], "JH · Der Kern")
+    archive_cards += card("notizen/", "Notizen-Atlas · 2008–2026", "JH · 315 Notizen · 10 Themen")
 
     # collections
     collection_html = []

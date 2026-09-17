@@ -1,0 +1,48 @@
+/* ============================================================
+   Das Lebendige Archiv — theme.css
+   Additives Theme für das Portal (archiv.sajon.shop).
+   Regel: NUR Ergänzungen, keine Überschreibungen der Inline-
+   Styles aus _build_all.py. Palette: Paper/Brass/Teal + Dark.
+   ============================================================ */
+
+/* --- Grundton & Glättung ---------------------------------- */
+html { scroll-behavior: smooth; }
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  *, *::before, *::after { animation: none !important; transition: none !important; }
+}
+
+/* --- Scrollbar (dezent, archivhaft) ------------------------ */
+::-webkit-scrollbar { width: 10px; height: 10px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb {
+  background: var(--line, #dcd2bf);
+  border-radius: 999px;
+  border: 2px solid var(--paper, #f6f1e7);
+}
+::-webkit-scrollbar-thumb:hover { background: var(--brass, #b8742a); }
+* { scrollbar-width: thin; scrollbar-color: var(--line, #dcd2bf) transparent; }
+
+/* --- Tastatur-Fokus (Barrierefreiheit) --------------------- */
+a:focus-visible, button:focus-visible, summary:focus-visible {
+  outline: 2px solid var(--teal, #1f6f6b);
+  outline-offset: 3px;
+  border-radius: 6px;
+}
+
+/* --- Karten: leiser Auftakt -------------------------------- */
+.card { transition: transform .25s ease, box-shadow .25s ease, border-color .25s ease; }
+.card:hover { transform: translateY(-3px); box-shadow: 0 14px 34px rgba(27,23,18,.14); }
+html.dark .card:hover { box-shadow: 0 14px 34px rgba(0,0,0,.45); }
+
+/* --- Typografie-Feinschliff --------------------------------- */
+h1, h2, h3 { text-wrap: balance; }
+p, li     { text-wrap: pretty; }
+
+/* --- Druck-Ansicht: Archiv darf auch Papier ---------------- */
+@media print {
+  header, .iconbtn { display: none !important; }
+  body { background: #fff; color: #111; }
+  .card { box-shadow: none; border: 1px solid #ccc; break-inside: avoid; }
+  a::after { content: ""; }  /* keine URL-Anhänge im Druck */
+}
