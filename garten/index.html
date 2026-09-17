@@ -166,19 +166,22 @@ function path(x1,y1,x2,y2,cx,cy,cls,w){
   p.style.transition='stroke-dashoffset 1.4s ease';
   return p;
 }
-const tr=path(trunkX,ground,trunkX,topY+40,trunkX-14,380,'branch',9);
+const tr=path(trunkX,ground,trunkX,topY-20,trunkX-14,380,'branch',10);
 setTimeout(()=>{tr.style.strokeDashoffset=0;},150);
 
 const panel=document.getElementById('panel');
 let delay=900;
 const legendSeen={};
+/* Ast-Startpunkte am Stamm (unten→oben) und Fächer-Richtungen */
+const STARTS=[560,490,425,365,310,260];
+const DIRS=[[-1,-0.55],[1,-0.45],[-1,-0.85],[1,-0.75],[-1,-1.25],[1,-1.05]];
+const REACH=[300,290,250,240,180,170];
 AESTE.forEach((ast,i)=>{
-  /* 6 Äste fächern von oben aus */
-  const ang=(-70+i*28)*Math.PI/180;
-  const bx=trunkX, by=topY+90;
-  const ex=trunkX+Math.sin(ang)*330, ey=by-Math.cos(ang)*30-Math.abs(i-2.5)*-20+30;
-  const cx=trunkX+Math.sin(ang)*120, cy=by-60;
-  const b=path(bx,by,ex,ey,cx,cy,'branch',4.5);
+  const bx=trunkX, by=STARTS[i];
+  const [dx,dy]=DIRS[i];
+  const ex=trunkX+dx*REACH[i], ey=by+dy*REACH[i]*0.9;
+  const cx=trunkX+dx*REACH[i]*0.35, cy=by+dy*REACH[i]*0.25;
+  const b=path(bx,by,ex,ey,cx,cy,'branch',5);
   setTimeout(()=>{b.style.strokeDashoffset=0;},delay);
   /* Ast-Etikett */
   const t=document.createElementNS(NS,'text');
@@ -199,12 +202,15 @@ AESTE.forEach((ast,i)=>{
     const tw=path(qx,qy,px,py,(qx+px)/2,(qy+py)/2-6,'twig',1.4);
     const d2=delay+300+f*900;
     setTimeout(()=>{tw.style.strokeDashoffset=0;},d2);
+    const g=document.createElementNS(NS,'g');
+    g.setAttribute('transform','translate('+px+','+py+') scale(1.7)');
     const u=document.createElementNS(NS,'use');
-    u.setAttribute('href','#bl');u.setAttribute('x',px);u.setAttribute('y',py);
+    u.setAttribute('href','#bl');
     u.setAttribute('class','blossom');
     u.setAttribute('fill',DATA.tcol[note.sid]||'#b39c4f');
     u.setAttribute('stroke','#5b4632');u.setAttribute('stroke-width','0.4');
-    svg.appendChild(u);
+    g.appendChild(u);
+    svg.appendChild(g);
     setTimeout(()=>u.classList.add('bloom'),d2+500);
     u.addEventListener('click',()=>{
       panel.innerHTML='<div class="p-theme">Ast '+ast.nr+' · '+note.theme+'</div>'+
