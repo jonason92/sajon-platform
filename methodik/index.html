@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Methodik · Das Lebendige Archiv</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;1,400&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+<style>
+:root { --cream:#F8F7E5; --ink:#1D1D1D; --gold:#b39c4f; --teal:#1f6f6b; }
+* { margin:0; padding:0; box-sizing:border-box; }
+html { scroll-behavior:smooth; }
+body { background:var(--cream); color:var(--ink); font-family:'Inter',-apple-system,sans-serif; font-weight:300; font-size:17px; line-height:1.65; }
+::selection { background:#ECDDC1; }
+a { color:var(--teal); text-decoration:none; border-bottom:1px solid rgba(31,111,107,.35); transition:border-color .3s; }
+a:hover { border-color:transparent; }
+header.top { padding:100px 8vw 40px; border-bottom:1px solid rgba(29,29,29,.15); }
+.kicker { font-size:12px; letter-spacing:3px; text-transform:uppercase; color:var(--gold); margin-bottom:20px; }
+h1 { font-family:'Cormorant Garamond',serif; font-weight:500; font-size:clamp(38px,6vw,72px); line-height:1.05; }
+h1 em { font-style:italic; color:var(--gold); }
+.lead { margin-top:26px; max-width:60ch; font-family:'Cormorant Garamond',serif; font-style:italic; font-size:clamp(19px,2.2vw,26px); line-height:1.5; }
+main { padding:20px 8vw 100px; }
+section { padding:64px 0; border-bottom:1px solid rgba(29,29,29,.14); display:grid; grid-template-columns:1fr; gap:24px; }
+@media (min-width:900px){ section { grid-template-columns:120px 1fr; gap:48px; } }
+.nr { font-family:'Cormorant Garamond',serif; font-style:italic; font-size:clamp(30px,4vw,44px); color:var(--gold); }
+h2 { font-family:'Cormorant Garamond',serif; font-weight:500; font-size:clamp(26px,3.4vw,40px); margin-bottom:14px; }
+section p { max-width:68ch; }
+section ul { margin:14px 0 0 18px; max-width:64ch; }
+section li { margin-bottom:8px; }
+.tag { display:inline-block; font-size:11px; letter-spacing:1.5px; text-transform:uppercase; color:var(--teal); margin-bottom:8px; }
+footer { padding:60px 8vw; font-size:13px; opacity:.6; }
+.reveal { opacity:0; transform:translateY(2vw); transition:opacity .8s ease, transform .8s cubic-bezier(.33,1,.68,1); }
+.reveal.on { opacity:1; transform:none; }
+</style>
+</head>
+<body>
+<header class="top">
+  <div class="kicker">sajon network · das lebendige archiv</div>
+  <h1>Methodik — <em>wie aus Notizen Wissenschaft wird</em></h1>
+  <p class="lead">Die sieben Arbeitsweisen des Archivs: von der Recherche über das Quellenmanagement bis zur Publikation als lebendiges Buch — und zur Rolle der LLMs dabei.</p>
+</header>
+<main>
+
+<section class="reveal"><div class="nr">01</div><div>
+  <span class="tag">fundament</span>
+  <h2>Literaturrecherche</h2>
+  <p>Jeder Zweig des Themenbaums beginnt mit einer systematischen Suche: akademische Volltext- und Metadatenindizes, dann Verlagskataloge, dann Handschriften der eigenen Bibliothek. Treffer werden nach Verankerung (Zitationshäufigkeit), Aktualität und Passung zur Leitfrage kuratiert — nicht nach Bekanntheit.</p>
+  <ul>
+    <li>Ergebnis der Erstrunde: <strong>literatur-fundament v1</strong> — 60 kuratierte Werke, 75 Rohdatensätze</li>
+    <li>Regel: Jede Quelle nennt ihren <em>Beitrag zum Kapitel</em>, nicht nur ihren Titel</li>
+    <li>Primärtexte (Steiner, Nietzsche, Bachtin, Kittler …) werden bewusst separat geführt</li>
+  </ul>
+</div></section>
+
+<section class="reveal"><div class="nr">02</div><div>
+  <span class="tag">format</span>
+  <h2>BibTeX-Format</h2>
+  <p>Alle bibliografischen Einträge werden in BibTeX gepflegt — als maschinenlesbare, versionierbare Wahrheit des Archivs. Die Bibliothek des Repos (<code>bibliothek/casmas-alis-2024-2026.bib</code>) ist das lebende Vorbild: Einträge tragen Schlüssel, die in Markdown, LaTeX und Jupyter Books gleichermassen zitierbar sind.</p>
+  <ul>
+    <li>Ein Eintrag = ein Objekt mit Schlüssel, Autor:innen, Jahr, Titel, DOI/URL</li>
+    <li>Diffbar in Git — Literaturgeschichte wird Teil der Versionsgeschichte</li>
+  </ul>
+</div></section>
+
+<section class="reveal"><div class="nr">03</div><div>
+  <span class="tag">verwaltung</span>
+  <h2>Zotero-Literaturverwaltung</h2>
+  <p>Zotero ist die Werkstatt der Quellen: Sammlungen pro Themengebiet, Tags pro Zweig des Themenbaums, Volltexte lokal. Export nach BibTeX mit einem Klick; das Repo enthält mit <code>zotero_export.py</code> bereits die Brücke. Gruppenbibliotheken ermöglichen kollaboratives Kuratieren.</p>
+  <ul>
+    <li>Workflow: Finden → Zotero → Tag (zweig-id) → BibTeX-Export → Commit</li>
+    <li>Anhänge &amp; Notizen bleiben beim Eintrag, nicht in Köpfen</li>
+  </ul>
+</div></section>
+
+<section class="reveal"><div class="nr">04</div><div>
+  <span class="tag">publikation</span>
+  <h2>Jupyter Books als modernes Format</h2>
+  <p>Das Archiv publiziert als Jupyter Book: Markdown wird zu HTML, Zitate zu Marginalien, Code zu ausführbaren Belegen. Open Science heisst hier: Der Build ist öffentlich, die Pipeline reproduzierbar (<code>_build_all.py</code>), jede Änderung ein Commit — kollaborative Wissenschaft als gelebte Praxis, nicht als Schlagwort.</p>
+  <ul>
+    <li>Struktur: <code>_config.yml</code> + <code>_toc.yml</code> + Kapitel als .md</li>
+    <li>Deploy: GitHub Actions → GitHub Pages → eigene Domain</li>
+  </ul>
+</div></section>
+
+<section class="reveal"><div class="nr">05</div><div>
+  <span class="tag">datenmanagement</span>
+  <h2>Datenmanagement für Autor:innen &amp; Editor:innen</h2>
+  <p>Ein interaktives Buch lebt in mehreren Gestalten gleichzeitig: Jupyter/HTML fürs Web, E-Book (EPUB via Calibre) für Reader, PDF via LaTeX für Druck und Archivierung. Datenmanagement heisst: eine Quelle, viele Ausgaben — Markdown als Single Source of Truth, Formate als Build-Artefakte.</p>
+  <ul>
+    <li>Markdown → HTML (Jupyter Book) · → EPUB (Calibre/Pandoc) · → PDF (LaTeX/Tectonic)</li>
+    <li>Altversionen werden archiviert (<code>altversionen/</code>), nie gelöscht</li>
+    <li>Assets (Bilder, Audio) versioniert, mit festen Pfaden</li>
+  </ul>
+</div></section>
+
+<section class="reveal"><div class="nr">06</div><div>
+  <span class="tag">schreiben mit ki</span>
+  <h2>LLMs für wissenschaftliches Schreiben</h2>
+  <p>LLMs sind hier Werkzeug, nicht Autor: Sie strukturieren Rohtexte, schlagen Gliederungen vor, finden Literatur, redigieren Stilbrüche — unter vier Regeln: (1) jede generierte Aussage wird verifiziert, (2) keine erfundenen Referenzen, (3) die Stimme des Werks (Footprint) hat Vorrang vor Glättung, (4) der Mensch entscheidet, was stehen bleibt.</p>
+  <ul>
+    <li>Stärken: Clustering, Exposé-Rohlinge, Zusammenfassen, Gegenlesen</li>
+    <li>Grenzen: Fakten, Zitate, Urheberschaft — alles prüf- und zuordenbar halten</li>
+  </ul>
+</div></section>
+
+<section class="reveal"><div class="nr">07</div><div>
+  <span class="tag">archiv &amp; bibliothek</span>
+  <h2>LLMs im Archiv- und Bibliothekswesen</h2>
+  <p>Das Archiv nutzt LLMs dort, wo Bibliothekswissenschaft längst Maschinen einsetzt: Erschliessung (Themen-Clustering der 315 Notizen), Metadaten-Anreicherung, Retrodigitalisierung, Normdaten-Mapping — aber mit archivarischer Sorgfalt: Provenienz bleibt dokumentiert (welcher Text stammt woher, welcher Schritt war maschinell), und der Abgleich-Bericht (<code>fb_export/ABGLEICH-BERICHT.md</code>) ist Teil der Provenienzkette.</p>
+  <ul>
+    <li>Erschliessung: Clustering &amp; Verschlagwortung als Vorschlag, Kuratierung als Menschenwerk</li>
+    <li>Provenienzprinzip: maschinelle Schritte sind markiert und reproduzierbar</li>
+    <li>Fernziel: Linked-Open-Data-Anbindung der Bibliothek</li>
+  </ul>
+</div></section>
+
+</main>
+<footer>
+  methodik v1 · das lebendige archiv · <a href="../">zum portal</a> · <a href="../notizen/">notizen-atlas</a>
+</footer>
+<script>
+const rio = new IntersectionObserver((es)=>{ es.forEach(e=>{ if(e.isIntersecting) e.target.classList.add('on'); }); }, {threshold:.12});
+document.querySelectorAll('.reveal').forEach(el=>rio.observe(el));
+</script>
+</body>
+</html>
