@@ -142,6 +142,11 @@ def main():
     if os.path.isdir(src):
         shutil.copytree(src, os.path.join(SITE, "studien"), dirs_exist_ok=True)
 
+    # Quellen (Textcorpora, gemeinfreie Primärtexte) publizieren
+    src = os.path.join(ROOT, "quellen")
+    if os.path.isdir(src):
+        shutil.copytree(src, os.path.join(SITE, "quellen"), dirs_exist_ok=True)
+
     # archive book
     build_book(os.path.join(ROOT, ARCHIVE[0]), "archive")
     archive_cards = card("archive/", ARCHIVE[2], "JH · Der Kern")
@@ -149,6 +154,7 @@ def main():
     archive_cards += card("methodik/", "Methodik · Wie aus Notizen Wissenschaft wird", "JH · 7 Arbeitsweisen")
     archive_cards += card("expeditionen/", "Expeditionen · Frühere Forschungsreisen", "JH · 4 Chat-Projekte")
     archive_cards += card("studien/novalis-enzyklopaedistik/", "Studie · Novalis\u2019 Enzyklopädistik", "JH · Essay mit Quellenapparat")
+    archive_cards += card("quellen/novalis-allgemeines-brouillon.md", "Quelle · Das Allgemeine Brouillon", "JH · 126 Aufzeichnungen · Textcorpus")
 
     # collections
     collection_html = []
