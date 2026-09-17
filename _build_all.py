@@ -154,7 +154,7 @@ def main():
     archive_cards += card("methodik/", "Methodik · Wie aus Notizen Wissenschaft wird", "JH · 7 Arbeitsweisen")
     archive_cards += card("expeditionen/", "Expeditionen · Frühere Forschungsreisen", "JH · 4 Chat-Projekte")
     archive_cards += card("studien/novalis-enzyklopaedistik/", "Studie · Novalis\u2019 Enzyklopädistik", "JH · Essay mit Quellenapparat")
-    archive_cards += card("quellen/novalis-allgemeines-brouillon.md", "Quelle · Das Allgemeine Brouillon", "JH · 502 Aufzeichnungen · Textcorpus")
+    archive_cards += card("quellen/brouillon/", "Brouillon-Browser · Novalis interaktiv", "JH · 502 Aufzeichnungen · 36 Rubriken")
 
     # collections
     collection_html = []
