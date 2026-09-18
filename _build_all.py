@@ -147,6 +147,25 @@ def main():
     if os.path.isdir(src):
         shutil.copytree(src, os.path.join(SITE, "garten"), dirs_exist_ok=True)
 
+    # Erschliessung (Quellenkarten) publizieren
+    src = os.path.join(ROOT, "erschliessung")
+    if os.path.isdir(src):
+        shutil.copytree(src, os.path.join(SITE, "erschliessung"), dirs_exist_ok=True)
+
+    # Exposés (Kapitel-Entwürfe) publizieren
+    src = os.path.join(ROOT, "exposee")
+    if os.path.isdir(src):
+        shutil.copytree(src, os.path.join(SITE, "exposee"), dirs_exist_ok=True)
+
+    # fb_export (Audit-Bericht, ohne Zip) publizieren
+    src = os.path.join(ROOT, "fb_export")
+    if os.path.isdir(src):
+        os.makedirs(os.path.join(SITE, "fb_export"), exist_ok=True)
+        for f in ("ABGLEICH-BERICHT.md", "README.md"):
+            fp = os.path.join(src, f)
+            if os.path.isfile(fp):
+                shutil.copy2(fp, os.path.join(SITE, "fb_export", f))
+
     # Quellen (Textcorpora, gemeinfreie Primärtexte) publizieren
     src = os.path.join(ROOT, "quellen")
     if os.path.isdir(src):
@@ -161,6 +180,8 @@ def main():
     archive_cards += card("studien/novalis-enzyklopaedistik/", "Studie · Novalis\u2019 Enzyklopädistik", "JH · Essay mit Quellenapparat")
     archive_cards += card("quellen/brouillon/", "Brouillon-Browser · Novalis interaktiv", "JH · 502 Aufzeichnungen · 36 Rubriken")
     archive_cards += card("garten/", "Traumwald · Märchenwald & Traumgenerator", "JH · interaktiv · Ost-Brücke")
+    archive_cards += card("erschliessung/", "Erschliessung · 200 Quellenkarten", "JH · Q1–Q200 · Volltext-Novalis")
+    archive_cards += card("exposee/", "Exposés · Kapitel-Entwürfe", "JH · GaiaOS & weitere")
 
     # collections
     collection_html = []
@@ -303,6 +324,7 @@ TEMPLATE = r"""<!DOCTYPE html>
 
 <footer>Das Lebendige Archiv &middot; erweitert sich &mdash; jede Sammlung ist ein eigenes Buch.
   &middot; <a href="das-lebendige-archiv-buch.html" style="color:var(--teal)">Interaktive Einzelseite</a>
+  &middot; <a href="jonason-lebendiges-archiv.html" style="color:var(--teal)">Bibliothek der Zukunft (Landing)</a>
   &middot; <a href="https://jonason92.github.io/sajon-publishing/" style="color:var(--teal)">Sajon Publishing ↗</a></footer>
 
 <script>
