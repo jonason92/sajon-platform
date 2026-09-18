@@ -73,6 +73,92 @@ def card(href, title, header):
             f'<span class="card-title">{_html.escape(title)}</span></a>')
 
 
+Werkstatt_CSS = """
+body{font-family:Georgia,'Times New Roman',serif;max-width:960px;margin:0 auto;padding:2.5rem 1.2rem;color:#1a1a1a;background:#fdfcf9}
+a{color:#2a4d8f;text-decoration:none}a:hover{text-decoration:underline}
+h1{font-size:1.9rem;margin-bottom:.2rem}
+p.leit{color:#555;font-style:italic;max-width:44em}
+h2.cluster{margin-top:2.2rem;border-bottom:1px solid #d8d2c4;padding-bottom:.3rem;font-size:1.25rem}
+.wcard{background:#fff;border:1px solid #e3ddcf;border-radius:8px;padding:.9rem 1.1rem;margin:.7rem 0;box-shadow:0 1px 2px rgba(0,0,0,.04)}
+.wcard h3{margin:.1rem 0 .3rem;font-size:1.08rem}
+.wmeta{font-size:.83rem;color:#6b6353;margin-bottom:.35rem}
+.wabs{font-size:.95rem;color:#333}
+.wlink{font-size:.85rem}
+nav.top{font-size:.9rem;margin-bottom:1.5rem}
+footer{margin-top:3rem;font-size:.8rem;color:#8a8272;border-top:1px solid #e3ddcf;padding-top:.8rem}
+"""
+
+
+def werk_card(slug, w):
+    bits = [b for b in [w.get("typ", ""), w.get("universitaet", ""), w.get("kurs", "")] if b]
+    if w.get("betreuung"):
+        bits.append("Betreuung: " + w["betreuung"])
+    jy = [b for b in [str(w.get("ort", "") or ""), str(w.get("jahr", "") or "")] if b]
+    if jy:
+        bits.append(" · ".join(jy))
+    meta = _html.escape(" · ".join(bits))
+    return (f'<div class="wcard"><h3><a href="./{slug}/">{_html.escape(w["titel"])}</a></h3>'
+            f'<div class="wmeta">{meta}</div>'
+            f'<div class="wabs">{_html.escape(w["abstract"])}</div></div>')
+
+
+def build_works_index():
+    """Generate _site/works/index.html — the Studienwerkstatt catalogue."""
+    import json as _json
+    kpath = os.path.join(ROOT, "works", "_katalog.json")
+    if not os.path.isfile(kpath):
+        return
+    kat = _json.load(open(kpath, encoding="utf-8"))
+    werke = kat.get("werke", {})
+    order = ["Nietzsche-Kreis", "Technik · Singularität · Digitalisierung",
+             "Universität & Wissenschaftsforschung", "Einzelgänger",
+             "Seminar-Protokolle", "Handouts"]
+    clusters = {}
+    for slug, w in werke.items():
+        clusters.setdefault(w.get("cluster", "Einzelgänger"), []).append((slug, w))
+    jahre = [w["jahr"] for w in werke.values() if isinstance(w.get("jahr"), int)]
+    span = f"{min(jahre)}–{max(jahre)}" if jahre else ""
+    parts = [f"""<!DOCTYPE html><html lang="de"><head><meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Studienwerkstatt — Die Jahre des Lernens</title><style>{Werkstatt_CSS}</style></head><body>
+<nav class="top"><a href="../">← Lebendiges Archiv</a></nav>
+<h1>Studienwerkstatt — Die Jahre des Lernens</h1>
+<p class="leit">{len(werke)} Arbeiten · {span} · alle von Jonas Hässig (JH), dem Studenten von damals.
+Jede Karte nennt Universität, Kurs und Betreuungsperson — die Kommentare der Betreuerinnen und Betreuer
+folgen; der Expertendialog bleibt offen.</p>"""]
+    for cl in order:
+        if cl not in clusters:
+            continue
+        parts.append(f'<h2 class="cluster">{_html.escape(cl)} ({len(clusters[cl])})</h2>')
+        for slug, w in sorted(clusters[cl], key=lambda x: (x[1].get("jahr") or 9999, x[1]["titel"])):
+            parts.append(werk_card(slug, w))
+    parts.append("<footer>Studienwerkstatt · sajon living archive · generiert aus works/_katalog.json</footer></body></html>")
+    os.makedirs(os.path.join(SITE, "works"), exist_ok=True)
+    open(os.path.join(SITE, "works", "index.html"), "w", encoding="utf-8").write("\n".join(parts))
+    print("wrote works/index.html")
+
+
+def build_transkripte_index():
+    """Generate _site/transkripte/index.html — the Expeditionen shelf."""
+    items = [n for n, p in discover("transkripte")]
+    cards = "".join(
+        f'<div class="wcard"><h3><a href="./{n}/">{_html.escape(n.replace("-", " ").title())}</a></h3>'
+        f'<div class="wmeta">Videotranskription</div></div>' for n in items) or \
+        '<p class="leit">Die ersten Expeditionen sind unterwegs — Transkripte folgen.</p>'
+    page = f"""<!DOCTYPE html><html lang="de"><head><meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Expeditionen — Videotranskriptionen</title><style>{Werkstatt_CSS}</style></head><body>
+<nav class="top"><a href="../">← Lebendiges Archiv</a></nav>
+<h1>Expeditionen — Videotranskriptionen</h1>
+<p class="leit">Gespräche, Vorträge und Forschungsreisen in Textform — ein Schiff pro Expeditionsfahrt.
+Weitere Expeditionen (02–04) sind in Vorbereitung.</p>
+{cards}
+<footer>Expeditionen · sajon living archive</footer></body></html>"""
+    os.makedirs(os.path.join(SITE, "transkripte"), exist_ok=True)
+    open(os.path.join(SITE, "transkripte", "index.html"), "w", encoding="utf-8").write(page)
+    print("wrote transkripte/index.html")
+
+
 def group_for(t):
     tl = t.lower()
     if any(k in tl for k in ["ba-arbeit", "masterarbeit", "hausarbeit", "ma-arbeit",
@@ -188,6 +274,8 @@ def main():
     archive_cards += card("erschliessung/", "Erschliessung · 200 Quellenkarten", "JH · Q1–Q200 · Volltext-Novalis")
     archive_cards += card("exposee/", "Exposés · Kapitel-Entwürfe", "JH · GaiaOS & weitere")
     archive_cards += card("spenden/", "Unterstützen · sajon gmbh", "Patronschaft · Spende · Kontakt")
+    archive_cards += card("works/", "Studienwerkstatt · Die Jahre des Lernens", "JH · 37 Arbeiten · 2013–2023")
+    archive_cards += card("transkripte/", "Expeditionen · Videotranskriptionen", "JH · in Vorbereitung")
 
     # collections
     collection_html = []
@@ -221,6 +309,10 @@ def main():
                     parts.append(f"<div class='grid'>{''.join(cards)}</div>")
             section = "\n".join(parts)
         collection_html.append(section)
+
+    # catalogue index pages for the two collections
+    build_works_index()
+    build_transkripte_index()
 
     # portal
     portal = (TEMPLATE
