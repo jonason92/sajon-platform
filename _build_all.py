@@ -147,6 +147,11 @@ def main():
     if os.path.isdir(src):
         shutil.copytree(src, os.path.join(SITE, "garten"), dirs_exist_ok=True)
 
+    # Spenden-Seite publizieren
+    src = os.path.join(ROOT, "spenden")
+    if os.path.isdir(src):
+        shutil.copytree(src, os.path.join(SITE, "spenden"), dirs_exist_ok=True)
+
     # Erschliessung (Quellenkarten) publizieren
     src = os.path.join(ROOT, "erschliessung")
     if os.path.isdir(src):
@@ -182,6 +187,7 @@ def main():
     archive_cards += card("garten/", "Traumwald · Märchenwald & Traumgenerator", "JH · interaktiv · Ost-Brücke")
     archive_cards += card("erschliessung/", "Erschliessung · 200 Quellenkarten", "JH · Q1–Q200 · Volltext-Novalis")
     archive_cards += card("exposee/", "Exposés · Kapitel-Entwürfe", "JH · GaiaOS & weitere")
+    archive_cards += card("spenden/", "Unterstützen · sajon gmbh", "Patronschaft · Spende · Kontakt")
 
     # collections
     collection_html = []

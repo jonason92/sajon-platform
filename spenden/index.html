@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Unterstützen · sajon gmbh · Das Lebendige Archiv</title>
+<link rel="stylesheet" href="../assets/la.css">
+<style>
+:root{--cream:#F8F7E5;--ink:#1D1D1D;--gold:#b39c4f;--brass:#b8742a;--teal:#1f6f6b;--line:#ddd5bd;--card:#fffdf4}
+*{box-sizing:border-box}
+body{margin:0;background:var(--cream);color:var(--ink);font-family:Georgia,'Times New Roman',serif;line-height:1.6}
+.wrap{max-width:920px;margin:0 auto;padding:3rem 1.25rem 5rem}
+header{border-bottom:3px double var(--brass);padding-bottom:1.4rem;margin-bottom:1.6rem}
+.kicker{letter-spacing:.25em;text-transform:uppercase;font-size:.72rem;color:#8f5a1d;font-family:ui-sans-serif,system-ui,sans-serif}
+h1{font-size:clamp(1.8rem,4vw,2.6rem);margin:.4rem 0 .3rem;font-weight:600}
+.sub{color:#4a4238;max-width:62ch}
+.meta{margin-top:.8rem;font-size:.8rem;color:#8f5a1d;font-family:ui-sans-serif,system-ui,sans-serif}
+.meta a{color:var(--teal)}
+h2{font-size:1.3rem;margin:2.6rem 0 .4rem;border-left:4px solid var(--brass);padding-left:.7rem}
+p.lead{max-width:64ch;color:#3a3428}
+.tiers{display:grid;grid-template-columns:repeat(3,1fr);gap:1rem;margin-top:1.2rem}
+@media(max-width:760px){.tiers{grid-template-columns:1fr}}
+.tier{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:1.2rem 1.2rem 1.4rem;display:flex;flex-direction:column}
+.tier h3{margin:.1rem 0 .2rem;font-size:1.1rem}
+.tier .betrag{font-size:1.9rem;color:var(--brass);font-weight:600;margin:.2rem 0 .4rem}
+.tier .betrag small{font-size:.8rem;color:#8a8064;font-weight:400}
+.tier p{font-size:.9rem;color:#4a4238;flex:1}
+.tier a.btn{display:block;text-align:center;margin-top:.9rem;background:var(--brass);color:#fffdf4;text-decoration:none;border-radius:999px;padding:.6rem 1rem;font-family:ui-sans-serif,system-ui,sans-serif;font-size:.85rem}
+.tier a.btn:hover{background:#8f5a1d}
+.tier a.btn.off{background:#c9bfa4;pointer-events:none}
+.once{margin-top:1rem;background:var(--card);border:1px solid var(--line);border-radius:14px;padding:1.2rem 1.3rem;display:flex;flex-wrap:wrap;gap:1rem;align-items:center;justify-content:space-between}
+.once p{margin:0;flex:1;min-width:240px;color:#4a4238;font-size:.95rem}
+.once a.btn{background:var(--teal);color:#fffdf4;text-decoration:none;border-radius:999px;padding:.65rem 1.5rem;font-family:ui-sans-serif,system-ui,sans-serif;font-size:.85rem}
+.once a.btn:hover{background:#15514e}
+.once a.btn.off{background:#c9bfa4;pointer-events:none}
+.kontakt{margin-top:1rem;border-left:4px solid var(--gold);background:rgba(179,156,79,.08);padding:1rem 1.2rem;border-radius:0 12px 12px 0}
+.kontakt p{margin:.2rem 0}
+.kontakt a{color:var(--teal)}
+.hinweis{margin-top:2.2rem;font-size:.8rem;color:#7a7062;font-family:ui-sans-serif,system-ui,sans-serif;border-top:1px solid var(--line);padding-top:1rem}
+footer{margin-top:2rem;font-size:.82rem;color:#6b6353}
+footer a{color:var(--teal)}
+</style>
+</head>
+<body data-section="portal">
+<div class="wrap">
+<header>
+<div class="kicker">Das Lebendige Archiv · Unterstützen</div>
+<h1>sajon gmbh — unterstützen</h1>
+<p class="sub">Das Archiv ist offen, open source und ohne Wände — und soll es bleiben. Wer es tragen möchte, kann das hier tun: als monatlicher Beitrag, als einmalige Spende oder einfach mit einer Nachricht.</p>
+<div class="meta"><a href="../">Portal</a> · <a href="https://github.com/jonason92/sajon-platform" target="_blank" rel="noopener">GitHub (open source)</a></div>
+</header>
+
+<h2>I. Archiv-Patronschaft · monatlich</h2>
+<p class="lead">Drei Wege, das Archiv laufend zu tragen. Jeder Beitrag fliesst in Server, Werkzeuge und Arbeitszeit — die Patronschaft ist jederzeit kündbar.</p>
+<div class="tiers">
+  <div class="tier">
+    <h3>Blüte</h3>
+    <div class="betrag">5 CHF <small>/ Monat</small></div>
+    <p>Der stille Beitrag: deckt die laufenden Kosten des Archivs mit. Für alle, die einfach dabei sein wollen.</p>
+    <a class="btn off" href="#" data-link="monat-5">Link folgt (Stripe)</a>
+  </div>
+  <div class="tier">
+    <h3>Zweig</h3>
+    <div class="betrag">15 CHF <small>/ Monat</small></div>
+    <p>Trägt die Wachstumsarbeit: neue Erschliessungs-Batches, Exposés, Kapitel — direkt in die Produktion.</p>
+    <a class="btn off" href="#" data-link="monat-15">Link folgt (Stripe)</a>
+  </div>
+  <div class="tier">
+    <h3>Ast</h3>
+    <div class="betrag">50 CHF <small>/ Monat</small></div>
+    <p>Die tragende Patronschaft: ermöglicht grössere Studien, Editionen und die freie Weiterentwicklung des Projekts.</p>
+    <a class="btn off" href="#" data-link="monat-50">Link folgt (Stripe)</a>
+  </div>
+</div>
+
+<h2>II. Einmalige Spende</h2>
+<div class="once">
+  <p><strong>Pauschalspende — freier Betrag.</strong> Einmalig geben, was es dir wert ist: Karte, TWINT und weitere Zahlungsarten über Stripe (je nach Verfügbarkeit).</p>
+  <a class="btn off" href="#" data-link="einmalig">Link folgt (Stripe)</a>
+</div>
+
+<h2>III. Kontakt</h2>
+<div class="kontakt">
+  <p><strong>Lieber persönlich?</strong> Für Fragen, Zusammenarbeit, grössere Unterstützung oder einfach ein Hallo:</p>
+  <p>📬 <a href="mailto:hallo@sajon.shop">hallo@sajon.shop</a></p>
+</div>
+
+<div class="hinweis">Zahlungsabwicklung über Stripe (PCI-konform; das Archiv sieht keine Kartendaten). Spenden an sajon gmbh sind keine steuerabzugsberechtigten Zuwendungen. Die Stripe-Links werden bei der Aktivierung hier eingesetzt.</div>
+
+<footer>
+<p>Teil des <a href="../">Lebendigen Archivs</a> · sajon gmbh · 2026</p>
+</footer>
+</div>
+<script src="../assets/la.js"></script>
+</body>
+</html>
