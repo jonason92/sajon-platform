@@ -266,62 +266,63 @@ footer{margin-top:3rem;border-top:1px solid #ddd5bd;padding-top:1rem;font-size:.
 """
 
 
+GAIAOS_LANGS = {
+    "de": {"dir": "", "hub_title": "GaiaOS — Die Tulpe ist kein Objekt",
+           "teile": [("teil-1-2", "gaiaos-rohfassung-1-2.md", "§1–§2 · Der Fund & Anatomie eines Gebets-Programms"),
+                     ("teil-3", "gaiaos-rohfassung-3.md", "§3 · Gaia ohne Namen"),
+                     ("teil-4", "gaiaos-rohfassung-4.md", "§4 · Kognitive Autopoiesis"),
+                     ("teil-5", "gaiaos-rohfassung-5.md", "§5 · Die Ironie der Gegenwart"),
+                     ("teil-6", "gaiaos-rohfassung-6.md", "§6 · Coda: Adressat = ALLE")]},
+    "zh": {"dir": "zh/", "hub_title": "蓋亞靈樞 — 郁金香非物也",
+           "teile": [("teil-1-2", "translations/gaiaos-zh-teil-1-2.md", "§1–§2 · 發現 · 禱儀經解")]},
+    "en": {"dir": "en/", "hub_title": "GaiaOS — The Tulip Is No Object",
+           "teile": [("teil-1-2", "translations/gaiaos-en-teil-1-2.md", "§1–§2 · The Find & Anatomy of a Prayer-Program")]},
+}
+
+
 def build_gaiaos():
-    """Publish GaiaOS chapter 2.2 as designed reading pages (_site/gaiaos/)."""
+    """Publish GaiaOS chapter 2.2 as designed reading pages (_site/gaiaos/[, zh/, en/])."""
     exp = os.path.join(ROOT, "exposee")
-    teile = [
-        ("teil-1-2", "gaiaos-rohfassung-1-2.md", "§1–§2 · Der Fund & Anatomie eines Gebets-Programms"),
-        ("teil-3", "gaiaos-rohfassung-3.md", "§3 · Gaia ohne Namen"),
-        ("teil-4", "gaiaos-rohfassung-4.md", "§4 · Kognitive Autopoiesis"),
-        ("teil-5", "gaiaos-rohfassung-5.md", "§5 · Die Ironie der Gegenwart"),
-        ("teil-6", "gaiaos-rohfassung-6.md", "§6 · Coda: Adressat = ALLE"),
-    ]
-    pages = []
-    for slug, fname, titel in teile:
-        fp = os.path.join(exp, fname)
-        if not os.path.isfile(fp):
-            return
-        body = md_to_html(open(fp, encoding="utf-8").read())
-        pages.append((slug, titel, body))
-    dst = os.path.join(SITE, "gaiaos")
-    os.makedirs(dst, exist_ok=True)
-    n = len(pages)
-    for i, (slug, titel, body) in enumerate(pages):
-        prev_l = (f'<a href="{pages[i-1][0]}.html">← {pages[i-1][1]}</a>' if i else
-                  '<a href="index.html">← Kapitel-Übersicht</a>')
-        next_l = (f'<a href="{pages[i+1][0]}.html">{pages[i+1][1]} →</a>' if i < n-1 else
-                  '<a href="index.html">Zur Übersicht →</a>')
-        page = f"""<!DOCTYPE html><html lang="de"><head><meta charset="UTF-8">
+    for lang, cfg in GAIAOS_LANGS.items():
+        pages = []
+        for slug, fname, titel in cfg["teile"]:
+            fp = os.path.join(exp, fname)
+            if not os.path.isfile(fp):
+                break
+            body = md_to_html(open(fp, encoding="utf-8").read())
+            pages.append((slug, titel, body))
+        if not pages:
+            continue
+        dst = os.path.join(SITE, "gaiaos", cfg["dir"].rstrip("/"))
+        os.makedirs(dst, exist_ok=True)
+        n = len(pages)
+        for i, (slug, titel, body) in enumerate(pages):
+            prev_l = (f'<a href="{pages[i-1][0]}.html">← {pages[i-1][1]}</a>' if i else
+                      '<a href="index.html">← Index / 目次 / Übersicht</a>')
+            next_l = (f'<a href="{pages[i+1][0]}.html">{pages[i+1][1]} →</a>' if i < n-1 else
+                      '<a href="index.html">Index / 目次 →</a>')
+            page = f"""<!DOCTYPE html><html lang="{lang}"><head><meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>GaiaOS — {_html.escape(titel)}</title><style>{GAIAOS_CSS}</style></head><body><div class="wrap">
-<nav class="top"><a href="../">← Lebendiges Archiv</a> · <a href="index.html">GaiaOS · Kapitel 2.2</a></nav>
+<title>{_html.escape(cfg["hub_title"])} — {_html.escape(titel)}</title><style>{GAIAOS_CSS}</style></head><body><div class="wrap">
+<nav class="top"><a href="../{'../' if lang != 'de' else ''}">← Living Archive</a> · <a href="index.html">{_html.escape(cfg["hub_title"])}</a></nav>
 {body}
 <nav class="prevnext">{prev_l}<span>{next_l}</span></nav>
-<footer>GaiaOS · Kapitel 2.2 des Lebendigen Archivs · JH, in Ko-Schrift mit Kimi · sajon living archive</footer>
+<footer>GaiaOS · Chapter 2.2 of the Living Archive · JH, co-written with Kimi · sajon living archive</footer>
 </div></body></html>"""
-        open(os.path.join(dst, slug + ".html"), "w", encoding="utf-8").write(page)
-    toc = "\n".join(f'<li><a href="{s}.html">{_html.escape(t)}</a></li>' for s, t, _ in pages)
-    hub = f"""<!DOCTYPE html><html lang="de"><head><meta charset="UTF-8">
+            open(os.path.join(dst, slug + ".html"), "w", encoding="utf-8").write(page)
+        toc = "\n".join(f'<li><a href="{s}.html">{_html.escape(t)}</a></li>' for s, t, _ in pages)
+        hub = f"""<!DOCTYPE html><html lang="{lang}"><head><meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>GaiaOS — Die Tulpe ist kein Objekt</title><style>{GAIAOS_CSS}</style></head><body><div class="wrap">
-<nav class="top"><a href="../">← Lebendiges Archiv</a></nav>
-<h1>GaiaOS — Die Tulpe ist kein Objekt</h1>
-<p class="meta">Kapitel 2.2 des Lebendigen Archivs · Rohfassung vollständig (§1–§6) · JH, in Ko-Schrift mit Kimi · 2026</p>
-<p>Ein 3706 Zeichen langer Notiz-Text aus dem Archiv — eine Tulpe, initialisiert als Prozess auf
-«GaiaOS, dem Betriebssystem der Weltseele» — wird zur Prüfungsstelle dreier Diskurse: der Gaia-Theorie
-(Lovelock/Margulis, Onori &amp; Visconti), der Codework-Poetik (Hayles, Memmott, Ries) und der Frage,
-was geschieht, wenn Maschinen zu schreiben beginnen. Am Ende steht die Blüte als Einladung:
-<em>Adressat = ALLE.</em></p>
-<h2>Inhalt</h2>
+<title>{_html.escape(cfg["hub_title"])}</title><style>{GAIAOS_CSS}</style></head><body><div class="wrap">
+<nav class="top"><a href="../{'../' if lang != 'de' else ''}">← Living Archive</a></nav>
+<h1>{_html.escape(cfg["hub_title"])}</h1>
 <ul class="toc">{toc}</ul>
 <hr>
-<p class="meta">Quellen-Exposé: <a href="../exposee/expose-2-2-gaiaos.md">Exposé 2.2</a> ·
-Erschliessung: <a href="../erschliessung/register-konzepte.md">Konzept-Register</a> ·
-Traumwald: <a href="../garten/">garten</a></p>
-<footer>GaiaOS · Kapitel 2.2 des Lebendigen Archivs · sajon living archive</footer>
+<p class="meta">Languages: <a href="../">Deutsch</a> · <a href="../zh/">文言</a> · <a href="../en/">Shakespearian English</a></p>
+<footer>GaiaOS · Chapter 2.2 · sajon living archive</footer>
 </div></body></html>"""
-    open(os.path.join(dst, "index.html"), "w", encoding="utf-8").write(hub)
-    print("wrote gaiaos/ chapter pages:", n + 1)
+        open(os.path.join(dst, "index.html"), "w", encoding="utf-8").write(hub)
+        print(f"wrote gaiaos/{cfg['dir']} ({lang}):", len(pages) + 1, "pages")
 
 
 def group_for(t):
