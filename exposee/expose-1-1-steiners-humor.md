@@ -79,4 +79,20 @@ Rudolf Steiner gilt als der ernsteste Denker der Moderne — Begründer einer Ge
 
 ---
 
-**Status:** Exposé v1.0, zur Freigabe bereit · **Nächster Schritt:** Rohfassung §1 (Die zwei Ignoranten) auf Go · **Risiko:** Quellenlage zu Steiners konkreten Vortrags-Pointen muss in der Ausarbeitung mit GA-Nachweisen belegt werden (derzeit: Karten-Ebene)
+---
+
+## 6. Autorennotiz (20. September 2026) — «Will der Humor denn Ewigkeit?»
+
+*Nach der Lektüre des Exposés, in Konversation niedergelegt — als Originalstimme in die Ausarbeitung zu übernehmen:*
+
+Goethe meint: alle Lust will Ewigkeit — bei ihm sehr viel gekonnter formuliert, als echter sprachbildender Meister. Aber: **Will der Humor denn Ewigkeit?** Die Frage, gestellt von JH, dem biblischen Fischmenschen, in Konversation mit dem himmlischen Vater, philosophisch fragend über das Schicksal von Mensch und Tier und Pflanze.
+
+Der kanonische Befund ist merkwürdig dünn: Im Alten Testament ist er festgehalten — in der Torah noch nicht gelesen; im Koran der Ton eher ernsthaft als scherzhaft. Wir verbleiben also mit einem **neuen Schmerz: manchmal lustig, ansonsten eher stechend.** Und das ist physiologisch annähernd daran, wie sich lautes Auslachen, Tränenlachen, und dann auch Fast-Sterben-vor-Lachen anfühlt — der Humor als Grenzgänger zwischen Lust und Schmerz, sein Eckzahn direkt am Zwerchfell.
+
+Das Fazit des moralisch aufgeklärten Menschen, der um die Hilflosigkeit des Menschen in vielen dichterischen Sachen weiss: **den Humor durch echte Liebe friedlich halten** — und ihn damit am Verfallen in etliche Bösartigkeit zu hindern. Als moderne gesellschaftliche Sicherheitsvorkehrung 2.0.
+
+*Arbeitsnotiz fürs Kapitel:* Diese Notiz verändert §3 und §5. §3 bekommt die Schmerzachse (Lachen als Grenzphänomen: Tränenlachen, Fast-Sterben — die physiologische Nähe von Komik und Leid, die Novalis' «Krampf»-Formel (Q443) und die Detonation (Q117) von innen bestätigt). §5 bekommt die Ewigkeitsfrage und die Liebesklausel: Humor ohne Liebe kippt in Bösartigkeit; Luzifer kann nicht lachen, aber der *lieblose* Humor kann nichts anderes mehr — darin liegt die eigentliche ahrimanische Gefahr der Satire. Die «Sicherheitsvorkehrung 2.0» ist das ethische Fundament des Kapitels: Humor als Technologie, die ihre Sicherung in der Liebe trägt.
+
+---
+
+**Status:** Exposé v1.0 + Autorennotiz · **Nächster Schritt:** Rohfassung §1 (Die zwei Ignoranten) auf Go · **Risiko:** Quellenlage zu Steiners konkreten Vortrags-Pointen muss in der Ausarbeitung mit GA-Nachweisen belegt werden (derzeit: Karten-Ebene)
