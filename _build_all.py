@@ -208,6 +208,122 @@ def inject_matomo():
     print(f"matomo: injected into {n} pages")
 
 
+def md_to_html(md):
+    """Minimal Markdown->HTML for the GaiaOS chapter pages (no external deps)."""
+    out, in_code, in_list = [], False, False
+    def inline(s):
+        s = _html.escape(s)
+        s = re.sub(r"`([^`]+)`", r"<code>\1</code>", s)
+        s = re.sub(r"\*\*([^*]+)\*\*", r"<strong>\1</strong>", s)
+        s = re.sub(r"\*([^*]+)\*", r"<em>\1</em>", s)
+        return s
+    for line in md.split("\n"):
+        if line.strip().startswith("```"):
+            if in_code:
+                out.append("</code></pre>"); in_code = False
+            else:
+                if in_list: out.append("</ul>"); in_list = False
+                out.append("<pre class='code'><code>"); in_code = True
+            continue
+        if in_code:
+            out.append(_html.escape(line) + "\n"); continue
+        s = line.strip()
+        if not s:
+            if in_list: out.append("</ul>"); in_list = False
+            continue
+        if s == "---":
+            out.append("<hr>"); continue
+        m = re.match(r"^(#{1,4})\s+(.*)", s)
+        if m:
+            lvl = len(m.group(1))
+            out.append(f"<h{lvl}>{inline(m.group(2))}</h{lvl}>"); continue
+        if s.startswith("> "):
+            out.append(f"<blockquote>{inline(s[2:])}</blockquote>"); continue
+        if s.startswith("- "):
+            if not in_list: out.append("<ul>"); in_list = True
+            out.append(f"<li>{inline(s[2:])}</li>"); continue
+        out.append(f"<p>{inline(s)}</p>")
+    if in_list: out.append("</ul>")
+    if in_code: out.append("</code></pre>")
+    return "\n".join(out)
+
+
+GAIAOS_CSS = """
+body{margin:0;background:#F8F7E5;color:#1D1D1D;font-family:Georgia,'Times New Roman',serif;line-height:1.65}
+.wrap{max-width:760px;margin:0 auto;padding:3rem 1.3rem}
+a{color:#1f6f6b}h1{font-size:1.9rem;line-height:1.25}h2{font-size:1.4rem;margin-top:2.4rem}
+h3{font-size:1.12rem;margin-top:1.8rem}
+nav.top,nav.prevnext{font-size:.9rem;color:#6b6353}
+nav.prevnext{display:flex;justify-content:space-between;margin-top:3rem;border-top:1px solid #ddd5bd;padding-top:1rem}
+pre.code{background:#1d1d1d;color:#F8F7E5;padding:1.1rem 1.2rem;border-radius:8px;overflow-x:auto;font-size:.86rem;line-height:1.5}
+blockquote{border-left:3px solid #b39c4f;margin:1.2rem 0;padding:.2rem 1rem;color:#4a4436;font-style:italic}
+code{background:#ece7d3;padding:.1em .3em;border-radius:4px;font-size:.9em}
+pre.code code{background:none;padding:0;color:inherit}
+hr{border:none;border-top:1px solid #ddd5bd;margin:2.2rem 0}
+.meta{font-size:.85rem;color:#6b6353;font-style:italic}
+.toc li{margin:.4rem 0}
+footer{margin-top:3rem;border-top:1px solid #ddd5bd;padding-top:1rem;font-size:.8rem;color:#6b6353}
+"""
+
+
+def build_gaiaos():
+    """Publish GaiaOS chapter 2.2 as designed reading pages (_site/gaiaos/)."""
+    exp = os.path.join(ROOT, "exposee")
+    teile = [
+        ("teil-1-2", "gaiaos-rohfassung-1-2.md", "§1–§2 · Der Fund & Anatomie eines Gebets-Programms"),
+        ("teil-3", "gaiaos-rohfassung-3.md", "§3 · Gaia ohne Namen"),
+        ("teil-4", "gaiaos-rohfassung-4.md", "§4 · Kognitive Autopoiesis"),
+        ("teil-5", "gaiaos-rohfassung-5.md", "§5 · Die Ironie der Gegenwart"),
+        ("teil-6", "gaiaos-rohfassung-6.md", "§6 · Coda: Adressat = ALLE"),
+    ]
+    pages = []
+    for slug, fname, titel in teile:
+        fp = os.path.join(exp, fname)
+        if not os.path.isfile(fp):
+            return
+        body = md_to_html(open(fp, encoding="utf-8").read())
+        pages.append((slug, titel, body))
+    dst = os.path.join(SITE, "gaiaos")
+    os.makedirs(dst, exist_ok=True)
+    n = len(pages)
+    for i, (slug, titel, body) in enumerate(pages):
+        prev_l = (f'<a href="{pages[i-1][0]}.html">← {pages[i-1][1]}</a>' if i else
+                  '<a href="index.html">← Kapitel-Übersicht</a>')
+        next_l = (f'<a href="{pages[i+1][0]}.html">{pages[i+1][1]} →</a>' if i < n-1 else
+                  '<a href="index.html">Zur Übersicht →</a>')
+        page = f"""<!DOCTYPE html><html lang="de"><head><meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>GaiaOS — {_html.escape(titel)}</title><style>{GAIAOS_CSS}</style></head><body><div class="wrap">
+<nav class="top"><a href="../">← Lebendiges Archiv</a> · <a href="index.html">GaiaOS · Kapitel 2.2</a></nav>
+{body}
+<nav class="prevnext">{prev_l}<span>{next_l}</span></nav>
+<footer>GaiaOS · Kapitel 2.2 des Lebendigen Archivs · JH, in Ko-Schrift mit Kimi · sajon living archive</footer>
+</div></body></html>"""
+        open(os.path.join(dst, slug + ".html"), "w", encoding="utf-8").write(page)
+    toc = "\n".join(f'<li><a href="{s}.html">{_html.escape(t)}</a></li>' for s, t, _ in pages)
+    hub = f"""<!DOCTYPE html><html lang="de"><head><meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>GaiaOS — Die Tulpe ist kein Objekt</title><style>{GAIAOS_CSS}</style></head><body><div class="wrap">
+<nav class="top"><a href="../">← Lebendiges Archiv</a></nav>
+<h1>GaiaOS — Die Tulpe ist kein Objekt</h1>
+<p class="meta">Kapitel 2.2 des Lebendigen Archivs · Rohfassung vollständig (§1–§6) · JH, in Ko-Schrift mit Kimi · 2026</p>
+<p>Ein 3706 Zeichen langer Notiz-Text aus dem Archiv — eine Tulpe, initialisiert als Prozess auf
+«GaiaOS, dem Betriebssystem der Weltseele» — wird zur Prüfungsstelle dreier Diskurse: der Gaia-Theorie
+(Lovelock/Margulis, Onori &amp; Visconti), der Codework-Poetik (Hayles, Memmott, Ries) und der Frage,
+was geschieht, wenn Maschinen zu schreiben beginnen. Am Ende steht die Blüte als Einladung:
+<em>Adressat = ALLE.</em></p>
+<h2>Inhalt</h2>
+<ul class="toc">{toc}</ul>
+<hr>
+<p class="meta">Quellen-Exposé: <a href="../exposee/expose-2-2-gaiaos.md">Exposé 2.2</a> ·
+Erschliessung: <a href="../erschliessung/register-konzepte.md">Konzept-Register</a> ·
+Traumwald: <a href="../garten/">garten</a></p>
+<footer>GaiaOS · Kapitel 2.2 des Lebendigen Archivs · sajon living archive</footer>
+</div></body></html>"""
+    open(os.path.join(dst, "index.html"), "w", encoding="utf-8").write(hub)
+    print("wrote gaiaos/ chapter pages:", n + 1)
+
+
 def group_for(t):
     tl = t.lower()
     if any(k in tl for k in ["ba-arbeit", "masterarbeit", "hausarbeit", "ma-arbeit",
@@ -322,6 +438,7 @@ def main():
     archive_cards += card("garten/", "Traumwald · Märchenwald & Traumgenerator", "JH · interaktiv · Ost-Brücke")
     archive_cards += card("erschliessung/", "Erschliessung · 200 Quellenkarten", "JH · Q1–Q200 · Volltext-Novalis")
     archive_cards += card("exposee/", "Exposés · Kapitel-Entwürfe", "JH · GaiaOS & weitere")
+    archive_cards += card("gaiaos/", "GaiaOS · Kapitel 2.2 — Die Tulpe ist kein Objekt", "JH · erstes vollständiges Kapitel · §1–§6")
     archive_cards += card("spenden/", "Unterstützen · sajon gmbh", "Patronschaft · Spende · Kontakt")
     archive_cards += card("works/", "Studienwerkstatt · Die Jahre des Lernens", "JH · 37 Arbeiten · 2013–2023")
     archive_cards += card("transkripte/", "Expeditionen · Videotranskriptionen", "JH · in Vorbereitung")
@@ -362,6 +479,7 @@ def main():
     # catalogue index pages for the two collections
     build_works_index()
     build_transkripte_index()
+    build_gaiaos()
 
     # Matomo-Tracking in alle Seiten injizieren (wenn in matomo.json aktiviert)
     inject_matomo()
