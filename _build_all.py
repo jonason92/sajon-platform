@@ -159,6 +159,55 @@ Weitere Expeditionen (02–04) sind in Vorbereitung.</p>
     print("wrote transkripte/index.html")
 
 
+def matomo_snippet():
+    """Return the Matomo tracking snippet, or "" if disabled/unconfigured."""
+    import json as _json
+    cfg_path = os.path.join(ROOT, "matomo.json")
+    try:
+        cfg = _json.load(open(cfg_path, encoding="utf-8"))
+    except Exception:
+        return ""
+    if not cfg.get("enabled") or "example.org" in cfg.get("url", ""):
+        return ""
+    url = cfg["url"].rstrip("/") + "/"
+    sid = cfg["site_id"]
+    return f"""<!-- Matomo -->
+<script>
+  var _paq = window._paq = window._paq || [];
+  _paq.push(['disableCookies']);
+  _paq.push(['trackPageView']);
+  _paq.push(['enableLinkTracking']);
+  (function() {{
+    var u='{url}';
+    _paq.push(['setTrackerUrl', u+'matomo.php']);
+    _paq.push(['setSiteId', '{sid}']);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+    g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
+  }})();
+</script>
+<!-- End Matomo Code -->"""
+
+
+def inject_matomo():
+    """Inject the Matomo snippet into every built HTML page (before </head>)."""
+    snip = matomo_snippet()
+    if not snip:
+        print("matomo: disabled or unconfigured — skip injection")
+        return
+    n = 0
+    for dirpath, _dirs, files in os.walk(SITE):
+        for f in files:
+            if not f.endswith(".html"):
+                continue
+            fp = os.path.join(dirpath, f)
+            t = open(fp, encoding="utf-8", errors="ignore").read()
+            if "matomo.php" in t or "</head>" not in t:
+                continue
+            open(fp, "w", encoding="utf-8").write(t.replace("</head>", snip + "\n</head>", 1))
+            n += 1
+    print(f"matomo: injected into {n} pages")
+
+
 def group_for(t):
     tl = t.lower()
     if any(k in tl for k in ["ba-arbeit", "masterarbeit", "hausarbeit", "ma-arbeit",
@@ -313,6 +362,9 @@ def main():
     # catalogue index pages for the two collections
     build_works_index()
     build_transkripte_index()
+
+    # Matomo-Tracking in alle Seiten injizieren (wenn in matomo.json aktiviert)
+    inject_matomo()
 
     # portal
     portal = (TEMPLATE

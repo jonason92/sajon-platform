@@ -1,0 +1,6 @@
+{
+  "_hinweis": "Matomo-Tracking für archiv.sajon.shop. Werte eintragen und enabled auf true setzen. url = Basis-URL der Matomo-Instanz (mit Slash am Ende), site_id = ID der Website in Matomo.",
+  "enabled": false,
+  "url": "https://matomo.example.org/",
+  "site_id": "1"
+}
